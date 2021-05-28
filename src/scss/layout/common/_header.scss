@@ -2,10 +2,87 @@
 // В этом файле прописываются все стили относящиеся к шапке сайта
 // -----------------------------------------------------------------------------
 
-#header {
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
 
+  padding: 20px 0;
+  background-color: $palette-black;
+}
+
+.header-inverted {
+  background-color: $palette-white;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.25);
+
+  .header__button {
+    color: $text-black;
+  }
+
+  .header__nav .nav__link {
+    color: $text-black;
+  }
+
+  .header__logo .invert {
+    fill: $palette-black;
+  }
 }
 
 .header {
+  display: flex;
+  align-items: center;
 
+  &__logo {
+    width: 160px;
+    margin-right: 65px;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      width: 115px;
+      margin-right: 35px;
+    }
+  }
+
+  &__nav {
+    margin-right: 80px;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      margin-right: 55px;
+    }
+  }
+
+  &__callback {
+    display: flex;
+    flex-direction: column;
+
+    margin-right: 35px;
+    margin-left: auto;
+
+    text-align: right;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      margin-right: 25px;
+      margin-left: auto;
+    }
+
+    a {
+      color: $text-orange;
+      font-size: 20px;
+
+      transition: 0.15s ease;
+
+      @include breakpoint($breakpoint-laptop--large) {
+        font-size: 16px;
+      }
+
+      @media (hover: hover) {
+        &:hover {
+          transform: translateX(5px);
+        }
+      }
+    }
+  }
+
+  &__burger {
+    margin-left: auto;
+  }
 }

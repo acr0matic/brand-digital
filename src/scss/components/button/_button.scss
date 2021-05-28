@@ -1,0 +1,10 @@
+.button {
+  outline: none;
+  border: none;
+
+  background-color: transparent;
+  border-radius: $border-radius-small;
+
+  cursor: pointer;
+  transition: 0.15s ease;
+}

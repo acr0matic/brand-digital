@@ -1,0 +1,19 @@
+.button-small {
+
+  border: 2px solid $button-small__border;
+  padding: 12px 24px;
+
+  color: $text-white;
+  font-size: 22px;
+
+  @include breakpoint($breakpoint-laptop--large) {
+    font-size: 18px;
+  }
+
+  @media (hover: hover) {
+    &:hover {
+      color: $text-white !important;
+      background-color: $button-small__hover;
+    }
+  }
+}
