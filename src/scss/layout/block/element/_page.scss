@@ -1,0 +1,22 @@
+.page {
+  &__title {
+    font-size: $font-headline-1;
+    font-weight: $weight-Black;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      font-size: $font-headline-1 - 7;
+    }
+
+    span {
+      color: $text-orange;
+    }
+  }
+
+  &__description {
+    font-size: $font-text;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      font-size: $font-text - 4;
+    }
+  }
+}

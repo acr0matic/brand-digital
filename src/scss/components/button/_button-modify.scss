@@ -1,0 +1,17 @@
+.button {
+  &--cta {
+    box-sizing: border-box;
+
+    height: 80px;
+    padding: 0 40px;
+
+    font-size: 28px;
+    font-weight: $weight-Bold;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      height: 64px;
+
+      font-size: 23px;
+    }
+  }
+}

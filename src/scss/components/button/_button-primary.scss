@@ -1,0 +1,14 @@
+.button-primary {
+  padding: 20px 46px;
+  background-color: $button-primary__bg;
+  color: $text-white;
+
+  font-size: 24px;
+  font-weight: $weight-Bold;
+
+  @media (hover: hover) {
+    &:hover {
+      box-shadow: $button-primary__hover;
+    }
+  }
+}
