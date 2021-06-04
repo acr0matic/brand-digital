@@ -1,0 +1,106 @@
+#confidence {
+}
+
+.confidence {
+  position: relative;
+  overflow: hidden;
+
+  padding-top: 50px;
+  text-align: center;
+
+  &__content {
+    position: relative;
+    z-index: 2;
+
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    background: $palette-white;
+
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      z-index: 100;
+      top: 50%;
+
+      width: 150px;
+      height: 100%;
+
+      transform: translateY(-50%);
+    }
+
+    &::after {
+      left: -150px;
+
+      background: linear-gradient(
+        270deg,
+        rgba(255, 255, 255, 1) 20%,
+        rgba(255, 255, 255, 0) 100%
+      );
+    }
+
+    &::before {
+      right: -150px;
+
+      background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 1) 20%,
+        rgba(255, 255, 255, 0) 100%
+      );
+    }
+  }
+
+  &__title {
+    margin-bottom: 20px;
+  }
+
+  &__text {
+    margin-bottom: 40px;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      margin-bottom: 30px;
+    }
+  }
+
+  &__button {
+  }
+
+  &__bg {
+    position: absolute;
+    top: 50%;
+    left: 0;
+
+    transform: translateY(-42%);
+  }
+
+  &__infinite {
+    display: flex;
+
+    &:not(:last-child) {
+      margin-bottom: 15px;
+    }
+  }
+
+  &__partners {
+    display: flex;
+    animation: marquee 15s linear reverse infinite;
+  }
+
+  &__partner {
+    margin-right: 35px;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

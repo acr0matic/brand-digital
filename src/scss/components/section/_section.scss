@@ -1,0 +1,19 @@
+.section {
+  padding-top: 75px;
+
+  &__title {
+    font-size: $font-headline-2;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      font-size: $font-headline-2 - 9;
+    }
+  }
+
+  &__text {
+    font-size: $font-text;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      font-size: $font-text - 4;
+    }
+  }
+}
