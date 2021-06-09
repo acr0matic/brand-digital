@@ -36,7 +36,7 @@ portfolioSliders.forEach(slider => {
     centeredSlidesBounds: true,
 
     speed: 500,
-    slidesPerView: 5,
+    slidesPerView: 4,
     spaceBetween: 15,
 
     // centerInsufficientSlides: true,
@@ -44,6 +44,12 @@ portfolioSliders.forEach(slider => {
     slideToClickedSlide: true,
 
     nested: true,
+
+    breakpoints: {
+      1540: {
+        slidesPerView: 5,
+      },
+    },
   });
 
 

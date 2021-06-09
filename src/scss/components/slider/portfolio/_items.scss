@@ -1,4 +1,11 @@
 .portfolio-slider {
+  &-prev::after,
+  &-next::after {
+    @include breakpoint($breakpoint-laptop--large) {
+      transform: scale(0.7);
+    }
+  }
+
   &-prev::after {
     content: url("../img/icons/control/slider__prev.svg");
   }

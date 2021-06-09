@@ -9,11 +9,19 @@
 
     &__thumbs {
       padding: 95px 10px 10px 10px;
+
+      @include breakpoint($breakpoint-laptop--large) {
+        padding-top: 65px;
+      }
     }
 
     &__button {
       display: block;
-      margin: 60px auto 0 auto;
+      margin: 45px auto 0 auto;
+
+      @include breakpoint($breakpoint-laptop--large) {
+        margin-top: 30px;
+      }
     }
   }
 }

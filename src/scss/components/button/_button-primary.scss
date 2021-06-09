@@ -11,4 +11,9 @@
       box-shadow: $button-primary__hover;
     }
   }
+
+  @include breakpoint($breakpoint-laptop--large) {
+    padding: 14px 30px;
+    font-size: 17px;
+  }
 }

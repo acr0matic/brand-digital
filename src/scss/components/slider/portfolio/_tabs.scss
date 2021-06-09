@@ -38,6 +38,11 @@
       opacity: 1;
       transition: 0.15s ease;
 
+      @include breakpoint($breakpoint-laptop--large) {
+        width: 120px;
+        font-size: 18px;
+      }
+
       &:not(:last-child) {
         margin-right: 30px !important;
       }

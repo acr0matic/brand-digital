@@ -10,13 +10,6 @@
 
     border-radius: $border-radius-medium;
     overflow: hidden;
-
-    @include breakpoint($breakpoint-laptop--large) {
-      width: 165px;
-      height: 105px;
-
-      margin-bottom: 8px;
-    }
   }
 
   &__image {
