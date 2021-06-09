@@ -7,6 +7,10 @@
     @include breakpoint($breakpoint-laptop--large) {
       font-size: $font-headline-2 - 9;
     }
+
+    span {
+      color: $text-orange;
+    }
   }
 
   &__text {
