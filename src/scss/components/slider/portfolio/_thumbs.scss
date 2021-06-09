@@ -1,0 +1,16 @@
+.portfolio-slider-thumb {
+  .swiper-wrapper {
+    align-items: center;
+  }
+
+  .swiper-slide {
+    pointer-events: initial !important;
+    transition: 0.15s ease;
+    border-radius: $border-radius-medium;
+
+    &-thumb-active {
+      box-shadow: -2px 3px 5px rgba(0, 0, 0, 0.25);
+      transform: translateY(-20px);
+    }
+  }
+}

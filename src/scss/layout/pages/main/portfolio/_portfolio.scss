@@ -1,0 +1,19 @@
+.portfolio--block {
+  .portfolio {
+    &__title {
+      margin-bottom: 35px;
+    }
+
+    &__items {
+    }
+
+    &__thumbs {
+      padding: 95px 10px 10px 10px;
+    }
+
+    &__button {
+      display: block;
+      margin: 60px auto 0 auto;
+    }
+  }
+}

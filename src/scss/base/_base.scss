@@ -58,6 +58,10 @@ a {
   color: $text-black;
 }
 
+
+dt,
+dl,
+dd,
 ol,
 ul {
   margin: 0;
@@ -85,6 +89,7 @@ p {
   margin: 0;
 }
 
+picture,
 img {
   display: block;
 }

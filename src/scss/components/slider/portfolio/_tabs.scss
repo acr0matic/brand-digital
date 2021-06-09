@@ -1,0 +1,57 @@
+.portfolio-slider-tab {
+  &__control {
+    text-align: center;
+  }
+
+  .swiper-pagination {
+    position: initial;
+    display: inline-flex;
+    justify-content: center;
+
+    width: initial;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: 60px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+
+    &-bullet {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      width: 176px;
+      height: 50px;
+
+      margin: 0 0 -2px 0 !important;
+
+      border-bottom: 5px solid transparent;
+      border-radius: 0;
+      outline: none;
+
+      color: $text-black;
+      background-color: transparent;
+
+      font-weight: $weight-Medium;
+      font-size: 28px;
+
+      opacity: 1;
+      transition: 0.15s ease;
+
+      &:not(:last-child) {
+        margin-right: 30px !important;
+      }
+
+      &:hover {
+        @media (hover: hover) {
+          color: $text-orange;
+        }
+      }
+
+      &-active {
+        color: $text-orange;
+        border-bottom: 5px solid $palette-orange;
+      }
+    }
+  }
+}

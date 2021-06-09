@@ -1,0 +1,21 @@
+.list {
+  &--feature {
+    .list__item {
+      font-size: 20px;
+      color: $text-gray;
+
+      @include breakpoint($breakpoint-laptop--large) {
+        font-size: 17px;
+      }
+
+      &:not(:last-child) {
+        margin-bottom: 15px;
+      }
+
+      span {
+        font-weight: $weight-Bold;
+        color: $text-orange;
+      }
+    }
+  }
+}
