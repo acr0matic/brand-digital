@@ -1,0 +1,27 @@
+.advantages-slider {
+  @include breakpoint($breakpoint-laptop--medium) {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: -10px;
+
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+
+  .swiper-wrapper {
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .swiper-slide {
+    width: 200px;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      width: 150px;
+    }
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      width: 100%;
+    }
+  }
+}

@@ -2,6 +2,8 @@
 const portfolioList = [];
 const portfolioTabs = new Swiper('.portfolio-slider-tab', {
   simulateTouch: false,
+  allowTouchMove: false,
+
   effect: 'fade',
   fadeEffect: {
     crossFade: true
@@ -39,10 +41,7 @@ portfolioSliders.forEach(slider => {
     slidesPerView: 4,
     spaceBetween: 15,
 
-    // centerInsufficientSlides: true,
-
     slideToClickedSlide: true,
-
     nested: true,
 
     breakpoints: {
@@ -51,7 +50,6 @@ portfolioSliders.forEach(slider => {
       },
     },
   });
-
 
   const portfolioItems = new Swiper(slider.querySelector('.portfolio-slider-items'), {
     navigation: {
@@ -84,3 +82,47 @@ portfolioSliders.forEach(slider => {
     }
   });
 });
+
+if (window.matchMedia('(max-width: 1200px)').matches) {
+  const advantageCards = document.querySelectorAll('.advantages__item');
+  const advantageMobile = document.querySelector('.advantages-mobile');
+  const advantageMobileItems = document.querySelectorAll('.advantages-mobile__item');
+
+  const advantages = new Swiper('.advantages-slider', {
+    speed: 500,
+    slidesPerView: 5,
+    slideToClickedSlide: true,
+
+    spaceBetween: 20,
+
+    watchSlidesVisibility: true,
+
+    pagination: {
+      el: '.advantages-slider__pagination',
+    },
+  });
+
+  advantageCards.forEach((card, index) => {
+    card.addEventListener('click', () => {
+      ChangeSlide(index + 1);
+
+      const activeCard = document.querySelector('.advantages__item--active');
+      const activeMobile = document.querySelector('.advantages-mobile__item--active');
+
+      if (activeCard) activeCard.classList.remove('advantages__item--active');
+      if (activeMobile) activeMobile.classList.remove('advantages-mobile__item--active');
+
+      card.classList.add('advantages__item--active');
+      advantageMobile.classList.add('advantages-mobile--active');
+      advantageMobileItems[index].classList.add('advantages-mobile__item--active');
+    });
+  });
+
+  function ChangeSlide(index) {
+    let nextSlide = document.querySelector(`.advantages-slider .swiper-slide:nth-child(${index + 1})`);
+    let prevSlide = document.querySelector(`.advantages-slider .swiper-slide:nth-child(${index - 1})`);
+
+    if (nextSlide && !nextSlide.classList.contains('swiper-slide-visible')) advantages.slideNext()
+    else if (prevSlide && !prevSlide.classList.contains('swiper-slide-visible')) advantages.slidePrev()
+  }
+}

@@ -23,4 +23,24 @@
       }
     }
   }
+
+  &-pagination {
+    position: static;
+    margin-top: 30px;
+
+    &-bullet {
+      width: 10px;
+      height: 10px;
+      background-color: $text-light-gray;
+    }
+
+    &-bullet-active {
+      background-color: $palette-orange;
+    }
+  }
+
+  &--mobile {
+    .swiper-wrapper {
+    }
+  }
 }
