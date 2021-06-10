@@ -13,6 +13,19 @@
   }
 
   .dropdown__content > .dropdown:hover {
+    & > .dropdown__item {
+      background-color: $palette-orange;
+      color: $text-white;
+
+      .dropdown__icon path {
+        stroke: $palette-white;
+      }
+
+      &::after {
+        border-bottom-color: $palette-orange;
+      }
+    }
+
     .dropdown__content {
       opacity: 1;
       visibility: visible;
