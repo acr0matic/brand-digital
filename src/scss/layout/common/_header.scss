@@ -71,8 +71,6 @@ header {
       color: $text-orange;
       font-size: 20px;
 
-      transition: 0.15s ease;
-
       @include breakpoint($breakpoint-laptop--large) {
         font-size: 16px;
       }

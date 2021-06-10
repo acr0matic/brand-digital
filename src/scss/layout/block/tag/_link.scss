@@ -1,7 +1,15 @@
 .link {
-  transition: 0.15 ease;
+  transition: 0.15s ease;
 
   &--main {
     font-weight: $weight-Bold;
+  }
+
+  &--orange {
+    @media (hover: hover) {
+      &:hover {
+        color: $text-orange;
+      }
+    }
   }
 }

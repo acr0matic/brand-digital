@@ -1,0 +1,62 @@
+.input {
+  position: relative;
+
+  &:focus {
+    .input__placeholder {
+      display: none;
+    }
+  }
+
+  &__field,
+  &__placeholder {
+    font-size: 30px;
+    font-weight: $weight-Medium;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      font-size: 22px;
+    }
+  }
+
+  &__field {
+    border: $input__border;
+    border-radius: $border-radius-small;
+    outline: none;
+
+    padding: 15px 30px;
+    background-color: transparent;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      padding: 10px 20px;
+    }
+
+    &:focus,
+    &:not(:placeholder-shown) {
+      & ~ .input__placeholder {
+        opacity: 0;
+        visibility: hidden;
+      }
+    }
+  }
+
+  &__placeholder {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+
+    transform: translateY(-50%);
+
+    color: $text-gray;
+    letter-spacing: 2px;
+
+    pointer-events: none;
+    transition: 0.15s ease;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      left: 20px;
+    }
+
+    span {
+      color: $text-black;
+    }
+  }
+}
