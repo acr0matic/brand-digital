@@ -70,7 +70,8 @@
     width: 250px;
 
     border-radius: $border-radius-medium;
-    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.096);
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.15),
+      2px 3px 5px rgba(0, 0, 0, 0.15);
 
     visibility: hidden;
     opacity: 0;

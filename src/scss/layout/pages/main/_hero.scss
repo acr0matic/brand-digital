@@ -55,6 +55,10 @@
     font-size: 23px;
     cursor: pointer;
 
+    &--active {
+
+    }
+
     &:not(:last-child) {
       margin-right: 60px;
     }
@@ -67,6 +71,7 @@
   &__icon {
     margin-bottom: 10px;
     width: 100px;
+    height: 100px;
 
     @include breakpoint($breakpoint-laptop--large) {
       width: 85px;
@@ -101,7 +106,7 @@
 
     @include breakpoint($breakpoint-laptop--large) {
       right: -30px;
-      bottom: -90px;
+      bottom: -120px;
 
       width: 680px;
     }

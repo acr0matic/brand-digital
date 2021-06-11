@@ -1,3 +1,28 @@
+const hero = document.getElementById('hero');
+const heroAction = hero.querySelectorAll('.hero__service');
+heroAction.forEach((action, index) => {
+  action.addEventListener('click', () => {
+    const activeCard = document.querySelector('.hero__service--active');
+
+    if (activeCard) activeCard.classList.remove('hero__service--active');
+    action.classList.add('hero__service--active');
+
+    heroSlider.slideTo(index);
+    hero.style.backgroundImage = `url('/src/img/page/main/hero/bg/${index + 1}.png')`;
+  });
+});
+
+const heroSlider = new Swiper('.hero-slider', {
+  simulateTouch: false,
+  speed: 500,
+  slidesPerView: 1,
+
+  effect: 'fade',
+  fadeEffect: {
+    crossFade: true
+  },
+});
+
 
 const portfolioList = [];
 const portfolioTabs = new Swiper('.portfolio-slider-tab', {
