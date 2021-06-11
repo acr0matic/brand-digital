@@ -7,6 +7,7 @@
 
   @include breakpoint($breakpoint-laptop--large) {
     background-position-x: calc(50% + 350px);
+    background-size: 575px;
   }
 }
 

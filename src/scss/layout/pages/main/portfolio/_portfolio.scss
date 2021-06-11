@@ -2,6 +2,10 @@
   .portfolio {
     &__title {
       margin-bottom: 35px;
+
+      @include breakpoint($breakpoint-laptop--large) {
+        margin-bottom: 20px;
+      }
     }
 
     &__items {
