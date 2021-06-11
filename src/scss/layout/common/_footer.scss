@@ -3,9 +3,107 @@
 // -----------------------------------------------------------------------------
 
 #footer {
+  padding-top: 65px;
+  padding-bottom: 105px;
 
+  background-color: $palette-black;
 }
 
 .footer {
+  display: flex;
+  justify-content: space-between;
+  color: $text-white;
 
+  &__contact,
+  &__office {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__info,
+  &__link,
+  &__additional {
+    font-size: 24px;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      font-size: 20px;
+    }
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+
+    font-weight: $weight-Light;
+  }
+
+  &__logo {
+    width: 300px;
+    margin-bottom: 40px;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      width: 250px;
+    }
+
+    path,
+    rect {
+      fill: $palette-white;
+    }
+  }
+
+  &__index,
+  &__company {
+    margin-bottom: 20px;
+  }
+
+  &__company span {
+    font-weight: $weight-Regular;
+  }
+
+  &__contact {
+
+  }
+
+  &__social {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 25px;
+  }
+
+  &__office {
+
+  }
+
+  &__additional {
+    margin-top: 20px;
+  }
+
+  &__icon {
+    width: 35px;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      width: 27px;
+    }
+  }
+
+  &__link {
+    display: block;
+
+    color: $text-white;
+
+    line-height: 140%;
+
+    &--main {
+      margin-bottom: 40px;
+
+      font-size: 28px;
+
+      @include breakpoint($breakpoint-laptop--large) {
+        margin-bottom: 30px;
+        font-size: 24px;
+      }
+    }
+  }
 }
