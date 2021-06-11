@@ -1,4 +1,4 @@
-const header = document.querySelector('header');
+const header = document.querySelector('#header');
 const headerDropdown = header.querySelector('.dropdown');
 
 const sideMenu = document.getElementById('side-menu');

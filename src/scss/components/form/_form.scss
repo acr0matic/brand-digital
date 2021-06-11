@@ -1,3 +1,18 @@
 .form {
+  &__info {
+    display: block;
 
+    color: $text-orange;
+    font-size: 24px;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      font-size: 20px;
+    }
+  }
+
+  &__action {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }

@@ -62,7 +62,7 @@
 
 <body class="page">
   <!-- Шапка -->
-  <header>
+  <header id="header">
     <div class="container">
       <div class="header">
         <div class="header__logo">
@@ -170,7 +170,7 @@
         <!-- /.header__callback -->
 
         <div class="header__action">
-          <button class="header__button button button-small">Связаться с нами</button>
+          <button data-micromodal-trigger="modal-callback" class="header__button button button-small">Связаться с нами</button>
         </div>
         <!-- /.header__action -->
 
@@ -2494,7 +2494,7 @@
 
             <div class="col-7">
               <div class="about__video">
-                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Ow_qI_F2ZJI" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/rDaC1yokRQs" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
               <!-- /.about__video -->
             </div>
@@ -2519,7 +2519,7 @@
 
           <form action="" class="callback__form form form-callback">
             <div class="input me-4">
-              <input placeholder="&nbsp;" autocomplete="off" type="tel" name="user_phone" class="input__field">
+              <input placeholder="&nbsp;" autocomplete="off" type="tel" name="user_phone" class="input__field input__field--required">
               <div class="input__placeholder"><span>+7</span> XXX XXX-XX-XX</div>
             </div>
             <!-- /.input -->
@@ -2627,11 +2627,71 @@
     <!-- /.container -->
   </footer>
 
+  <div class="modal modal-callback micromodal-slide" id="modal-callback" aria-hidden="true">
+    <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+      <div class="modal__container" role="dialog">
+        <header class="modal__header">
+          <h2 class="modal__title" id="modal-1-title">
+            Предлагаем обсудить ваш проект
+          </h2>
+
+          <svg class="modal__close" data-micromodal-close viewBox="0 0 36 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2 2L34 33M34 2L2 33" stroke="white" stroke-width="4" />
+          </svg>
+        </header>
+
+        <main class="modal__content" id="modal-1-content">
+          <p class="modal__text">
+            Оставьте ваши контактные данные и мы свяжемся с вами, удобным для вас способом
+          </p>
+
+          <form action="" class="modal__form form form-modal">
+            <div class="input mb-3">
+              <input placeholder="Имя" autocomplete="off" type="text" name="user_name" class="input__field input__field--required">
+            </div>
+            <!-- /.input -->
+
+            <div class="input mb-3">
+              <input placeholder="+7 ХХХ ХХХ-ХХ-ХХ" autocomplete="off" type="tel" name="user_name" class="input__field input__field--required">
+            </div>
+            <!-- /.input -->
+
+            <div class="input mb-4">
+              <input placeholder="E-mail" autocomplete="off" type="email" name="user_name" class="input__field">
+            </div>
+            <!-- /.input -->
+
+            <span class="form__info mb-5">Обязательные поля</span>
+
+            <div class="input mb-4">
+              <textarea placeholder="Комментарий" name="user_name" class="input__field input__field--box"></textarea>
+            </div>
+            <!-- /.input -->
+
+            <div class="form__action">
+              <label class="checkbox mb-5">
+                <input type="checkbox">
+                <span class="checkbox__mark"></span>
+                <span class="checkbox__label">Согласен с <a href="" class="checkbox__policy">Политикой обработки данных</a></span>
+              </label>
+
+              <button class="form__button button button-primary" type="submit">Отправить</button>
+            </div>
+            <!-- /.form__action -->
+          </form>
+
+          <img src="img/misc/modal/modal-callback.svg" alt="" class="modal__image">
+        </main>
+      </div>
+    </div>
+  </div>
+
   <!-- Скрипты -->
   <!-- build:js -->
   <script src="scripts/libraries/swiper.js"></script>
   <script src="scripts/libraries/imask.js"></script>
   <script src="scripts/libraries/formController.js"></script>
+  <script src="scripts/libraries/micromodal.js"></script>
 
   <script src="scripts/script.js"></script>
   <script src="scripts/sliders.js"></script>

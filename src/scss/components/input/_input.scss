@@ -29,6 +29,19 @@
       padding: 10px 20px;
     }
 
+    &--required {
+      border: $input__border--required;
+    }
+
+    &--box {
+      width: 100%;
+      max-width: 570px;
+    }
+
+    &::placeholder {
+      color: #9b9b9b;
+    }
+
     &:focus,
     &:not(:placeholder-shown) {
       & ~ .input__placeholder {

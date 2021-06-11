@@ -3,14 +3,14 @@
   align-items: center;
 
   &:hover &__mark {
-    border-color: #da2e2b;
+    border-color: $palette-orange;
   }
 
   input {
     display: none;
 
     &:checked ~ .checkbox__mark {
-      border-color: #da2e2b;
+      border-color: $palette-orange;
     }
 
     &:checked ~ .checkbox__mark::after {
@@ -24,16 +24,22 @@
 
     flex-shrink: 0;
 
-    width: 25px;
-    height: 25px;
+    width: 44px;
+    height: 44px;
 
     margin-top: 2px;
     margin-right: 10px;
 
     border: 2px solid #5e5e5e;
+    border-radius: $border-radius-small;
 
     transition: all 0.15s ease;
     cursor: pointer;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      width: 32px;
+      height: 32px;
+    }
 
     &::after {
       content: "";
@@ -42,29 +48,38 @@
       left: 50%;
 
       display: block;
-      width: 70%;
-      height: 70%;
+      width: 32px;
+      height: 32px;
 
-      background: #da2e2b;
+      border-radius: $border-radius-small - 2;
+
+      background: $palette-orange;
 
       opacity: 0;
 
       transform: translate(-50%, -50%);
       transition: opacity 0.15s ease;
+
+      @include breakpoint($breakpoint-laptop--large) {
+        width: 24px;
+        height: 24px;
+      }
     }
   }
 
   &__label {
     margin-top: 2px;
+    font-size: $font-text;
 
     transition: color 0.15s ease;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      font-size: 18px;
+    }
   }
 
   &__policy {
+    text-decoration: underline;
     transition: color 0.15s ease;
-
-    &:hover {
-      text-decoration: underline;
-    }
   }
 }

@@ -2,7 +2,7 @@
 // В этом файле прописываются все стили относящиеся к шапке сайта
 // -----------------------------------------------------------------------------
 
-header {
+#header {
   position: sticky;
   z-index: $z-index-header;
   top: 0;
@@ -15,7 +15,7 @@ header {
 }
 
 .header-inverted {
-  background-color: $palette-white;
+  background-color: $palette-white !important;
   box-shadow: 0 4px 5px rgba(0, 0, 0, 0.25);
 
   .header__button {

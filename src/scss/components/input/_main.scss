@@ -3,7 +3,8 @@
 // и подключение дополнительных вариаций
 // -----------------------------------------------------------------------------
 
-$input__border: 2px solid $palette-orange;
+$input__border: 2px solid $palette-black;
+$input__border--required: 2px solid $palette-orange;
 
 @import 'input';
 @import 'checkbox';
