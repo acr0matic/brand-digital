@@ -37,6 +37,15 @@
   }
 }
 
+.header-mobile {
+  background-color: $palette-white !important;
+  box-shadow: none;
+
+  .header__logo .invert {
+    fill: $palette-black;
+  }
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -48,6 +57,11 @@
     @include breakpoint($breakpoint-laptop--large) {
       width: 115px;
       margin-right: 35px;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      width: 75px;
+      margin-right: 0;
     }
   }
 
@@ -81,6 +95,10 @@
       margin-right: 15px;
     }
 
+    @include breakpoint($breakpoint-mobile--large) {
+      margin-right: 0;
+    }
+
     a {
       color: $text-orange;
       font-size: 20px;
@@ -91,6 +109,11 @@
 
       @include breakpoint($breakpoint-tablet--large) {
         color: $text-white;
+      }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        font-size: 13px;
+        font-weight: $weight-Medium;
       }
 
       @media (hover: hover) {
@@ -112,6 +135,10 @@
 
     @include breakpoint($breakpoint-tablet--large) {
       margin-left: 0;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      margin-left: 10px;
     }
   }
 }

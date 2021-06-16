@@ -1,0 +1,40 @@
+.mobile-dropdown {
+  &--open {
+    .mobile-dropdown {
+      &__arrow {
+        transform: rotate(180deg);
+      }
+
+      &__wrapper {
+        visibility: visible;
+        opacity: 1;
+        max-height: 200px;
+
+        margin-top: 5px;
+      }
+    }
+  }
+
+  &__arrow {
+    margin-bottom: 2px;
+    transition: 0.15s ease;
+  }
+
+  &__wrapper {
+    visibility: hidden;
+    opacity: 0;
+    max-height: 0;
+
+    transition: all 0.15s linear;
+
+    .nav__item {
+      &:not(:last-child) {
+        margin-bottom: 8px !important;
+      }
+    }
+
+    .nav__link {
+      font-weight: $weight-Light !important;
+    }
+  }
+}
