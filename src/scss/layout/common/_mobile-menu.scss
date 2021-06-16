@@ -18,7 +18,7 @@
       visibility: visible;
     }
 
-    .mobile-menu__wrapper {
+    .mobile-menu__container {
       top: 0;
     }
   }
@@ -28,13 +28,15 @@
     height: 100%;
 
     background-color: rgba($color: #000000, $alpha: 0.5);
+    backdrop-filter: blur(3px);
+
     opacity: 0;
     visibility: hidden;
 
     transition: 0.3s ease;
   }
 
-  &__wrapper {
+  &__container {
     position: absolute;
     top: -100%;
     left: 0;
@@ -43,17 +45,44 @@
     height: 100%;
     max-height: 530px;
 
-    overflow: auto;
-
-    padding: 100px 30px 40px 30px;
-
-    background-color: #ffffff;
-
     transition: 0.5s ease-out;
+  }
+
+  &__wrapper {
+    background-color: $palette-white;
+    text-align: center;
+
+    .nav__link {
+      color: $text-black;
+    }
+
+    &:first-child {
+      padding: 100px 30px 20px 30px;
+    }
+
+    &:nth-child(2) {
+      padding: 15px 30px 40px 30px;
+    }
+
+    &--inverted {
+      background-color: $palette-black;
+
+      .nav__link {
+        color: $text-white;
+      }
+    }
   }
 
   &__button {
     display: block;
     margin: 30px auto 0 auto;
+  }
+
+  &__social {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 25px;
   }
 }
