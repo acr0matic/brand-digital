@@ -9,11 +9,31 @@
     background-position-x: calc(50% + 350px);
     background-size: 575px;
   }
+
+  @include breakpoint($breakpoint-tablet--large) {
+    background-position-x: calc(50% + 220px);
+    background-size: 460px;
+  }
+
+  @include breakpoint($breakpoint-mobile--large) {
+    background: none;
+    padding-bottom: 30px;
+  }
 }
 
 .callback {
   &__title {
     margin-bottom: 25px;
+
+    @include breakpoint($breakpoint-mobile--large) {
+      margin-bottom: 20px;
+    }
+  }
+
+  &__text {
+    @include breakpoint($breakpoint-mobile--large) {
+      text-align: center;
+    }
   }
 
   &__link {
@@ -31,5 +51,12 @@
 
   &__form {
     margin-top: 15px;
+
+    .form__wrapper {
+      @include breakpoint($breakpoint-mobile--large) {
+        display: flex;
+        align-items: stretch;
+      }
+    }
   }
 }

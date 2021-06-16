@@ -18,6 +18,8 @@
   }
 
   &__field {
+    width: 100%;
+
     border: $input__border;
     border-radius: $border-radius-small;
     outline: none;

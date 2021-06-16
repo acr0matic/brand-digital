@@ -5,11 +5,15 @@
       color: $text-gray;
 
       @include breakpoint($breakpoint-laptop--large) {
-        font-size: 17px;
+        font-size: $font-text - 8;
       }
 
       &:not(:last-child) {
         margin-bottom: 15px;
+
+        @include breakpoint($breakpoint-laptop--large) {
+          margin-bottom: 10px;
+        }
       }
 
       span {

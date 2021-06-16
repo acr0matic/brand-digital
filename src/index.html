@@ -129,12 +129,12 @@
 
                 <div class="dropdown__content">
                   <div class="dropdown">
-                    <a class="dropdown__item dropdown__item--arrow" href="#">
+                    <span class="dropdown__item dropdown__item--arrow">
                       Оклейка транспорта
                       <svg class="dropdown__icon dropdown__icon--right" viewBox="0 0 19 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1.07617 1.64258L8.98926 9.55566L17.2393 1.64258" stroke="#FF8025" stroke-width="2.5" />
                       </svg>
-                    </a>
+                    </span>
 
                     <div class="dropdown__content dropdown__content--right">
                       <a class="dropdown__item" href="#">Дизайн</a>
@@ -256,36 +256,57 @@
         <div class="hero__row">
           <div class="container">
             <div class="hero__wrapper">
-              <div class="hero__action">
-                <div class="hero__service">
-                  <img src="img/page/main/hero/icons/1.svg" alt="" class="hero__icon">
-                  Оклейка
-                </div>
-                <!-- /.hero__link -->
+              <div class="swiper-container hero__action hero-action-slider">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="hero__service">
+                      <img src="img/page/main/hero/icons/1.svg" alt="" class="hero__icon">
+                      Оклейка
+                    </div>
+                    <!-- /.hero__link -->
+                  </div>
+                  <!-- /.swiper-slide -->
 
-                <div class="hero__service">
-                  <img src="img/page/main/hero/icons/2.svg" alt="" class="hero__icon">
-                  Дизайн
-                </div>
-                <!-- /.hero__link -->
+                  <div class="swiper-slide">
+                    <div class="hero__service">
+                      <img src="img/page/main/hero/icons/2.svg" alt="" class="hero__icon">
+                      Дизайн
+                    </div>
+                    <!-- /.hero__link -->
+                  </div>
+                  <!-- /.swiper-slide -->
 
-                <div class="hero__service">
-                  <img src="img/page/main/hero/icons/3.svg" alt="" class="hero__icon">
-                  Интерьер
-                </div>
-                <!-- /.hero__link -->
+                  <div class="swiper-slide">
+                    <div class="hero__service">
+                      <img src="img/page/main/hero/icons/3.svg" alt="" class="hero__icon">
+                      Интерьер
+                    </div>
+                    <!-- /.hero__link -->
+                  </div>
+                  <!-- /.swiper-slide -->
 
-                <div class="hero__service">
-                  <img src="img/page/main/hero/icons/4.svg" alt="" class="hero__icon">
-                  Сувениры
-                </div>
-                <!-- /.hero__link -->
+                  <div class="swiper-slide">
+                    <div class="hero__service">
+                      <img src="img/page/main/hero/icons/4.svg" alt="" class="hero__icon">
+                      Сувениры
+                    </div>
+                    <!-- /.hero__link -->
+                  </div>
+                  <!-- /.swiper-slide -->
 
-                <div class="hero__service">
-                  <img src="img/page/main/hero/icons/5.svg" alt="" class="hero__icon">
-                  Наклейки
+                  <div class="swiper-slide">
+                    <div class="hero__service">
+                      <img src="img/page/main/hero/icons/5.svg" alt="" class="hero__icon">
+                      Наклейки
+                    </div>
+                    <!-- /.hero__link -->
+                  </div>
+                  <!-- /.swiper-slide -->
                 </div>
-                <!-- /.hero__link -->
+                <!-- /.swiper-wrapper -->
+
+                <div class="swiper-button-prev hero-action-prev"></div>
+                <div class="swiper-button-next hero-action-next"></div>
               </div>
               <!-- /.hero__action -->
 
@@ -295,6 +316,15 @@
                     <div class="hero__content">
                       <h1 class="page__title section__title hero__title">Студия <br> брендирования <span>B&D</span></h1>
                       <p class="page__description hero__description">Мы занимаемся оформлением бизнеса. Позвольте нам <br> сделать ваш бренд ярче.</p>
+                      <p class="page__description hero__description hero__description--mobile">
+                        Мы занимаемся <br> оформлением бизнеса
+                      </p>
+
+                      <div class="hero__mobile hero-mobile">
+                        <span class="hero-mobile__text">Сделаем ваш <br> бизнес ярче</span>
+                        <img class="hero-mobile__icon" src="img/page/main/hero/icons/mobile/1.svg" alt="">
+                      </div>
+                      <!-- /.hero__mobile -->
                     </div>
                     <!-- /.hero__content -->
 
@@ -309,7 +339,41 @@
 
                   <div class="swiper-slide">
                     <div class="hero__content">
-                      <h1 class="page__title section__title hero__title">Студия дизайна <span>B&D</span></h1>
+                      <h1 class="page__title section__title hero__title">Оклейка <br> транспорта <span>B&D</span></h1>
+                      <p class="page__description hero__description">
+                        Профессиональное брендирование любого
+                        <br>
+                        транспорта. Собственное производство материалов
+                        <br>
+                        для оклейки. Используем ваш дизайн или разработаем
+                        <br>
+                        собственный.
+                      </p>
+
+                      <p class="page__description hero__description hero__description--mobile">
+                        Собственное произодство и <br> профессионалы оклейки
+                      </p>
+
+                      <div class="hero__mobile hero-mobile">
+                        <img class="hero-mobile__icon" src="img/page/main/hero/icons/mobile/1.svg" alt="">
+                        <button class="hero-mobile__button button button-primary">Узнать больше</button>
+                      </div>
+                      <!-- /.hero__mobile -->
+                    </div>
+                    <!-- /.hero__content -->
+
+                    <div class="hero__motion">
+                      <video class="hero__video" autoplay loop>
+                        <source src="video/motion/car.webm">
+                      </video>
+                    </div>
+                    <!-- /.hero__motion -->
+                  </div>
+                  <!-- /.swiper-slide -->
+
+                  <div class="swiper-slide">
+                    <div class="hero__content">
+                      <h2 class="page__title section__title hero__title">Студия дизайна <span>B&D</span></h2>
                       <p class="page__description hero__description">
                         Разработка дизайна полного цикла. Не боимся правок,
                         <br>
@@ -317,6 +381,16 @@
                         <br>
                         Делаем графический дизайн, web, анимации и многое другое.
                       </p>
+
+                      <p class="page__description hero__description hero__description--mobile">
+                        Команда креативных и опытных <br> дизанеров. Работаем <br> эффективно и со вкусом. <br> &nbsp
+                      </p>
+
+                      <div class="hero__mobile hero-mobile">
+                        <img class="hero-mobile__icon" src="img/page/main/hero/icons/mobile/2.svg" alt="">
+                        <button class="hero-mobile__button button button-primary">Узнать больше</button>
+                      </div>
+                      <!-- /.hero__mobile -->
                     </div>
                     <!-- /.hero__content -->
 
@@ -331,7 +405,7 @@
 
                   <div class="swiper-slide">
                     <div class="hero__content">
-                      <h1 class="page__title section__title hero__title">Оформление <br> интерьера <span>B&D</span></h1>
+                      <h2 class="page__title section__title hero__title">Оформление <br> интерьера <span>B&D</span></h2>
                       <p class="page__description hero__description">
                         Интерьерные решения для вас и вашего бизнеса.
                         <br>
@@ -339,6 +413,16 @@
                         <br>
                         напольные наклейки.
                       </p>
+
+                      <p class="page__description hero__description hero__description--mobile">
+                        Интерьерные решения для вас <br> и вашего бизнеса.
+                      </p>
+
+                      <div class="hero__mobile hero-mobile">
+                        <img class="hero-mobile__icon" src="img/page/main/hero/icons/mobile/3.svg" alt="">
+                        <button class="hero-mobile__button button button-primary">Узнать больше</button>
+                      </div>
+                      <!-- /.hero__mobile -->
                     </div>
                     <!-- /.hero__content -->
 
@@ -353,7 +437,7 @@
 
                   <div class="swiper-slide">
                     <div class="hero__content">
-                      <h1 class="page__title section__title hero__title">Сувенирная <br> продукция <span>B&D</span></h1>
+                      <h2 class="page__title section__title hero__title">Сувенирная <br> продукция <span>B&D</span></h2>
                       <p class="page__description hero__description">
                         Сувенирная продукция под ваш бизнес.
                         <br>
@@ -361,6 +445,16 @@
                         <br>
                         решения и реализуем их.
                       </p>
+
+                      <p class="page__description hero__description hero__description--mobile">
+                        Изготовливаем сувенирную <br> продукцию под ваш бизнес
+                      </p>
+
+                      <div class="hero__mobile hero-mobile">
+                        <img class="hero-mobile__icon" src="img/page/main/hero/icons/mobile/4.svg" alt="">
+                        <button class="hero-mobile__button button button-primary">Узнать больше</button>
+                      </div>
+                      <!-- /.hero__mobile -->
                     </div>
                     <!-- /.hero__content -->
 
@@ -375,7 +469,7 @@
 
                   <div class="swiper-slide">
                     <div class="hero__content">
-                      <h1 class="page__title section__title hero__title">Изготовление <br> наклеек <span>B&D</span></h1>
+                      <h2 class="page__title section__title hero__title">Изготовление <br> наклеек <span>B&D</span></h2>
                       <p class="page__description hero__description">
                         Изготавливаем наклейки и стикер-паки.
                         <br>
@@ -383,6 +477,16 @@
                         <br>
                         качества.
                       </p>
+
+                      <p class="page__description hero__description hero__description--mobile">
+                        Печать наклеек, стикер <br> паков высокого качества
+                      </p>
+
+                      <div class="hero__mobile hero-mobile">
+                        <img class="hero-mobile__icon" src="img/page/main/hero/icons/mobile/5.svg" alt="">
+                        <button class="hero-mobile__button button button-primary">Узнать больше</button>
+                      </div>
+                      <!-- /.hero__mobile -->
                     </div>
                     <!-- /.hero__content -->
 
@@ -398,6 +502,14 @@
                 <!-- /.swiper-wrapper -->
               </div>
               <!-- /.swiper-container hero-slider -->
+
+              <div class="hero__social">
+                <a href="" class="hero__link"><img src="img/icons/social/instagram.svg" alt="" class="side-menu__icon"></a>
+                <a href="" class="hero__link"><img src="img/icons/social/facebook.svg" alt="" class="side-menu__icon"></a>
+                <a href="" class="hero__link"><img src="img/icons/social/mail.svg" alt="" class="side-menu__icon"></a>
+                <a href="" class="hero__link"><img src="img/icons/social/pinterest.svg" alt="" class="side-menu__icon"></a>
+              </div>
+              <!-- /.side-menu__social -->
             </div>
             <!-- /.hero__wrapper -->
           </div>
@@ -405,11 +517,10 @@
         </div>
         <!-- /.hero__row -->
 
-
         <div class="hero__row hero__row--white">
           <div class="container">
             <div class="hero__cta">
-              <button class="button button--cta button-primary me-3">Начать проект</button>
+              <button class="button button--cta button-primary mb-3 mb-md-0 me-md-3">Начать проект</button>
               <button class="button button--cta button-outline">Портфолио</button>
             </div>
             <!-- /.hero__action -->
@@ -797,7 +908,7 @@
 
                         <div class="portfolio-thumb__content">
                           <h4 class="portfolio-thumb__title">Название проекта</h4>
-                          <div class="portfolio-thumb__deadline">Срок исполения: <span>3 дня</span></div>
+                          <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
                         </div>
                         <!-- /.portfolio-thumb__content -->
                       </div>
@@ -815,7 +926,7 @@
 
                         <div class="portfolio-thumb__content">
                           <h4 class="portfolio-thumb__title">Название проекта</h4>
-                          <div class="portfolio-thumb__deadline">Срок исполения: <span>3 дня</span></div>
+                          <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
                         </div>
                         <!-- /.portfolio-thumb__content -->
                       </div>
@@ -833,7 +944,7 @@
 
                         <div class="portfolio-thumb__content">
                           <h4 class="portfolio-thumb__title">Название проекта</h4>
-                          <div class="portfolio-thumb__deadline">Срок исполения: <span>3 дня</span></div>
+                          <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
                         </div>
                         <!-- /.portfolio-thumb__content -->
                       </div>
@@ -851,7 +962,7 @@
 
                         <div class="portfolio-thumb__content">
                           <h4 class="portfolio-thumb__title">Название проекта</h4>
-                          <div class="portfolio-thumb__deadline">Срок исполения: <span>3 дня</span></div>
+                          <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
                         </div>
                         <!-- /.portfolio-thumb__content -->
                       </div>
@@ -869,7 +980,7 @@
 
                         <div class="portfolio-thumb__content">
                           <h4 class="portfolio-thumb__title">Название проекта</h4>
-                          <div class="portfolio-thumb__deadline">Срок исполения: <span>3 дня</span></div>
+                          <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
                         </div>
                         <!-- /.portfolio-thumb__content -->
                       </div>
@@ -887,7 +998,7 @@
 
                         <div class="portfolio-thumb__content">
                           <h4 class="portfolio-thumb__title">Название проекта</h4>
-                          <div class="portfolio-thumb__deadline">Срок исполения: <span>3 дня</span></div>
+                          <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
                         </div>
                         <!-- /.portfolio-thumb__content -->
                       </div>
@@ -905,7 +1016,7 @@
 
                         <div class="portfolio-thumb__content">
                           <h4 class="portfolio-thumb__title">Название проекта</h4>
-                          <div class="portfolio-thumb__deadline">Срок исполения: <span>3 дня</span></div>
+                          <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
                         </div>
                         <!-- /.portfolio-thumb__content -->
                       </div>
@@ -1145,7 +1256,7 @@
 
                         <div class="portfolio-thumb__content">
                           <h4 class="portfolio-thumb__title">Название проекта</h4>
-                          <div class="portfolio-thumb__deadline">Срок исполения: <span>3 дня</span></div>
+                          <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
                         </div>
                         <!-- /.portfolio-thumb__content -->
                       </div>
@@ -1163,7 +1274,7 @@
 
                         <div class="portfolio-thumb__content">
                           <h4 class="portfolio-thumb__title">Название проекта</h4>
-                          <div class="portfolio-thumb__deadline">Срок исполения: <span>3 дня</span></div>
+                          <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
                         </div>
                         <!-- /.portfolio-thumb__content -->
                       </div>
@@ -1181,7 +1292,7 @@
 
                         <div class="portfolio-thumb__content">
                           <h4 class="portfolio-thumb__title">Название проекта</h4>
-                          <div class="portfolio-thumb__deadline">Срок исполения: <span>3 дня</span></div>
+                          <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
                         </div>
                         <!-- /.portfolio-thumb__content -->
                       </div>
@@ -1199,7 +1310,7 @@
 
                         <div class="portfolio-thumb__content">
                           <h4 class="portfolio-thumb__title">Название проекта</h4>
-                          <div class="portfolio-thumb__deadline">Срок исполения: <span>3 дня</span></div>
+                          <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
                         </div>
                         <!-- /.portfolio-thumb__content -->
                       </div>
@@ -1217,7 +1328,7 @@
 
                         <div class="portfolio-thumb__content">
                           <h4 class="portfolio-thumb__title">Название проекта</h4>
-                          <div class="portfolio-thumb__deadline">Срок исполения: <span>3 дня</span></div>
+                          <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
                         </div>
                         <!-- /.portfolio-thumb__content -->
                       </div>
@@ -1235,7 +1346,7 @@
 
                         <div class="portfolio-thumb__content">
                           <h4 class="portfolio-thumb__title">Название проекта</h4>
-                          <div class="portfolio-thumb__deadline">Срок исполения: <span>3 дня</span></div>
+                          <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
                         </div>
                         <!-- /.portfolio-thumb__content -->
                       </div>
@@ -1253,7 +1364,7 @@
 
                         <div class="portfolio-thumb__content">
                           <h4 class="portfolio-thumb__title">Название проекта</h4>
-                          <div class="portfolio-thumb__deadline">Срок исполения: <span>3 дня</span></div>
+                          <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
                         </div>
                         <!-- /.portfolio-thumb__content -->
                       </div>
@@ -1493,7 +1604,7 @@
 
                         <div class="portfolio-thumb__content">
                           <h4 class="portfolio-thumb__title">Название проекта</h4>
-                          <div class="portfolio-thumb__deadline">Срок исполения: <span>3 дня</span></div>
+                          <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
                         </div>
                         <!-- /.portfolio-thumb__content -->
                       </div>
@@ -1511,7 +1622,7 @@
 
                         <div class="portfolio-thumb__content">
                           <h4 class="portfolio-thumb__title">Название проекта</h4>
-                          <div class="portfolio-thumb__deadline">Срок исполения: <span>3 дня</span></div>
+                          <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
                         </div>
                         <!-- /.portfolio-thumb__content -->
                       </div>
@@ -1529,7 +1640,7 @@
 
                         <div class="portfolio-thumb__content">
                           <h4 class="portfolio-thumb__title">Название проекта</h4>
-                          <div class="portfolio-thumb__deadline">Срок исполения: <span>3 дня</span></div>
+                          <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
                         </div>
                         <!-- /.portfolio-thumb__content -->
                       </div>
@@ -1547,7 +1658,7 @@
 
                         <div class="portfolio-thumb__content">
                           <h4 class="portfolio-thumb__title">Название проекта</h4>
-                          <div class="portfolio-thumb__deadline">Срок исполения: <span>3 дня</span></div>
+                          <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
                         </div>
                         <!-- /.portfolio-thumb__content -->
                       </div>
@@ -1565,7 +1676,7 @@
 
                         <div class="portfolio-thumb__content">
                           <h4 class="portfolio-thumb__title">Название проекта</h4>
-                          <div class="portfolio-thumb__deadline">Срок исполения: <span>3 дня</span></div>
+                          <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
                         </div>
                         <!-- /.portfolio-thumb__content -->
                       </div>
@@ -1583,7 +1694,7 @@
 
                         <div class="portfolio-thumb__content">
                           <h4 class="portfolio-thumb__title">Название проекта</h4>
-                          <div class="portfolio-thumb__deadline">Срок исполения: <span>3 дня</span></div>
+                          <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
                         </div>
                         <!-- /.portfolio-thumb__content -->
                       </div>
@@ -1601,7 +1712,7 @@
 
                         <div class="portfolio-thumb__content">
                           <h4 class="portfolio-thumb__title">Название проекта</h4>
-                          <div class="portfolio-thumb__deadline">Срок исполения: <span>3 дня</span></div>
+                          <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
                         </div>
                         <!-- /.portfolio-thumb__content -->
                       </div>
@@ -1841,7 +1952,7 @@
 
                         <div class="portfolio-thumb__content">
                           <h4 class="portfolio-thumb__title">Название проекта</h4>
-                          <div class="portfolio-thumb__deadline">Срок исполения: <span>3 дня</span></div>
+                          <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
                         </div>
                         <!-- /.portfolio-thumb__content -->
                       </div>
@@ -1859,7 +1970,7 @@
 
                         <div class="portfolio-thumb__content">
                           <h4 class="portfolio-thumb__title">Название проекта</h4>
-                          <div class="portfolio-thumb__deadline">Срок исполения: <span>3 дня</span></div>
+                          <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
                         </div>
                         <!-- /.portfolio-thumb__content -->
                       </div>
@@ -1877,7 +1988,7 @@
 
                         <div class="portfolio-thumb__content">
                           <h4 class="portfolio-thumb__title">Название проекта</h4>
-                          <div class="portfolio-thumb__deadline">Срок исполения: <span>3 дня</span></div>
+                          <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
                         </div>
                         <!-- /.portfolio-thumb__content -->
                       </div>
@@ -1895,7 +2006,7 @@
 
                         <div class="portfolio-thumb__content">
                           <h4 class="portfolio-thumb__title">Название проекта</h4>
-                          <div class="portfolio-thumb__deadline">Срок исполения: <span>3 дня</span></div>
+                          <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
                         </div>
                         <!-- /.portfolio-thumb__content -->
                       </div>
@@ -1913,7 +2024,7 @@
 
                         <div class="portfolio-thumb__content">
                           <h4 class="portfolio-thumb__title">Название проекта</h4>
-                          <div class="portfolio-thumb__deadline">Срок исполения: <span>3 дня</span></div>
+                          <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
                         </div>
                         <!-- /.portfolio-thumb__content -->
                       </div>
@@ -1931,7 +2042,7 @@
 
                         <div class="portfolio-thumb__content">
                           <h4 class="portfolio-thumb__title">Название проекта</h4>
-                          <div class="portfolio-thumb__deadline">Срок исполения: <span>3 дня</span></div>
+                          <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
                         </div>
                         <!-- /.portfolio-thumb__content -->
                       </div>
@@ -1949,7 +2060,7 @@
 
                         <div class="portfolio-thumb__content">
                           <h4 class="portfolio-thumb__title">Название проекта</h4>
-                          <div class="portfolio-thumb__deadline">Срок исполения: <span>3 дня</span></div>
+                          <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
                         </div>
                         <!-- /.portfolio-thumb__content -->
                       </div>
@@ -2189,7 +2300,7 @@
 
                         <div class="portfolio-thumb__content">
                           <h4 class="portfolio-thumb__title">Название проекта</h4>
-                          <div class="portfolio-thumb__deadline">Срок исполения: <span>3 дня</span></div>
+                          <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
                         </div>
                         <!-- /.portfolio-thumb__content -->
                       </div>
@@ -2207,7 +2318,7 @@
 
                         <div class="portfolio-thumb__content">
                           <h4 class="portfolio-thumb__title">Название проекта</h4>
-                          <div class="portfolio-thumb__deadline">Срок исполения: <span>3 дня</span></div>
+                          <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
                         </div>
                         <!-- /.portfolio-thumb__content -->
                       </div>
@@ -2225,7 +2336,7 @@
 
                         <div class="portfolio-thumb__content">
                           <h4 class="portfolio-thumb__title">Название проекта</h4>
-                          <div class="portfolio-thumb__deadline">Срок исполения: <span>3 дня</span></div>
+                          <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
                         </div>
                         <!-- /.portfolio-thumb__content -->
                       </div>
@@ -2243,7 +2354,7 @@
 
                         <div class="portfolio-thumb__content">
                           <h4 class="portfolio-thumb__title">Название проекта</h4>
-                          <div class="portfolio-thumb__deadline">Срок исполения: <span>3 дня</span></div>
+                          <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
                         </div>
                         <!-- /.portfolio-thumb__content -->
                       </div>
@@ -2261,7 +2372,7 @@
 
                         <div class="portfolio-thumb__content">
                           <h4 class="portfolio-thumb__title">Название проекта</h4>
-                          <div class="portfolio-thumb__deadline">Срок исполения: <span>3 дня</span></div>
+                          <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
                         </div>
                         <!-- /.portfolio-thumb__content -->
                       </div>
@@ -2279,7 +2390,7 @@
 
                         <div class="portfolio-thumb__content">
                           <h4 class="portfolio-thumb__title">Название проекта</h4>
-                          <div class="portfolio-thumb__deadline">Срок исполения: <span>3 дня</span></div>
+                          <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
                         </div>
                         <!-- /.portfolio-thumb__content -->
                       </div>
@@ -2297,7 +2408,7 @@
 
                         <div class="portfolio-thumb__content">
                           <h4 class="portfolio-thumb__title">Название проекта</h4>
-                          <div class="portfolio-thumb__deadline">Срок исполения: <span>3 дня</span></div>
+                          <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
                         </div>
                         <!-- /.portfolio-thumb__content -->
                       </div>
@@ -2425,7 +2536,7 @@
                   </svg>
 
                   <h3 class="advantages__text">
-                    Федеральный охват услуг
+                    Федеральный <br> охват услуг
                   </h3>
 
                   <h3 class="advantages__text advantages__text--mobile">
@@ -2476,7 +2587,7 @@
                   </svg>
 
                   <h3 class="advantages__text">
-                    Единый центр производтва
+                    Единый центр <br> производтва
                   </h3>
 
                   <h3 class="advantages__text advantages__text--mobile">
@@ -2501,7 +2612,10 @@
                   </svg>
 
                   <h3 class="advantages__text">
-                    Передовые материалы
+                    Передовые
+                    <br>
+                    материалы
+                    <br>
                     и произодство
                   </h3>
 
@@ -2580,7 +2694,7 @@
       <div class="container">
         <div class="about">
           <div class="row">
-            <div class="col-5">
+            <div class="col-12 mb-4 mb-lg-0 col-lg-5">
               <div class="about__content">
                 <h2 class="about__title section__title">Студия <br> брендирования <span>B&D</span></h2>
                 <p class="about__text section__text">Наша команда занимается созданием визуальных <br> решений для бизнеса. Специалисты B&D заточены <br> на то, чтобы формировать яркий и заметный бренд.</p>
@@ -2589,7 +2703,7 @@
             </div>
             <!-- /.col-5 -->
 
-            <div class="col-7">
+            <div class="col-12 col-lg-7">
               <div class="about__video">
                 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/rDaC1yokRQs" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
@@ -2615,13 +2729,16 @@
           </p>
 
           <form action="" class="callback__form form form-callback">
-            <div class="input me-4">
-              <input placeholder="&nbsp;" autocomplete="off" type="tel" name="user_phone" class="input__field input__field--required">
-              <div class="input__placeholder"><span>+7</span> XXX XXX-XX-XX</div>
-            </div>
-            <!-- /.input -->
+            <div class="form__wrapper">
+              <div class="input me-0 me-lg-4 mb-lg-0 mb-3">
+                <input placeholder="&nbsp;" autocomplete="off" type="tel" name="user_phone" class="input__field input__field--required">
+                <div class="input__placeholder"><span>+7</span> XXX XXX-XX-XX</div>
+              </div>
+              <!-- /.input -->
 
-            <button class="form__button button button-primary" type="submit">Заказать звонок</button>
+              <button class="form__button button button-primary" type="submit">Заказать звонок</button>
+            </div>
+            <!-- /.form__wrapper -->
           </form>
         </div>
         <!-- /.callback -->
@@ -2710,7 +2827,7 @@
         <!-- /.footer__contact -->
 
         <div class="footer__office">
-          <a href="" class="footer__link footer__link--main link link--main link--orange">Контакты</a>
+          <a href="" class="footer__link footer__link--main link link--main link--orange">Офисы и боксы</a>
           <a href="" class="footer__link link link--orange">г. Нижний Новгород</a>
           <a href="" class="footer__link link link--orange">г. Москва</a>
           <a href="" class="footer__link link link--orange">г. Казань</a>

@@ -6,6 +6,14 @@
     @include breakpoint($breakpoint-laptop--large) {
       font-size: $font-headline-1 - 7;
     }
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      font-size: 32px;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      font-size: 24px;
+    }
   }
 
   &__description {
@@ -13,6 +21,10 @@
 
     @include breakpoint($breakpoint-laptop--large) {
       font-size: $font-text - 4;
+    }
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      font-size: 18px;
     }
   }
 }

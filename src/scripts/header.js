@@ -1,21 +1,21 @@
 const header = document.querySelector('#header');
-const headerDropdown = header.querySelector('.dropdown');
+const headerDropdown = header.querySelector('.nav__list > .dropdown > .dropdown__header');
 
 const sideMenu = document.getElementById('side-menu');
 const sideMenuOverlay = sideMenu.querySelector('.side-menu__overlay');
 const sideMenuClose = sideMenu.querySelector('.side-menu__close');
 
 let scrollPosition = window.pageYOffset;
-headerDropdown.addEventListener('click', () => headerDropdown.classList.toggle('dropdown--open'));
+headerDropdown.addEventListener('click', () => headerDropdown.parentNode.classList.toggle('dropdown--open'));
 window.addEventListener('click',
   (e) => {
-    if (!headerDropdown.contains(e.target)) headerDropdown.classList.remove('dropdown--open');
+    if (!headerDropdown.parentNode.contains(e.target)) headerDropdown.parentNode.classList.remove('dropdown--open');
   });
 
 window.addEventListener('scroll',
   () => {
     scrollPosition = window.pageYOffset;
-    if (scrollPosition >= 150) headerDropdown.classList.remove('dropdown--open');
+    if (scrollPosition >= 150) headerDropdown.parentNode.classList.remove('dropdown--open');
 
     if (window.scrollY >= header.offsetHeight + 50) header.classList.add('header-inverted');
     else header.classList.remove('header-inverted')

@@ -1,4 +1,14 @@
 .form {
+  &__wrapper {
+    display: inline-flex;
+    align-items: center;
+
+    @include breakpoint($breakpoint-tablet--large) {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+
   &__info {
     display: block;
 

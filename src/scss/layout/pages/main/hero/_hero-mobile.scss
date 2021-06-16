@@ -1,0 +1,18 @@
+.hero-mobile {
+  position: relative;
+
+  &__text {
+    color: $text-orange;
+    font-size: 18px;
+    font-weight: $weight-Black;
+  }
+
+  &__button {
+  }
+
+  &__icon {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+}

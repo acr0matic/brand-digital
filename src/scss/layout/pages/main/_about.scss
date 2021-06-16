@@ -5,6 +5,12 @@
   background-image: url("../img/page/main/about/background.svg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #f3f3f3;
+
+  @include breakpoint($breakpoint-tablet--large) {
+    margin-top: 0;
+    background-image: none;
+  }
 }
 
 .about {
@@ -12,14 +18,29 @@
 
   &__content {
     margin-top: 80px;
+
+    @include breakpoint($breakpoint-tablet--large) {
+      margin-top: 0;
+      text-align: center;
+    }
   }
 
   &__title {
     margin-bottom: 20px;
+
+    @include breakpoint($breakpoint-tablet--large) {
+      br {
+        display: none;
+      }
+    }
   }
 
-  &__description {
-
+  &__text {
+    @include breakpoint($breakpoint-laptop--medium) {
+      br {
+        display: none;
+      }
+    }
   }
 
   &__video {
@@ -31,6 +52,15 @@
 
     @include breakpoint($breakpoint-laptop--large) {
       height: 380px;
+    }
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      height: 320px;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      max-width: 360px;
+      height: 200px;
     }
   }
 }

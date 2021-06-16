@@ -14,6 +14,21 @@
   justify-content: space-between;
   color: $text-white;
 
+  @include breakpoint($breakpoint-tablet--large) {
+    flex-wrap: wrap;
+  }
+
+  @include breakpoint($breakpoint-mobile--large) {
+    line-height: 150%;
+  }
+
+  & > div {
+    @include breakpoint($breakpoint-mobile--large) {
+      width: 100%;
+      text-align: center;
+    }
+  }
+
   &__contact,
   &__office {
     display: flex;
@@ -28,6 +43,10 @@
     @include breakpoint($breakpoint-laptop--large) {
       font-size: 20px;
     }
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      font-size: 18px;
+    }
   }
 
   &__info {
@@ -35,6 +54,11 @@
     flex-direction: column;
 
     font-weight: $weight-Light;
+
+    @include breakpoint($breakpoint-mobile--large) {
+      order: 1;
+      margin-bottom: 20px;
+    }
   }
 
   &__logo {
@@ -43,6 +67,17 @@
 
     @include breakpoint($breakpoint-laptop--large) {
       width: 250px;
+    }
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      width: 200px;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      width: 100%;
+      max-width: 250px;
+
+      margin: 0 auto 40px auto;
     }
 
     path,
@@ -54,6 +89,10 @@
   &__index,
   &__company {
     margin-bottom: 20px;
+
+    @include breakpoint($breakpoint-mobile--large) {
+      margin-bottom: 0;
+    }
   }
 
   &__company span {
@@ -61,7 +100,10 @@
   }
 
   &__contact {
-
+    @include breakpoint($breakpoint-mobile--large) {
+      order: 2;
+      margin-bottom: 20px;
+    }
   }
 
   &__social {
@@ -70,10 +112,32 @@
     justify-content: space-between;
 
     margin-top: 25px;
+
+    @include breakpoint($breakpoint-mobile--large) {
+      display: none;
+    }
   }
 
   &__office {
+    @include breakpoint($breakpoint-tablet--large) {
+      margin-top: 30px;
+    }
 
+    @include breakpoint($breakpoint-mobile--large) {
+      display: none;
+    }
+  }
+
+  &__nav {
+    @include breakpoint($breakpoint-mobile--large) {
+      order: 3;
+    }
+
+    .footer__link--main {
+      @include breakpoint($breakpoint-mobile--large) {
+        display: none;
+      }
+    }
   }
 
   &__additional {
@@ -103,6 +167,14 @@
       @include breakpoint($breakpoint-laptop--large) {
         margin-bottom: 30px;
         font-size: 24px;
+      }
+
+      @include breakpoint($breakpoint-laptop--medium) {
+        font-size: 22px;
+      }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        margin-bottom: 0;
       }
     }
   }

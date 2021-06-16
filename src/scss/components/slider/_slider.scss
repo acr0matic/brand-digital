@@ -24,6 +24,16 @@
     }
   }
 
+  &-button {
+    &-prev::after {
+      content: url("../img/icons/control/slider__prev.svg");
+    }
+
+    &-next::after {
+      content: url("../img/icons/control/slider__next.svg");
+    }
+  }
+
   &-pagination {
     position: static;
     margin-top: 30px;

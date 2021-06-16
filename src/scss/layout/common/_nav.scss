@@ -2,6 +2,10 @@
   &--header {
     .nav {
       &__item {
+        @include breakpoint($breakpoint-laptop--medium) {
+          text-align: center;
+        }
+
         &:not(:last-child) {
           margin-right: 50px;
 
@@ -20,6 +24,10 @@
           font-size: 16px;
         }
 
+        @include breakpoint($breakpoint-laptop--medium) {
+          font-size: 14px;
+        }
+
         @media (hover: hover) {
           &:hover {
             color: $text-orange;
@@ -34,9 +42,14 @@
       &__list {
         flex-direction: column;
         align-items: flex-start;
+
+        @include breakpoint($breakpoint-mobile--large) {
+          align-items: center;
+        }
       }
 
       &__item {
+
       }
 
       &__link {
@@ -46,6 +59,10 @@
 
         @include breakpoint($breakpoint-laptop--large) {
           font-size: 20px;
+        }
+
+        @include breakpoint($breakpoint-laptop--medium) {
+          font-size: 18px;
         }
 
         &::after {

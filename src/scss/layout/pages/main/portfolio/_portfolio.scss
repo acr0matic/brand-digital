@@ -17,6 +17,10 @@
       @include breakpoint($breakpoint-laptop--large) {
         padding-top: 65px;
       }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        padding: 0;
+      }
     }
 
     &__button {

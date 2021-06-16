@@ -119,6 +119,7 @@
       border-bottom: 1px solid $palette-orange;
     }
 
+    &:active,
     &:hover {
       background-color: $palette-orange;
       color: $text-white;

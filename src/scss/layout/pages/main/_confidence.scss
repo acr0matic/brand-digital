@@ -21,6 +21,11 @@
 
     background: $palette-white;
 
+    @include breakpoint($breakpoint-mobile--large) {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+
     &::before,
     &::after {
       content: "";
@@ -68,6 +73,9 @@
   }
 
   &__button {
+    @include breakpoint($breakpoint-mobile--large) {
+      display: none;
+    }
   }
 
   &__bg {
@@ -75,24 +83,56 @@
     top: 50%;
     left: 0;
 
-    transform: translateY(-42%);
+    transform: translateY(-40%);
+
+    @include breakpoint($breakpoint-mobile--large) {
+      position: static;
+      transform: none;
+    }
   }
 
   &__infinite {
     display: flex;
 
+    &:nth-child(2) {
+      .confidence__partners {
+        @include breakpoint($breakpoint-mobile--large) {
+          animation-delay: 1s;
+        }
+      }
+    }
+
     &:not(:last-child) {
       margin-bottom: 15px;
+
+      @include breakpoint($breakpoint-laptop--large) {
+        margin-bottom: 5px;
+      }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        margin-bottom: 0;
+      }
+    }
+
+    &:last-child {
+      @include breakpoint($breakpoint-mobile--large) {
+        display: none;
+      }
     }
   }
 
   &__partners {
     display: flex;
-    animation: marquee 15s linear reverse infinite;
+    animation: marquee 20s linear reverse infinite;
   }
 
   &__partner {
+    width: 90px;
     margin-right: 35px;
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      width: 75px;
+    }
   }
 }
 

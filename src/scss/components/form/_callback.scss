@@ -1,4 +1,7 @@
 .form-callback {
-  display: flex;
-  align-items: center;
+  .form__button {
+    @include breakpoint($breakpoint-tablet--large) {
+      width: 100%;
+    }
+  }
 }

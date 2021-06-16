@@ -29,6 +29,12 @@
   .header__logo .invert {
     fill: $palette-black;
   }
+
+  .header__callback a {
+    @include breakpoint($breakpoint-tablet--large) {
+      color: $text-black;
+    }
+  }
 }
 
 .header {
@@ -51,6 +57,10 @@
     @include breakpoint($breakpoint-laptop--large) {
       margin-right: 55px;
     }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      display: none;
+    }
   }
 
   &__callback {
@@ -67,12 +77,20 @@
       margin-left: auto;
     }
 
+    @include breakpoint($breakpoint-tablet--large) {
+      margin-right: 15px;
+    }
+
     a {
       color: $text-orange;
       font-size: 20px;
 
       @include breakpoint($breakpoint-laptop--large) {
         font-size: 16px;
+      }
+
+      @include breakpoint($breakpoint-tablet--large) {
+        color: $text-white;
       }
 
       @media (hover: hover) {
@@ -83,7 +101,17 @@
     }
   }
 
+  &__action {
+    @include breakpoint($breakpoint-tablet--large) {
+      display: none;
+    }
+  }
+
   &__burger {
     margin-left: auto;
+
+    @include breakpoint($breakpoint-tablet--large) {
+      margin-left: 0;
+    }
   }
 }

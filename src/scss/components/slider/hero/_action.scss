@@ -1,0 +1,53 @@
+.hero-action-slider {
+  @include breakpoint($breakpoint-mobile--large) {
+    padding: 0 15px;
+  }
+
+  .swiper-slide {
+    width: initial;
+
+    @include breakpoint($breakpoint-mobile--large) {
+      width: 100%;
+    }
+
+    &:not(:last-child) {
+      margin-right: 60px;
+
+      @include breakpoint($breakpoint-laptop--medium) {
+        margin-right: 40px;
+      }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .swiper-button {
+    &-next,
+    &-prev {
+      top: -8px;
+      display: none;
+
+      width: initial;
+      height: initial;
+      margin-top: 0;
+
+      @include breakpoint($breakpoint-tablet--large) {
+        display: flex;
+      }
+
+      &::after {
+        transform: scale(0.2);
+      }
+    }
+
+    &-prev {
+      left: -15px;
+    }
+
+    &-next {
+      right: -15px;
+    }
+  }
+}

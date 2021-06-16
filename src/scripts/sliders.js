@@ -7,10 +7,23 @@ heroAction.forEach((action, index) => {
     if (activeCard) activeCard.classList.remove('hero__service--active');
     action.classList.add('hero__service--active');
 
-    heroSlider.slideTo(index);
+    heroSlider.slideTo(index + 1);
+    portfolioTabs.slideTo(index);
     hero.style.backgroundImage = `url('/src/img/page/main/hero/bg/${index + 1}.png')`;
   });
 });
+
+if (window.matchMedia('(max-width: 576px)').matches) {
+  const heroService = new Swiper('.hero-action-slider', {
+    slidesPerView: 4,
+    spaceBetween: 15,
+
+    navigation: {
+      nextEl: '.hero-action-next',
+      prevEl: '.hero-action-prev',
+    },
+  });
+}
 
 const heroSlider = new Swiper('.hero-slider', {
   simulateTouch: false,
@@ -22,7 +35,6 @@ const heroSlider = new Swiper('.hero-slider', {
     crossFade: true
   },
 });
-
 
 const portfolioList = [];
 const portfolioTabs = new Swiper('.portfolio-slider-tab', {
@@ -57,55 +69,67 @@ const portfolioTabs = new Swiper('.portfolio-slider-tab', {
 
 const portfolioSliders = document.querySelectorAll('.portfolio-slider-tab [data-title]');
 portfolioSliders.forEach(slider => {
-  const portfolioThumbs = new Swiper(slider.querySelector('.portfolio-slider-thumb'), {
-    allowTouchMove: false,
-    centeredSlides: true,
-    centeredSlidesBounds: true,
+  if (window.matchMedia('(min-width: 576px)').matches) {
+    const portfolioThumbs = new Swiper(slider.querySelector('.portfolio-slider-thumb'), {
+      allowTouchMove: true,
+      centeredSlides: true,
+      centeredSlidesBounds: true,
 
-    speed: 500,
-    slidesPerView: 4,
-    spaceBetween: 15,
+      speed: 500,
+      slidesPerView: 2,
+      spaceBetween: 15,
 
-    slideToClickedSlide: true,
-    nested: true,
+      slideToClickedSlide: true,
+      nested: true,
 
-    breakpoints: {
-      1540: {
-        slidesPerView: 5,
+      breakpoints: {
+        991: {
+          allowTouchMove: false,
+          slidesPerView: 3,
+        },
+
+        1200: {
+          allowTouchMove: false,
+          slidesPerView: 4,
+        },
+
+        1540: {
+          slidesPerView: 5,
+        },
       },
-    },
-  });
+    });
 
-  const portfolioItems = new Swiper(slider.querySelector('.portfolio-slider-items'), {
-    navigation: {
-      nextEl: '.portfolio-slider-next',
-      prevEl: '.portfolio-slider-prev',
-    },
+    const portfolioItems = new Swiper(slider.querySelector('.portfolio-slider-items'), {
+      navigation: {
+        nextEl: '.portfolio-slider-next',
+        prevEl: '.portfolio-slider-prev',
+      },
 
-    thumbs: {
-      swiper: portfolioThumbs
-    },
+      thumbs: {
+        swiper: portfolioThumbs
+      },
 
-    slidesPerView: 1,
-    speed: 500,
+      slidesPerView: 1,
+      speed: 500,
 
-    nested: true,
-    simulateTouch: false,
+      nested: true,
+      simulateTouch: false,
 
-    on: {
-      slideChange: function () {
-        let activeIndex = this.activeIndex + 1;
+      on: {
+        slideChange: function () {
+          let activeIndex = this.activeIndex + 1;
 
-        let nextSlide = document.querySelector(`.portfolio-slider-thumb .swiper-slide:nth-child(${activeIndex + 1})`);
-        let prevSlide = document.querySelector(`.portfolio-slider-thumb .swiper-slide:nth-child(${activeIndex - 1})`);
+          let nextSlide = document.querySelector(`.portfolio-slider-thumb .swiper-slide:nth-child(${activeIndex + 1})`);
+          let prevSlide = document.querySelector(`.portfolio-slider-thumb .swiper-slide:nth-child(${activeIndex - 1})`);
 
-        if (nextSlide && !nextSlide.classList.contains('swiper-slide-visible'))
-          this.thumbs.swiper.slideNext()
-        else if (prevSlide && !prevSlide.classList.contains('swiper-slide-visible'))
-          this.thumbs.swiper.slidePrev()
+          if (nextSlide && !nextSlide.classList.contains('swiper-slide-visible'))
+            this.thumbs.swiper.slideNext()
+          else if (prevSlide && !prevSlide.classList.contains('swiper-slide-visible'))
+            this.thumbs.swiper.slidePrev()
+        }
       }
-    }
-  });
+    });
+  }
 });
 
 if (window.matchMedia('(max-width: 1200px)').matches) {
@@ -115,7 +139,7 @@ if (window.matchMedia('(max-width: 1200px)').matches) {
 
   const advantages = new Swiper('.advantages-slider', {
     speed: 500,
-    slidesPerView: 5,
+    slidesPerView: 3,
     slideToClickedSlide: true,
 
     spaceBetween: 20,
@@ -124,6 +148,14 @@ if (window.matchMedia('(max-width: 1200px)').matches) {
 
     pagination: {
       el: '.advantages-slider__pagination',
+    },
+
+    768: {
+      slidesPerView: 4,
+    },
+
+    991: {
+      slidesPerView: 5,
     },
   });
 
