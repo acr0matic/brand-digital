@@ -1,37 +1,16 @@
 .portfolio-slider-thumb {
   @include breakpoint($breakpoint-mobile--large) {
-    overflow: visible;
+    display: none;
   }
 
   .swiper-wrapper {
     align-items: center;
-
-    @include breakpoint($breakpoint-mobile--large) {
-      flex-wrap: wrap;
-      justify-content: space-between;
-    }
   }
 
   .swiper-slide {
+    border-radius: $border-radius-medium;
     pointer-events: initial !important;
     transition: 0.15s ease;
-    border-radius: $border-radius-medium;
-
-    @include first(5) {
-      @include breakpoint($breakpoint-mobile--large) {
-        margin-bottom: 20px;
-      }
-    }
-
-    @include breakpoint($breakpoint-mobile--large) {
-      width: 48%;
-    }
-
-    &:nth-child(3) {
-      @include breakpoint($breakpoint-mobile--large) {
-        width: 100%;
-      }
-    }
 
     &-thumb-active {
       box-shadow: -2px 3px 5px rgba(0, 0, 0, 0.25);

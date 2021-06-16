@@ -2489,6 +2489,38 @@
         <!-- /.portfolio -->
       </div>
       <!-- /.container -->
+
+      <div class="modal modal-portfolio micromodal-slide" id="modal-portfolio" aria-hidden="true">
+        <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog">
+            <header class="modal__header">
+              <svg class="modal__close" data-micromodal-close viewBox="0 0 36 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2 2L34 33M34 2L2 33" stroke="white" stroke-width="4" />
+              </svg>
+            </header>
+
+            <main class="modal__content">
+              <picture class="modal__picture">
+                <img src="img/portfolio/thumb.jpg" alt="" class="modal__image cms-image">
+              </picture>
+
+              <h2 class="modal__title">
+                Название проекта
+              </h2>
+
+              <p class="modal__text">
+                Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
+              </p>
+
+              <ul class="modal__list list list--feature">
+                <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+              </ul>
+            </main>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="advantages" class="section">
@@ -2914,7 +2946,7 @@
           </svg>
         </header>
 
-        <main class="modal__content" id="modal-1-content">
+        <main class="modal__content">
           <p class="modal__text">
             Оставьте ваши контактные данные и мы свяжемся с вами, удобным для вас способом
           </p>
@@ -2969,6 +3001,7 @@
 
   <script src="scripts/script.js"></script>
   <script src="scripts/sliders.js"></script>
+  <script src="scripts/portfolio.js"></script>
   <script src="scripts/misc.js"></script>
 
   <script src="scripts/header.js"></script>

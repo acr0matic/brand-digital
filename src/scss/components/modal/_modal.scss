@@ -11,6 +11,10 @@
   justify-content: center;
 
   background: rgba(0, 0, 0, 0.6);
+
+  @include breakpoint($breakpoint-mobile--large) {
+    align-items: flex-end;
+  }
 }
 
 .modal__container {
@@ -21,10 +25,35 @@
   border-radius: 35px;
 
   background-color: $palette-white;
+
+  @include breakpoint($breakpoint-mobile--large) {
+    padding: 15px;
+
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
 }
 
 .modal__header {
+  position: relative;
 
+  @include breakpoint($breakpoint-mobile--large) {
+    margin-bottom: 20px;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 50%;
+
+    width: 50px;
+    height: 3px;
+
+    transform: translateX(-50%);
+
+    background-color: #ececec;
+  }
 }
 
 .modal__title {
@@ -46,6 +75,14 @@
   cursor: pointer;
 
   transition: opacity 0.15s ease;
+
+  @include breakpoint($breakpoint-mobile--large) {
+    top: 25px;
+    right: 5px;
+
+    width: 22px;
+    height: 22px;
+  }
 
   &:hover {
     opacity: 0.5;
@@ -95,6 +132,15 @@
   }
 }
 
+@keyframes mmslideOutMobile {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(30%);
+  }
+}
+
 .micromodal-slide {
   display: none;
 }
@@ -117,6 +163,10 @@
 
 .micromodal-slide[aria-hidden="true"] .modal__container {
   animation: mmslideOut 0.3s cubic-bezier(0, 0, 0.2, 1);
+
+  @include breakpoint($breakpoint-mobile--large) {
+    animation: mmslideOutMobile 0.3s cubic-bezier(0, 0, 0.2, 1);
+  }
 }
 
 .micromodal-slide .modal__container,

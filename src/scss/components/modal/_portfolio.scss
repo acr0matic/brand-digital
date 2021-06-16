@@ -1,0 +1,39 @@
+.modal-portfolio {
+  .modal {
+    &__close {
+      path {
+        @include breakpoint($breakpoint-mobile--large) {
+          stroke: #bababa;
+        }
+      }
+    }
+
+    &__container {
+      padding: 0 20px 30px 20px;
+    }
+
+    &__header {
+      margin-bottom: 65px;
+    }
+
+    &__picture {
+      width: 100%;
+      margin-bottom: 15px;
+
+      border-radius: $border-radius-large;
+      overflow: hidden;
+    }
+
+    &__image {
+
+    }
+
+    &__title {
+      margin-bottom: 10px;
+    }
+
+    &__text {
+      margin-bottom: 30px;
+    }
+  }
+}

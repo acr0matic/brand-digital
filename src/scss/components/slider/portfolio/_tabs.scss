@@ -1,6 +1,7 @@
 .portfolio-slider-tab {
   &__control {
     text-align: center;
+    overflow: auto;
   }
 
   .swiper-pagination {
@@ -12,6 +13,10 @@
     margin: 0 auto 60px auto;
 
     border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+
+    @include breakpoint($breakpoint-mobile--large) {
+      margin-bottom: 25px;
+    }
 
     &-bullet {
       display: flex;
@@ -41,8 +46,20 @@
         font-size: 18px;
       }
 
+      @include breakpoint($breakpoint-mobile--large) {
+        width: 80px;
+        height: 30px;
+        font-size: 14px;
+
+        border-width: 3px;
+      }
+
       &:not(:last-child) {
         margin-right: 30px !important;
+
+        @include breakpoint($breakpoint-mobile--large) {
+          margin-right: 10px !important;
+        }
       }
 
       &:hover {
@@ -54,6 +71,10 @@
       &-active {
         color: $text-orange;
         border-bottom: 5px solid $palette-orange;
+
+        @include breakpoint($breakpoint-mobile--large) {
+          border-width: 3px;
+        }
       }
     }
   }

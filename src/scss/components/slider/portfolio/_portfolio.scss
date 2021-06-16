@@ -1,0 +1,15 @@
+.portfolio-slider {
+  &-prev,
+  &-next {
+    @include breakpoint($breakpoint-mobile--large) {
+      display: none;
+    }
+  }
+
+  &-prev::after,
+  &-next::after {
+    @include breakpoint($breakpoint-laptop--large) {
+      transform: scale(0.7);
+    }
+  }
+}

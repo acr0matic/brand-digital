@@ -13,7 +13,8 @@
     }
 
     @include breakpoint($breakpoint-mobile--large) {
-      display: none;
+      align-items: flex-start;
+      width: 100%;
     }
 
     &__picture {
@@ -45,6 +46,11 @@
         width: 100%;
         margin-right: 0;
       }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        height: 115px;
+        border-radius: $border-radius-small;
+      }
     }
 
     &__image {
@@ -56,6 +62,10 @@
 
     &__content {
       margin-top: 30px;
+
+      @include breakpoint($breakpoint-mobile--large) {
+        margin-top: 10px;
+      }
     }
 
     &__title {
@@ -70,6 +80,10 @@
       @include breakpoint($breakpoint-laptop--medium) {
         font-size: $font-headline-3 - 10;
       }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        font-size: $font-headline-4 - 2;
+      }
     }
 
     &__description {
@@ -83,6 +97,25 @@
 
       @include breakpoint($breakpoint-laptop--medium) {
         font-size: $font-text - 8;
+      }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        display: none;
+      }
+    }
+
+    &__list {
+      @include breakpoint($breakpoint-mobile--large) {
+        display: none;
+      }
+    }
+
+    &__deadline {
+      display: none;
+
+      @include breakpoint($breakpoint-mobile--large) {
+        display: block;
+        font-size: 12px;
       }
     }
   }

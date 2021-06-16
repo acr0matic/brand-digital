@@ -1,15 +1,32 @@
-.portfolio-slider {
-  &-prev,
-  &-next {
+.portfolio-slider-items {
+  @include breakpoint($breakpoint-mobile--large) {
+    overflow: visible;
+  }
+
+  .swiper-wrapper {
     @include breakpoint($breakpoint-mobile--large) {
-      display: none;
+      flex-wrap: wrap;
+      justify-content: space-between;
     }
   }
 
-  &-prev::after,
-  &-next::after {
-    @include breakpoint($breakpoint-laptop--large) {
-      transform: scale(0.7);
+  .swiper-slide {
+    pointer-events: initial !important;
+
+    @include first(5) {
+      @include breakpoint($breakpoint-mobile--large) {
+        margin-bottom: 20px;
+      }
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      width: 48%;
+    }
+
+    &:nth-child(3) {
+      @include breakpoint($breakpoint-mobile--large) {
+        width: 100%;
+      }
     }
   }
 }
