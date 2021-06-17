@@ -1,0 +1,104 @@
+.promotions-item {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+
+  min-height: 270px;
+  overflow: hidden;
+
+  padding: 25px;
+
+  border-radius: 25px;
+
+  color: $text-white;
+
+  @include breakpoint($breakpoint-laptop--large) {
+    min-height: 210px;
+    border-radius: 20px;
+  }
+
+  @include breakpoint($breakpoint-laptop--medium) {
+    min-height: 180px;
+  }
+
+  @include breakpoint($breakpoint-tablet--large) {
+    max-width: 450px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 15px;
+  }
+
+  &--new {
+    &::after {
+      content: "NEW";
+      position: absolute;
+      top: 0;
+      right: 0;
+
+      padding: 5px 20px;
+      border-bottom-left-radius: $border-radius-large;
+
+      background-color: $palette-orange;
+
+      font-size: 26px;
+      font-weight: $weight-Bold;
+
+      letter-spacing: 3px;
+
+      @include breakpoint($breakpoint-laptop--medium) {
+        padding: 4px 15px;
+        font-size: 22px;
+      }
+
+      @include breakpoint($breakpoint-tablet--large) {
+        border-bottom-left-radius: $border-radius-medium;
+      }
+    }
+  }
+
+  &__title {
+    margin-bottom: 5px;
+
+    font-size: 48px;
+    font-weight: $weight-Bold;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      font-size: 36px;
+    }
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      font-size: 28px;
+    }
+  }
+
+  &__description {
+    font-size: 32px;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      font-size: 24px;
+    }
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      font-size: 20px;
+      font-weight: $weight-Bold;
+    }
+  }
+
+  &__info {
+    margin-top: auto;
+    font-size: 18px;
+    font-weight: $weight-Bold;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      font-size: 14px;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      font-size: 12px;
+      font-weight: $weight-Medium;
+    }
+  }
+}

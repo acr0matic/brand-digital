@@ -1,0 +1,13 @@
+.promotions {
+  &__title {
+    margin-bottom: 30px;
+  }
+
+  .col-12 {
+    &:not(:last-child) {
+      @include breakpoint($breakpoint-tablet--large) {
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
