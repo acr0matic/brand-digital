@@ -1,17 +1,19 @@
 const hero = document.getElementById('hero');
-const heroAction = hero.querySelectorAll('.hero__service');
-heroAction.forEach((action, index) => {
-  action.addEventListener('click', () => {
-    const activeCard = document.querySelector('.hero__service--active');
+if (hero) {
+  const heroAction = hero.querySelectorAll('.hero__service');
+  heroAction.forEach((action, index) => {
+    action.addEventListener('click', () => {
+      const activeCard = document.querySelector('.hero__service--active');
 
-    if (activeCard) activeCard.classList.remove('hero__service--active');
-    action.classList.add('hero__service--active');
+      if (activeCard) activeCard.classList.remove('hero__service--active');
+      action.classList.add('hero__service--active');
 
-    heroSlider.slideTo(index + 1);
-    portfolioTabs.slideTo(index);
-    hero.style.backgroundImage = `url('/src/img/page/main/hero/bg/${index + 1}.png')`;
+      heroSlider.slideTo(index + 1);
+      portfolioTabs.slideTo(index);
+      hero.style.backgroundImage = `url('/src/img/page/main/hero/bg/${index + 1}.png')`;
+    });
   });
-});
+}
 
 if (window.matchMedia('(max-width: 576px)').matches) {
   const heroService = new Swiper('.hero-action-slider', {

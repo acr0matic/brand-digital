@@ -14,9 +14,11 @@
 
 // Фрагметы главной страницы
 @import "pages/main/hero/main.scss";
-@import "pages/main/confidence.scss";
-@import "pages/main/portfolio/main.scss";
 @import "pages/main/about.scss";
 @import "pages/main/advantages/main.scss";
 
+@import "pages/faq/faq.scss";
+
 @import "pages/callback";
+@import "pages/confidence.scss";
+@import "pages/portfolio/main.scss";

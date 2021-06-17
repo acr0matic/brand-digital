@@ -6,6 +6,11 @@ MicroModal.init({
   disableFocus: true,
 });
 
-var lazyLoadInstance = new LazyLoad({
+const lazyLoadInstance = new LazyLoad({
   elements_selector: '.lazy',
+});
+
+new SmoothScroll('a[href*="#"]', {
+  speed: 500,
+  speedAsDuration: true,
 });

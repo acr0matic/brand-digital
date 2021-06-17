@@ -27,7 +27,7 @@ window.addEventListener('scroll',
 
 const headerBurger = header.querySelector('.header__burger');
 
-if (window.matchMedia('(min-width: 576px)').matches) {
+if (window.matchMedia('(min-width: 991px)').matches) {
   headerBurger.addEventListener('mouseenter', () => headerBurger.firstElementChild.classList.add('is-active'));
   headerBurger.addEventListener('mouseleave', () => headerBurger.firstElementChild.classList.remove('is-active'));
 }
@@ -42,7 +42,7 @@ else {
 }
 
 headerBurger.addEventListener('click', () => {
-  if (window.matchMedia('(min-width: 576px)').matches) Menu('side', 'open');
+  if (window.matchMedia('(min-width: 991px)').matches) Menu('side', 'open');
   else Menu('mobile', 'toggle');
 });
 
