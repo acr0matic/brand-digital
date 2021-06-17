@@ -1,0 +1,11 @@
+.social {
+  &__link {
+    transition: 0.15s ease;
+
+    @media (hover: hover) {
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+  }
+}

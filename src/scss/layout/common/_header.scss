@@ -44,6 +44,10 @@
   .header__logo .invert {
     fill: $palette-black;
   }
+
+  .header__callback a {
+    color: $text-black;
+  }
 }
 
 .header {

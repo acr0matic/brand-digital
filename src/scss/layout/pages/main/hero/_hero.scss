@@ -83,6 +83,15 @@
     cursor: pointer;
 
     &--active {
+      .hero__icon {
+        .background {
+          fill: $palette-white;
+        }
+
+        .figure {
+          fill: $palette-orange;
+        }
+      }
     }
 
     @include breakpoint($breakpoint-laptop--large) {
