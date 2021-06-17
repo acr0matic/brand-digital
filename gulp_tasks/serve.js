@@ -7,7 +7,7 @@ const { reload } = browserSync;
 
 gulp.task('serve', () => {
   browserSync.init({
-    server: './src/',
+    proxy: 'brand-digital.layout',
     port: 4000,
     notify: false,
   });
