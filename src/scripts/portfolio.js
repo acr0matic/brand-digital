@@ -16,12 +16,14 @@ function InitPortfolio() {
 
     items.forEach(item => {
       item.addEventListener('click', () => {
+        lazyLoadInstance.update();
+
         MicroModal.show('modal-portfolio', params);
         document.body.classList.add('body-scroll--disabled');
 
         list.innerHTML = '';
 
-        image.src = item.querySelector('.portfolio-item__image').src;
+        image.setAttribute('data-src', item.querySelector('.portfolio-item__image').src);
         title.innerHTML = item.querySelector('.portfolio-item__title').innerHTML;
         text.innerHTML = item.querySelector('.portfolio-item__description').innerHTML;
 

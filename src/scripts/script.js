@@ -5,3 +5,7 @@ MicroModal.init({
   awaitCloseAnimation: true,
   disableFocus: true,
 });
+
+var lazyLoadInstance = new LazyLoad({
+  elements_selector: '.lazy',
+});

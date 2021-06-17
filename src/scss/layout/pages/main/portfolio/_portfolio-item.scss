@@ -82,7 +82,8 @@
       }
 
       @include breakpoint($breakpoint-mobile--large) {
-        font-size: $font-headline-4 - 2;
+        margin-bottom: 0;
+        font-size: $font-headline-4 - 4;
       }
     }
 
@@ -104,18 +105,25 @@
       }
     }
 
-    &__list {
-      @include breakpoint($breakpoint-mobile--large) {
-        display: none;
-      }
-    }
-
     &__deadline {
       display: none;
 
+      color: $text-gray;
+      font-size: 12px;
+
       @include breakpoint($breakpoint-mobile--large) {
-        display: block;
-        font-size: 12px;
+        display: inline;
+      }
+
+      span {
+        color: $text-orange;
+        font-weight: $weight-Bold;
+      }
+    }
+
+    &__list {
+      @include breakpoint($breakpoint-mobile--large) {
+        display: none;
       }
     }
   }
