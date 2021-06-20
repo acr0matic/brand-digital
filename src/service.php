@@ -77,6 +77,85 @@
 
   <?php include_once('partials/portfolio.php') ?>
 
+  <section id="service" class="section">
+    <div class="container">
+      <div class="service">
+        <h2 class="service__title section__title text-center">Какие авто мы брендируем</h2>
+
+        <div class="service__wrapper">
+          <div onclick="window.location.href='https://yandex.ru'" class="service__card service-card">
+            <div class="service-card__wrapper">
+              <h3 class="service-card__title">Грузовой автомобиль</h3>
+              <div class="service-card__price">от 14 000₽</div>
+            </div>
+            <!-- /.service-card__wrapper -->
+
+            <img src="img/page/service/1.png" alt="" class="service-card__image">
+          </div>
+          <!-- /.service__card service-card -->
+
+          <div onclick="window.location.href='https://yandex.ru'" class="service__card service-card">
+            <div class="service-card__wrapper">
+              <h3 class="service-card__title">Грузовой автомобиль</h3>
+              <div class="service-card__price">от 14 000₽</div>
+            </div>
+            <!-- /.service-card__wrapper -->
+
+            <img src="img/page/service/2.png" alt="" class="service-card__image">
+          </div>
+          <!-- /.service__card service-card -->
+
+          <div onclick="window.location.href='https://yandex.ru'" class="service__card service-card">
+            <div class="service-card__wrapper">
+              <h3 class="service-card__title">Грузовой автомобиль</h3>
+              <div class="service-card__price">от 14 000₽</div>
+            </div>
+            <!-- /.service-card__wrapper -->
+
+            <img src="img/page/service/3.png" alt="" class="service-card__image">
+          </div>
+          <!-- /.service__card service-card -->
+
+          <div onclick="window.location.href='https://yandex.ru'" class="service__card service-card">
+            <div class="service-card__wrapper">
+              <h3 class="service-card__title">Грузовой автомобиль</h3>
+              <div class="service-card__price">от 14 000₽</div>
+            </div>
+            <!-- /.service-card__wrapper -->
+
+            <img src="img/page/service/4.png" alt="" class="service-card__image">
+          </div>
+          <!-- /.service__card service-card -->
+
+          <div onclick="window.location.href='https://yandex.ru'" class="service__card service-card">
+            <div class="service-card__wrapper">
+              <h3 class="service-card__title">Грузовой автомобиль</h3>
+              <div class="service-card__price">от 14 000₽</div>
+            </div>
+            <!-- /.service-card__wrapper -->
+
+            <img src="img/page/service/5.png" alt="" class="service-card__image">
+          </div>
+          <!-- /.service__card service-card -->
+
+          <div onclick="window.location.href='https://yandex.ru'" class="service__card service-card">
+            <div class="service-card__wrapper">
+              <h3 class="service-card__title">Грузовой автомобиль</h3>
+              <div class="service-card__price">от 14 000₽</div>
+            </div>
+            <!-- /.service-card__wrapper -->
+
+            <img src="img/page/service/5.png" alt="" class="service-card__image">
+          </div>
+          <!-- /.service__card service-card -->
+        </div>
+        <!-- /.service__wrapper -->
+      </div>
+      <!-- /.service -->
+    </div>
+    <!-- /.container -->
+  </section>
+
   <section id="promotions" class="section">
     <div class="container">
       <div class="promotions">

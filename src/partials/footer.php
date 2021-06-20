@@ -158,6 +158,7 @@
 <script src="scripts/script.js"></script>
 <script src="scripts/sliders.js"></script>
 <script src="scripts/portfolio.js"></script>
+<script src="scripts/service.js"></script>
 <script src="scripts/misc.js"></script>
 
 <script src="scripts/header.js"></script>
