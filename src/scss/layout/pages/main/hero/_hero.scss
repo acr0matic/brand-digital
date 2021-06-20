@@ -41,9 +41,32 @@
     padding-top: 15px;
   }
 
+  &--service {
+  }
+
   &__row {
     &--white {
       background-color: $palette-white;
+    }
+
+    &--mobile {
+      display: none;
+      padding-top: 30px;
+
+      @include breakpoint($breakpoint-mobile--large) {
+        display: block;
+      }
+
+      .hero__cta {
+        display: flex;
+        flex-direction: column !important;
+        align-items: center !important;
+        margin-bottom: 0 !important;
+
+        .button {
+          width: 280px;
+        }
+      }
     }
   }
 
@@ -197,7 +220,7 @@
     pointer-events: none;
 
     @include breakpoint($breakpoint-laptop--large) {
-      right: -30px;
+      right: 0;
       bottom: -120px;
 
       width: 680px;

@@ -1,0 +1,107 @@
+#service-hero {
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: calc(100%);
+  background-color: $palette-black;
+
+  margin-bottom: 85px;
+
+  @include breakpoint($breakpoint-laptop--large) {
+    background-size: 800px;
+  }
+
+  @include breakpoint($breakpoint-mobile--large) {
+    margin-bottom: -30px;
+    background-image: none !important;
+  }
+
+  .container {
+    position: relative;
+    height: 100%;
+  }
+
+  .hero {
+    &__wrapper {
+      .button-outline {
+        @include breakpoint($breakpoint-mobile--large) {
+          display: none;
+        }
+      }
+    }
+
+    &__description {
+      min-height: 165px;
+      padding-bottom: 45px;
+
+      @include breakpoint($breakpoint-laptop--large) {
+        min-height: 130px;
+        padding-bottom: 30px;
+      }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        min-height: 90px;
+        padding-bottom: 0;
+      }
+
+      @include breakpoint($breakpoint-mobile) {
+        br {
+          display: none;
+        }
+      }
+    }
+
+    &__cta {
+      padding-top: 0;
+      margin-bottom: 85px;
+
+      @include breakpoint($breakpoint-laptop--large) {
+        margin-bottom: 55px;
+      }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-between;
+
+        margin-bottom: 30px;
+      }
+
+      .hero-mobile__icon {
+        position: static;
+      }
+    }
+
+    &__anchor {
+      display: inline-flex;
+
+      margin-bottom: 25px;
+
+      color: $text-orange;
+      font-size: 20px;
+      font-weight: $weight-Bold;
+
+      @include breakpoint($breakpoint-laptop--large) {
+        font-size: 18px;
+      }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        display: none;
+      }
+    }
+
+    &__motion {
+      width: 1050px;
+
+      @include breakpoint($breakpoint-laptop--large) {
+        width: 780px;
+      }
+    }
+
+    &__social {
+      @include breakpoint($breakpoint-mobile--large) {
+        margin-bottom: 0;
+        padding-bottom: 30px;
+      }
+    }
+  }
+}
