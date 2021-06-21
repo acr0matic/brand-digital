@@ -35,8 +35,17 @@
       transform: none !important;
     }
 
+    .promotions-item__title {
+      font-size: 54px;
+    }
+
+    .promotions-item__description {
+      font-size: 36px;
+      font-weight: $weight-Bold;
+    }
+
     .promotions-item__info {
-      font-size: 24px;
+      font-size: 20px;
 
       @include breakpoint($breakpoint-laptop--large) {
         font-size: $font-text - 4;

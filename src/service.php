@@ -85,7 +85,7 @@
         <div class="service__wrapper">
           <div onclick="window.location.href='https://yandex.ru'" class="service__card service-card">
             <div class="service-card__wrapper">
-              <h3 class="service-card__title">Грузовой автомобиль</h3>
+              <h3 class="service-card__title">Грузовой <br> автомобиль</h3>
               <div class="service-card__price">от 14 000₽</div>
             </div>
             <!-- /.service-card__wrapper -->
@@ -96,8 +96,8 @@
 
           <div onclick="window.location.href='https://yandex.ru'" class="service__card service-card">
             <div class="service-card__wrapper">
-              <h3 class="service-card__title">Грузовой автомобиль</h3>
-              <div class="service-card__price">от 14 000₽</div>
+              <h3 class="service-card__title">Легковой</h3>
+              <div class="service-card__price">от 8 000₽</div>
             </div>
             <!-- /.service-card__wrapper -->
 
@@ -107,8 +107,8 @@
 
           <div onclick="window.location.href='https://yandex.ru'" class="service__card service-card">
             <div class="service-card__wrapper">
-              <h3 class="service-card__title">Грузовой автомобиль</h3>
-              <div class="service-card__price">от 14 000₽</div>
+              <h3 class="service-card__title">Фура</h3>
+              <div class="service-card__price">от 25 000₽</div>
             </div>
             <!-- /.service-card__wrapper -->
 
@@ -118,8 +118,8 @@
 
           <div onclick="window.location.href='https://yandex.ru'" class="service__card service-card">
             <div class="service-card__wrapper">
-              <h3 class="service-card__title">Грузовой автомобиль</h3>
-              <div class="service-card__price">от 14 000₽</div>
+              <h3 class="service-card__title">Фургон</h3>
+              <div class="service-card__price">от 15 000₽</div>
             </div>
             <!-- /.service-card__wrapper -->
 
@@ -129,19 +129,8 @@
 
           <div onclick="window.location.href='https://yandex.ru'" class="service__card service-card">
             <div class="service-card__wrapper">
-              <h3 class="service-card__title">Грузовой автомобиль</h3>
-              <div class="service-card__price">от 14 000₽</div>
-            </div>
-            <!-- /.service-card__wrapper -->
-
-            <img src="img/page/service/5.png" alt="" class="service-card__image">
-          </div>
-          <!-- /.service__card service-card -->
-
-          <div onclick="window.location.href='https://yandex.ru'" class="service__card service-card">
-            <div class="service-card__wrapper">
-              <h3 class="service-card__title">Грузовой автомобиль</h3>
-              <div class="service-card__price">от 14 000₽</div>
+              <h3 class="service-card__title">Малый <br> Грузовой</h3>
+              <div class="service-card__price">от 13 000₽</div>
             </div>
             <!-- /.service-card__wrapper -->
 
@@ -220,7 +209,7 @@
           </h2>
 
           <svg class="modal__close" data-micromodal-close viewBox="0 0 36 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M2 2L34 33M34 2L2 33" stroke="white" stroke-width="4" />
+            <path data-micromodal-close d="M2 2L34 33M34 2L2 33" stroke="white" stroke-width="4" />
           </svg>
         </header>
 
