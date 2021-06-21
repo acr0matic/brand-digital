@@ -3,6 +3,16 @@
     margin-bottom: 30px;
   }
 
+  .row {
+    flex-wrap: nowrap;
+    overflow: auto;
+
+    @include breakpoint($breakpoint-tablet) {
+      flex-wrap: wrap;
+      overflow: visible;
+    }
+  }
+
   .col-12 {
     &:not(:last-child) {
       @include breakpoint($breakpoint-tablet--large) {

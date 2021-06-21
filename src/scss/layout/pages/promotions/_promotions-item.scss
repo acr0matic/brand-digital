@@ -13,6 +13,37 @@
 
   color: $text-white;
 
+  cursor: pointer;
+  transition: 0.15s ease;
+
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  &--big {
+    min-height: 320px;
+    cursor: default;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      min-height: 260px !important;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      display: none;
+    }
+
+    &:hover {
+      transform: none !important;
+    }
+
+    .promotions-item__info {
+      font-size: 24px;
+
+      @include breakpoint($breakpoint-laptop--large) {
+        font-size: $font-text - 4;
+      }
+    }
+  }
+
   @include breakpoint($breakpoint-laptop--large) {
     min-height: 210px;
     border-radius: 20px;
@@ -23,12 +54,19 @@
   }
 
   @include breakpoint($breakpoint-tablet--large) {
-    max-width: 450px;
+    max-width: 420px;
+    min-height: 210px;
 
     margin-left: auto;
     margin-right: auto;
 
     border-radius: 15px;
+  }
+
+  @media (hover: hover) {
+    &:hover {
+      transform: translateY(-10px);
+    }
   }
 
   &--new {
@@ -85,6 +123,10 @@
       font-size: 20px;
       font-weight: $weight-Bold;
     }
+  }
+
+  &__text {
+    display: none;
   }
 
   &__info {
