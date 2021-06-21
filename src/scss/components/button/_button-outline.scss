@@ -26,4 +26,17 @@
       font-size: 18px;
     }
   }
+
+  &--white {
+    border-color: $palette-white;
+    color: $text-white;
+    padding: 17px 40px;
+
+    font-size: 24px;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      padding: 13px 30px;
+      font-size: 18px;
+    }
+  }
 }
