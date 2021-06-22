@@ -1,0 +1,97 @@
+.blog-filters {
+  margin-bottom: 65px;
+
+  @include breakpoint($breakpoint-mobile--large) {
+    margin-bottom: 30px;
+  }
+
+  &--small {
+    margin-bottom: 0;
+
+    .blog-filters__item {
+      min-width: 175px;
+
+      padding: 8px 0;
+      font-size: 18px;
+
+      @include breakpoint($breakpoint-laptop--large) {
+        min-width: 150px;
+      }
+
+      @include breakpoint($breakpoint-tablet--large) {
+        min-width: 120px;
+        font-size: 14px;
+      }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        min-width: 140px;
+      }
+    }
+  }
+
+  &__title {
+    margin-bottom: 10px;
+
+    font-size: 28px;
+    font-weight: $weight-Bold;
+
+    @include breakpoint($breakpoint-tablet--large) {
+      font-size: 24px;
+    }
+  }
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+
+    @include breakpoint($breakpoint-mobile--large) {
+      overflow: auto;
+      padding-bottom: 15px;
+    }
+  }
+
+  &__item {
+    min-width: 235px;
+
+    padding: 10px 0;
+    border-radius: $border-radius-small;
+
+    font-size: 20px;
+    font-weight: $weight-Medium;
+    text-align: center;
+
+    color: $text-white;
+
+    cursor: pointer;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      min-width: 200px;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      width: 25%;
+      min-width: 140px;
+      font-size: 14px;
+    }
+
+    &--blue {
+      background-color: #7590f8;
+    }
+
+    &--green {
+      background-color: #18a565;
+    }
+
+    &--purple {
+      background-color: #c068f8;
+    }
+
+    &--gray {
+      background-color: #717171;
+    }
+
+    &:not(:last-child) {
+      margin-right: 15px;
+    }
+  }
+}
