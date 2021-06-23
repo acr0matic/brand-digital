@@ -1,0 +1,21 @@
+.service-header {
+  height: 540px;
+  overflow: hidden;
+
+  color: $text-white;
+  background-color: $palette-black;
+
+  @include breakpoint($breakpoint-laptop--large) {
+    height: 440px;
+  }
+
+  &__title {
+    margin-top: 35px;
+    margin-bottom: 35px;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  }
+}
