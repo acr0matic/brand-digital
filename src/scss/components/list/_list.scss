@@ -1,4 +1,46 @@
 .list {
+  &--marked {
+    .list__item {
+      display: flex;
+
+      font-size: 24px;
+
+      @include breakpoint($breakpoint-laptop--large) {
+        font-size: 18px;
+      }
+
+      &::before {
+        content: "";
+        flex-shrink: 0;
+
+        width: 12px;
+        height: 12px;
+
+        margin-top: 8px;
+        margin-right: 12px;
+
+        border-radius: 50%;
+        background-color: $palette-orange;
+
+        @include breakpoint($breakpoint-laptop--large) {
+          width: 9px;
+          height: 9px;
+
+          margin-top: 5px;
+          margin-right: 8px;
+        }
+      }
+
+      &:not(:last-child) {
+        margin-bottom: 30px;
+
+        @include breakpoint($breakpoint-laptop--large) {
+          margin-bottom: 25px;
+        }
+      }
+    }
+  }
+
   &--feature {
     .list__item {
       font-size: 20px;

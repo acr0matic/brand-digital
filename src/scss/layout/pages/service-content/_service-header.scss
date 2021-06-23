@@ -5,6 +5,8 @@
   color: $text-white;
   background-color: $palette-black;
 
+  margin-bottom: 50px;
+
   @include breakpoint($breakpoint-laptop--large) {
     height: 440px;
   }

@@ -292,7 +292,7 @@
         <div class="container">
           <div class="hero__cta">
             <button class="button button--cta button-primary mb-3 mb-md-0 me-md-3">Начать проект</button>
-            <button class="button button--cta button-outline">Портфолио</button>
+            <button href="#portfolio" class="button button--cta button-outline">Портфолио</button>
           </div>
           <!-- /.hero__action -->
         </div>

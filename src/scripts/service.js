@@ -13,13 +13,34 @@ const serviceContentSection = document.getElementById('service-content');
 if (serviceContentSection) {
   const serviceItems = serviceContentSection.querySelectorAll('.service-content-tabs__item');
 
-  serviceItems.forEach(item => {
+  serviceItems.forEach((item, index) => {
     item.addEventListener('click', () => {
       const activeItem = document.querySelector('.service-content-tabs__item--active');
       if (activeItem) activeItem.classList.remove('service-content-tabs__item--active');
 
       item.classList.add('service-content-tabs__item--active');
+      serviceTabs.slideTo(index);
     });
   });
 
 }
+
+const serviceTabs = new Swiper('.service-content-slider', {
+  simulateTouch: false,
+  allowTouchMove: false,
+
+  effect: 'fade',
+  fadeEffect: {
+    crossFade: true
+  },
+});
+
+const serviceGallery = new Swiper('.service-content-gallery', {
+  slidesPerView: 1,
+  spaceBetween: 15,
+
+  pagination: {
+    el: '.service-content-gallery .swiper-pagination',
+    clickable: true,
+  },
+});

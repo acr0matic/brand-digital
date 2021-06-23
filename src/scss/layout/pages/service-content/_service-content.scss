@@ -3,5 +3,8 @@
 }
 
 .service-content {
-
+  &__cta {
+    display: flex;
+    align-items: center;
+  }
 }

@@ -1,7 +1,15 @@
 .button-outline {
   border: $button-outline__border;
-  padding: 22px 40px;
+  padding: 20px 40px;
   color: $text-black;
+
+  font-size: 24px;
+  font-weight: $weight-Bold;
+
+  @include breakpoint($breakpoint-laptop--large) {
+    padding: 12px 30px;
+    font-size: 18px;
+  }
 
   @media (hover: hover) {
     &:hover {
