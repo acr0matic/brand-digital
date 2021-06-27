@@ -1,4 +1,5 @@
 #contact {
+  margin-bottom: 80px;
   padding-top: 70px;
   padding-bottom: 85px;
 
@@ -6,12 +7,16 @@
 
   color: $text-white;
 
+  @include breakpoint($breakpoint-laptop--large) {
+    margin-bottom: 20px;
+  }
+
   @include breakpoint($breakpoint-laptop--medium) {
     padding-top: 40px;
   }
 
   @include breakpoint($breakpoint-mobile--large) {
-    margin-bottom: 150px;
+    margin-bottom: 100px;
   }
 }
 
@@ -178,7 +183,7 @@
 
     @include breakpoint($breakpoint-tablet--large) {
       right: -30px;
-      bottom: -140px;
+      bottom: -160px;
       width: 400px;
     }
 

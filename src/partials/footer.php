@@ -161,6 +161,7 @@
 <script src="scripts/service.js"></script>
 <script src="scripts/promotions.js"></script>
 <script src="scripts/misc.js"></script>
+<script src="scripts/yMap.js"></script>
 
 <script src="scripts/header.js"></script>
 <!-- endbuild -->
