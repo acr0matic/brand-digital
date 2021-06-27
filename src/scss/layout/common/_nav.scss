@@ -49,13 +49,14 @@
       }
 
       &__item {
-
       }
 
       &__link {
         position: relative;
         font-size: 24px;
         line-height: 140%;
+
+        color: #cbcbcb;
 
         @include breakpoint($breakpoint-laptop--large) {
           font-size: 20px;
@@ -80,11 +81,15 @@
         }
 
         @media (hover: hover) {
-          &:hover::after {
-            right: -30px;
+          &:hover {
+            color: $text-white;
 
-            opacity: 1;
-            visibility: visible;
+            &::after {
+              right: -30px;
+
+              opacity: 1;
+              visibility: visible;
+            }
           }
         }
       }

@@ -133,6 +133,9 @@
         <!-- /.confidence__infinite -->
       </div>
       <!-- /.confidence__bg -->
+
+      <div class="confidence__fade"></div>
+        <!-- /.confidence__fade -->
     </div>
     <!-- /.confidence -->
   </div>
