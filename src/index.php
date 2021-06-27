@@ -150,7 +150,9 @@
                       <br>
                       работаем эффективно и быстро.
                       <br>
-                      Делаем графический дизайн, web, анимации и многое другое.
+                      Делаем графический дизайн, web, анимации и многое
+                      <br>
+                      другое.
                     </p>
 
                     <p class="page__description hero__description hero__description--mobile">

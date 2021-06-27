@@ -10,7 +10,7 @@ if (hero) {
 
       heroSlider.slideTo(index + 1);
       portfolioTabs.slideTo(index);
-      hero.style.backgroundImage = `url('/src/img/page/main/hero/bg/${index + 1}.png')`;
+      hero.style.backgroundImage = `url('/img/page/main/hero/bg/${index + 1}.png')`;
     });
   });
 }

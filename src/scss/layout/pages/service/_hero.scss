@@ -8,6 +8,7 @@
 
   @include breakpoint($breakpoint-laptop--large) {
     background-size: 800px;
+    margin-bottom: 35px;
   }
 
   @include breakpoint($breakpoint-mobile--large) {
@@ -90,9 +91,11 @@
     }
 
     &__motion {
+      bottom: -150px;
       width: 1050px;
 
       @include breakpoint($breakpoint-laptop--large) {
+        bottom: -120px;
         width: 780px;
       }
     }

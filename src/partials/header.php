@@ -142,7 +142,7 @@
         <!-- /.header__callback -->
 
         <div class="header__action">
-          <button data-micromodal-trigger="modal-callback" class="header__button button button-small">Связаться с нами</button>
+          <button disabled data-micromodal-trigger="modal-callback" class="header__button button button-small">Связаться с нами</button>
         </div>
         <!-- /.header__action -->
 

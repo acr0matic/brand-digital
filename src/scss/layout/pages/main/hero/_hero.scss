@@ -11,6 +11,8 @@
 
   overflow: hidden;
 
+  margin-bottom: -30px;
+
   @include breakpoint($breakpoint-laptop--large) {
     background-size: 720px;
     background-position-y: calc(100% - 94px);
@@ -47,6 +49,7 @@
   &__row {
     &--white {
       background-color: $palette-white;
+      padding-bottom: 30px;
     }
 
     &--mobile {
@@ -174,7 +177,7 @@
   }
 
   &__description {
-    padding-bottom: 110px;
+    min-height: 170px;
 
     @include breakpoint($breakpoint-laptop--medium) {
       padding-bottom: 60px;
@@ -213,17 +216,17 @@
     position: absolute;
     z-index: 0;
     right: -100px;
-    bottom: -150px;
+    bottom: -120px;
 
     width: 950px;
 
     pointer-events: none;
 
     @include breakpoint($breakpoint-laptop--large) {
-      right: 0;
-      bottom: -120px;
+      right: -60px;
+      bottom: -100px;
 
-      width: 680px;
+      width: 710px;
     }
 
     @include breakpoint($breakpoint-laptop--medium) {
