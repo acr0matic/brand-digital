@@ -1,4 +1,8 @@
 .social {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
   &__link {
     transition: 0.15s ease;
 

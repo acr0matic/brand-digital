@@ -137,6 +137,10 @@
   &__burger {
     margin-left: auto;
 
+    @include breakpoint($breakpoint-laptop--medium) {
+      margin-left: 15px;
+    }
+
     @include breakpoint($breakpoint-tablet--large) {
       margin-left: 0;
     }

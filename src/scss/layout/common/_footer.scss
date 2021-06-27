@@ -112,10 +112,6 @@
   }
 
   &__social {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
     margin-top: 25px;
 
     @include breakpoint($breakpoint-mobile--large) {
