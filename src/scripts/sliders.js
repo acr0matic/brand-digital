@@ -2,15 +2,23 @@ const hero = document.getElementById('hero');
 if (hero) {
   const heroAction = hero.querySelectorAll('.hero__service');
   heroAction.forEach((action, index) => {
-    action.addEventListener('click', () => {
+    action.addEventListener('click', (e) => {
       const activeCard = document.querySelector('.hero__service--active');
 
-      if (activeCard) activeCard.classList.remove('hero__service--active');
-      action.classList.add('hero__service--active');
+      if (e.currentTarget === activeCard) {
+        heroSlider.slideTo(0);
+        portfolioTabs.slideTo(0);
+        activeCard.classList.remove('hero__service--active');
+      }
 
-      heroSlider.slideTo(index + 1);
-      portfolioTabs.slideTo(index);
-      hero.style.backgroundImage = `url('/img/page/main/hero/bg/${index + 1}.png')`;
+      else {
+        if (activeCard) activeCard.classList.remove('hero__service--active');
+        action.classList.add('hero__service--active');
+
+        heroSlider.slideTo(index + 1);
+        portfolioTabs.slideTo(index);
+        hero.style.backgroundImage = `url('/img/page/main/hero/bg/${index + 1}.png')`;
+      }
     });
   });
 }

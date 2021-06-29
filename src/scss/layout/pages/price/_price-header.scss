@@ -1,0 +1,23 @@
+#price-header {
+  background-color: $palette-black;
+  color: $text-white;
+}
+
+.price-header {
+  padding-top: 40px;
+
+  background: url("../img/page/price/background.svg") no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+
+  &__title {
+    margin-bottom: 70px;
+  }
+
+  &__promotions {
+    position: relative;
+    bottom: -80px;
+
+    margin-top: -80px;
+  }
+}

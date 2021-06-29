@@ -1,12 +1,14 @@
-const promotions = document.getElementById('promotions');
+const promotions = document.getElementById('modal-promotions');
 
 if (promotions) {
+  const promotionsWrapper = document.querySelector('.promotions');
+
   const modal = document.getElementById('modal-promotions');
   const content = modal.querySelector('.modal__inner');
   const title = modal.querySelector('.modal__title');
   const text = modal.querySelector('.modal__text');
 
-  const items = promotions.querySelectorAll('.promotions-item');
+  const items = promotionsWrapper.querySelectorAll('.promotions-item');
 
   let copied = null;
 
