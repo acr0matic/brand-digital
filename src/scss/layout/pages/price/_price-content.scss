@@ -1,8 +1,22 @@
 #price-content {
   padding-top: 120px;
+
+  @include breakpoint($breakpoint-mobile--large) {
+    padding-top: 0;
+  }
 }
 
 .price-content {
+  &__head {
+    @include breakpoint($breakpoint-mobile--large) {
+      padding-top: 20px;
+      padding-bottom: 15px;
+
+      color: $text-white;
+      background-color: $palette-black;
+    }
+  }
+
   &__title {
     margin-bottom: 40px;
     text-align: center;
@@ -10,12 +24,31 @@
     @include breakpoint($breakpoint-laptop--large) {
       font-size: 45px;
     }
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      font-size: 32px;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      margin-bottom: 15px;
+
+      text-align: left;
+      font-size: 24px;
+      font-weight: $weight-Black;
+    }
   }
 
   &__action {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    @include breakpoint($breakpoint-mobile--large) {
+      justify-content: flex-start;
+      overflow: auto;
+
+      padding-bottom: 15px;
+    }
   }
 
   &__service {
@@ -28,8 +61,40 @@
     font-size: 36px;
     cursor: pointer;
 
+    @include breakpoint($breakpoint-laptop--medium) {
+      font-size: 28px;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      font-size: 18px;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      min-width: 150px;
+
+      border: 1px solid $palette-white;
+      border-radius: $border-radius-small;
+
+      padding: 12px 24px;
+
+      font-size: 16px;
+    }
+
+    &:not(:last-child) {
+      @include breakpoint($breakpoint-mobile--large) {
+        margin-right: 10px;
+      }
+    }
+
     &--active {
       font-weight: $weight-Medium;
+
+      @include breakpoint($breakpoint-mobile--large) {
+        background-color: $palette-white;
+        color: $text-black;
+
+        font-weight: $weight-Bold;
+      }
 
       .price-content__icon {
         filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 0.25));
@@ -58,6 +123,20 @@
       width: 150px;
       height: 150px;
     }
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      width: 125px;
+      height: 125px;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      width: 90px;
+      height: 90px;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      display: none;
+    }
   }
 
   &__info {
@@ -72,10 +151,27 @@
     @include breakpoint($breakpoint-laptop--large) {
       font-size: 20px;
     }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      width: 90%;
+      font-size: 18px;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      width: 100%;
+      margin: 20px auto 20px auto;
+
+      text-align: left;
+      font-size: 1px;
+    }
   }
 
   &__card {
     margin-bottom: 50px;
+
+    @include breakpoint($breakpoint-mobile--large) {
+      margin-bottom: 15px;
+    }
   }
 
   &__button {

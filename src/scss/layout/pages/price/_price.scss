@@ -1,3 +1,20 @@
 @import "price-header";
 @import "price-content";
 @import "price-card";
+
+#price {
+  display: flex;
+  flex-direction: column;
+
+  #price-header {
+    @include breakpoint($breakpoint-mobile--large) {
+      order: 2;
+    }
+  }
+
+  #price-content {
+    @include breakpoint($breakpoint-mobile--large) {
+      order: 1;
+    }
+  }
+}
