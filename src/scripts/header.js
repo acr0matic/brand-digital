@@ -28,8 +28,16 @@ window.addEventListener('scroll',
 const headerBurger = header.querySelector('.header__burger');
 
 if (window.matchMedia('(min-width: 991px)').matches) {
-  headerBurger.addEventListener('mouseenter', () => headerBurger.firstElementChild.classList.add('is-active'));
-  headerBurger.addEventListener('mouseleave', () => headerBurger.firstElementChild.classList.remove('is-active'));
+  let timer = setTimeout(() => headerBurger.firstElementChild.classList.remove('is-active'), 500);
+
+  headerBurger.addEventListener('mouseenter', () => {
+    window.clearTimeout(timer);
+    headerBurger.firstElementChild.classList.add('is-active');
+  });
+
+  headerBurger.addEventListener('mouseleave', () => timer = window.setTimeout(() => {
+    headerBurger.firstElementChild.classList.remove('is-active');
+  }, 500));
 }
 
 else {

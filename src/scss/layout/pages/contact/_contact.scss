@@ -146,7 +146,7 @@
         margin-right: 20px;
 
         @include breakpoint($breakpoint-laptop--large) {
-          margin-right: 5px;
+          margin-right: 15px;
         }
 
         @include breakpoint($breakpoint-mobile--large) {
@@ -154,12 +154,14 @@
         }
       }
 
-      @include breakpoint($breakpoint-laptop--large) {
-        transform: scale(0.7);
-      }
+      .social__icon {
+        width: 42px;
+        height: 42px;
 
-      @include breakpoint($breakpoint-mobile--large) {
-        transform: scale(0.9);
+        @include breakpoint($breakpoint-laptop--large) {
+          width: 36px;
+          height: 36px;
+        }
       }
     }
   }

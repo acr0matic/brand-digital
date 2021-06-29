@@ -159,14 +159,14 @@
   }
 
   &__icon {
-    width: 35px;
+    width: 36px;
 
     @include breakpoint($breakpoint-laptop--large) {
       width: 27px;
     }
 
     @include breakpoint($breakpoint-mobile--large) {
-      width: 35px;
+      width: 36px;
     }
   }
 
