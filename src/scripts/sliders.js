@@ -193,3 +193,14 @@ if (window.matchMedia('(max-width: 1200px)').matches) {
     else if (prevSlide && !prevSlide.classList.contains('swiper-slide-visible')) advantages.slidePrev()
   }
 }
+
+const priceSlider = new Swiper('.price-content-slider', {
+  simulateTouch: false,
+  speed: 500,
+  slidesPerView: 1,
+
+  effect: 'fade',
+  fadeEffect: {
+    crossFade: true
+  },
+});

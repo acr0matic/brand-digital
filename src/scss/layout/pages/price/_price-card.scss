@@ -1,0 +1,49 @@
+.price-card {
+  padding-bottom: 12px;
+
+  border-radius: 7px 7px 5px 5px;
+  overflow: hidden;
+  text-align: center;
+
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.15);
+
+  &__title {
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    background-color: $palette-orange;
+    color: $text-white;
+
+    font-size: $font-text;
+  }
+
+  &__picture {
+    width: 100%;
+  }
+
+  &__cost {
+    position: relative;
+    display: inline-block;
+
+    padding-bottom: 3px;
+
+    font-size: $font-text;
+    font-weight: $weight-Bold;
+
+    color: $text-orange;
+
+    &--unknown {
+      border-bottom: 2px solid $palette-orange;
+
+      cursor: pointer;
+      transition: 0.15s ease;
+
+      @media (hover: hover) {
+        &:hover {
+          transform: translateY(-5px);
+          border-color: transparent;
+        }
+      }
+    }
+  }
+}

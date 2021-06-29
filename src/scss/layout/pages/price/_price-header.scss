@@ -1,6 +1,12 @@
 #price-header {
   background-color: $palette-black;
   color: $text-white;
+
+  margin-bottom: 60px;
+
+  @include breakpoint($breakpoint-laptop--large) {
+    margin-bottom: 20px;
+  }
 }
 
 .price-header {
