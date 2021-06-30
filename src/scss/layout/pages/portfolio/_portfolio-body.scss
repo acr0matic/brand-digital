@@ -1,0 +1,119 @@
+.portfolio-body {
+  &__action {
+    position: relative;
+    z-index: 2;
+
+    top: -110px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      top: -90px;
+    }
+  }
+
+  &__service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+
+    font-size: 36px;
+    cursor: pointer;
+
+    color: $text-black;
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      font-size: 28px;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      font-size: 18px;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      min-width: 150px;
+
+      border: 1px solid $palette-white;
+      border-radius: $border-radius-small;
+
+      padding: 12px 24px;
+
+      font-size: 16px;
+    }
+
+    &:not(:last-child) {
+      @include breakpoint($breakpoint-mobile--large) {
+        margin-right: 10px;
+      }
+    }
+
+    &--active {
+      font-weight: $weight-Bold;
+
+      @include breakpoint($breakpoint-mobile--large) {
+        background-color: $palette-white;
+        color: $text-black;
+
+        font-weight: $weight-Bold;
+      }
+
+      .portfolio-body__icon {
+        filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 0.25));
+
+        .background {
+          fill: $palette-white;
+        }
+
+        .figure {
+          fill: $palette-orange;
+        }
+      }
+    }
+  }
+
+  &__icon {
+    margin-bottom: 20px;
+    width: 190px;
+    height: 190px;
+
+    filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.161));
+
+    transition: 0.3s ease;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      width: 150px;
+      height: 150px;
+    }
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      width: 125px;
+      height: 125px;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      width: 90px;
+      height: 90px;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      display: none;
+    }
+  }
+
+  &__grid {
+    margin-bottom: 60px;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      margin-bottom: 20px;
+    }
+  }
+
+  &__button {
+    display: block;
+    margin: 0 auto;
+  }
+}

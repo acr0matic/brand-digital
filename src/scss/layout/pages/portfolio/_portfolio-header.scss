@@ -1,0 +1,37 @@
+.portfolio-header {
+  position: relative;
+  overflow: hidden;
+
+  padding-bottom: 170px;
+
+  background-color: $palette-black;
+  color: $text-white;
+
+  .container {
+    position: relative;
+    z-index: 2;
+  }
+
+  &__background {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    bottom: 0;
+
+    clip-path: polygon(30% 0, 100% 0%, 100% 100%, 0% 100%);
+
+    @include breakpoint($breakpoint-laptop--large) {
+      right: -20%;
+    }
+  }
+
+  &__title {
+    padding-top: 70px;
+    margin-bottom: 25px;
+    font-size: 54px;
+  }
+
+  &__text {
+    font-size: 24px;
+  }
+}

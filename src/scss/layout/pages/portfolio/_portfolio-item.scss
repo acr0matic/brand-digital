@@ -1,0 +1,64 @@
+.portfolio-body {
+  .portfolio-item {
+    margin-bottom: 20px;
+    padding: 20px 20px 15px 20px;
+    background-color: #f3f3f3;
+
+    border-radius: 20px;
+
+    &__picture {
+      display: block;
+      margin-bottom: 20px;
+
+      height: 360px;
+
+      border-radius: 20px;
+      overflow: hidden;
+
+      @include breakpoint($breakpoint-laptop--large) {
+        height: 250px;
+      }
+    }
+
+    &__image {
+    }
+
+    &__title {
+      margin-bottom: 10px;
+      font-weight: $weight-Bold;
+      font-size: $font-text;
+
+      @include breakpoint($breakpoint-laptop--large) {
+        margin-bottom: 5px;
+        font-size: 20px;
+      }
+    }
+
+    &__footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    &__deadline {
+      font-size: 20px;
+      font-weight: $weight-Medium;
+
+      color: #777777;
+
+      @include breakpoint($breakpoint-laptop--large) {
+        font-size: 16px;
+      }
+
+      span {
+        font-weight: $weight-Bold;
+        color: $text-orange;
+      }
+    }
+
+    &__more {
+      height: 25px;
+      cursor: pointer;
+    }
+  }
+}
