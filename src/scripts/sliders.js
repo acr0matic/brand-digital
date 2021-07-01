@@ -39,6 +39,7 @@ const heroSlider = new Swiper('.hero-slider', {
   simulateTouch: false,
   speed: 500,
   slidesPerView: 1,
+  roundLengths: true,
 
   effect: 'fade',
   fadeEffect: {
@@ -50,6 +51,7 @@ const portfolioList = [];
 const portfolioTabs = new Swiper('.portfolio-slider-tab', {
   simulateTouch: false,
   allowTouchMove: false,
+  roundLengths: true,
 
   effect: 'fade',
   fadeEffect: {
@@ -198,9 +200,19 @@ const priceSlider = new Swiper('.price-content-slider', {
   simulateTouch: false,
   speed: 500,
   slidesPerView: 1,
+  roundLengths: true,
 
   effect: 'fade',
   fadeEffect: {
     crossFade: true
   },
+});
+
+const promotionsSlider = new Swiper('.slider-promotions', {
+  simulateTouch: false,
+  allowTouchMove: false,
+
+  speed: 500,
+  slidesPerView: 1,
+  spaceBetween: 30,
 });

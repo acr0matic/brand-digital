@@ -166,6 +166,18 @@
     }
   }
 
+  &__slider {
+    .col-12 {
+      &:last-child {
+        .price-card__picture {
+          @include breakpoint($breakpoint-mobile--large) {
+            transform: scaleX(1);
+          }
+        }
+      }
+    }
+  }
+
   &__card {
     margin-bottom: 50px;
 

@@ -87,5 +87,14 @@
     bottom: 0;
 
     width: 100%;
+    max-width: 430px;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      max-width: 315px;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      max-width: 180px;
+    }
   }
 }

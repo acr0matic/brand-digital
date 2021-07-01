@@ -66,7 +66,7 @@
     <div class="container">
       <div class="header">
         <div class="header__logo">
-          <a href="">
+          <a href="/">
             <svg class="svg logo" viewBox="0 0 253 90" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M54.019 52.8232H62.6481C62.9522 52.8237 63.2437 52.9454 63.4585 53.1614C63.6733 53.3775 63.7938 53.6702 63.7935 53.9754V88.8476C63.7938 89.1527 63.6733 89.4455 63.4585 89.6615C63.2437 89.8776 62.9522 89.9992 62.6481 89.9997H54.019C53.7148 89.9992 53.4234 89.8776 53.2086 89.6615C52.9938 89.4455 52.8733 89.1527 52.8735 88.8476V53.9754C52.8733 53.6702 52.9938 53.3775 53.2086 53.1614C53.4234 52.9454 53.7148 52.8237 54.019 52.8232Z" fill="white" class="invert" />
               <path d="M205.364 84.9729H190.446L188.707 89.282C188.622 89.4938 188.475 89.6752 188.287 89.803C188.098 89.9309 187.876 89.9994 187.648 89.9997H178.627C178.437 89.9994 178.25 89.9518 178.084 89.8613C177.917 89.7708 177.775 89.6402 177.671 89.4811C177.567 89.322 177.504 89.1396 177.487 88.95C177.471 88.7605 177.502 88.5698 177.577 88.3951L192.256 54.1398C192.423 53.7492 192.701 53.4163 193.054 53.1823C193.408 52.9482 193.822 52.8234 194.246 52.8232H201.591C202.015 52.8234 202.429 52.9482 202.783 53.1823C203.136 53.4163 203.414 53.7492 203.581 54.1398L218.261 88.3951C218.336 88.5698 218.367 88.7605 218.35 88.95C218.334 89.1396 218.271 89.322 218.167 89.4811C218.063 89.6402 217.921 89.7708 217.754 89.8613C217.587 89.9518 217.401 89.9994 217.211 89.9997H208.185C207.958 89.9996 207.737 89.9318 207.549 89.805C207.36 89.6783 207.214 89.4982 207.128 89.2877L205.364 84.9729ZM195.63 76.4782H200.178C200.369 76.4779 200.558 76.4303 200.726 76.3397C200.895 76.2491 201.039 76.1182 201.146 75.9585C201.253 75.7989 201.319 75.6154 201.338 75.4242C201.357 75.2331 201.329 75.04 201.257 74.8622L198.15 66.7744C198.131 66.7261 198.098 66.6845 198.056 66.6553C198.013 66.626 197.963 66.6103 197.911 66.6103C197.859 66.6103 197.809 66.626 197.766 66.6553C197.723 66.6845 197.69 66.7261 197.672 66.7744L194.551 74.8622C194.478 75.04 194.45 75.2331 194.47 75.4242C194.489 75.6154 194.555 75.7989 194.662 75.9585C194.768 76.1182 194.912 76.2491 195.081 76.3397C195.25 76.4303 195.438 76.4779 195.63 76.4782V76.4782Z" fill="white" class="invert" />
@@ -101,19 +101,19 @@
 
                 <div class="dropdown__content">
                   <div class="dropdown">
-                    <span class="dropdown__item dropdown__item--arrow">
+                    <a href="service-page.php" class="dropdown__item dropdown__item--arrow">
                       Оклейка транспорта
                       <svg class="dropdown__icon dropdown__icon--right" viewBox="0 0 19 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1.07617 1.64258L8.98926 9.55566L17.2393 1.64258" stroke="#FF8025" stroke-width="2.5" />
                       </svg>
-                    </span>
+                    </a>
 
                     <div class="dropdown__content dropdown__content--right">
-                      <a class="dropdown__item" href="#">Дизайн</a>
-                      <a class="dropdown__item" href="#">Интерьерная печать</a>
-                      <a class="dropdown__item" href="#">Наклейки</a>
-                      <a class="dropdown__item" href="#">Сувенирная прод.</a>
-                      <a class="dropdown__item" href="#">Брендирование</a>
+                      <a class="dropdown__item" href="service.php">Дизайн</a>
+                      <a class="dropdown__item" href="service.php">Интерьерная печать</a>
+                      <a class="dropdown__item" href="service.php">Наклейки</a>
+                      <a class="dropdown__item" href="service.php">Сувенирная прод.</a>
+                      <a class="dropdown__item" href="service.php">Брендирование</a>
                     </div>
                     <!-- /.dropdown__content -->
                   </div>
@@ -127,8 +127,8 @@
                 </div>
                 <!-- /.dropdown__content -->
               </li>
-              <li class="nav__item"><a href="" class="nav__link link">ЦЕНЫ И АКЦИИ</a></li>
-              <li class="nav__item"><a href="" class="nav__link link">НАШИ РАБОТЫ</a></li>
+              <li class="nav__item"><a href="price.php" class="nav__link link">ЦЕНЫ И АКЦИИ</a></li>
+              <li class="nav__item"><a href="portfolio.php" class="nav__link link">НАШИ РАБОТЫ</a></li>
               <li class="nav__item"><a href="" class="nav__link link">НАШИ ПРОЦЕССЫ</a></li>
             </ul>
           </nav>
@@ -178,10 +178,10 @@
 
         <nav class="side-menu__nav nav nav--side">
           <ul class="nav__list">
-            <li class="nav__item"><a href="" class="nav__link nav__link--bold">О КОМПАНИИ</a></li>
-            <li class="nav__item"><a href="" class="nav__link">КОНТАКТЫ</a></li>
-            <li class="nav__item"><a href="" class="nav__link">БЛОГ</a></li>
-            <li class="nav__item"><a href="" class="nav__link">FAQ</a></li>
+            <li class="nav__item"><a href="/" class="nav__link nav__link--bold">О КОМПАНИИ</a></li>
+            <li class="nav__item"><a href="contact.php" class="nav__link">КОНТАКТЫ</a></li>
+            <li class="nav__item"><a href="blog.php" class="nav__link">БЛОГ</a></li>
+            <li class="nav__item"><a href="faq.php" class="nav__link">FAQ</a></li>
           </ul>
         </nav>
 

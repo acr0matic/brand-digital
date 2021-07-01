@@ -22,22 +22,19 @@ if (serviceContentSection) {
       serviceTabs.slideTo(index);
     });
   });
-
 }
 
 const serviceTabs = new Swiper('.service-content-slider', {
   simulateTouch: false,
   allowTouchMove: false,
-
-  effect: 'fade',
-  fadeEffect: {
-    crossFade: true
-  },
+  roundLengths: true,
+  spaceBetween: 30,
 });
 
 const serviceGallery = new Swiper('.service-content-gallery', {
   slidesPerView: 1,
   spaceBetween: 15,
+  roundLengths: true,
 
   pagination: {
     el: '.service-content-gallery .swiper-pagination',

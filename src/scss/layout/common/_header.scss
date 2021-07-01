@@ -64,8 +64,12 @@
     }
 
     @include breakpoint($breakpoint-mobile--large) {
-      width: 75px;
+      width: 95px;
       margin-right: 0;
+    }
+
+    @include breakpoint($breakpoint-mobile) {
+      width: 82px;
     }
   }
 
@@ -116,8 +120,12 @@
       }
 
       @include breakpoint($breakpoint-mobile--large) {
-        font-size: 13px;
+        font-size: 14px;
         font-weight: $weight-Medium;
+      }
+
+      @include breakpoint($breakpoint-mobile) {
+        font-size: 12px;
       }
 
       @media (hover: hover) {

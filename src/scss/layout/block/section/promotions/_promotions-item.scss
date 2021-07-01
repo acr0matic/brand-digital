@@ -78,6 +78,10 @@
     }
   }
 
+  &--black {
+    background-color: #121212;
+  }
+
   &--new {
     &::after {
       content: "NEW";

@@ -1,12 +1,7 @@
 function InitPortfolio() {
-  const params = {
-    awaitCloseAnimation: true,
-    disableFocus: true,
-    onClose: modal => document.body.classList.remove('body-scroll--disabled'),
-  };
-
   const modal = document.getElementById('modal-portfolio');
   if (modal) {
+    const close = modal.querySelector('.modal__swipe');
     const title = modal.querySelector('.modal__title');
     const text = modal.querySelector('.modal__text');
     const list = modal.querySelector('.modal__list');
@@ -14,11 +9,15 @@ function InitPortfolio() {
 
     const items = document.querySelectorAll('.portfolio-item');
 
+    close.addEventListener('touchend', () => {
+      MicroModal.close('modal-portfolio', modalParams)
+    });
+
     items.forEach(item => {
       item.addEventListener('click', () => {
         lazyLoadInstance.update();
 
-        MicroModal.show('modal-portfolio', params);
+        MicroModal.show('modal-portfolio', modalParams);
         document.body.classList.add('body-scroll--disabled');
 
         list.innerHTML = '';

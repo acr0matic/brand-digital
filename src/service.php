@@ -107,23 +107,12 @@
 
           <div onclick="window.location.href='https://yandex.ru'" class="service__card service-card">
             <div class="service-card__wrapper">
-              <h3 class="service-card__title">Фура</h3>
-              <div class="service-card__price">от 25 000₽</div>
-            </div>
-            <!-- /.service-card__wrapper -->
-
-            <img src="img/page/service/3.png" alt="" class="service-card__image">
-          </div>
-          <!-- /.service__card service-card -->
-
-          <div onclick="window.location.href='https://yandex.ru'" class="service__card service-card">
-            <div class="service-card__wrapper">
               <h3 class="service-card__title">Фургон</h3>
               <div class="service-card__price">от 15 000₽</div>
             </div>
             <!-- /.service-card__wrapper -->
 
-            <img src="img/page/service/4.png" alt="" class="service-card__image">
+            <img src="img/page/service/3.png" alt="" class="service-card__image">
           </div>
           <!-- /.service__card service-card -->
 
@@ -134,7 +123,29 @@
             </div>
             <!-- /.service-card__wrapper -->
 
+            <img src="img/page/service/4.png" alt="" class="service-card__image">
+          </div>
+          <!-- /.service__card service-card -->
+
+          <div onclick="window.location.href='https://yandex.ru'" class="service__card service-card">
+            <div class="service-card__wrapper">
+              <h3 class="service-card__title">Фура</h3>
+              <div class="service-card__price">от 25 000₽</div>
+            </div>
+            <!-- /.service-card__wrapper -->
+
             <img src="img/page/service/5.png" alt="" class="service-card__image">
+          </div>
+          <!-- /.service__card service-card -->
+
+          <div onclick="window.location.href='https://yandex.ru'" class="service__card service-card">
+            <div class="service-card__wrapper">
+              <h3 class="service-card__title">Ваш транспорт</h3>
+              <div class="service-card__price">Спец. цена</div>
+            </div>
+            <!-- /.service-card__wrapper -->
+
+            <img src="img/page/service/6.png" alt="" class="service-card__image">
           </div>
           <!-- /.service__card service-card -->
         </div>
@@ -150,7 +161,7 @@
       <div class="promotions">
         <h2 class="promotions__title section__title text-center">Акции и скидки</h2>
 
-        <div class="row">
+        <div class="row justify-content-center">
           <div class="col-12 col-md-8 col-lg-4">
             <div data-micromodal-trigger="modal-promotions" style="background-image: url('img/section/promotions/1.svg'); background-color: #FF8025" class="promotions__item promotions-item">
               <h3 class="promotions-item__title">1 из 5</h3>
@@ -168,8 +179,9 @@
             <!-- /.promotions__item -->
           </div>
           <!-- /.col-4 -->
+
           <div class="col-12 col-md-8 col-lg-4">
-            <div data-micromodal-trigger="modal-promotions" style="background-image: url('img/section/promotions/2.svg'); background-color: #121212" class="promotions__item promotions-item promotions-item--new">
+            <div data-micromodal-trigger="modal-promotions" style="background-image: url('img/section/promotions/2.svg');" class="promotions__item promotions-item promotions-item--black promotions-item--new">
               <h3 class="promotions-item__title">499₽</h3>
               <p class="promotions-item__description">наклейки на двери</p>
 
@@ -180,6 +192,7 @@
             <!-- /.promotions__item -->
           </div>
           <!-- /.col-4 -->
+
           <div class="col-12 col-md-8 col-lg-4">
             <div data-micromodal-trigger="modal-promotions" style="background-image: url('img/section/promotions/3.svg'); background-color: #FF8025" class="promotions__item promotions-item">
               <h3 class="promotions-item__title">Бизнес по-русски</h3>

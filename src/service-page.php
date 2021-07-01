@@ -10,7 +10,8 @@
         <div class="service-header__tabs service-content-tabs">
           <div class="service-content-tabs__item service-content-tabs__item--active">
             <div class="service-content-tabs__picture">
-              <img src="img/page/service-content/1.png" alt="" class="service-content-tabs__image">
+              <img src="img/page/service-content/1.png" alt="" class="service-content-tabs__image service-content-tabs__image--main">
+              <img src="img/page/service-content/active/1.png" alt="" class="service-content-tabs__image service-content-tabs__image--hidden">
             </div>
             <!-- /.service-content-tabs__picture -->
 
@@ -20,7 +21,8 @@
 
           <div class="service-content-tabs__item">
             <div class="service-content-tabs__picture">
-              <img src="img/page/service-content/2.png" alt="" class="service-content-tabs__image">
+              <img src="img/page/service-content/2.png" alt="" class="service-content-tabs__image service-content-tabs__image--main">
+              <img src="img/page/service-content/active/2.png" alt="" class="service-content-tabs__image service-content-tabs__image--hidden">
             </div>
             <!-- /.service-content-tabs__picture -->
 
@@ -30,7 +32,8 @@
 
           <div class="service-content-tabs__item">
             <div class="service-content-tabs__picture">
-              <img src="img/page/service-content/3.png" alt="" class="service-content-tabs__image">
+              <img src="img/page/service-content/3.png" alt="" class="service-content-tabs__image service-content-tabs__image--main">
+              <img src="img/page/service-content/active/3.png" alt="" class="service-content-tabs__image service-content-tabs__image--hidden">
             </div>
             <!-- /.service-content-tabs__picture -->
 
@@ -40,7 +43,8 @@
 
           <div class="service-content-tabs__item">
             <div class="service-content-tabs__picture">
-              <img src="img/page/service-content/4.png" alt="" class="service-content-tabs__image">
+              <img src="img/page/service-content/4.png" alt="" class="service-content-tabs__image service-content-tabs__image--main">
+              <img src="img/page/service-content/active/4.png" alt="" class="service-content-tabs__image service-content-tabs__image--hidden">
             </div>
             <!-- /.service-content-tabs__picture -->
 
@@ -50,7 +54,8 @@
 
           <div class="service-content-tabs__item">
             <div class="service-content-tabs__picture">
-              <img src="img/page/service-content/5.png" alt="" class="service-content-tabs__image">
+              <img src="img/page/service-content/5.png" alt="" class="service-content-tabs__image service-content-tabs__image--main">
+              <img src="img/page/service-content/active/5.png" alt="" class="service-content-tabs__image service-content-tabs__image--hidden">
             </div>
             <!-- /.service-content-tabs__picture -->
 

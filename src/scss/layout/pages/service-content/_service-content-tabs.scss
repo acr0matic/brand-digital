@@ -27,6 +27,16 @@
         }
       }
 
+      .service-content-tabs__image--main {
+        visibility: hidden;
+        opacity: 0;
+      }
+
+      .service-content-tabs__image--hidden {
+        visibility: visible;
+        opacity: 1;
+      }
+
       .service-content-tabs__title {
         bottom: 60px;
         font-size: 28px;
@@ -76,6 +86,11 @@
 
     @include breakpoint($breakpoint-laptop--large) {
       width: 170px;
+    }
+
+    &--hidden {
+      visibility: hidden;
+      opacity: 0;
     }
   }
 

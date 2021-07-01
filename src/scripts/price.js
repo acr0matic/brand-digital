@@ -10,6 +10,7 @@ if (priceContent) {
       item.classList.add('price-content__service--active');
 
       priceSlider.slideTo(index);
+      promotionsSlider.slideTo(index);
     });
   });
 }

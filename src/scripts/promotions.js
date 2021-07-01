@@ -4,6 +4,7 @@ if (promotions) {
   const promotionsWrapper = document.querySelector('.promotions');
 
   const modal = document.getElementById('modal-promotions');
+  const close = modal.querySelector('.modal__swipe');
   const content = modal.querySelector('.modal__inner');
   const title = modal.querySelector('.modal__title');
   const text = modal.querySelector('.modal__text');
@@ -11,6 +12,10 @@ if (promotions) {
   const items = promotionsWrapper.querySelectorAll('.promotions-item');
 
   let copied = null;
+
+  close.addEventListener('touchend', () => {
+    MicroModal.close('modal-promotions', modalParams)
+  });
 
   items.forEach(item => {
     item.addEventListener('click', () => {
