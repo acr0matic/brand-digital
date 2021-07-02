@@ -6,6 +6,15 @@
 
     border-radius: 20px;
 
+    @include breakpoint($breakpoint-laptop--medium) {
+      border-radius: 10px;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      padding: 0;
+      background-color: transparent;
+    }
+
     &__picture {
       display: block;
       margin-bottom: 20px;
@@ -17,6 +26,24 @@
 
       @include breakpoint($breakpoint-laptop--large) {
         height: 250px;
+      }
+
+      @include breakpoint($breakpoint-laptop--medium) {
+        border-radius: 10px;
+        height: 180px;
+      }
+
+      @include breakpoint($breakpoint-tablet) {
+        height: 140px;
+        margin-bottom: 10px;
+      }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        height: 120px;
+      }
+
+      @include breakpoint($breakpoint-mobile--medium) {
+        height: 100px;
       }
     }
 
@@ -31,6 +58,14 @@
       @include breakpoint($breakpoint-laptop--large) {
         margin-bottom: 5px;
         font-size: 20px;
+      }
+
+      @include breakpoint($breakpoint-laptop--medium) {
+        font-size: 18px;
+      }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        font-size: 14px;
       }
     }
 
@@ -50,6 +85,14 @@
         font-size: 16px;
       }
 
+      @include breakpoint($breakpoint-laptop--medium) {
+        font-size: 14px;
+      }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        font-size: 12px;
+      }
+
       span {
         font-weight: $weight-Bold;
         color: $text-orange;
@@ -59,6 +102,14 @@
     &__more {
       height: 25px;
       cursor: pointer;
+
+      @include breakpoint($breakpoint-laptop--medium) {
+        transform: scale(0.8);
+      }
+
+      @include breakpoint($breakpoint-tablet) {
+        display: none;
+      }
     }
   }
 }

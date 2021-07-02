@@ -10,7 +10,7 @@
       </div>
       <!-- /.container -->
 
-      <img src="img/page/portfolio/background.jpg" alt="" class="portfolio-header__background">
+      <img src="img/page/portfolio/background.jpg" alt="" class="portfolio-header__background cms-image">
     </div>
     <!-- /.portfolio-header -->
 
@@ -71,7 +71,33 @@
 
         <div class="portfolio-body__grid">
           <div class="row">
-            <div class="col-4">
+            <div class="col-6 col-lg-4">
+              <div class="portfolio-body__item portfolio-item">
+                <picture class="portfolio-item__picture">
+                  <img src="img/portfolio/picture.jpg" alt="" class="portfolio-item__image cms-image">
+                </picture>
+
+                <h3 class="portfolio-item__title">Название проекта</h3>
+                <div class="portfolio-item__footer">
+                  <div class="portfolio-item__deadline">
+                    Срок исполнения:
+                    <span>3 дня</span>
+                  </div>
+                  <!-- /.portfolio-item__deadline -->
+
+                  <svg class="portfolio-item__more" width="37" height="8" viewBox="0 0 37 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6.6123 6.38086C5.93197 7.0612 5.09945 7.40137 4.11475 7.40137C3.13005 7.40137 2.29753 7.0612 1.61719 6.38086C0.936849 5.70052 0.59668 4.868 0.59668 3.8833C0.59668 2.8986 0.936849 2.06608 1.61719 1.38574C2.29753 0.705404 3.13005 0.365234 4.11475 0.365234C5.09945 0.365234 5.93197 0.705404 6.6123 1.38574C7.29264 2.06608 7.63281 2.8986 7.63281 3.8833C7.63281 4.868 7.29264 5.70052 6.6123 6.38086Z" fill="#FF8025" />
+                    <path d="M21.0605 6.38086C20.3802 7.0612 19.5477 7.40137 18.563 7.40137C17.5783 7.40137 16.7458 7.0612 16.0654 6.38086C15.3851 5.70052 15.0449 4.868 15.0449 3.8833C15.0449 2.8986 15.3851 2.06608 16.0654 1.38574C16.7458 0.705404 17.5783 0.365234 18.563 0.365234C19.5477 0.365234 20.3802 0.705404 21.0605 1.38574C21.7409 2.06608 22.0811 2.8986 22.0811 3.8833C22.0811 4.868 21.7409 5.70052 21.0605 6.38086Z" fill="#FF8025" />
+                    <path d="M35.5088 6.38086C34.8284 7.0612 33.9959 7.40137 33.0112 7.40137C32.0265 7.40137 31.194 7.0612 30.5137 6.38086C29.8333 5.70052 29.4932 4.868 29.4932 3.8833C29.4932 2.8986 29.8333 2.06608 30.5137 1.38574C31.194 0.705404 32.0265 0.365234 33.0112 0.365234C33.9959 0.365234 34.8284 0.705404 35.5088 1.38574C36.1891 2.06608 36.5293 2.8986 36.5293 3.8833C36.5293 4.868 36.1891 5.70052 35.5088 6.38086Z" fill="#FF8025" />
+                  </svg>
+                </div>
+                <!-- /.portfolio-item__footer -->
+              </div>
+              <!-- /.portfolio-body__item portfolio-item -->
+            </div>
+            <!-- /.col-6 col-lg-4 -->
+
+            <div class="col-6 col-lg-4">
               <div class="portfolio-body__item portfolio-item">
                 <picture class="portfolio-item__picture">
                   <img src="img/portfolio/picture.jpg" alt="" class="portfolio-item__image cms-image">
@@ -95,9 +121,9 @@
               </div>
               <!-- /.portfolio-body__item portfolio-item -->
             </div>
-            <!-- /.col-4 -->
+            <!-- /.col-6 col-lg-4 -->
 
-            <div class="col-4">
+            <div class="col-6 col-lg-4">
               <div class="portfolio-body__item portfolio-item">
                 <picture class="portfolio-item__picture">
                   <img src="img/portfolio/picture.jpg" alt="" class="portfolio-item__image cms-image">
@@ -121,9 +147,9 @@
               </div>
               <!-- /.portfolio-body__item portfolio-item -->
             </div>
-            <!-- /.col-4 -->
+            <!-- /.col-6 col-lg-4 -->
 
-            <div class="col-4">
+            <div class="col-6 col-lg-4">
               <div class="portfolio-body__item portfolio-item">
                 <picture class="portfolio-item__picture">
                   <img src="img/portfolio/picture.jpg" alt="" class="portfolio-item__image cms-image">
@@ -147,9 +173,9 @@
               </div>
               <!-- /.portfolio-body__item portfolio-item -->
             </div>
-            <!-- /.col-4 -->
+            <!-- /.col-6 col-lg-4 -->
 
-            <div class="col-4">
+            <div class="col-6 col-lg-4">
               <div class="portfolio-body__item portfolio-item">
                 <picture class="portfolio-item__picture">
                   <img src="img/portfolio/picture.jpg" alt="" class="portfolio-item__image cms-image">
@@ -173,9 +199,9 @@
               </div>
               <!-- /.portfolio-body__item portfolio-item -->
             </div>
-            <!-- /.col-4 -->
+            <!-- /.col-6 col-lg-4 -->
 
-            <div class="col-4">
+            <div class="col-6 col-lg-4">
               <div class="portfolio-body__item portfolio-item">
                 <picture class="portfolio-item__picture">
                   <img src="img/portfolio/picture.jpg" alt="" class="portfolio-item__image cms-image">
@@ -199,9 +225,9 @@
               </div>
               <!-- /.portfolio-body__item portfolio-item -->
             </div>
-            <!-- /.col-4 -->
+            <!-- /.col-6 col-lg-4 -->
 
-            <div class="col-4">
+            <div class="col-6 col-lg-4">
               <div class="portfolio-body__item portfolio-item">
                 <picture class="portfolio-item__picture">
                   <img src="img/portfolio/picture.jpg" alt="" class="portfolio-item__image cms-image">
@@ -225,9 +251,9 @@
               </div>
               <!-- /.portfolio-body__item portfolio-item -->
             </div>
-            <!-- /.col-4 -->
+            <!-- /.col-6 col-lg-4 -->
 
-            <div class="col-4">
+            <div class="col-6 col-lg-4">
               <div class="portfolio-body__item portfolio-item">
                 <picture class="portfolio-item__picture">
                   <img src="img/portfolio/picture.jpg" alt="" class="portfolio-item__image cms-image">
@@ -251,9 +277,9 @@
               </div>
               <!-- /.portfolio-body__item portfolio-item -->
             </div>
-            <!-- /.col-4 -->
+            <!-- /.col-6 col-lg-4 -->
 
-            <div class="col-4">
+            <div class="col-6 col-lg-4">
               <div class="portfolio-body__item portfolio-item">
                 <picture class="portfolio-item__picture">
                   <img src="img/portfolio/picture.jpg" alt="" class="portfolio-item__image cms-image">
@@ -277,33 +303,7 @@
               </div>
               <!-- /.portfolio-body__item portfolio-item -->
             </div>
-            <!-- /.col-4 -->
-
-            <div class="col-4">
-              <div class="portfolio-body__item portfolio-item">
-                <picture class="portfolio-item__picture">
-                  <img src="img/portfolio/picture.jpg" alt="" class="portfolio-item__image cms-image">
-                </picture>
-
-                <h3 class="portfolio-item__title">Мобильный Кванториум</h3>
-                <div class="portfolio-item__footer">
-                  <div class="portfolio-item__deadline">
-                    Срок исполнения:
-                    <span>3 дня</span>
-                  </div>
-                  <!-- /.portfolio-item__deadline -->
-
-                  <svg class="portfolio-item__more" width="37" height="8" viewBox="0 0 37 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M6.6123 6.38086C5.93197 7.0612 5.09945 7.40137 4.11475 7.40137C3.13005 7.40137 2.29753 7.0612 1.61719 6.38086C0.936849 5.70052 0.59668 4.868 0.59668 3.8833C0.59668 2.8986 0.936849 2.06608 1.61719 1.38574C2.29753 0.705404 3.13005 0.365234 4.11475 0.365234C5.09945 0.365234 5.93197 0.705404 6.6123 1.38574C7.29264 2.06608 7.63281 2.8986 7.63281 3.8833C7.63281 4.868 7.29264 5.70052 6.6123 6.38086Z" fill="#FF8025" />
-                    <path d="M21.0605 6.38086C20.3802 7.0612 19.5477 7.40137 18.563 7.40137C17.5783 7.40137 16.7458 7.0612 16.0654 6.38086C15.3851 5.70052 15.0449 4.868 15.0449 3.8833C15.0449 2.8986 15.3851 2.06608 16.0654 1.38574C16.7458 0.705404 17.5783 0.365234 18.563 0.365234C19.5477 0.365234 20.3802 0.705404 21.0605 1.38574C21.7409 2.06608 22.0811 2.8986 22.0811 3.8833C22.0811 4.868 21.7409 5.70052 21.0605 6.38086Z" fill="#FF8025" />
-                    <path d="M35.5088 6.38086C34.8284 7.0612 33.9959 7.40137 33.0112 7.40137C32.0265 7.40137 31.194 7.0612 30.5137 6.38086C29.8333 5.70052 29.4932 4.868 29.4932 3.8833C29.4932 2.8986 29.8333 2.06608 30.5137 1.38574C31.194 0.705404 32.0265 0.365234 33.0112 0.365234C33.9959 0.365234 34.8284 0.705404 35.5088 1.38574C36.1891 2.06608 36.5293 2.8986 36.5293 3.8833C36.5293 4.868 36.1891 5.70052 35.5088 6.38086Z" fill="#FF8025" />
-                  </svg>
-                </div>
-                <!-- /.portfolio-item__footer -->
-              </div>
-              <!-- /.portfolio-body__item portfolio-item -->
-            </div>
-            <!-- /.col-4 -->
+            <!-- /.col-6 col-lg-4 -->
           </div>
           <!-- /.row -->
         </div>

@@ -106,7 +106,7 @@
   <!-- /.container -->
 </footer>
 
-<div class="modal modal-callback micromodal-slide" id="modal-callback" aria-hidden="true">
+<div class="modal modal--window modal-callback micromodal-slide" id="modal-callback" aria-hidden="true">
   <div class="modal__overlay" tabindex="-1" data-micromodal-close>
     <div class="modal__container" role="dialog">
       <header class="modal__header">
@@ -114,8 +114,9 @@
           Предлагаем обсудить ваш проект
         </h2>
 
+        <div class="modal__swipe"></div>
         <svg class="modal__close" data-micromodal-close viewBox="0 0 36 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M2 2L34 33M34 2L2 33" stroke="white" stroke-width="4" />
+          <path data-micromodal-close d="M2 2L34 33M34 2L2 33" stroke="white" stroke-width="4" />
         </svg>
       </header>
 
@@ -125,41 +126,66 @@
         </p>
 
         <form action="" class="modal__form form form-modal">
-          <div class="input mb-3">
-            <input placeholder="Имя" autocomplete="off" type="text" name="user_name" class="input__field input__field--required">
+          <div class="input mb-2 mb-md-3">
+            <input placeholder="Имя" autocomplete="off" type="text" name="user_name" class="input__field input__field--modal input__field--required">
           </div>
           <!-- /.input -->
 
-          <div class="input mb-3">
-            <input placeholder="+7 ХХХ ХХХ-ХХ-ХХ" autocomplete="off" type="tel" name="user_name" class="input__field input__field--required">
+          <div class="input mb-2 mb-md-3">
+            <input placeholder="+7 ХХХ ХХХ-ХХ-ХХ" autocomplete="off" type="tel" name="user_name" class="input__field input__field--modal input__field--required">
           </div>
           <!-- /.input -->
 
-          <div class="input mb-4">
-            <input placeholder="E-mail" autocomplete="off" type="email" name="user_name" class="input__field">
+          <div class="input mb-3 mb-md-4">
+            <input placeholder="E-mail" autocomplete="off" type="email" name="user_name" class="input__field input__field--modal">
           </div>
           <!-- /.input -->
 
-          <span class="form__info mb-5">Обязательные поля</span>
+          <span class="form__info mb-3 mb-md-4">Обязательные поля</span>
 
-          <div class="input mb-4">
-            <textarea placeholder="Комментарий" name="user_name" class="input__field input__field--box"></textarea>
+          <div class="input mb-2 mb-md-3">
+            <textarea rows="3" placeholder="Комментарий" name="user_name" class="input__field input__field--modal input__field--box"></textarea>
           </div>
           <!-- /.input -->
 
           <div class="form__action">
-            <label class="checkbox mb-5">
+            <label class="checkbox mb-3 mb-md-4">
               <input type="checkbox">
               <span class="checkbox__mark"></span>
               <span class="checkbox__label">Согласен с <a href="" class="checkbox__policy">Политикой обработки данных</a></span>
             </label>
 
-            <button class="form__button button button-primary" type="submit">Отправить</button>
+            <button class="modal__button form__button button button-primary mt-1" type="submit">Отправить</button>
           </div>
           <!-- /.form__action -->
         </form>
 
         <img src="img/misc/modal/modal-callback.svg" alt="" class="modal__image">
+      </main>
+    </div>
+  </div>
+</div>
+
+<div class="modal modal-thank micromodal-slide" id="modal-thank" aria-hidden="true">
+  <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+    <div class="modal__container" role="dialog">
+      <header class="modal__header">
+        <h2 class="modal__title" id="modal-1-title">
+          Спасибо!
+        </h2>
+
+        <div class="modal__swipe"></div>
+        <svg class="modal__close" data-micromodal-close viewBox="0 0 36 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path data-micromodal-close d="M2 2L34 33M34 2L2 33" stroke="white" stroke-width="4" />
+        </svg>
+      </header>
+
+      <main class="modal__content">
+        <p class="modal__text">
+          Мы свяжемся с вами в течении 10 минут
+        </p>
+
+        <img src="img/misc/modal/modal-thank.svg" alt="" class="modal__image">
       </main>
     </div>
   </div>

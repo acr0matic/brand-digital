@@ -1,36 +1,105 @@
 .modal-callback {
-  &__text {
-    margin-bottom: 35px;
-    color: $text-gray;
-
-    text-align: center;
-    font-size: $font-text;
-
-    @include breakpoint($breakpoint-laptop--large) {
-      font-size: 18px;
+  .modal {
+    &__container {
+      max-width: 1040px;
     }
-  }
 
-  &__content {
-    padding: 15px 35px 80px 80px;
-  }
+    &__header {
+      @include breakpoint($breakpoint-mobile--large) {
+        margin-bottom: 0;
+      }
+    }
 
-  &__form {
-    position: relative;
-    z-index: 2;
-  }
+    &__title {
+      @include breakpoint($breakpoint-mobile--large) {
+        font-size: 20px;
+        font-weight: $weight-Medium;
+      }
+    }
 
-  &__image {
-    position: absolute;
-    top: 55%;
-    right: 0;
+    &__text {
+      margin-bottom: 25px;
+      color: $text-gray;
 
-    width: 700px;
+      text-align: center;
+      font-size: 18px;
 
-    transform: translateY(-50%);
+      @include breakpoint($breakpoint-tablet--large) {
+        font-size: 16px;
+      }
 
-    @include breakpoint($breakpoint-laptop--large) {
-      width: 550px;
+      @include breakpoint($breakpoint-mobile--large) {
+        font-size: 12px;
+      }
+    }
+
+    &__content {
+      padding: 15px 85px 80px 85px;
+
+      @include breakpoint($breakpoint-tablet--large) {
+        padding: 15px 45px 50px 45px;
+      }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        padding: 15px 15px 50px 15px;
+      }
+    }
+
+    &__form {
+      position: relative;
+      z-index: 2;
+
+      width: 50%;
+
+      @include breakpoint($breakpoint-tablet--large) {
+        width: 60%;
+      }
+
+      @include breakpoint($breakpoint-tablet--large) {
+        width: 100%;
+      }
+
+      .input__field {
+        width: 70%;
+
+        &--box {
+          width: 100%;
+        }
+      }
+    }
+
+    &__image {
+      position: absolute;
+      top: 55%;
+      right: 0;
+
+      width: 510px;
+
+      transform: translateY(-50%);
+
+      @include breakpoint($breakpoint-tablet--large) {
+        top: 45%;
+        width: 410px;
+      }
+
+      @include breakpoint($breakpoint-tablet) {
+        display: none;
+      }
+    }
+
+    &__button {
+      padding: 14px 30px;
+      font-size: 18px;
+
+      @include breakpoint($breakpoint-tablet--large) {
+        display: block;
+        margin: 0 auto;
+      }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        font-size: 14px;
+        font-weight: $weight-Medium;
+      }
     }
   }
 }

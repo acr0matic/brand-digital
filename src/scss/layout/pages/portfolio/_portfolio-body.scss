@@ -12,6 +12,19 @@
     @include breakpoint($breakpoint-laptop--large) {
       top: -90px;
     }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      top: -50px;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      top: -180px;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      overflow: auto;
+      padding-bottom: 15px;
+    }
   }
 
   &__service {
@@ -35,7 +48,7 @@
     }
 
     @include breakpoint($breakpoint-mobile--large) {
-      min-width: 150px;
+      min-width: 140px;
 
       border: 1px solid $palette-white;
       border-radius: $border-radius-small;
@@ -43,6 +56,8 @@
       padding: 12px 24px;
 
       font-size: 16px;
+
+      color: $text-white;
     }
 
     &:not(:last-child) {
@@ -110,10 +125,42 @@
     @include breakpoint($breakpoint-laptop--large) {
       margin-bottom: 20px;
     }
+
+    @include breakpoint($breakpoint-tablet) {
+      .row {
+        @include breakpoint($breakpoint-mobile--large) {
+          padding-left: 12px;
+        }
+      }
+
+      .col-6:last-child {
+        display: none;
+      }
+    }
+
+    .row {
+      @include breakpoint($breakpoint-mobile--large) {
+        position: relative;
+        top: -25px;
+      }
+    }
+
+    .col-6 {
+      margin-bottom: 20px;
+
+      @include breakpoint($breakpoint-mobile--large) {
+        margin-bottom: 10px;
+        padding: 0 12px 0 0;
+      }
+    }
   }
 
   &__button {
     display: block;
     margin: 0 auto;
+
+    @include breakpoint($breakpoint-mobile--large) {
+      margin-top: -30px;
+    }
   }
 }

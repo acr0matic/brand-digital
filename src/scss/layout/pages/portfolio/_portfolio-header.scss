@@ -7,6 +7,14 @@
   background-color: $palette-black;
   color: $text-white;
 
+  @include breakpoint($breakpoint-tablet--large) {
+    padding-bottom: 100px;
+  }
+
+  @include breakpoint($breakpoint-mobile--large) {
+    padding-bottom: 25px;
+  }
+
   .container {
     position: relative;
     z-index: 2;
@@ -23,15 +31,60 @@
     @include breakpoint($breakpoint-laptop--large) {
       right: -20%;
     }
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      font-size: 14px;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      width: 80%;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      display: none;
+    }
   }
 
   &__title {
     padding-top: 70px;
     margin-bottom: 25px;
     font-size: 54px;
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      font-size: 48px;
+    }
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      margin-bottom: 10px;
+      font-size: 36px;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      padding-top: 40px;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      padding-top: 120px;
+      text-align: left;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      font-size: 24px;
+    }
   }
 
   &__text {
     font-size: 24px;
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      font-size: 20px;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      font-size: 16px;
+      br {
+        display: none;
+      }
+    }
   }
 }

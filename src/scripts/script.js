@@ -4,6 +4,7 @@ forms.forEach(form => new Form(form));
 MicroModal.init({
   awaitCloseAnimation: true,
   disableFocus: true,
+  disableScroll: true,
 });
 
 const modalParams = {
@@ -11,6 +12,16 @@ const modalParams = {
   disableFocus: true,
   onClose: modal => document.body.classList.remove('body-scroll--disabled'),
 };
+
+const modals = document.querySelectorAll('.modal');
+modals.forEach(modal => {
+  const close = modal.querySelector('.modal__swipe');
+
+  if (close)
+    close.addEventListener('touchend', () => {
+      MicroModal.close(modal.getAttribute('id'))
+    });
+});
 
 const lazyLoadInstance = new LazyLoad({
   elements_selector: '.lazy',

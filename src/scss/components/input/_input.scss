@@ -15,6 +15,23 @@
     @include breakpoint($breakpoint-laptop--large) {
       font-size: 22px;
     }
+
+    &--modal {
+      font-size: 18px;
+      font-weight: $weight-Regular;
+
+      @include breakpoint($breakpoint-laptop--large) {
+        font-size: 18px;
+      }
+
+      @include breakpoint($breakpoint-tablet--large) {
+        font-size: 16px;
+      }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        font-size: 12px;
+      }
+    }
   }
 
   &__field {
@@ -31,6 +48,11 @@
       padding: 10px 20px;
     }
 
+    &--modal {
+      padding: 10px 15px;
+      background-color: $palette-white;
+    }
+
     &--required {
       border: $input__border--required;
     }
@@ -38,6 +60,8 @@
     &--box {
       width: 100%;
       max-width: 570px;
+
+      resize: none;
     }
 
     &::placeholder {

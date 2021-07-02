@@ -151,7 +151,7 @@ if (window.matchMedia('(max-width: 1200px)').matches) {
 
   const advantages = new Swiper('.advantages-slider', {
     speed: 500,
-    slidesPerView: 3,
+    slidesPerView: 2,
     slideToClickedSlide: true,
 
     spaceBetween: 20,
@@ -160,6 +160,10 @@ if (window.matchMedia('(max-width: 1200px)').matches) {
 
     pagination: {
       el: '.advantages-slider__pagination',
+    },
+
+    360: {
+      slidesPerView: 3,
     },
 
     768: {

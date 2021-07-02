@@ -24,21 +24,28 @@
 
     flex-shrink: 0;
 
-    width: 44px;
-    height: 44px;
+    width: 32px;
+    height: 32px;
 
     margin-top: 2px;
     margin-right: 10px;
 
-    border: 2px solid #5e5e5e;
-    border-radius: $border-radius-small;
+    border: 2px solid $palette-orange;
+    border-radius: $border-radius-medium - 2;
 
     transition: all 0.15s ease;
     cursor: pointer;
 
-    @include breakpoint($breakpoint-laptop--large) {
-      width: 32px;
-      height: 32px;
+    @include breakpoint($breakpoint-tablet--large) {
+      width: 26px;
+      height: 26px;
+
+      border-radius: $border-radius-small;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      width: 22px;
+      height: 22px;
     }
 
     &::after {
@@ -48,10 +55,10 @@
       left: 50%;
 
       display: block;
-      width: 32px;
-      height: 32px;
+      width: 22px;
+      height: 22px;
 
-      border-radius: $border-radius-small - 2;
+      border-radius: $border-radius-small - 1;
 
       background: $palette-orange;
 
@@ -60,21 +67,32 @@
       transform: translate(-50%, -50%);
       transition: opacity 0.15s ease;
 
-      @include breakpoint($breakpoint-laptop--large) {
-        width: 24px;
-        height: 24px;
+      @include breakpoint($breakpoint-tablet--large) {
+        width: 18px;
+        height: 18px;
+
+        border-radius: 2px;
+      }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        width: 14px;
+        height: 14px;
       }
     }
   }
 
   &__label {
     margin-top: 2px;
-    font-size: $font-text;
+    font-size: 18px;
 
     transition: color 0.15s ease;
 
-    @include breakpoint($breakpoint-laptop--large) {
-      font-size: 18px;
+    @include breakpoint($breakpoint-tablet--large) {
+      font-size: 16px;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      font-size: 12px;
     }
   }
 

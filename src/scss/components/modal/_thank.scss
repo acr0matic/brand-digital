@@ -1,0 +1,87 @@
+.modal-thank {
+  .modal {
+    &__container {
+      max-width: 840px;
+      padding: 75px 50px 75px 50px;
+
+      box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+
+      @include breakpoint($breakpoint-tablet) {
+        max-width: 650px;
+        padding: 40px;
+      }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        padding: 40px 15px 40px 15px;
+        text-align: center;
+      }
+    }
+
+    &__close {
+      top: -50px;
+      right: -20px;
+
+      @include breakpoint($breakpoint-tablet) {
+        top: -15px;
+        right: -10px;
+      }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        display: none;
+      }
+
+      path {
+        stroke: $palette-orange;
+      }
+    }
+
+    &__title {
+      margin-bottom: 35px;
+      font-size: 28px;
+      font-weight: $weight-Medium;
+
+      @include breakpoint($breakpoint-tablet) {
+        margin-bottom: 25px;
+        font-weight: $weight-Bold;
+      }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        font-size: 22px;
+      }
+    }
+
+    &__text {
+      font-size: 20px;
+      font-weight: $weight-Bold;
+
+      @include breakpoint($breakpoint-tablet) {
+        font-weight: $weight-Medium;
+      }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        font-size: 16px;
+      }
+    }
+
+    &__image {
+      position: absolute;
+      top: 55%;
+      right: -10px;
+
+      width: 380px;
+
+      transform: translateY(-50%);
+
+      @include breakpoint($breakpoint-tablet) {
+        position: static;
+        margin: 10px auto 0 auto;
+        transform: none;
+      }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        width: 330px;
+        margin-top: 30px;
+      }
+    }
+  }
+}

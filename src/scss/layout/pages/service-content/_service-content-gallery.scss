@@ -2,6 +2,10 @@
   &__item {
     border-radius: 50px;
     overflow: hidden;
+
+    @include breakpoint($breakpoint-tablet) {
+      border-radius: 20px;
+    }
   }
 
   &__picture {
@@ -10,6 +14,10 @@
 
     @include breakpoint($breakpoint-laptop--large) {
       height: 350px;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      height: 230px;
     }
   }
 }

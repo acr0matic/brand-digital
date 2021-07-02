@@ -13,10 +13,10 @@
     display: block;
 
     color: $text-orange;
-    font-size: 24px;
+    font-size: 16px;
 
-    @include breakpoint($breakpoint-laptop--large) {
-      font-size: 20px;
+    @include breakpoint($breakpoint-mobile--large) {
+      font-size: 12px;
     }
   }
 
