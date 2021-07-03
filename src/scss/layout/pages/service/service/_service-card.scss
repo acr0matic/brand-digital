@@ -14,6 +14,10 @@
     height: 220px;
   }
 
+  @include breakpoint($breakpoint-laptop--medium) {
+    height: 200px;
+  }
+
   @include breakpoint($breakpoint-mobile--large) {
     height: 140px;
 
@@ -60,6 +64,10 @@
       font-size: $font-headline-3 - 4;
     }
 
+    @include breakpoint($breakpoint-laptop--medium) {
+      font-size: 24px;
+    }
+
     @include breakpoint($breakpoint-mobile--large) {
       font-size: 12px;
     }
@@ -75,6 +83,10 @@
       font-size: $font-text - 4;
     }
 
+    @include breakpoint($breakpoint-laptop--medium) {
+      font-size: 18px;
+    }
+
     @include breakpoint($breakpoint-mobile--large) {
       font-size: 12px;
     }
@@ -82,7 +94,7 @@
 
   &__image {
     position: absolute;
-    z-index: 3;
+    z-index: 1;
     right: 0;
     bottom: 0;
 
@@ -93,7 +105,12 @@
       max-width: 315px;
     }
 
+    @include breakpoint($breakpoint-laptop--medium) {
+      max-width: 225px;
+    }
+
     @include breakpoint($breakpoint-mobile--large) {
+      z-index: 3;
       max-width: 180px;
     }
   }

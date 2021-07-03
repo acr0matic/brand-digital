@@ -61,6 +61,15 @@
 </head>
 
 <body class="page">
+  <!-- Прелоадер -->
+  <div class="preloader preloader--page" id="preloader">
+    <div class="preloader__wrapper">
+      <div class="preloader__logo"><img src="img/preloader.svg" alt=""></div>
+      <!-- /.preloader__logo -->
+    </div>
+    <!-- /.preloader__wrapper -->
+  </div>
+
   <!-- Шапка -->
   <header id="header">
     <div class="container">

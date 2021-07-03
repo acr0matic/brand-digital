@@ -9,7 +9,9 @@
         font-size: $font-headline-3 - 4;
       }
 
+
       @include breakpoint($breakpoint-tablet--large) {
+        margin-bottom: 20px;
         text-align: center;
       }
 
@@ -26,6 +28,10 @@
 
       @include breakpoint($breakpoint-laptop--large) {
         font-size: $font-text - 4;
+      }
+
+      @include breakpoint($breakpoint-tablet--large) {
+        font-size: 18px;
       }
 
       @include breakpoint($breakpoint-mobile--large) {

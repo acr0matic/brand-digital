@@ -17,7 +17,7 @@
             <!-- /.hero__content -->
 
             <div class="hero__cta">
-              <button class="button button-primary me-md-3">Начать проект</button>
+              <button class="button button-primary me-sm-3">Начать проект</button>
               <button class="button button-outline button-outline--orange">Портфолио</button>
 
               <div class="hero__mobile hero-mobile">
@@ -161,7 +161,7 @@
       <div class="promotions">
         <h2 class="promotions__title section__title text-center">Акции и скидки</h2>
 
-        <div class="row justify-content-center">
+        <div class="row justify-content-lg-center">
           <div class="col-12 col-md-8 col-lg-4">
             <div data-micromodal-trigger="modal-promotions" style="background-image: url('img/section/promotions/1.svg'); background-color: #FF8025" class="promotions__item promotions-item">
               <h3 class="promotions-item__title">1 из 5</h3>
@@ -221,6 +221,7 @@
             Подробности акции
           </h2>
 
+          <div class="modal__swipe"></div>
           <svg class="modal__close" data-micromodal-close viewBox="0 0 36 35" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path data-micromodal-close d="M2 2L34 33M34 2L2 33" stroke="white" stroke-width="4" />
           </svg>
@@ -255,7 +256,6 @@
       </div>
     </div>
   </div>
-
 
   <?php include_once('partials/callback.php') ?>
 </main>

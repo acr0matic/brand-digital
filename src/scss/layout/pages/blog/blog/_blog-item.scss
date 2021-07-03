@@ -18,6 +18,10 @@
       height: 220px;
     }
 
+    @include breakpoint($breakpoint-mobile--medium) {
+      height: 200px;
+    }
+
     @include breakpoint($breakpoint-mobile) {
       height: 160px;
     }
@@ -30,6 +34,10 @@
     object-fit: cover;
 
     border-radius: 20px;
+
+    @include breakpoint($breakpoint-mobile--large) {
+      border-radius: 12px;
+    }
   }
 
   &__title {
@@ -46,7 +54,7 @@
     }
 
     @include breakpoint($breakpoint-mobile--large) {
-      font-size: 24px;
+      font-size: 21px;
     }
   }
 
@@ -64,7 +72,7 @@
     }
 
     @include breakpoint($breakpoint-mobile--large) {
-      font-size: 18px;
+      font-size: 14px;
     }
   }
 

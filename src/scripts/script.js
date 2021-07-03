@@ -23,6 +23,15 @@ modals.forEach(modal => {
     });
 });
 
+// Прелоадер
+const preloader = document.getElementById('preloader');
+document.addEventListener("DOMContentLoaded", function () {
+  window.setTimeout(function () {
+    preloader.classList.add('preloader--hide');
+  }, 2500);
+});
+
+
 const lazyLoadInstance = new LazyLoad({
   elements_selector: '.lazy',
 });

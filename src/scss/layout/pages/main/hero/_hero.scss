@@ -39,11 +39,16 @@
     padding-top: 45px;
   }
 
+  @include breakpoint($breakpoint-tablet) {
+    padding-top: 25px;
+  }
+
   @include breakpoint($breakpoint-mobile--large) {
     padding-top: 15px;
   }
 
-  &--service {
+  &__slider {
+    position: relative;
   }
 
   &__row {
@@ -161,6 +166,12 @@
 
   &__content {
     color: $text-white;
+
+    @include breakpoint($breakpoint-tablet--large) {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
   }
 
   &__title {
@@ -180,6 +191,7 @@
     min-height: 170px;
 
     @include breakpoint($breakpoint-laptop--medium) {
+      min-height: initial;
       padding-bottom: 60px;
     }
 
@@ -193,12 +205,12 @@
 
       @include breakpoint($breakpoint-tablet--large) {
         display: block;
+        min-height: 60px;
 
         font-size: 21px;
       }
 
       @include breakpoint($breakpoint-mobile--large) {
-        min-height: 60px;
         font-size: 18px;
       }
 

@@ -30,6 +30,16 @@ $margin: 7px;
           right: -40px !important;
           bottom: 20% !important;
 
+          width: 290px !important;
+          height: 290px !important;
+        }
+      }
+
+      @include breakpoint($breakpoint-tablet) {
+        &::after {
+          right: -40px !important;
+          bottom: 20% !important;
+
           width: 180px !important;
           height: 180px !important;
         }

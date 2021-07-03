@@ -1,6 +1,12 @@
 .hero-action-slider {
   @include breakpoint($breakpoint-mobile--large) {
-    padding: 0 15px;
+    padding: 0 10px;
+  }
+
+  .swiper-wrapper {
+    @include breakpoint($breakpoint-tablet) {
+      justify-content: space-between;
+    }
   }
 
   .swiper-slide {
@@ -17,37 +23,37 @@
         margin-right: 40px;
       }
 
-      @include breakpoint($breakpoint-mobile--large) {
+      @include breakpoint($breakpoint-tablet) {
         margin-right: 0;
       }
     }
   }
+}
 
-  .swiper-button {
-    &-next,
-    &-prev {
-      top: -8px;
-      display: none;
+.hero-action {
+  &-next,
+  &-prev {
+    top: -8px;
+    display: none;
 
-      width: initial;
-      height: initial;
-      margin-top: 0;
+    width: initial;
+    height: initial;
+    margin-top: 0;
 
-      @include breakpoint($breakpoint-tablet--large) {
-        display: flex;
-      }
-
-      &::after {
-        transform: scale(0.2);
-      }
+    @include breakpoint($breakpoint-mobile--large) {
+      display: flex;
     }
 
-    &-prev {
-      left: -15px;
+    &::after {
+      transform: scale(0.2);
     }
+  }
 
-    &-next {
-      right: -15px;
-    }
+  &-prev {
+    left: -25px;
+  }
+
+  &-next {
+    right: -25px;
   }
 }

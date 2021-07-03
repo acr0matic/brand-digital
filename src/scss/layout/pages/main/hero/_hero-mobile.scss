@@ -1,6 +1,10 @@
 .hero-mobile {
   position: relative;
 
+  @include breakpoint($breakpoint-tablet--large) {
+    margin-top: auto;
+  }
+
   &__text {
     color: $text-orange;
     font-size: 18px;

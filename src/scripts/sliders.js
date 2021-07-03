@@ -27,6 +27,7 @@ if (window.matchMedia('(max-width: 576px)').matches) {
   const heroService = new Swiper('.hero-action-slider', {
     slidesPerView: 4,
     spaceBetween: 15,
+    roundLengths: true,
 
     navigation: {
       nextEl: '.hero-action-next',
@@ -40,6 +41,7 @@ const heroSlider = new Swiper('.hero-slider', {
   speed: 500,
   slidesPerView: 1,
   roundLengths: true,
+  allowTouchMove: false,
 
   effect: 'fade',
   fadeEffect: {
@@ -162,17 +164,19 @@ if (window.matchMedia('(max-width: 1200px)').matches) {
       el: '.advantages-slider__pagination',
     },
 
-    360: {
-      slidesPerView: 3,
-    },
+    breakpoints: {
+      360: {
+        slidesPerView: 3,
+      },
 
-    768: {
-      slidesPerView: 4,
-    },
+      768: {
+        slidesPerView: 4,
+      },
 
-    991: {
-      slidesPerView: 5,
-    },
+      991: {
+        slidesPerView: 5,
+      },
+    }
   });
 
   advantageCards.forEach((card, index) => {

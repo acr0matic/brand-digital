@@ -12,8 +12,8 @@
           <div class="swiper-container slider-promotions price-header__promotions promotions">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
-                <div class="row justify-content-center">
-                  <div class="col-12 col-md-8 col-lg-4">
+                <div class="row justify-content-lg-center">
+                  <div class="col-12 col-sm-8 col-lg-4">
                     <div data-micromodal-trigger="modal-promotions" style="background-image: url('img/section/promotions/1.svg'); background-color: #FF8025" class="promotions__item promotions-item">
                       <h3 class="promotions-item__title">1 из 5</h3>
                       <p class="promotions-item__description">бонусов в подарок</p>
@@ -29,9 +29,9 @@
                     </div>
                     <!-- /.promotions__item -->
                   </div>
-                  <!-- /.col-12 col-md-6 col-lg-4 -->
+                  <!-- /.col-12 col-sm-6 col-lg-4 -->
 
-                  <div class="col-12 col-md-8 col-lg-4">
+                  <div class="col-12 col-sm-8 col-lg-4">
                     <div data-micromodal-trigger="modal-promotions" style="background-image: url('img/section/promotions/2.svg'); background-color: #121212" class="promotions__item promotions-item promotions-item--new">
                       <h3 class="promotions-item__title">499₽</h3>
                       <p class="promotions-item__description">наклейки на двери</p>
@@ -42,9 +42,9 @@
                     </div>
                     <!-- /.promotions__item -->
                   </div>
-                  <!-- /.col-12 col-md-6 col-lg-4 -->
+                  <!-- /.col-12 col-sm-6 col-lg-4 -->
 
-                  <div class="col-12 col-md-8 col-lg-4">
+                  <div class="col-12 col-sm-8 col-lg-4">
                     <div data-micromodal-trigger="modal-promotions" style="background-image: url('img/section/promotions/3.svg'); background-color: #FF8025" class="promotions__item promotions-item">
                       <h3 class="promotions-item__title">Бизнес по-русски</h3>
                       <p class="promotions-item__description">20% скидка</p>
@@ -55,15 +55,15 @@
                     </div>
                     <!-- /.promotions__item -->
                   </div>
-                  <!-- /.col-12 col-md-6 col-lg-4 -->
+                  <!-- /.col-12 col-sm-6 col-lg-4 -->
                 </div>
                 <!-- /.row -->
               </div>
               <!-- /.swiper-slide -->
 
               <div class="swiper-slide">
-                <div class="row justify-content-center">
-                  <div class="col-12 col-md-8 col-lg-4">
+                <div class="row justify-content-lg-center">
+                  <div class="col-12 col-sm-8 col-lg-4">
                     <div data-micromodal-trigger="modal-promotions" style="background-image: url('img/section/promotions/1.svg'); background-color: #FF8025" class="promotions__item promotions-item">
                       <h3 class="promotions-item__title">1 из 5</h3>
                       <p class="promotions-item__description">бонусов в подарок</p>
@@ -79,15 +79,15 @@
                     </div>
                     <!-- /.promotions__item -->
                   </div>
-                  <!-- /.col-12 col-md-6 col-lg-4 -->
+                  <!-- /.col-12 col-sm-6 col-lg-4 -->
                 </div>
                 <!-- /.row -->
               </div>
               <!-- /.swiper-slide -->
 
               <div class="swiper-slide">
-                <div class="row justify-content-center">
-                  <div class="col-12 col-md-8 col-lg-4">
+                <div class="row justify-content-lg-center">
+                  <div class="col-12 col-sm-8 col-lg-4">
                     <div data-micromodal-trigger="modal-promotions" style="background-image: url('img/section/promotions/1.svg'); background-color: #FF8025" class="promotions__item promotions-item">
                       <h3 class="promotions-item__title">1 из 5</h3>
                       <p class="promotions-item__description">бонусов в подарок</p>
@@ -103,9 +103,9 @@
                     </div>
                     <!-- /.promotions__item -->
                   </div>
-                  <!-- /.col-12 col-md-6 col-lg-4 -->
+                  <!-- /.col-12 col-sm-6 col-lg-4 -->
 
-                  <div class="col-12 col-md-8 col-lg-4">
+                  <div class="col-12 col-sm-8 col-lg-4">
                     <div data-micromodal-trigger="modal-promotions" style="background-image: url('img/section/promotions/3.svg'); background-color: #FF8025" class="promotions__item promotions-item">
                       <h3 class="promotions-item__title">Бизнес по-русски</h3>
                       <p class="promotions-item__description">20% скидка</p>
@@ -116,15 +116,15 @@
                     </div>
                     <!-- /.promotions__item -->
                   </div>
-                  <!-- /.col-12 col-md-6 col-lg-4 -->
+                  <!-- /.col-12 col-sm-6 col-lg-4 -->
                 </div>
                 <!-- /.row -->
               </div>
               <!-- /.swiper-slide -->
 
               <div class="swiper-slide">
-                <div class="row justify-content-center">
-                  <div class="col-12 col-md-8 col-lg-4">
+                <div class="row justify-content-lg-center">
+                  <div class="col-12 col-sm-8 col-lg-4">
                     <div data-micromodal-trigger="modal-promotions" style="background-image: url('img/section/promotions/1.svg'); background-color: #FF8025" class="promotions__item promotions-item">
                       <h3 class="promotions-item__title">1 из 5</h3>
                       <p class="promotions-item__description">бонусов в подарок</p>
@@ -140,9 +140,9 @@
                     </div>
                     <!-- /.promotions__item -->
                   </div>
-                  <!-- /.col-12 col-md-6 col-lg-4 -->
+                  <!-- /.col-12 col-sm-6 col-lg-4 -->
 
-                  <div class="col-12 col-md-8 col-lg-4">
+                  <div class="col-12 col-sm-8 col-lg-4">
                     <div data-micromodal-trigger="modal-promotions" style="background-image: url('img/section/promotions/2.svg'); background-color: #121212" class="promotions__item promotions-item promotions-item--new">
                       <h3 class="promotions-item__title">499₽</h3>
                       <p class="promotions-item__description">наклейки на двери</p>
@@ -153,9 +153,9 @@
                     </div>
                     <!-- /.promotions__item -->
                   </div>
-                  <!-- /.col-12 col-md-6 col-lg-4 -->
+                  <!-- /.col-12 col-sm-6 col-lg-4 -->
 
-                  <div class="col-12 col-md-8 col-lg-4">
+                  <div class="col-12 col-sm-8 col-lg-4">
                     <div data-micromodal-trigger="modal-promotions" style="background-image: url('img/section/promotions/3.svg'); background-color: #FF8025" class="promotions__item promotions-item">
                       <h3 class="promotions-item__title">Бизнес по-русски</h3>
                       <p class="promotions-item__description">20% скидка</p>
@@ -166,15 +166,15 @@
                     </div>
                     <!-- /.promotions__item -->
                   </div>
-                  <!-- /.col-12 col-md-6 col-lg-4 -->
+                  <!-- /.col-12 col-sm-6 col-lg-4 -->
                 </div>
                 <!-- /.row -->
               </div>
               <!-- /.swiper-slide -->
 
               <div class="swiper-slide">
-                <div class="row justify-content-center">
-                  <div class="col-12 col-md-8 col-lg-4">
+                <div class="row justify-content-lg-center">
+                  <div class="col-12 col-sm-8 col-lg-4">
                     <div data-micromodal-trigger="modal-promotions" style="background-image: url('img/section/promotions/1.svg'); background-color: #FF8025" class="promotions__item promotions-item">
                       <h3 class="promotions-item__title">1 из 5</h3>
                       <p class="promotions-item__description">бонусов в подарок</p>
@@ -190,7 +190,7 @@
                     </div>
                     <!-- /.promotions__item -->
                   </div>
-                  <!-- /.col-12 col-md-6 col-lg-4 -->
+                  <!-- /.col-12 col-sm-6 col-lg-4 -->
                 </div>
                 <!-- /.row -->
               </div>
@@ -277,7 +277,7 @@
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
                   <div class="row">
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-sm-6 col-lg-4">
                       <div class="price-content__card price-card">
                         <h3 class="price-card__title">Легковой автомобиль</h3>
                         <img src="img/page/price/items/car/1.png" alt="" class="price-card__picture">
@@ -285,9 +285,9 @@
                       </div>
                       <!-- /.price-content__card price-card -->
                     </div>
-                    <!-- /.col-12 col-md-6 col-lg-4 -->
+                    <!-- /.col-12 col-sm-6 col-lg-4 -->
 
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-sm-6 col-lg-4">
                       <div class="price-content__card price-card">
                         <h3 class="price-card__title">Легковой автомобиль</h3>
                         <img src="img/page/price/items/car/2.png" alt="" class="price-card__picture">
@@ -295,9 +295,9 @@
                       </div>
                       <!-- /.price-content__card price-card -->
                     </div>
-                    <!-- /.col-12 col-md-6 col-lg-4 -->
+                    <!-- /.col-12 col-sm-6 col-lg-4 -->
 
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-sm-6 col-lg-4">
                       <div class="price-content__card price-card">
                         <h3 class="price-card__title">Легковой автомобиль</h3>
                         <img src="img/page/price/items/car/3.png" alt="" class="price-card__picture">
@@ -305,9 +305,9 @@
                       </div>
                       <!-- /.price-content__card price-card -->
                     </div>
-                    <!-- /.col-12 col-md-6 col-lg-4 -->
+                    <!-- /.col-12 col-sm-6 col-lg-4 -->
 
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-sm-6 col-lg-4">
                       <div class="price-content__card price-card">
                         <h3 class="price-card__title">Легковой автомобиль</h3>
                         <img src="img/page/price/items/car/4.png" alt="" class="price-card__picture">
@@ -315,9 +315,9 @@
                       </div>
                       <!-- /.price-content__card price-card -->
                     </div>
-                    <!-- /.col-12 col-md-6 col-lg-4 -->
+                    <!-- /.col-12 col-sm-6 col-lg-4 -->
 
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-sm-6 col-lg-4">
                       <div class="price-content__card price-card">
                         <h3 class="price-card__title">Легковой автомобиль</h3>
                         <img src="img/page/price/items/car/5.png" alt="" class="price-card__picture">
@@ -325,9 +325,9 @@
                       </div>
                       <!-- /.price-content__card price-card -->
                     </div>
-                    <!-- /.col-12 col-md-6 col-lg-4 -->
+                    <!-- /.col-12 col-sm-6 col-lg-4 -->
 
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-sm-6 col-lg-4">
                       <div class="price-content__card price-card">
                         <h3 class="price-card__title">Легковой автомобиль</h3>
                         <img src="img/page/price/items/car/6.jpg" alt="" class="price-card__picture">
@@ -335,7 +335,7 @@
                       </div>
                       <!-- /.price-content__card price-card -->
                     </div>
-                    <!-- /.col-12 col-md-6 col-lg-4 -->
+                    <!-- /.col-12 col-sm-6 col-lg-4 -->
                   </div>
                   <!-- /.row -->
                 </div>
@@ -343,7 +343,7 @@
 
                 <div class="swiper-slide">
                   <div class="row">
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-sm-6 col-lg-4">
                       <div class="price-content__card price-card">
                         <h3 class="price-card__title">Легковой автомобиль</h3>
                         <img src="img/page/price/items/desing/1.jpg" alt="" class="price-card__picture">
@@ -351,9 +351,9 @@
                       </div>
                       <!-- /.price-content__card price-card -->
                     </div>
-                    <!-- /.col-12 col-md-6 col-lg-4 -->
+                    <!-- /.col-12 col-sm-6 col-lg-4 -->
 
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-sm-6 col-lg-4">
                       <div class="price-content__card price-card">
                         <h3 class="price-card__title">Легковой автомобиль</h3>
                         <img src="img/page/price/items/desing/2.jpg" alt="" class="price-card__picture">
@@ -361,9 +361,9 @@
                       </div>
                       <!-- /.price-content__card price-card -->
                     </div>
-                    <!-- /.col-12 col-md-6 col-lg-4 -->
+                    <!-- /.col-12 col-sm-6 col-lg-4 -->
 
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-sm-6 col-lg-4">
                       <div class="price-content__card price-card">
                         <h3 class="price-card__title">Легковой автомобиль</h3>
                         <img src="img/page/price/items/desing/3.jpg" alt="" class="price-card__picture">
@@ -371,9 +371,9 @@
                       </div>
                       <!-- /.price-content__card price-card -->
                     </div>
-                    <!-- /.col-12 col-md-6 col-lg-4 -->
+                    <!-- /.col-12 col-sm-6 col-lg-4 -->
 
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-sm-6 col-lg-4">
                       <div class="price-content__card price-card">
                         <h3 class="price-card__title">Легковой автомобиль</h3>
                         <img src="img/page/price/items/desing/4.jpg" alt="" class="price-card__picture">
@@ -381,9 +381,9 @@
                       </div>
                       <!-- /.price-content__card price-card -->
                     </div>
-                    <!-- /.col-12 col-md-6 col-lg-4 -->
+                    <!-- /.col-12 col-sm-6 col-lg-4 -->
 
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-sm-6 col-lg-4">
                       <div class="price-content__card price-card">
                         <h3 class="price-card__title">Легковой автомобиль</h3>
                         <img src="img/page/price/items/desing/5.jpg" alt="" class="price-card__picture">
@@ -391,9 +391,9 @@
                       </div>
                       <!-- /.price-content__card price-card -->
                     </div>
-                    <!-- /.col-12 col-md-6 col-lg-4 -->
+                    <!-- /.col-12 col-sm-6 col-lg-4 -->
 
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-sm-6 col-lg-4">
                       <div class="price-content__card price-card">
                         <h3 class="price-card__title">Легковой автомобиль</h3>
                         <img src="img/page/price/items/desing/6.jpg" alt="" class="price-card__picture">
@@ -401,7 +401,7 @@
                       </div>
                       <!-- /.price-content__card price-card -->
                     </div>
-                    <!-- /.col-12 col-md-6 col-lg-4 -->
+                    <!-- /.col-12 col-sm-6 col-lg-4 -->
                   </div>
                   <!-- /.row -->
                 </div>
@@ -409,7 +409,7 @@
 
                 <div class="swiper-slide">
                   <div class="row">
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-sm-6 col-lg-4">
                       <div class="price-content__card price-card">
                         <h3 class="price-card__title">Легковой автомобиль</h3>
                         <img src="img/page/price/items/car/1.jpg" alt="" class="price-card__picture">
@@ -417,9 +417,9 @@
                       </div>
                       <!-- /.price-content__card price-card -->
                     </div>
-                    <!-- /.col-12 col-md-6 col-lg-4 -->
+                    <!-- /.col-12 col-sm-6 col-lg-4 -->
 
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-sm-6 col-lg-4">
                       <div class="price-content__card price-card">
                         <h3 class="price-card__title">Легковой автомобиль</h3>
                         <img src="img/page/price/items/car/2.jpg" alt="" class="price-card__picture">
@@ -427,9 +427,9 @@
                       </div>
                       <!-- /.price-content__card price-card -->
                     </div>
-                    <!-- /.col-12 col-md-6 col-lg-4 -->
+                    <!-- /.col-12 col-sm-6 col-lg-4 -->
 
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-sm-6 col-lg-4">
                       <div class="price-content__card price-card">
                         <h3 class="price-card__title">Легковой автомобиль</h3>
                         <img src="img/page/price/items/car/3.jpg" alt="" class="price-card__picture">
@@ -437,9 +437,9 @@
                       </div>
                       <!-- /.price-content__card price-card -->
                     </div>
-                    <!-- /.col-12 col-md-6 col-lg-4 -->
+                    <!-- /.col-12 col-sm-6 col-lg-4 -->
 
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-sm-6 col-lg-4">
                       <div class="price-content__card price-card">
                         <h3 class="price-card__title">Легковой автомобиль</h3>
                         <img src="img/page/price/items/car/4.jpg" alt="" class="price-card__picture">
@@ -447,9 +447,9 @@
                       </div>
                       <!-- /.price-content__card price-card -->
                     </div>
-                    <!-- /.col-12 col-md-6 col-lg-4 -->
+                    <!-- /.col-12 col-sm-6 col-lg-4 -->
 
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-sm-6 col-lg-4">
                       <div class="price-content__card price-card">
                         <h3 class="price-card__title">Легковой автомобиль</h3>
                         <img src="img/page/price/items/car/5.jpg" alt="" class="price-card__picture">
@@ -457,9 +457,9 @@
                       </div>
                       <!-- /.price-content__card price-card -->
                     </div>
-                    <!-- /.col-12 col-md-6 col-lg-4 -->
+                    <!-- /.col-12 col-sm-6 col-lg-4 -->
 
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-sm-6 col-lg-4">
                       <div class="price-content__card price-card">
                         <h3 class="price-card__title">Легковой автомобиль</h3>
                         <img src="img/page/price/items/car/6.jpg" alt="" class="price-card__picture">
@@ -467,7 +467,7 @@
                       </div>
                       <!-- /.price-content__card price-card -->
                     </div>
-                    <!-- /.col-12 col-md-6 col-lg-4 -->
+                    <!-- /.col-12 col-sm-6 col-lg-4 -->
                   </div>
                   <!-- /.row -->
                 </div>
@@ -475,7 +475,7 @@
 
                 <div class="swiper-slide">
                   <div class="row">
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-sm-6 col-lg-4">
                       <div class="price-content__card price-card">
                         <h3 class="price-card__title">Легковой автомобиль</h3>
                         <img src="img/page/price/items/desing/1.jpg" alt="" class="price-card__picture">
@@ -483,9 +483,9 @@
                       </div>
                       <!-- /.price-content__card price-card -->
                     </div>
-                    <!-- /.col-12 col-md-6 col-lg-4 -->
+                    <!-- /.col-12 col-sm-6 col-lg-4 -->
 
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-sm-6 col-lg-4">
                       <div class="price-content__card price-card">
                         <h3 class="price-card__title">Легковой автомобиль</h3>
                         <img src="img/page/price/items/desing/2.jpg" alt="" class="price-card__picture">
@@ -493,9 +493,9 @@
                       </div>
                       <!-- /.price-content__card price-card -->
                     </div>
-                    <!-- /.col-12 col-md-6 col-lg-4 -->
+                    <!-- /.col-12 col-sm-6 col-lg-4 -->
 
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-sm-6 col-lg-4">
                       <div class="price-content__card price-card">
                         <h3 class="price-card__title">Легковой автомобиль</h3>
                         <img src="img/page/price/items/desing/3.jpg" alt="" class="price-card__picture">
@@ -503,9 +503,9 @@
                       </div>
                       <!-- /.price-content__card price-card -->
                     </div>
-                    <!-- /.col-12 col-md-6 col-lg-4 -->
+                    <!-- /.col-12 col-sm-6 col-lg-4 -->
 
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-sm-6 col-lg-4">
                       <div class="price-content__card price-card">
                         <h3 class="price-card__title">Легковой автомобиль</h3>
                         <img src="img/page/price/items/desing/4.jpg" alt="" class="price-card__picture">
@@ -513,9 +513,9 @@
                       </div>
                       <!-- /.price-content__card price-card -->
                     </div>
-                    <!-- /.col-12 col-md-6 col-lg-4 -->
+                    <!-- /.col-12 col-sm-6 col-lg-4 -->
 
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-sm-6 col-lg-4">
                       <div class="price-content__card price-card">
                         <h3 class="price-card__title">Легковой автомобиль</h3>
                         <img src="img/page/price/items/desing/5.jpg" alt="" class="price-card__picture">
@@ -523,9 +523,9 @@
                       </div>
                       <!-- /.price-content__card price-card -->
                     </div>
-                    <!-- /.col-12 col-md-6 col-lg-4 -->
+                    <!-- /.col-12 col-sm-6 col-lg-4 -->
 
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-sm-6 col-lg-4">
                       <div class="price-content__card price-card">
                         <h3 class="price-card__title">Легковой автомобиль</h3>
                         <img src="img/page/price/items/desing/6.jpg" alt="" class="price-card__picture">
@@ -533,7 +533,7 @@
                       </div>
                       <!-- /.price-content__card price-card -->
                     </div>
-                    <!-- /.col-12 col-md-6 col-lg-4 -->
+                    <!-- /.col-12 col-sm-6 col-lg-4 -->
                   </div>
                   <!-- /.row -->
                 </div>
@@ -541,7 +541,7 @@
 
                 <div class="swiper-slide">
                   <div class="row">
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-sm-6 col-lg-4">
                       <div class="price-content__card price-card">
                         <h3 class="price-card__title">Легковой автомобиль</h3>
                         <img src="img/page/price/items/car/1.jpg" alt="" class="price-card__picture">
@@ -549,9 +549,9 @@
                       </div>
                       <!-- /.price-content__card price-card -->
                     </div>
-                    <!-- /.col-12 col-md-6 col-lg-4 -->
+                    <!-- /.col-12 col-sm-6 col-lg-4 -->
 
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-sm-6 col-lg-4">
                       <div class="price-content__card price-card">
                         <h3 class="price-card__title">Легковой автомобиль</h3>
                         <img src="img/page/price/items/car/2.jpg" alt="" class="price-card__picture">
@@ -559,9 +559,9 @@
                       </div>
                       <!-- /.price-content__card price-card -->
                     </div>
-                    <!-- /.col-12 col-md-6 col-lg-4 -->
+                    <!-- /.col-12 col-sm-6 col-lg-4 -->
 
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-sm-6 col-lg-4">
                       <div class="price-content__card price-card">
                         <h3 class="price-card__title">Легковой автомобиль</h3>
                         <img src="img/page/price/items/car/3.jpg" alt="" class="price-card__picture">
@@ -569,9 +569,9 @@
                       </div>
                       <!-- /.price-content__card price-card -->
                     </div>
-                    <!-- /.col-12 col-md-6 col-lg-4 -->
+                    <!-- /.col-12 col-sm-6 col-lg-4 -->
 
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-sm-6 col-lg-4">
                       <div class="price-content__card price-card">
                         <h3 class="price-card__title">Легковой автомобиль</h3>
                         <img src="img/page/price/items/car/4.jpg" alt="" class="price-card__picture">
@@ -579,9 +579,9 @@
                       </div>
                       <!-- /.price-content__card price-card -->
                     </div>
-                    <!-- /.col-12 col-md-6 col-lg-4 -->
+                    <!-- /.col-12 col-sm-6 col-lg-4 -->
 
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-sm-6 col-lg-4">
                       <div class="price-content__card price-card">
                         <h3 class="price-card__title">Легковой автомобиль</h3>
                         <img src="img/page/price/items/car/5.jpg" alt="" class="price-card__picture">
@@ -589,9 +589,9 @@
                       </div>
                       <!-- /.price-content__card price-card -->
                     </div>
-                    <!-- /.col-12 col-md-6 col-lg-4 -->
+                    <!-- /.col-12 col-sm-6 col-lg-4 -->
 
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-sm-6 col-lg-4">
                       <div class="price-content__card price-card">
                         <h3 class="price-card__title">Легковой автомобиль</h3>
                         <img src="img/page/price/items/car/6.jpg" alt="" class="price-card__picture">
@@ -599,7 +599,7 @@
                       </div>
                       <!-- /.price-content__card price-card -->
                     </div>
-                    <!-- /.col-12 col-md-6 col-lg-4 -->
+                    <!-- /.col-12 col-sm-6 col-lg-4 -->
                   </div>
                   <!-- /.row -->
                 </div>
