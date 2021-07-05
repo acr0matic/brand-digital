@@ -2,7 +2,7 @@
 
 <!-- Основной контент -->
 <main>
-  <section id="process" class="process process-managment">
+  <section id="process" class="process process-design">
     <div class="container">
       <div class="process__heading process-heading process-heading--underline">
         <div class="row">

@@ -94,6 +94,8 @@
       }
 
       &--active {
+        color: $text-orange;
+        
         &::before {
           background-color: $palette-orange;
         }

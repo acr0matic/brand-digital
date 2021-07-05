@@ -1,0 +1,44 @@
+.process-manufacturing {
+  .process-content {
+    &__title {
+      @include breakpoint($breakpoint-laptop--large) {
+        font-size: 45px;
+      }
+
+      @include breakpoint($breakpoint-tablet--large) {
+        font-size: 30px;
+      }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        font-size: 24px;
+      }
+    }
+
+    .row {
+      margin-bottom: 50px;
+
+      @include breakpoint($breakpoint-tablet--large) {
+        margin-bottom: 25px;
+      }
+
+      &:last-child {
+        .process-textblock {
+          @include breakpoint($breakpoint-tablet--large) {
+            margin-bottom: 20px;
+          }
+        }
+      }
+
+      &:not(:last-child) {
+        .process-textblock {
+          @include breakpoint($breakpoint-tablet--large) {
+            padding-bottom: 20px;
+            border-bottom: 1px solid #878686;
+
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}

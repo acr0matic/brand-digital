@@ -1,9 +1,22 @@
 #process {
-
 }
 
 .process {
   &__heading {
+  }
 
+  &__banner {
+    height: 490px;
+    margin-bottom: 110px;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      height: 400px;
+      margin-bottom: 70px;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      height: 200px;
+      margin-bottom: 30px;
+    }
   }
 }
