@@ -1,0 +1,11 @@
+.process-managment {
+  .process__content {
+    .row {
+      &:not(:last-child) {
+        @include breakpoint($breakpoint-laptop--large) {
+          margin-bottom: 50px;
+        }
+      }
+    }
+  }
+}
