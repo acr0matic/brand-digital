@@ -1,8 +1,30 @@
 .process-heading {
   padding-bottom: 50px;
 
+  @include breakpoint($breakpoint-tablet--large) {
+    padding-bottom: 15px;
+  }
+
   &--underline {
     margin-bottom: 70px;
     border-bottom: 1px solid #000000;
+
+    @include breakpoint($breakpoint-tablet--large) {
+      margin-bottom: 20px;
+    }
+  }
+
+  &__title {
+    text-align: left;
+
+    @include breakpoint($breakpoint-tablet--large) {
+      margin-bottom: 20px;
+    }
+  }
+
+  &__text {
+    @include breakpoint($breakpoint-mobile--large) {
+      font-size: 14px;
+    }
   }
 }
