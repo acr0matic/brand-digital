@@ -224,3 +224,60 @@ const promotionsSlider = new Swiper('.slider-promotions', {
   slidesPerView: 1,
   spaceBetween: 30,
 });
+
+const processSliderWide = new Swiper('.process-slider--wide', {
+  // simulateTouch: false,
+
+  centeredSlides: true,
+
+  speed: 500,
+  slidesPerView: 'auto',
+
+
+  navigation: {
+    nextEl: '.process-slider-next--white',
+    prevEl: '.process-slider-prev--white',
+  },
+
+  on: {
+    afterInit: function () {
+      let index = this.slides.length / 2;
+      this.slideTo(index);
+    }
+  },
+});
+
+const processSliderCommon = new Swiper('.process-slider--common', {
+  // simulateTouch: false,
+
+  centeredSlides: true,
+
+  speed: 500,
+  spaceBetween: 50,
+  slidesPerView: 1,
+
+  navigation: {
+    nextEl: '.process-slider-next--orange',
+    prevEl: '.process-slider-prev--orange',
+  },
+
+  pagination: {
+    el: '.process-slider--common .swiper-pagination',
+    type: 'bullets',
+    clickable: true,
+  },
+});
+
+const processSliderSmall = new Swiper('.process-slider--small', {
+  simulateTouch: false,
+  allowTouchMove: false,
+
+  speed: 500,
+  spaceBetween: 30,
+  slidesPerView: 1,
+
+  effect: 'fade',
+  fadeEffect: {
+    crossFade: true
+  },
+});

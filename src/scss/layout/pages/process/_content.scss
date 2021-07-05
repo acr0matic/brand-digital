@@ -1,4 +1,106 @@
 .process-content {
+  &__title {
+    margin-bottom: 50px;
+    font-size: 45px;
+    font-weight: $weight-Medium;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      margin-bottom: 30px;
+      font-size: 28px;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      margin-bottom: 15px;
+      font-size: 20px;
+    }
+  }
+
+  &__slider {
+    margin-bottom: 75px;
+  }
+
+  &__picture {
+    width: 100%;
+    height: 100%;
+  }
+
+  &__list {
+    display: inline-flex;
+    flex-direction: column;
+
+    margin-left: 30px;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      margin-left: 20px;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      margin-bottom: 30px;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      margin-left: 15px;
+    }
+
+
+    .list__item {
+      position: relative;
+      padding: 20px 0;
+
+      font-size: 24px;
+      cursor: pointer;
+
+      @include breakpoint($breakpoint-laptop--large) {
+        font-size: 20px;
+      }
+
+      @include breakpoint($breakpoint-laptop--medium) {
+        font-size: 18px;
+      }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        padding: 10px 0;
+        font-size: 16px;
+      }
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: -50px;
+
+        display: block;
+
+        width: 7px;
+        height: 100%;
+
+        transform: translateY(-50%);
+
+        background-color: #dedede;
+        transition: 0.3s ease;
+
+        @include breakpoint($breakpoint-laptop--large) {
+          left: -40px;
+        }
+
+        @include breakpoint($breakpoint-laptop--medium) {
+          width: 5px;
+        }
+
+        @include breakpoint($breakpoint-mobile--large) {
+          left: -35px;
+          width: 3px;
+        }
+      }
+
+      &--active {
+        &::before {
+          background-color: $palette-orange;
+        }
+      }
+    }
+  }
+
   &__button {
     display: block;
 
