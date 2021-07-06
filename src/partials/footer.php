@@ -210,6 +210,7 @@
 <script src="scripts/yMap.js"></script>
 <script src="scripts/price.js"></script>
 <script src="scripts/process.js"></script>
+<script src="scripts/blog.js"></script>
 
 <script src="scripts/header.js"></script>
 <!-- endbuild -->

@@ -29,17 +29,17 @@
             </div>
             <!-- /.blog-filters__item -->
 
-            <div class="blog-filters__item blog-filters__item--green">
+            <div class="blog-filters__item blog-filters__item--green blog-filters__item--unselected">
               Дизайн
             </div>
             <!-- /.blog-filters__item -->
 
-            <div class="blog-filters__item blog-filters__item--purple">
+            <div class="blog-filters__item blog-filters__item--purple blog-filters__item--unselected">
               Брендирование
             </div>
             <!-- /.blog-filters__item -->
 
-            <div class="blog-filters__item blog-filters__item--gray">
+            <div class="blog-filters__item blog-filters__item--gray blog-filters__item--unselected">
               Сувениры
             </div>
             <!-- /.blog-filters__item -->

@@ -14,4 +14,14 @@
   &__wrapper {
     margin-bottom: 65px;
   }
+
+  > .blog__filters {
+    .blog-filters__item {
+      @media (hover: hover) {
+        &:hover {
+          box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+      }
+    }
+  }
 }
