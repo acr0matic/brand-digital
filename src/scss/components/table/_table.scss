@@ -1,0 +1,40 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+
+  td {
+    font-size: 24px;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      font-size: 20px;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      font-size: 16px;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      font-size: 14px;
+    }
+
+    @include breakpoint($breakpoint-mobile--medium) {
+      font-size: 12px;
+    }
+  }
+
+  thead {
+    td {
+      padding: 15px 0;
+    }
+  }
+
+  tbody {
+    td {
+      border: 1px solid #7b7b7b;
+      padding: 10px 0;
+
+      font-weight: $weight-Light;
+    }
+  }
+}

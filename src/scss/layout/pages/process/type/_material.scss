@@ -1,0 +1,9 @@
+.process-material {
+  .process__content {
+    .process-slide__item--border {
+      @include breakpoint($breakpoint-tablet) {
+        height: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+.process-partners {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @include breakpoint($breakpoint-tablet) {
+    width: 100vw;
+    overflow: auto;
+    padding-bottom: 15px;
+    padding-right: 30px;
+
+    margin-bottom: -15px;
+  }
+
+  &__image {
+    width: 15%;
+
+    &:not(:last-child) {
+      margin-right: 25px;
+
+      @include breakpoint($breakpoint-tablet) {
+        margin-right: 50px;
+      }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        margin-right: 25px;
+      }
+    }
+
+    @include breakpoint($breakpoint-laptop--large) {
+      width: 12%;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      width: 20%;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      width: 25%;
+    }
+  }
+}
