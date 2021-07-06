@@ -105,6 +105,10 @@
     border-radius: 3px;
     font-size: 20px;
 
+    @include breakpoint(max-height 750px) {
+      display: none;
+    }
+
     &::after {
       content: "";
       position: absolute;
@@ -121,6 +125,9 @@
   }
 
   &__points {
+    @include breakpoint(max-height 750px) {
+      display: none;
+    }
   }
 
   &__point {
@@ -151,6 +158,9 @@
     flex-direction: column;
 
     width: 100%;
+    max-height: 115px;
+    overflow: auto;
+
     padding: 16px 35px 16px 35px;
     margin-top: auto;
 
