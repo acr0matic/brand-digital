@@ -270,9 +270,6 @@ const processSliderCommon = new Swiper('.process-slider--common', {
 });
 
 const processSliderSmall = new Swiper('.process-slider--small', {
-  simulateTouch: false,
-  allowTouchMove: false,
-
   speed: 500,
   spaceBetween: 30,
   slidesPerView: 1,
@@ -280,5 +277,27 @@ const processSliderSmall = new Swiper('.process-slider--small', {
   effect: 'fade',
   fadeEffect: {
     crossFade: true
+  },
+});
+
+const processCertificates = new Swiper('.process-slider--certificates', {
+  speed: 500,
+  spaceBetween: 30,
+  slidesPerView: 'auto',
+
+  navigation: {
+    nextEl: '.process-slider-controls--certificates .process-slider-next--orange',
+    prevEl: '.process-slider-controls--certificates .process-slider-prev--orange',
+  },
+});
+
+const processFeedback = new Swiper('.process-slider--feedback', {
+  speed: 500,
+  spaceBetween: 30,
+  slidesPerView: 'auto',
+
+  navigation: {
+    nextEl: '.process-slider-controls--feedback .process-slider-next--orange',
+    prevEl: '.process-slider-controls--feedback .process-slider-prev--orange',
   },
 });

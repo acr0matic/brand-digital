@@ -1,0 +1,100 @@
+.process-guarantee {
+  .process-content.position-relative {
+    display: flex;
+    justify-content: space-between;
+
+    @include breakpoint($breakpoint-tablet--large) {
+      flex-direction: column;
+    }
+
+    .process-content__wrapper {
+      position: relative;
+      width: 70%;
+
+      @include breakpoint($breakpoint-tablet--large) {
+        width: 100%;
+      }
+    }
+
+    .process-content__title {
+      position: relative;
+      z-index: 10;
+
+      width: 30%;
+
+      background-color: $palette-white;
+
+      @include breakpoint($breakpoint-tablet--large) {
+        width: 100%;
+      }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        text-align: center;
+      }
+    }
+  }
+
+  .process-slider--common {
+    overflow: hidden;
+  }
+
+  .process-slider-controls--common {
+    z-index: 100;
+    top: 50%;
+    transform: translateY(-50%);
+
+    pointer-events: none;
+  }
+
+  .process-slider-prev,
+  .process-slider-next {
+    pointer-events: auto;
+  }
+
+  .process__content {
+    width: 90%;
+    margin: 0 auto;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      width: 83%;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      width: 100%;
+    }
+  }
+
+  .process-slider--feedback {
+    @include breakpoint($breakpoint-tablet--large) {
+      margin-bottom: 0;
+    }
+  }
+
+  .swiper-slide {
+    width: 360px;
+    height: 510px;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      width: 330px;
+      height: 450px;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      width: 250px;
+      height: 370px;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      width: 200px;
+      height: 320px;
+    }
+
+    @include breakpoint($breakpoint-mobile--medium) {
+      width: 180px;
+      height: 250px;
+    }
+  }
+
+  .process-slide__picture {
+  }
+}

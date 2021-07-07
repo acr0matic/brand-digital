@@ -256,7 +256,7 @@
       <!-- /.process-content__wrapper -->
 
       <button class="process-content__button button button-primary">Начнём проект</button>
-
+      <button class="process-content__button process-content__button--hidden button button-outline">Портфолио</button>
     </div>
     <!-- /.container -->
   </section>

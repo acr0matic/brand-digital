@@ -1,0 +1,91 @@
+.process-warranty {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 70px;
+
+  @include breakpoint($breakpoint-tablet--large) {
+    flex-direction: column-reverse;
+  }
+
+  &__wrapper {
+    padding-bottom: 120px;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      padding-bottom: 70px;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      margin-top: 30px;
+      padding-bottom: 0;
+    }
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-bottom: 40px;
+
+      @include breakpoint($breakpoint-laptop--large) {
+        margin-bottom: 25px;
+      }
+    }
+
+    &--big {
+      h3 {
+        font-size: 45px;
+        font-weight: $weight-Medium;
+
+        color: $text-orange;
+
+        @include breakpoint($breakpoint-laptop--large) {
+          font-size: 28px;
+        }
+
+        @include breakpoint($breakpoint-mobile--large) {
+          font-size: 21px;
+        }
+      }
+
+      p {
+        font-size: 35px;
+        color: #ababab;
+
+        @include breakpoint($breakpoint-laptop--large) {
+          font-size: 21px;
+        }
+
+        @include breakpoint($breakpoint-mobile--large) {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  &__description,
+  &__title {
+    font-weight: $weight-Regular;
+    font-size: 32px;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      font-size: 18px;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      font-size: 16px;
+    }
+  }
+
+  &__image {
+    width: 100%;
+    max-width: 770px;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      max-width: 550px;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      max-width: 450px;
+      margin: 0 auto;
+    }
+  }
+}
