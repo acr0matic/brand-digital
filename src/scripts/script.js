@@ -41,4 +41,6 @@ new SmoothScroll('a[href*="#"]', {
   speedAsDuration: true,
 });
 
-const accordion = new handorgel(document.querySelector('.handorgel'));
+if (document.querySelector('.handorgel')) {
+  var accordion = new handorgel(document.querySelector('.handorgel'));
+}

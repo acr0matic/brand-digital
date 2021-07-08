@@ -1,5 +1,5 @@
 const header = document.querySelector('#header');
-const headerDropdown = header.querySelector('.nav__list > .dropdown > .dropdown__header');
+const headerDropdown = header.querySelectorAll('.nav__list .dropdown > .dropdown__header');
 
 const sideMenu = document.getElementById('side-menu');
 const sideMenuOverlay = sideMenu.querySelector('.side-menu__overlay');
@@ -10,20 +10,24 @@ const mobileMenuOverlay = mobileMenu.querySelector('.mobile-menu__overlay');
 const mobileMenuDropdown = mobileMenu.querySelector('.mobile-dropdown');
 
 let scrollPosition = window.pageYOffset;
-headerDropdown.addEventListener('click', () => headerDropdown.parentNode.classList.toggle('dropdown--open'));
-window.addEventListener('click',
-  (e) => {
-    if (!headerDropdown.parentNode.contains(e.target)) headerDropdown.parentNode.classList.remove('dropdown--open');
-  });
+headerDropdown.forEach(dropdown => {
+  dropdown.addEventListener('click', () => dropdown.parentNode.classList.toggle('dropdown--open'));
+  window.addEventListener('click',
+    (e) => {
+      if (!dropdown.parentNode.contains(e.target)) dropdown.parentNode.classList.remove('dropdown--open');
+    });
 
-window.addEventListener('scroll',
-  () => {
-    scrollPosition = window.pageYOffset;
-    if (scrollPosition >= 150) headerDropdown.parentNode.classList.remove('dropdown--open');
+  window.addEventListener('scroll',
+    () => {
+      scrollPosition = window.pageYOffset;
+      if (scrollPosition >= 150) dropdown.parentNode.classList.remove('dropdown--open');
 
-    if (window.scrollY >= header.offsetHeight + 50) header.classList.add('header-inverted');
-    else header.classList.remove('header-inverted')
-  });
+      if (window.scrollY >= header.offsetHeight + 50) header.classList.add('header-inverted');
+      else header.classList.remove('header-inverted')
+    });
+
+});
+
 
 const headerBurger = header.querySelector('.header__burger');
 

@@ -138,7 +138,22 @@
               </li>
               <li class="nav__item"><a href="price.php" class="nav__link link">ЦЕНЫ И АКЦИИ</a></li>
               <li class="nav__item"><a href="portfolio.php" class="nav__link link">НАШИ РАБОТЫ</a></li>
-              <li class="nav__item"><a href="" class="nav__link link">НАШИ ПРОЦЕССЫ</a></li>
+              <li class="nav__item dropdown">
+                <span class="dropdown__header nav__link link">
+                  НАШИ ПРОЦЕССЫ
+                  <img class="dropdown__icon" src="img/icons/control/arrow__dropdown.svg" alt="">
+                </span>
+
+                <div class="dropdown__content">
+                  <a class="dropdown__item" href="process-managment.php">Упр. проектами</a>
+                  <a class="dropdown__item" href="process-design.php">Дизайн</a>
+                  <a class="dropdown__item" href="process-material.php">Материал</a>
+                  <a class="dropdown__item" href="process-manufacturing.php">Производство</a>
+                  <a class="dropdown__item" href="process-assembly.php">Монтаж</a>
+                  <a class="dropdown__item" href="process-warranty.php">Гарантия</a>
+                </div>
+                <!-- /.dropdown__content -->
+              </li>
             </ul>
           </nav>
         </div>

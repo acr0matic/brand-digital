@@ -1,0 +1,225 @@
+.process-hero {
+  position: relative;
+
+  margin-bottom: 230px;
+
+  background-color: $palette-black;
+  color: $text-white;
+
+  @include breakpoint($breakpoint-laptop--large) {
+    margin-bottom: 180px;
+  }
+
+  @include breakpoint($breakpoint-tablet--large) {
+    margin-bottom: 130px;
+  }
+
+  @include breakpoint($breakpoint-tablet) {
+    margin-bottom: 20px;
+  }
+
+  &__title {
+    padding-top: 70px;
+    margin-bottom: 25px;
+    font-size: 54px;
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      font-size: 48px;
+    }
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      margin-bottom: 10px;
+      font-size: 36px;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      padding-top: 40px;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      padding-top: 20px;
+      text-align: left;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      font-size: 24px;
+    }
+  }
+
+  &__text {
+    font-size: 24px;
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      font-size: 20px;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      font-size: 16px;
+      br {
+        display: none;
+      }
+    }
+  }
+
+  &__background {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    bottom: 0;
+
+    max-width: 1030px;
+
+    clip-path: polygon(30% 0, 100% 0%, 100% 100%, 0% 100%);
+
+    @include breakpoint($breakpoint-laptop--large) {
+      right: -20%;
+      width: 80%;
+    }
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      font-size: 14px;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      width: 65%;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      display: none;
+    }
+  }
+
+  &__action {
+    position: relative;
+    z-index: 2;
+
+    bottom: -150px;
+    margin-top: -100px;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      bottom: -125px;
+      margin-top: -70px;
+    }
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      bottom: -105px;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      bottom: -80px;
+      margin-top: -40px;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      bottom: 0;
+      overflow: auto;
+
+      margin-top: 20px;
+      padding-bottom: 15px;
+
+      br {
+        display: none;
+      }
+    }
+  }
+
+  &__service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+
+    font-size: 26px;
+    cursor: pointer;
+
+    color: $text-black;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      font-size: 22px;
+    }
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      font-size: 18px;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      font-size: 16px;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      border: 1px solid $palette-white;
+      border-radius: $border-radius-small;
+
+      padding: 12px 24px;
+
+      white-space: nowrap;
+
+      color: $text-white;
+    }
+
+    &:not(:last-child) {
+      @include breakpoint($breakpoint-tablet) {
+        margin-right: 10px;
+      }
+    }
+
+    &--active {
+      font-weight: $weight-Bold;
+
+      @include breakpoint($breakpoint-tablet) {
+        background-color: $palette-white;
+        color: $text-black;
+
+        font-weight: $weight-Bold;
+      }
+
+      .process-hero__icon {
+        filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 0.25));
+
+        .background {
+          fill: $palette-white;
+        }
+
+        .figure {
+          fill: $palette-orange;
+        }
+      }
+    }
+  }
+
+  &__icon {
+    margin-bottom: 20px;
+    width: 165px;
+    height: 165px;
+
+    filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.161));
+
+    transition: 0.3s ease;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      width: 130px;
+      height: 130px;
+    }
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      width: 105px;
+      height: 105px;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      width: 75px;
+      height: 75px;
+
+      margin-bottom: 10px;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      display: none;
+    }
+  }
+}
