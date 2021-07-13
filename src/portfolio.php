@@ -24,9 +24,8 @@
             </svg>
 
             Оклейка
-        <a href="" class="stretched-link">Дизайн</a>
-</div>
-<!-- /.hero__link -->
+          </div>
+          <!-- /.hero__link -->
 
           <div class="portfolio-body__service">
             <svg class="portfolio-body__icon svg" width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -35,9 +34,8 @@
             </svg>
 
             Дизайн
-        <a href="" class="stretched-link">Дизайн</a>
-</div>
-<!-- /.hero__link -->
+          </div>
+          <!-- /.hero__link -->
 
           <div class="portfolio-body__service">
             <svg class="portfolio-body__icon svg" width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -46,9 +44,8 @@
             </svg>
 
             Интерьер
-        <a href="" class="stretched-link">Дизайн</a>
-</div>
-<!-- /.hero__link -->
+          </div>
+          <!-- /.hero__link -->
 
           <div class="portfolio-body__service">
             <svg class="portfolio-body__icon svg" width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -57,9 +54,8 @@
             </svg>
 
             Сувениры
-        <a href="" class="stretched-link">Дизайн</a>
-</div>
-<!-- /.hero__link -->
+          </div>
+          <!-- /.hero__link -->
 
           <div class="portfolio-body__service">
             <svg class="portfolio-body__icon svg" width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -68,9 +64,8 @@
             </svg>
 
             Наклейки
-        <a href="" class="stretched-link">Дизайн</a>
-</div>
-<!-- /.hero__link -->
+          </div>
+          <!-- /.hero__link -->
         </div>
         <!-- /.portfolio-body__action -->
 

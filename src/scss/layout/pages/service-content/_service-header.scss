@@ -11,6 +11,25 @@
     height: 440px;
   }
 
+  @include breakpoint($breakpoint-laptop--medium) {
+    height: 340px;
+  }
+
+  @include breakpoint($breakpoint-tablet--large) {
+    height: 330px;
+  }
+
+  .container {
+    @include breakpoint($breakpoint-tablet--large) {
+      max-width: 100vw;
+      padding: 0;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      max-width: 540px;
+    }
+  }
+
   &__title {
     margin-top: 35px;
     margin-bottom: 35px;
@@ -18,6 +37,36 @@
     @include breakpoint($breakpoint-laptop--large) {
       margin-top: 20px;
       margin-bottom: 20px;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      width: 663px;
+      margin-left: auto;
+      margin-right: auto;
+
+      padding-left: 12px;
+    }
+  }
+
+  &__tabs {
+    @include breakpoint(max-width 991px) {
+      overflow: scroll;
+      padding-left: 15vw;
+      padding-right: 15vw;
+    }
+
+    @include breakpoint(max-width 900px) {
+      padding-left: 12vw;
+      padding-right: 12vw;
+    }
+
+    @include breakpoint(max-width 850px) {
+      padding-left: 10vw;
+      padding-right: 10vw;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      padding: 0;
     }
   }
 }

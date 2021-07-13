@@ -13,6 +13,10 @@
       top: -90px;
     }
 
+    @include breakpoint($breakpoint-laptop--medium) {
+      top: -70px;
+    }
+
     @include breakpoint($breakpoint-tablet--large) {
       top: -50px;
     }
@@ -126,7 +130,7 @@
       margin-bottom: 20px;
     }
 
-    @include breakpoint($breakpoint-tablet) {
+    @include breakpoint($breakpoint-tablet--large) {
       .row {
         @include breakpoint($breakpoint-mobile--large) {
           padding-left: 12px;

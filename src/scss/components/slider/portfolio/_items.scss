@@ -1,10 +1,12 @@
 .portfolio-slider-items {
-  @include breakpoint($breakpoint-mobile--large) {
+  @include breakpoint($breakpoint-tablet--large) {
+    width: 100%;
+    max-width: 500px;
     overflow: visible;
   }
 
   .swiper-wrapper {
-    @include breakpoint($breakpoint-mobile--large) {
+    @include breakpoint($breakpoint-tablet--large) {
       flex-wrap: wrap;
       justify-content: space-between;
     }
@@ -14,17 +16,17 @@
     pointer-events: initial !important;
 
     @include first(5) {
-      @include breakpoint($breakpoint-mobile--large) {
+      @include breakpoint($breakpoint-tablet--large) {
         margin-bottom: 20px;
       }
     }
 
-    @include breakpoint($breakpoint-mobile--large) {
+    @include breakpoint($breakpoint-tablet--large) {
       width: 48%;
     }
 
     &:nth-child(3) {
-      @include breakpoint($breakpoint-mobile--large) {
+      @include breakpoint($breakpoint-tablet--large) {
         width: 100%;
       }
     }

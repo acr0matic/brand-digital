@@ -1,6 +1,10 @@
 .section {
   padding-top: 95px;
 
+  @include breakpoint($breakpoint-tablet--large) {
+    padding-top: 45px;
+  }
+
   @include breakpoint($breakpoint-mobile--large) {
     padding-top: 30px;
   }

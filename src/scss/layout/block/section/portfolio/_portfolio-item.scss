@@ -7,12 +7,6 @@
 
     @include breakpoint($breakpoint-tablet--large) {
       flex-direction: column;
-      align-items: center;
-
-      width: 75%;
-    }
-
-    @include breakpoint($breakpoint-mobile--large) {
       align-items: flex-start;
       width: 100%;
     }
@@ -45,9 +39,7 @@
       @include breakpoint($breakpoint-tablet--large) {
         width: 100%;
         margin-right: 0;
-      }
 
-      @include breakpoint($breakpoint-mobile--large) {
         height: 115px;
         border-radius: $border-radius-small;
       }
@@ -63,7 +55,7 @@
     &__content {
       margin-top: 30px;
 
-      @include breakpoint($breakpoint-mobile--large) {
+      @include breakpoint($breakpoint-tablet--large) {
         margin-top: 10px;
       }
     }
@@ -79,6 +71,11 @@
 
       @include breakpoint($breakpoint-laptop--medium) {
         font-size: $font-headline-3 - 10;
+      }
+
+      @include breakpoint($breakpoint-tablet--large) {
+        margin-bottom: 5px;
+        font-size: $font-headline-4;
       }
 
       @include breakpoint($breakpoint-mobile--large) {
@@ -100,7 +97,7 @@
         font-size: $font-text - 8;
       }
 
-      @include breakpoint($breakpoint-mobile--large) {
+      @include breakpoint($breakpoint-tablet--large) {
         display: none;
       }
     }
@@ -109,10 +106,14 @@
       display: none;
 
       color: $text-gray;
-      font-size: 12px;
+      font-size: 14px;
+
+      @include breakpoint($breakpoint-tablet--large) {
+        display: inline;
+      }
 
       @include breakpoint($breakpoint-mobile--large) {
-        display: inline;
+        font-size: 12px;
       }
 
       span {
@@ -122,7 +123,7 @@
     }
 
     &__list {
-      @include breakpoint($breakpoint-mobile--large) {
+      @include breakpoint($breakpoint-tablet--large) {
         display: none;
       }
     }

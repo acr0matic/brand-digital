@@ -1,7 +1,7 @@
 .portfolio-slider {
   &-prev,
   &-next {
-    @include breakpoint($breakpoint-mobile--large) {
+    @include breakpoint($breakpoint-tablet--large) {
       display: none;
     }
   }

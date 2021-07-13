@@ -1,4 +1,7 @@
 #confidence {
+  @include breakpoint($breakpoint-laptop--medium) {
+    margin-top: 45px;
+  }
 }
 
 .confidence {

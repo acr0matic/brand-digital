@@ -10,10 +10,24 @@
     height: 380px;
   }
 
+  @include breakpoint($breakpoint-laptop--medium) {
+    height: 300px;
+  }
+
+  @include breakpoint($breakpoint-tablet--large) {
+    height: 280px;
+  }
+
   &__item {
     position: relative;
     text-align: center;
     cursor: pointer;
+
+    @include breakpoint($breakpoint-tablet--large) {
+      &:not(:last-child) {
+        margin-right: 20px;
+      }
+    }
 
     &--active {
       .service-content-tabs__picture {
@@ -25,6 +39,11 @@
         @include breakpoint($breakpoint-laptop--large) {
           width: 340px;
           height: 340px;
+        }
+
+        @include breakpoint($breakpoint-laptop--medium) {
+          width: 250px;
+          height: 250px;
         }
       }
 
@@ -47,6 +66,15 @@
           bottom: 45px;
           font-size: 24px;
         }
+
+        @include breakpoint($breakpoint-laptop--medium) {
+          bottom: 25px;
+          font-size: 18px;
+        }
+
+        @include breakpoint($breakpoint-tablet--large) {
+          font-size: 16px;
+        }
       }
 
       .service-content-tabs__image {
@@ -54,6 +82,10 @@
 
         @include breakpoint($breakpoint-laptop--large) {
           width: 340px;
+        }
+
+        @include breakpoint($breakpoint-laptop--medium) {
+          width: 250px;
         }
       }
     }
@@ -73,6 +105,11 @@
       width: 170px;
       height: 170px;
     }
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      width: 140px;
+      height: 140px;
+    }
   }
 
   &__image {
@@ -87,6 +124,10 @@
 
     @include breakpoint($breakpoint-laptop--large) {
       width: 170px;
+    }
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      width: 140px;
     }
 
     &--hidden {
@@ -110,6 +151,15 @@
 
     @include breakpoint($breakpoint-laptop--large) {
       font-size: 22px;
+    }
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      bottom: -30px;
+      font-size: 18px;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      font-size: 16px;
     }
   }
 }

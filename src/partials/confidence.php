@@ -4,7 +4,7 @@
       <div class="confidence__content">
         <h2 class="confidence__title section__title">Нам доверяют бренды</h2>
         <p class="confidence__text section__text">Работаем с небольшими компаниями <br> с региональными брендами, которые знают все. </p>
-        <button class="confidence__button button button-primary">Начнём проект</button>
+        <button data-micromodal-trigger="modal-callback" class="confidence__button button button-primary">Начнём проект</button>
       </div>
       <!-- /.confidence__content -->
 

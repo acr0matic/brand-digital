@@ -27,6 +27,10 @@
       min-height: 260px !important;
     }
 
+    @include breakpoint($breakpoint-laptop--medium) {
+      min-height: 230px !important;
+    }
+
     @include breakpoint($breakpoint-tablet--large) {
       display: none;
     }
@@ -37,11 +41,19 @@
 
     .promotions-item__title {
       font-size: 54px;
+
+      @include breakpoint($breakpoint-laptop--medium) {
+        font-size: 36px;
+      }
     }
 
     .promotions-item__description {
       font-size: 36px;
       font-weight: $weight-Bold;
+
+      @include breakpoint($breakpoint-laptop--medium) {
+        font-size: 24px;
+      }
     }
 
     .promotions-item__info {

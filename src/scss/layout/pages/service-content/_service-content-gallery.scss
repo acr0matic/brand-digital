@@ -16,6 +16,10 @@
       height: 350px;
     }
 
+    @include breakpoint($breakpoint-tablet--large) {
+      height: 390px;
+    }
+
     @include breakpoint($breakpoint-tablet) {
       height: 230px;
     }

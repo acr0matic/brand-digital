@@ -15,7 +15,7 @@
 
     pointer-events: none;
 
-    @include breakpoint($breakpoint-tablet) {
+    @include breakpoint($breakpoint-tablet--large) {
       display: none;
     }
   }
@@ -40,7 +40,7 @@
     );
   }
 
-  @include breakpoint($breakpoint-mobile--large) {
+  @include breakpoint($breakpoint-tablet--large) {
     display: none;
   }
 

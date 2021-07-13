@@ -83,7 +83,7 @@ const portfolioTabs = new Swiper('.portfolio-slider-tab', {
 
 const portfolioSliders = document.querySelectorAll('.portfolio-slider-tab [data-title]');
 portfolioSliders.forEach(slider => {
-  if (window.matchMedia('(min-width: 576px)').matches) {
+  if (window.matchMedia('(min-width: 991px)').matches) {
     const portfolioThumbs = new Swiper(slider.querySelector('.portfolio-slider-thumb'), {
       allowTouchMove: true,
       centeredSlides: true,
@@ -179,21 +179,23 @@ if (window.matchMedia('(max-width: 1200px)').matches) {
     }
   });
 
-  advantageCards.forEach((card, index) => {
-    card.addEventListener('click', () => {
-      ChangeSlide(index + 1);
+  if (window.matchMedia('(max-width: 991px)').matches) {
+    advantageCards.forEach((card, index) => {
+      card.addEventListener('click', () => {
+        ChangeSlide(index + 1);
 
-      const activeCard = document.querySelector('.advantages__item--active');
-      const activeMobile = document.querySelector('.advantages-mobile__item--active');
+        const activeCard = document.querySelector('.advantages__item--active');
+        const activeMobile = document.querySelector('.advantages-mobile__item--active');
 
-      if (activeCard) activeCard.classList.remove('advantages__item--active');
-      if (activeMobile) activeMobile.classList.remove('advantages-mobile__item--active');
+        if (activeCard) activeCard.classList.remove('advantages__item--active');
+        if (activeMobile) activeMobile.classList.remove('advantages-mobile__item--active');
 
-      card.classList.add('advantages__item--active');
-      advantageMobile.classList.add('advantages-mobile--active');
-      advantageMobileItems[index].classList.add('advantages-mobile__item--active');
+        card.classList.add('advantages__item--active');
+        advantageMobile.classList.add('advantages-mobile--active');
+        advantageMobileItems[index].classList.add('advantages-mobile__item--active');
+      });
     });
-  });
+  }
 
   function ChangeSlide(index) {
     let nextSlide = document.querySelector(`.advantages-slider .swiper-slide:nth-child(${index + 1})`);

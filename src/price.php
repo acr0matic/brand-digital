@@ -609,7 +609,7 @@
             </div>
             <!-- /.swiper-container -->
 
-            <button class="price-content__button button button-primary">Расчитать цену</button>
+            <button data-micromodal-trigger="modal-callback" class="price-content__button button button-primary">Расчитать цену</button>
           </div>
           <!-- /.container -->
         </div>

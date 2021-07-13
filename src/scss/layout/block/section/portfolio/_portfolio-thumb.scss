@@ -2,7 +2,7 @@
   cursor: pointer;
   padding: 12px;
 
-  @include breakpoint($breakpoint-mobile--large) {
+  @include breakpoint($breakpoint-tablet--large) {
     padding: 0;
   }
 

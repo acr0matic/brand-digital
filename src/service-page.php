@@ -483,8 +483,8 @@
           </div>
           <!-- /.footer__social -->
 
-          <button class="button button-primary mb-2 mb-md-0 me-md-3">Начать проект</button>
-          <button href="#portfolio" class="button button-outline mt-1 mb-mt-0">Портфолио</button>
+          <button data-micromodal-trigger="modal-callback" class="button button-primary mb-2 mb-sm-0 me-sm-3">Начать проект</button>
+          <button href="#portfolio" class="button button-outline mt-1 mt-sm-0">Портфолио</button>
         </div>
         <!-- /.hero__action -->
       </div>

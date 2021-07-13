@@ -1,5 +1,9 @@
 #advantages {
   padding-top: 100px;
+
+  @include breakpoint($breakpoint-tablet--large) {
+    padding-top: 45px;
+  }
 }
 
 .advantages {
@@ -13,6 +17,10 @@
 
   &__title {
     margin-bottom: 60px;
+
+    @include breakpoint($breakpoint-tablet--large) {
+      margin-bottom: 30px;
+    }
 
     @include breakpoint($breakpoint-mobile--large) {
       margin-bottom: 20px;
