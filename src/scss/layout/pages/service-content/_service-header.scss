@@ -19,7 +19,12 @@
     height: 330px;
   }
 
-  .container {
+  @include breakpoint($breakpoint-tablet) {
+    height: initial;
+    margin-bottom: 30px;
+  }
+
+  .container:last-child {
     @include breakpoint($breakpoint-tablet--large) {
       max-width: 100vw;
       padding: 0;
@@ -43,8 +48,10 @@
       width: 663px;
       margin-left: auto;
       margin-right: auto;
+    }
 
-      padding-left: 12px;
+    @include breakpoint($breakpoint-tablet--large) {
+      text-align: left;
     }
   }
 
@@ -66,7 +73,11 @@
     }
 
     @include breakpoint($breakpoint-tablet) {
-      padding: 0;
+      margin-bottom: 40px;
+
+      padding-left: 12px;
+      padding-right: 12px;
+      padding-bottom: 15px;
     }
   }
 }

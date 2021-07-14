@@ -44,3 +44,8 @@ new SmoothScroll('a[href*="#"]', {
 if (document.querySelector('.handorgel')) {
   var accordion = new handorgel(document.querySelector('.handorgel'));
 }
+
+const lightbox = GLightbox({
+  touchNavigation: true,
+  autoplayVideos: true
+});

@@ -18,6 +18,10 @@
     height: 280px;
   }
 
+  @include breakpoint($breakpoint-tablet) {
+    height: initial;
+  }
+
   &__item {
     position: relative;
     text-align: center;
@@ -26,6 +30,12 @@
     @include breakpoint($breakpoint-tablet--large) {
       &:not(:last-child) {
         margin-right: 20px;
+      }
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      &:not(:last-child) {
+        margin-right: 10px;
       }
     }
 
@@ -75,6 +85,13 @@
         @include breakpoint($breakpoint-tablet--large) {
           font-size: 16px;
         }
+
+        @include breakpoint($breakpoint-tablet) {
+          bottom: 0;
+          background-color: $palette-white;
+          color: $text-black;
+          font-weight: $weight-Medium;
+        }
       }
 
       .service-content-tabs__image {
@@ -109,6 +126,10 @@
     @include breakpoint($breakpoint-laptop--medium) {
       width: 140px;
       height: 140px;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      display: none;
     }
   }
 
@@ -160,6 +181,20 @@
 
     @include breakpoint($breakpoint-tablet--large) {
       font-size: 16px;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      position: static;
+      bottom: 0;
+
+      min-width: 145px;
+
+      border: 1px solid $palette-white;
+      border-radius: 5px;
+
+      padding: 12px 20px;
+
+      transform: none;
     }
   }
 }

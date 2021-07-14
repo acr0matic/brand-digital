@@ -33,4 +33,4 @@ function InitPortfolio() {
   }
 }
 
-if (window.matchMedia('(max-width: 576px)').matches) InitPortfolio();
+if (window.matchMedia('(max-width: 991px)').matches) InitPortfolio();

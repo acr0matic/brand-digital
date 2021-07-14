@@ -200,6 +200,7 @@
 <script src="scripts/libraries/micromodal.js"></script>
 <script src="scripts/libraries/smoothScroll.js"></script>
 <script src="scripts/libraries/handorgel.js"></script>
+<script src="scripts/libraries/glightbox.min.js"></script>
 
 <script src="scripts/script.js"></script>
 <script src="scripts/sliders.js"></script>

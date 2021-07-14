@@ -1,9 +1,14 @@
 .modal-portfolio {
   .modal {
     &__close {
+      top: 20px;
+      right: 30px;
+
+      transform: scale(0.8);
+
       path {
-        @include breakpoint($breakpoint-mobile--large) {
-          stroke: #bababa;
+        @include breakpoint($breakpoint-tablet--large) {
+          stroke: $palette-orange;
         }
       }
     }

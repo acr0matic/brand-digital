@@ -160,30 +160,38 @@
             <div class="process-content__slider process-slider process-slider--certificates swiper-container">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <picture class="process-slide__picture">
-                    <img class="cms-image" src="img/page/process/warranty/slider/certificate.jpg" alt="">
-                  </picture>
+                  <a href="img/page/process/warranty/slider/certificate.jpg" class="glightbox" data-gallery="certificate">
+                    <picture class="process-slide__picture">
+                      <img class="cms-image" src="img/page/process/warranty/slider/certificate.jpg" alt="">
+                    </picture>
+                  </a>
                 </div>
                 <!-- /.swiper-slide -->
 
                 <div class="swiper-slide">
-                  <picture class="process-slide__picture">
-                    <img class="cms-image" src="img/page/process/warranty/slider/certificate.jpg" alt="">
-                  </picture>
+                  <a href="img/page/process/warranty/slider/certificate.jpg" class="glightbox" data-gallery="certificate">
+                    <picture class="process-slide__picture">
+                      <img class="cms-image" src="img/page/process/warranty/slider/certificate.jpg" alt="">
+                    </picture>
+                  </a>
                 </div>
                 <!-- /.swiper-slide -->
 
                 <div class="swiper-slide">
-                  <picture class="process-slide__picture">
-                    <img class="cms-image" src="img/page/process/warranty/slider/certificate.jpg" alt="">
-                  </picture>
+                  <a href="img/page/process/warranty/slider/certificate.jpg" class="glightbox" data-gallery="certificate">
+                    <picture class="process-slide__picture">
+                      <img class="cms-image" src="img/page/process/warranty/slider/certificate.jpg" alt="">
+                    </picture>
+                  </a>
                 </div>
                 <!-- /.swiper-slide -->
 
                 <div class="swiper-slide">
-                  <picture class="process-slide__picture">
-                    <img class="cms-image" src="img/page/process/warranty/slider/certificate.jpg" alt="">
-                  </picture>
+                  <a href="img/page/process/warranty/slider/certificate.jpg" class="glightbox" data-gallery="certificate">
+                    <picture class="process-slide__picture">
+                      <img class="cms-image" src="img/page/process/warranty/slider/certificate.jpg" alt="">
+                    </picture>
+                  </a>
                 </div>
                 <!-- /.swiper-slide -->
               </div>
@@ -211,30 +219,38 @@
             <div class="process-content__slider process-slider process-slider--feedback swiper-container">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <picture class="process-slide__picture">
-                    <img class="cms-image" src="img/page/process/warranty/slider/feedback.jpg" alt="">
-                  </picture>
+                  <a href="img/page/process/warranty/slider/feedback.jpg" class="glightbox" data-gallery="feedback">
+                    <picture class="process-slide__picture">
+                      <img class="cms-image" src="img/page/process/warranty/slider/feedback.jpg" alt="">
+                    </picture>
+                  </a>
                 </div>
                 <!-- /.swiper-slide -->
 
                 <div class="swiper-slide">
-                  <picture class="process-slide__picture">
-                    <img class="cms-image" src="img/page/process/warranty/slider/feedback.jpg" alt="">
-                  </picture>
+                  <a href="img/page/process/warranty/slider/feedback.jpg" class="glightbox" data-gallery="feedback">
+                    <picture class="process-slide__picture">
+                      <img class="cms-image" src="img/page/process/warranty/slider/feedback.jpg" alt="">
+                    </picture>
+                  </a>
                 </div>
                 <!-- /.swiper-slide -->
 
                 <div class="swiper-slide">
-                  <picture class="process-slide__picture">
-                    <img class="cms-image" src="img/page/process/warranty/slider/feedback.jpg" alt="">
-                  </picture>
+                  <a href="img/page/process/warranty/slider/feedback.jpg" class="glightbox" data-gallery="feedback">
+                    <picture class="process-slide__picture">
+                      <img class="cms-image" src="img/page/process/warranty/slider/feedback.jpg" alt="">
+                    </picture>
+                  </a>
                 </div>
                 <!-- /.swiper-slide -->
 
                 <div class="swiper-slide">
-                  <picture class="process-slide__picture">
-                    <img class="cms-image" src="img/page/process/warranty/slider/feedback.jpg" alt="">
-                  </picture>
+                  <a href="img/page/process/warranty/slider/feedback.jpg" class="glightbox" data-gallery="feedback">
+                    <picture class="process-slide__picture">
+                      <img class="cms-image" src="img/page/process/warranty/slider/feedback.jpg" alt="">
+                    </picture>
+                  </a>
                 </div>
                 <!-- /.swiper-slide -->
               </div>

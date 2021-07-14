@@ -43,6 +43,10 @@
         height: 115px;
         border-radius: $border-radius-small;
       }
+
+      @include breakpoint($breakpoint-mobile--medium) {
+        height: 100px;
+      }
     }
 
     &__image {

@@ -6,13 +6,16 @@
     <div class="service-header">
       <div class="container">
         <h1 class="service-header__title page__title section__title">Брендирование авто</h1>
+      </div>
+      <!-- /.container -->
 
+      <div class="container">
         <div class="service-header__tabs service-content-tabs">
           <div class="service-content-tabs__item service-content-tabs__item--active">
-            <div class="service-content-tabs__picture">
+            <picture class="service-content-tabs__picture">
               <img src="img/page/service-content/1.png" alt="" class="service-content-tabs__image service-content-tabs__image--main">
               <img src="img/page/service-content/active/1.png" alt="" class="service-content-tabs__image service-content-tabs__image--hidden">
-            </div>
+            </picture>
             <!-- /.service-content-tabs__picture -->
 
             <div class="service-content-tabs__title">Легковое авто</div>
@@ -20,10 +23,10 @@
           <!-- /.service-content-tabs__item service-content-tabs__item--active -->
 
           <div class="service-content-tabs__item">
-            <div class="service-content-tabs__picture">
+            <picture class="service-content-tabs__picture">
               <img src="img/page/service-content/2.png" alt="" class="service-content-tabs__image service-content-tabs__image--main">
               <img src="img/page/service-content/active/2.png" alt="" class="service-content-tabs__image service-content-tabs__image--hidden">
-            </div>
+            </picture>
             <!-- /.service-content-tabs__picture -->
 
             <div class="service-content-tabs__title">Малое грузовое</div>
@@ -31,10 +34,10 @@
           <!-- /.service-content-tabs__item -->
 
           <div class="service-content-tabs__item">
-            <div class="service-content-tabs__picture">
+            <picture class="service-content-tabs__picture">
               <img src="img/page/service-content/3.png" alt="" class="service-content-tabs__image service-content-tabs__image--main">
               <img src="img/page/service-content/active/3.png" alt="" class="service-content-tabs__image service-content-tabs__image--hidden">
-            </div>
+            </picture>
             <!-- /.service-content-tabs__picture -->
 
             <div class="service-content-tabs__title">Фургон</div>
@@ -42,10 +45,10 @@
           <!-- /.service-content-tabs__item -->
 
           <div class="service-content-tabs__item">
-            <div class="service-content-tabs__picture">
+            <picture class="service-content-tabs__picture">
               <img src="img/page/service-content/4.png" alt="" class="service-content-tabs__image service-content-tabs__image--main">
               <img src="img/page/service-content/active/4.png" alt="" class="service-content-tabs__image service-content-tabs__image--hidden">
-            </div>
+            </picture>
             <!-- /.service-content-tabs__picture -->
 
             <div class="service-content-tabs__title">Грузовое авто</div>
@@ -53,10 +56,10 @@
           <!-- /.service-content-tabs__item -->
 
           <div class="service-content-tabs__item">
-            <div class="service-content-tabs__picture">
+            <picture class="service-content-tabs__picture">
               <img src="img/page/service-content/5.png" alt="" class="service-content-tabs__image service-content-tabs__image--main">
               <img src="img/page/service-content/active/5.png" alt="" class="service-content-tabs__image service-content-tabs__image--hidden">
-            </div>
+            </picture>
             <!-- /.service-content-tabs__picture -->
 
             <div class="service-content-tabs__title">Фура</div>
@@ -66,6 +69,7 @@
         <!-- /.service-content__tabs service-content-tabs -->
       </div>
       <!-- /.container -->
+
     </div>
     <!-- /.service-content__header -->
 

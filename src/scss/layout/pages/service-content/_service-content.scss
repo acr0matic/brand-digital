@@ -1,4 +1,12 @@
 #service-content {
+  @include breakpoint($breakpoint-tablet--large) {
+    margin-bottom: -55px;
+  }
+
+  @include breakpoint($breakpoint-mobile--large) {
+    margin-bottom: -95px;
+  }
+
   .container {
     display: flex;
     flex-direction: column;
@@ -40,6 +48,8 @@
   &__social {
     display: none;
     width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
 
     @include breakpoint($breakpoint-mobile--large) {
       display: flex;
