@@ -8,8 +8,16 @@
       <img src="img/page/blog/banner.jpg" alt="" class="blog-post-banner cms-image">
     </picture>
 
-    <div class="container">
-      <div class="blog-post">
+    <div class="blog-post">
+      <div class="blog-post__header">
+        <div class="container">
+          <h2 class="blog-post__heading">Блог</h2>
+        </div>
+        <!-- /.container -->
+      </div>
+      <!-- /.blog-post__header -->
+
+      <div class="container">
         <div class="blog-post__filters blog-filters blog-filters--small">
           <div class="blog-filters__wrapper">
             <div class="blog-filters__item blog-filters__item--blue">
@@ -78,8 +86,9 @@
         </div>
         <!-- /.blog-post__content -->
       </div>
-      <!-- /.blog-post -->
+      <!-- /.container -->
     </div>
+    <!-- /.blog-post -->
 
     <div class="blog-post-nav">
 

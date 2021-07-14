@@ -21,7 +21,7 @@
     height: 320px;
   }
 
-  @include breakpoint($breakpoint-mobile--large) {
+  @include breakpoint($breakpoint-tablet) {
     display: none;
   }
 }
@@ -142,6 +142,25 @@
 }
 
 .blog-post {
+  &__header {
+    display: none;
+
+    background-color: $palette-black;
+    color: $text-white;
+
+    @include breakpoint($breakpoint-tablet) {
+      display: block;
+    }
+  }
+
+  &__heading {
+    padding-top: 10px;
+    padding-bottom: 15px;
+
+    font-weight: $weight-Black;
+    font-size: 24px;
+  }
+
   &__filters {
     margin-bottom: 15px;
 
