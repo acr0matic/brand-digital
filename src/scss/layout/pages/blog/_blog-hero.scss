@@ -30,7 +30,8 @@
     width: 50%;
   }
 
-  @include breakpoint($breakpoint-mobile--large) {
+  @include breakpoint($breakpoint-tablet) {
+    background: none !important;
     display: none;
   }
 }

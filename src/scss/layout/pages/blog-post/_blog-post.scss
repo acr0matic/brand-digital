@@ -144,6 +144,10 @@
 .blog-post {
   &__filters {
     margin-bottom: 15px;
+
+    @include breakpoint($breakpoint-tablet) {
+      margin-top: 15px;
+    }
   }
 
   &__title {

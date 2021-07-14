@@ -3,7 +3,10 @@
 <!-- Основной контент -->
 <main>
   <section id="blog-post">
-    <img src="img/page/blog/banner.jpg" alt="" class="blog-post-banner cms-image">
+    <picture>
+      <source srcset="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" media="(max-width: 768px)">
+      <img src="img/page/blog/banner.jpg" alt="" class="blog-post-banner cms-image">
+    </picture>
 
     <div class="container">
       <div class="blog-post">

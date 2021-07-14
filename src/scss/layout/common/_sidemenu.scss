@@ -90,6 +90,10 @@
     flex-grow: 1;
 
     background-image: url("../img/misc/sidemenu/map.jpg");
+
+    @include breakpoint($breakpoint-tablet) {
+      background: none;
+    }
   }
 
   &__tooltip {

@@ -10,7 +10,10 @@
       </div>
       <!-- /.container -->
 
-      <img src="img/page/portfolio/background.jpg" alt="" class="portfolio-header__background cms-image">
+      <picture>
+        <source srcset="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" media="(max-width: 768px)">
+        <img src="img/page/portfolio/background.jpg" alt="" class="portfolio-header__background cms-image">
+      </picture>
     </div>
     <!-- /.portfolio-header -->
 
