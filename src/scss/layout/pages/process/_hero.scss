@@ -160,7 +160,9 @@
 
       white-space: nowrap;
 
-      color: $text-white;
+      a {
+        color: $text-white;
+      }
     }
 
     &:not(:last-child) {
@@ -177,6 +179,10 @@
         color: $text-black;
 
         font-weight: $weight-Bold;
+
+        a {
+          color: $text-black;
+        }
       }
 
       .process-hero__icon {

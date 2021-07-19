@@ -22,10 +22,7 @@
     }
 
     @include breakpoint($breakpoint-tablet) {
-      top: -180px;
-    }
-
-    @include breakpoint($breakpoint-mobile--large) {
+      top: -160px;
       overflow: auto;
       padding-bottom: 15px;
     }
@@ -38,20 +35,20 @@
 
     text-align: center;
 
-    font-size: 36px;
+    font-size: 34px;
     cursor: pointer;
 
     color: $text-black;
 
-    @include breakpoint($breakpoint-laptop--medium) {
-      font-size: 28px;
+    @include breakpoint($breakpoint-laptop--large) {
+      font-size: 24px;
     }
 
     @include breakpoint($breakpoint-tablet--large) {
       font-size: 18px;
     }
 
-    @include breakpoint($breakpoint-mobile--large) {
+    @include breakpoint($breakpoint-tablet) {
       min-width: 140px;
 
       border: 1px solid $palette-white;
@@ -65,7 +62,7 @@
     }
 
     &:not(:last-child) {
-      @include breakpoint($breakpoint-mobile--large) {
+      @include breakpoint($breakpoint-tablet) {
         margin-right: 10px;
       }
     }
@@ -73,7 +70,7 @@
     &--active {
       font-weight: $weight-Bold;
 
-      @include breakpoint($breakpoint-mobile--large) {
+      @include breakpoint($breakpoint-tablet) {
         background-color: $palette-white;
         color: $text-black;
 
@@ -118,7 +115,7 @@
       height: 90px;
     }
 
-    @include breakpoint($breakpoint-mobile--large) {
+    @include breakpoint($breakpoint-tablet) {
       display: none;
     }
   }

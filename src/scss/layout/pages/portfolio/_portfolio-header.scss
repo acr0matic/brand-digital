@@ -7,11 +7,15 @@
   background-color: $palette-black;
   color: $text-white;
 
+  @include breakpoint($breakpoint-laptop--large) {
+    padding-bottom: 140px;
+  }
+
   @include breakpoint($breakpoint-tablet--large) {
     padding-bottom: 100px;
   }
 
-  @include breakpoint($breakpoint-mobile--large) {
+  @include breakpoint($breakpoint-tablet) {
     padding-bottom: 25px;
   }
 
@@ -26,10 +30,15 @@
     right: 0;
     bottom: 0;
 
+    width: 55%;
+
     clip-path: polygon(30% 0, 100% 0%, 100% 100%, 0% 100%);
 
     @include breakpoint($breakpoint-laptop--large) {
-      right: -20%;
+      right: -35%;
+      width: 90%;
+
+      clip-path: polygon(20% 0, 100% 0%, 100% 100%, 0% 100%);
     }
 
     @include breakpoint($breakpoint-laptop--medium) {
@@ -37,7 +46,8 @@
     }
 
     @include breakpoint($breakpoint-tablet--large) {
-      width: 80%;
+      right: -45%;
+      width: 100%;
     }
 
     @include breakpoint($breakpoint-tablet) {
@@ -64,11 +74,8 @@
     }
 
     @include breakpoint($breakpoint-tablet) {
-      padding-top: 120px;
+      padding-top: 100px;
       text-align: left;
-    }
-
-    @include breakpoint($breakpoint-mobile--large) {
       font-size: 24px;
     }
   }
@@ -80,8 +87,10 @@
       font-size: 20px;
     }
 
-    @include breakpoint($breakpoint-mobile--large) {
+    @include breakpoint($breakpoint-tablet) {
       font-size: 16px;
+      color: #c1c1c1;
+
       br {
         display: none;
       }
