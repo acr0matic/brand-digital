@@ -7,7 +7,7 @@ const sideMenuClose = sideMenu.querySelector('.side-menu__close');
 
 const mobileMenu = document.getElementById('mobile-menu');
 const mobileMenuOverlay = mobileMenu.querySelector('.mobile-menu__overlay');
-const mobileMenuDropdown = mobileMenu.querySelector('.mobile-dropdown');
+const mobileMenuDropdown = mobileMenu.querySelectorAll('.mobile-dropdown');
 
 let scrollPosition = window.pageYOffset;
 headerDropdown.forEach(dropdown => {
@@ -62,7 +62,9 @@ sideMenuOverlay.addEventListener('click', () => Menu('side', 'close'));
 sideMenuClose.addEventListener('click', () => Menu('side', 'close'));
 
 mobileMenuOverlay.addEventListener('click', () => Menu('mobile', 'toggle'));
-mobileMenuDropdown.addEventListener('click', () => mobileMenuDropdown.classList.toggle('mobile-dropdown--open'));
+mobileMenuDropdown.forEach(dropdown => {
+ dropdown.addEventListener('click', () => dropdown.classList.toggle('mobile-dropdown--open'));
+});
 
 function Menu(menu, state) {
   if (state === 'open') {

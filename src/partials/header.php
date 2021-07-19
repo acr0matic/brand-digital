@@ -44,11 +44,11 @@
   <meta name="robots" content="index,follow,noodp" />
 
   <!-- Покраска адресной строки в мобильных Chrome, Firefox OS и Opera -->
-  <meta name="theme-color" content="#4285f4" />
+  <meta name="theme-color" content="#0f0f0f" />
 
   <!-- Для iOS Safari -->
   <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="#4285f4">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#0f0f0f">
 
   <!-- Yandex.Metrika counter -->
 
@@ -118,11 +118,11 @@
                     </a>
 
                     <div class="dropdown__content dropdown__content--right">
-                      <a class="dropdown__item" href="service.php">Дизайн</a>
-                      <a class="dropdown__item" href="service.php">Интерьерная печать</a>
-                      <a class="dropdown__item" href="service.php">Наклейки</a>
-                      <a class="dropdown__item" href="service.php">Сувенирная прод.</a>
-                      <a class="dropdown__item" href="service.php">Брендирование</a>
+                      <a class="dropdown__item" href="service.php">Грузовой авто</a>
+                      <a class="dropdown__item" href="service.php">Фургон</a>
+                      <a class="dropdown__item" href="service.php">Малый грузовой</a>
+                      <a class="dropdown__item" href="service.php">Фура</a>
+                      <a class="dropdown__item" href="service.php">Легковой авто</a>
                     </div>
                     <!-- /.dropdown__content -->
                   </div>
@@ -252,6 +252,9 @@
       <div class="mobile-menu__wrapper">
         <nav class="mobile-menu__nav nav nav--mobile">
           <ul class="nav__list">
+            <li class="nav__item"><a href="price.php" class="nav__link">Цены и акции</a></li>
+            <li class="nav__item"><a href="portfolio.php" class="nav__link">Наши работы</a></li>
+
             <li class="nav__item mobile-dropdown">
               <span class="nav__link">Услуги</span>
 
@@ -261,18 +264,35 @@
 
               <div class="mobile-menu__dropdown mobile-dropdown__wrapper">
                 <ul class="nav__list">
-                  <li class="nav__item"><a href="" class="nav__link">Оклейка транспорта</a></li>
-                  <li class="nav__item"><a href="" class="nav__link">Дизайн</a></li>
-                  <li class="nav__item"><a href="" class="nav__link">Интерьерная печать</a></li>
-                  <li class="nav__item"><a href="" class="nav__link">Сувенирная прод.</a></li>
-                  <li class="nav__item"><a href="" class="nav__link">Наклейки</a></li>
+                  <li class="nav__item"><a href="service.php" class="nav__link">Оклейка транспорта</a></li>
+                  <li class="nav__item"><a href="service.php" class="nav__link">Дизайн</a></li>
+                  <li class="nav__item"><a href="service.php" class="nav__link">Интерьерная печать</a></li>
+                  <li class="nav__item"><a href="service.php" class="nav__link">Сувенирная прод.</a></li>
+                  <li class="nav__item"><a href="service.php" class="nav__link">Наклейки</a></li>
                 </ul>
               </div>
               <!-- /.mobile-menu__dropdown -->
             </li>
-            <li class="nav__item"><a href="" class="nav__link">Цены и акции</a></li>
-            <li class="nav__item"><a href="" class="nav__link">Наши работы</a></li>
-            <li class="nav__item"><a href="" class="nav__link">Как мы делаем</a></li>
+
+            <li class="nav__item mobile-dropdown">
+              <span class="nav__link">Как мы делаем</span>
+
+              <svg class="mobile-dropdown__arrow" width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.50879 0.918945L5.76914 5.1793L10.562 0.918945" stroke="black" stroke-width="2.13018" />
+              </svg>
+
+              <div class="mobile-menu__dropdown mobile-dropdown__wrapper">
+                <ul class="nav__list">
+                  <li class="nav__item"><a href="service.php" class="nav__link">Упр. проектами</a></li>
+                  <li class="nav__item"><a href="service.php" class="nav__link">Дизайн</a></li>
+                  <li class="nav__item"><a href="service.php" class="nav__link">Материал</a></li>
+                  <li class="nav__item"><a href="service.php" class="nav__link">Производство</a></li>
+                  <li class="nav__item"><a href="service.php" class="nav__link">Монтаж</a></li>
+                  <li class="nav__item"><a href="service.php" class="nav__link">Гарантия</a></li>
+                </ul>
+              </div>
+              <!-- /.mobile-menu__dropdown -->
+            </li>
           </ul>
         </nav>
       </div>
@@ -281,10 +301,10 @@
       <div class="mobile-menu__wrapper mobile-menu__wrapper--inverted">
         <nav class="mobile-menu__nav nav nav--mobile">
           <ul class="nav__list">
-            <li class="nav__item"><a href="" class="nav__link">Контакты</a></li>
-            <li class="nav__item"><a href="" class="nav__link">О компании</a></li>
-            <li class="nav__item"><a href="" class="nav__link">Блог</a></li>
-            <li class="nav__item"><a href="" class="nav__link">Часто задаваемые вопросы</a></li>
+            <li class="nav__item"><a href="contact.php" class="nav__link">Контакты</a></li>
+            <li class="nav__item"><a href="index.php" class="nav__link">О компании</a></li>
+            <li class="nav__item"><a href="blog.php" class="nav__link">Блог</a></li>
+            <li class="nav__item"><a href="faq.php" class="nav__link">Часто задаваемые вопросы</a></li>
           </ul>
         </nav>
 

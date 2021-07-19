@@ -240,7 +240,11 @@ $margin: 7px;
           width: calc(45% - #{$margin});
 
           &::after {
-            display: none;
+            right: -240px;
+            bottom: -100px;
+
+            width: 500px;
+            height: 500px;
           }
         }
       }

@@ -6,6 +6,10 @@
     @include breakpoint($breakpoint-tablet) {
       border-radius: 20px;
     }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      border-radius: 10px;
+    }
   }
 
   &__picture {
@@ -22,6 +26,14 @@
 
     @include breakpoint($breakpoint-tablet) {
       height: 230px;
+    }
+
+    @include breakpoint($breakpoint-mobile--medium) {
+      height: 200px;
+    }
+
+    @include breakpoint($breakpoint-mobile) {
+      height: 170px;
     }
   }
 }

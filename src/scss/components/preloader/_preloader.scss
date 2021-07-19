@@ -3,7 +3,6 @@
 
   &--page {
     display: none;
-
     position: fixed;
     z-index: 10000;
     top: 0;
@@ -46,8 +45,12 @@
 
     transform: translate(-50%, -50%);
 
-    @include breakpoint($breakpoint-tablet) {
+    @include breakpoint($breakpoint-tablet--large) {
       width: 300px;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      width: 150px;
     }
 
     img {

@@ -75,6 +75,14 @@
       </div>
       <!-- /.container -->
 
+      <div class="container">
+        <picture class="service-content-tabs__picture service-content-tabs__picture--mobile">
+          <source srcset="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" media="(min-width: 768px)">
+          <img src="img/page/service-content/active/1.png" alt="" class="service-content-tabs__image">
+        </picture>
+        <!-- /.service-content-tabs__picture -->
+      </div>
+      <!-- /.container -->
     </div>
     <!-- /.service-content__header -->
 

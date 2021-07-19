@@ -41,3 +41,19 @@ const serviceGallery = new Swiper('.service-content-gallery', {
     clickable: true,
   },
 });
+
+if (window.matchMedia('(max-width: 768px)').matches) {
+  const serviceContent = document.getElementById('service-content');
+  if (serviceContent) {
+    const serviceItems = serviceContent.querySelectorAll('.service-content-tabs__item');
+    const mobilePicture = serviceContent.querySelector('.service-content-tabs__picture--mobile img');
+
+    serviceItems.forEach(item => {
+      const picture = item.querySelector('.service-content-tabs__image--hidden');
+
+      item.addEventListener('click', () => {
+        mobilePicture.src = picture.src;
+      });
+    });
+  }
+}
