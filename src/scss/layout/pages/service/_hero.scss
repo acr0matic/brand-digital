@@ -21,8 +21,7 @@
   }
 
   @include breakpoint($breakpoint-mobile--large) {
-    margin-bottom: -30px;
-    background-image: none !important;
+    margin-bottom: -120px;
   }
 
   .container {

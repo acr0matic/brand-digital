@@ -13,7 +13,7 @@
     flex-direction: column;
     align-items: flex-start;
 
-    height: 135px;
+    height: 125px;
     text-align: left;
 
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
@@ -56,7 +56,7 @@
     @include breakpoint($breakpoint-mobile--large) {
       position: absolute;
       right: 0;
-      bottom: -10px;
+      bottom: -35px;
 
       width: 200px;
 

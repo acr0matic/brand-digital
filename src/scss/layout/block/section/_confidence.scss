@@ -77,6 +77,10 @@
 
   &__title {
     margin-bottom: 20px;
+
+    @include breakpoint($breakpoint-mobile--large) {
+      margin-bottom: 10px;
+    }
   }
 
   &__text {

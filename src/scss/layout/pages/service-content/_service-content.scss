@@ -1,10 +1,10 @@
 #service-content {
   @include breakpoint($breakpoint-tablet--large) {
-    margin-bottom: -55px;
+    margin-bottom: -100px;
   }
 
   @include breakpoint($breakpoint-mobile--large) {
-    margin-bottom: -95px;
+    margin-bottom: -120px;
   }
 
   .container {
