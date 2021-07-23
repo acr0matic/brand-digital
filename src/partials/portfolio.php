@@ -1779,7 +1779,7 @@
           <!-- /.modal__swipe -->
 
           <svg class="modal__close" data-micromodal-close viewBox="0 0 36 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M2 2L34 33M34 2L2 33" stroke="white" stroke-width="4" />
+            <path data-micromodal-close d="M2 2L34 33M34 2L2 33" stroke="white" stroke-width="4" />
           </svg>
         </header>
 

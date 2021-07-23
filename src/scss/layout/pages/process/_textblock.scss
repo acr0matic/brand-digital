@@ -85,10 +85,6 @@
     font-size: $font-text;
 
     @include breakpoint($breakpoint-laptop--medium) {
-      font-size: 20px;
-    }
-
-    @include breakpoint($breakpoint-tablet--large) {
       font-size: 18px;
     }
 

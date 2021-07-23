@@ -1,6 +1,18 @@
 .modal {
   &--window {
     .modal {
+      &__overlay {
+        @include breakpoint($breakpoint-tablet) {
+          align-items: center;
+        }
+      }
+
+      &__swipe {
+        @include breakpoint($breakpoint-tablet) {
+          display: none;
+        }
+      }
+
       &__container {
         @include breakpoint($breakpoint-mobile--large) {
           padding: 0;
@@ -90,7 +102,7 @@
 
   overflow: auto;
 
-  @include breakpoint($breakpoint-mobile--large) {
+  @include breakpoint($breakpoint-tablet) {
     align-items: flex-end;
   }
 }
@@ -116,9 +128,6 @@
   @include breakpoint($breakpoint-mobile--large) {
     width: 100%;
     padding: 15px;
-
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
   }
 }
 
@@ -139,7 +148,7 @@
 
   transform: translateX(-50%);
 
-  @include breakpoint($breakpoint-mobile--large) {
+  @include breakpoint($breakpoint-tablet) {
     display: block;
   }
 
@@ -174,14 +183,8 @@
 
   transition: opacity 0.15s ease;
 
-  @include breakpoint($breakpoint-mobile--large) {
-    top: 25px;
-    right: 5px;
-
+  @include breakpoint($breakpoint-tablet) {
     display: none;
-
-    width: 22px;
-    height: 22px;
   }
 
   &:hover {
@@ -264,7 +267,7 @@
 .micromodal-slide[aria-hidden="true"] .modal__container {
   animation: mmslideOut 0.3s cubic-bezier(0, 0, 0.2, 1);
 
-  @include breakpoint($breakpoint-mobile--large) {
+  @include breakpoint($breakpoint-tablet) {
     animation: mmslideOutMobile 0.3s cubic-bezier(0, 0, 0.2, 1);
   }
 }

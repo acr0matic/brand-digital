@@ -1,3 +1,6 @@
+// const portfolioSection = document.getElementById('portfolio');
+if (window.matchMedia('(max-width: 991px)').matches) InitPortfolio();
+
 function InitPortfolio() {
   const modal = document.getElementById('modal-portfolio');
   if (modal) {
@@ -7,7 +10,7 @@ function InitPortfolio() {
     const list = modal.querySelector('.modal__list');
     const image = modal.querySelector('.modal__image');
 
-    const items = document.querySelectorAll('.portfolio-item');
+    const items = document.querySelectorAll('.portfolio--block .portfolio-item');
 
     close.addEventListener('touchend', () => {
       MicroModal.close('modal-portfolio', modalParams)
@@ -18,8 +21,6 @@ function InitPortfolio() {
         lazyLoadInstance.update();
 
         MicroModal.show('modal-portfolio', modalParams);
-        document.body.classList.add('body-scroll--disabled');
-
         list.innerHTML = '';
 
         image.setAttribute('data-src', item.querySelector('.portfolio-item__image').src);
@@ -33,4 +34,15 @@ function InitPortfolio() {
   }
 }
 
-if (window.matchMedia('(max-width: 991px)').matches) InitPortfolio();
+if (window.matchMedia('(max-width: 768px)').matches) {
+  const portfolioModalSlider = new Swiper('.modal-portfolio--full .modal-slider', {
+    speed: 500,
+    spaceBetween: 30,
+    slidesPerView: 1,
+
+    pagination: {
+      el: '.modal-portfolio--full .swiper-pagination',
+    },
+  });
+}
+

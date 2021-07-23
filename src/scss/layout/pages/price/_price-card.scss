@@ -62,6 +62,16 @@
 
       transform: scaleX(-1);
     }
+
+    @include breakpoint($breakpoint-mobile--medium) {
+      bottom: -40px;
+      width: 180px;
+    }
+
+    @include breakpoint($breakpoint-mobile) {
+      bottom: -45px;
+      width: 160px;
+    }
   }
 
   &__cost {

@@ -5,6 +5,7 @@
     background-color: #f3f3f3;
 
     border-radius: 20px;
+    cursor: pointer;
 
     @include breakpoint($breakpoint-laptop--medium) {
       border-radius: 10px;
@@ -101,7 +102,6 @@
 
     &__more {
       height: 25px;
-      cursor: pointer;
 
       @include breakpoint($breakpoint-laptop--medium) {
         transform: scale(0.8);
@@ -110,6 +110,10 @@
       @include breakpoint($breakpoint-tablet) {
         display: none;
       }
+    }
+
+    &__content {
+      display: none;
     }
   }
 }

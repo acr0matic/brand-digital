@@ -4,13 +4,11 @@ forms.forEach(form => new Form(form));
 MicroModal.init({
   awaitCloseAnimation: true,
   disableFocus: true,
-  disableScroll: true,
 });
 
 const modalParams = {
   awaitCloseAnimation: true,
   disableFocus: true,
-  onClose: modal => document.body.classList.remove('body-scroll--disabled'),
 };
 
 const modals = document.querySelectorAll('.modal');
@@ -47,5 +45,6 @@ if (document.querySelector('.handorgel')) {
 
 const lightbox = GLightbox({
   touchNavigation: true,
-  autoplayVideos: true
+  autoplayVideos: true,
+  openEffect: 'fade',
 });

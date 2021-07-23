@@ -75,7 +75,7 @@
         <div class="portfolio-body__grid">
           <div class="row">
             <div class="col-6 col-lg-4">
-              <div class="portfolio-body__item portfolio-item">
+              <div class="portfolio-body__item portfolio-item" data-micromodal-trigger="modal-portfolio">
                 <picture class="portfolio-item__picture">
                   <img src="img/portfolio/picture.jpg" alt="" class="portfolio-item__image cms-image">
                 </picture>
@@ -95,13 +95,49 @@
                   </svg>
                 </div>
                 <!-- /.portfolio-item__footer -->
+
+                <div class="portfolio-item__content">
+                  <div class="portfolio-item__category">
+                    Еврофургон / Iveco
+                  </div>
+                  <!-- /.portfolio-item__category -->
+
+                  <div class="portfolio-item__gallery">
+
+                  </div>
+                  <!-- /.portfolio-item__gallery -->
+
+                  <div class="portfolio-item__additional">
+                    <picture class="portfolio-item__picture">
+                      <source srcset="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=">
+                      <img src="img/portfolio/page/additional/1.jpg" alt="" class="portfolio-item__image cms-image">
+                    </picture>
+
+                    <picture class="portfolio-item__picture">
+                      <img src="img/portfolio/page/additional/2.jpg" alt="" class="portfolio-item__image cms-image">
+                    </picture>
+
+                  </div>
+                  <!-- /.portfolio-item__additional -->
+
+                  <div class="portfolio-item__list">
+
+                  </div>
+                  <!-- /.portfolio-item__list -->
+
+                  <p class="portfolio-item__description">
+                    Кванториум - современные научные центры оборудованные по последнему слову техники.
+                  </p>
+                  <!-- /.portfolio-item__description -->
+                </div>
+                <!-- /.portfolio-item__content -->
               </div>
               <!-- /.portfolio-body__item portfolio-item -->
             </div>
             <!-- /.col-6 col-lg-4 -->
 
             <div class="col-6 col-lg-4">
-              <div class="portfolio-body__item portfolio-item">
+              <div class="portfolio-body__item portfolio-item" data-micromodal-trigger="modal-portfolio">
                 <picture class="portfolio-item__picture">
                   <img src="img/portfolio/picture.jpg" alt="" class="portfolio-item__image cms-image">
                 </picture>
@@ -127,7 +163,7 @@
             <!-- /.col-6 col-lg-4 -->
 
             <div class="col-6 col-lg-4">
-              <div class="portfolio-body__item portfolio-item">
+              <div class="portfolio-body__item portfolio-item" data-micromodal-trigger="modal-portfolio">
                 <picture class="portfolio-item__picture">
                   <img src="img/portfolio/picture.jpg" alt="" class="portfolio-item__image cms-image">
                 </picture>
@@ -153,7 +189,7 @@
             <!-- /.col-6 col-lg-4 -->
 
             <div class="col-6 col-lg-4">
-              <div class="portfolio-body__item portfolio-item">
+              <div class="portfolio-body__item portfolio-item" data-micromodal-trigger="modal-portfolio">
                 <picture class="portfolio-item__picture">
                   <img src="img/portfolio/picture.jpg" alt="" class="portfolio-item__image cms-image">
                 </picture>
@@ -179,7 +215,7 @@
             <!-- /.col-6 col-lg-4 -->
 
             <div class="col-6 col-lg-4">
-              <div class="portfolio-body__item portfolio-item">
+              <div class="portfolio-body__item portfolio-item" data-micromodal-trigger="modal-portfolio">
                 <picture class="portfolio-item__picture">
                   <img src="img/portfolio/picture.jpg" alt="" class="portfolio-item__image cms-image">
                 </picture>
@@ -205,7 +241,7 @@
             <!-- /.col-6 col-lg-4 -->
 
             <div class="col-6 col-lg-4">
-              <div class="portfolio-body__item portfolio-item">
+              <div class="portfolio-body__item portfolio-item" data-micromodal-trigger="modal-portfolio">
                 <picture class="portfolio-item__picture">
                   <img src="img/portfolio/picture.jpg" alt="" class="portfolio-item__image cms-image">
                 </picture>
@@ -231,7 +267,7 @@
             <!-- /.col-6 col-lg-4 -->
 
             <div class="col-6 col-lg-4">
-              <div class="portfolio-body__item portfolio-item">
+              <div class="portfolio-body__item portfolio-item" data-micromodal-trigger="modal-portfolio">
                 <picture class="portfolio-item__picture">
                   <img src="img/portfolio/picture.jpg" alt="" class="portfolio-item__image cms-image">
                 </picture>
@@ -257,7 +293,7 @@
             <!-- /.col-6 col-lg-4 -->
 
             <div class="col-6 col-lg-4">
-              <div class="portfolio-body__item portfolio-item">
+              <div class="portfolio-body__item portfolio-item" data-micromodal-trigger="modal-portfolio">
                 <picture class="portfolio-item__picture">
                   <img src="img/portfolio/picture.jpg" alt="" class="portfolio-item__image cms-image">
                 </picture>
@@ -283,7 +319,7 @@
             <!-- /.col-6 col-lg-4 -->
 
             <div class="col-6 col-lg-4">
-              <div class="portfolio-body__item portfolio-item">
+              <div class="portfolio-body__item portfolio-item" data-micromodal-trigger="modal-portfolio">
                 <picture class="portfolio-item__picture">
                   <img src="img/portfolio/picture.jpg" alt="" class="portfolio-item__image cms-image">
                 </picture>
@@ -318,6 +354,114 @@
     </div>
     <!-- /.portfolio-body -->
   </section>
+
+  <div class="modal modal-portfolio modal-portfolio--full micromodal-slide" id="modal-portfolio" aria-hidden="true">
+    <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+      <div class="modal__container" role="dialog">
+        <header class="modal__header">
+          <span>Наши проекты</span>
+
+          <div class="modal__swipe"></div>
+          <!-- /.modal__swipe -->
+
+          <svg class="modal__close" data-micromodal-close viewBox="0 0 36 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2 2L34 33M34 2L2 33" stroke="#0f0f0f" stroke-width="4" />
+          </svg>
+        </header>
+
+        <main class="modal__content">
+          <div class="modal__gallery">
+            <div class="swiper-container modal-slider">
+              <div class="swiper-wrapper modal__photos">
+                <div class="swiper-slide modal__picture">
+                  <img class="modal__preloader preloader" src="img/misc/preloader.svg" alt="">
+
+                  <a href="img/portfolio/page/1.jpg" class="glightbox" data-gallery="main">
+                    <img data-src="img/portfolio/page/1.jpg" alt="" class="modal__image cms-image lazy">
+                  </a>
+                </div>
+
+                <div class="swiper-slide modal__picture">
+                  <img class="modal__preloader preloader" src="img/misc/preloader.svg" alt="">
+
+                  <a href="img/portfolio/page/2.jpg" class="glightbox" data-gallery="main">
+                    <img data-src="img/portfolio/page/2.jpg" alt="" class="modal__image cms-image lazy">
+                  </a>
+                </div>
+
+                <div class="swiper-slide modal__picture">
+                  <img class="modal__preloader preloader" src="img/misc/preloader.svg" alt="">
+
+                  <a href="img/portfolio/page/3.jpg" class="glightbox" data-gallery="main">
+                    <img data-src="img/portfolio/page/3.jpg" alt="" class="modal__image cms-image lazy">
+                  </a>
+                </div>
+
+                <div class="swiper-slide modal__picture">
+                  <img class="modal__preloader preloader" src="img/misc/preloader.svg" alt="">
+
+                  <a href="img/portfolio/page/4.jpg" class="glightbox" data-gallery="main">
+                    <img data-src="img/portfolio/page/4.jpg" alt="" class="modal__image cms-image lazy">
+                  </a>
+                </div>
+              </div>
+              <!-- /.modal__photos -->
+
+              <div class="swiper-pagination"></div>
+            </div>
+            <!-- /.swiper-container modal-slider -->
+
+            <div class="modal__additional">
+              <span>Доп. материалы</span>
+
+              <div>
+                <picture class="modal__picture">
+                  <source srcset="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" media="(max-width: 768px)">
+                  <img class="modal__preloader preloader" src="img/misc/preloader.svg" alt="">
+
+                  <a href="img/portfolio/page/additional/1.jpg" class="glightbox" data-gallery="additional">
+                    <img data-src="img/portfolio/page/additional/1.jpg" alt="" class="modal__image cms-image lazy">
+                  </a>
+                </picture>
+
+                <picture class="modal__picture">
+                  <source srcset="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" media="(max-width: 768px)">
+                  <img class="modal__preloader preloader" src="img/misc/preloader.svg" alt="">
+
+                  <a href="img/portfolio/page/additional/2.jpg" class="glightbox" data-gallery="additional">
+                    <img data-src="img/portfolio/page/additional/2.jpg" alt="" class="modal__image cms-image lazy">
+                  </a>
+                </picture>
+              </div>
+            </div>
+            <!-- /.modal__additional -->
+          </div>
+          <!-- /.modal__gallery -->
+
+          <div class="modal__wrapper">
+            <h2 class="modal__title">
+              Название проекта
+            </h2>
+
+            <span class="modal__info">Еврофургон / Iveco</span>
+
+            <ul class="modal__list list list--feature">
+              <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+              <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+              <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+              <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+              <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+            </ul>
+
+            <p class="modal__text">
+              Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
+            </p>
+          </div>
+          <!-- /.modal__wrapper -->
+        </main>
+      </div>
+    </div>
+  </div>
 
   <?php include_once('partials/callback.php') ?>
 </main>

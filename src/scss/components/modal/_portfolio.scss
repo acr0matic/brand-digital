@@ -15,6 +15,22 @@
 
     &__container {
       padding: 0 20px 30px 20px;
+
+      @include breakpoint($breakpoint-tablet--large) {
+        max-width: 600px;
+        padding: 0 30px 30px 30px;
+
+        border-radius: 15px;
+      }
+
+      @include breakpoint($breakpoint-tablet) {
+        max-width: 390px;
+        padding-right: 20px;
+        padding-left: 20px;
+
+        border-bottom-right-radius: 0 !important;
+        border-bottom-left-radius: 0 !important;
+      }
     }
 
     &__header {
@@ -34,6 +50,11 @@
 
       border-radius: $border-radius-large;
       overflow: hidden;
+
+      @include breakpoint($breakpoint-tablet--large) {
+        height: 230px;
+        margin-top: 10px;
+      }
     }
 
     &__preloader {
@@ -49,10 +70,282 @@
 
     &__title {
       margin-bottom: 10px;
+
+      @include breakpoint($breakpoint-tablet) {
+        font-size: 16px;
+      }
     }
 
     &__text {
       margin-bottom: 30px;
+
+      @include breakpoint($breakpoint-tablet) {
+        margin-bottom: 10px;
+        font-size: 12px;
+      }
+    }
+
+    &__list {
+      li {
+        @include breakpoint($breakpoint-tablet) {
+          font-size: 12px;
+        }
+
+        &:not(:last-child) {
+          @include breakpoint($breakpoint-tablet) {
+            margin-bottom: 8px;
+          }
+        }
+      }
     }
   }
+
+  &--full {
+    .modal {
+      &__container {
+        max-width: 1040px;
+        border-radius: 20px;
+
+        padding-top: 25px;
+        padding-left: 40px;
+        padding-right: 0;
+
+        @include breakpoint($breakpoint-tablet) {
+          max-width: 390px;
+          padding-right: 20px;
+          padding-left: 20px;
+        }
+      }
+
+      &__header {
+        margin-bottom: 25px;
+
+        font-size: 20px;
+        font-weight: $weight-Medium;
+
+        span {
+          @include breakpoint($breakpoint-tablet) {
+            display: none;
+          }
+        }
+      }
+
+      &__content {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+
+        @include breakpoint($breakpoint-tablet) {
+          flex-direction: column;
+        }
+      }
+
+      &__gallery {
+        width: 60%;
+
+        @include breakpoint($breakpoint-tablet) {
+          width: 100%;
+        }
+      }
+
+      &__wrapper {
+        width: 38%;
+        min-height: 427px;
+
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+        padding: 25px;
+
+        background-color: #f3f3f3;
+
+        @include breakpoint($breakpoint-tablet) {
+          display: flex;
+          flex-direction: column;
+
+          width: 100%;
+          min-height: initial;
+
+          margin-top: 25px;
+          padding: 0;
+
+          background-color: $palette-white;
+        }
+      }
+
+      &__title {
+        margin-bottom: 5px;
+        font-size: 22px;
+
+        @include breakpoint($breakpoint-tablet) {
+          order: 1;
+        }
+      }
+
+      &__info {
+        display: block;
+        margin-bottom: 25px;
+
+        font-size: 16px;
+        color: #8e8e8e;
+
+        @include breakpoint($breakpoint-tablet) {
+          order: 2;
+          margin-bottom: 10px;
+          font-size: 12px;
+        }
+      }
+
+      &__list {
+        margin-bottom: 25px;
+
+        @include breakpoint($breakpoint-tablet) {
+          margin-bottom: 0;
+          order: 4;
+        }
+
+        li {
+          font-size: 16px;
+
+          @include breakpoint($breakpoint-tablet) {
+            font-size: 12px;
+          }
+
+          &:not(:last-child) {
+            margin-bottom: 5px;
+
+            @include breakpoint($breakpoint-tablet) {
+              margin-bottom: 8px;
+            }
+          }
+        }
+      }
+
+      &__text {
+        @include breakpoint($breakpoint-tablet) {
+          order: 3;
+          margin-bottom: 10px;
+        }
+      }
+
+      &__photos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        height: 400px;
+
+        @include breakpoint($breakpoint-tablet--large) {
+          height: initial;
+        }
+
+        @include breakpoint($breakpoint-tablet) {
+          flex-wrap: nowrap;
+          justify-content: initial;
+
+          height: 200px;
+        }
+
+        @include breakpoint($breakpoint-mobile) {
+          height: 170px;
+        }
+      }
+
+      &__picture {
+        border-radius: 10px;
+        margin-bottom: 0;
+        transition: 0.15s ease;
+
+        @include breakpoint($breakpoint-tablet) {
+          width: 100% !important;
+          height: 100% !important;
+        }
+
+        &:nth-child(1) {
+          width: 53%;
+          height: 200px;
+
+          @include breakpoint($breakpoint-tablet--large) {
+            height: 150px;
+          }
+        }
+
+        &:nth-child(2) {
+          width: 45%;
+          height: 200px;
+
+          @include breakpoint($breakpoint-tablet--large) {
+            height: 150px;
+          }
+        }
+
+        &:nth-child(3) {
+          width: 35%;
+          height: 170px;
+
+          @include breakpoint($breakpoint-tablet--large) {
+            height: 120px;
+          }
+        }
+
+        &:nth-child(4) {
+          width: 63%;
+          height: 170px;
+
+          @include breakpoint($breakpoint-tablet--large) {
+            height: 120px;
+          }
+        }
+
+        @media (hover: hover) {
+          &:hover {
+            opacity: 0.7;
+          }
+        }
+      }
+
+      &__additional {
+        @include breakpoint($breakpoint-tablet) {
+          display: none;
+        }
+
+        span {
+          display: block;
+          margin-bottom: 5px;
+          color: #838383;
+        }
+
+        div {
+          display: flex;
+
+          border-top: 1px solid $palette-black;
+          padding-top: 10px;
+        }
+
+        picture {
+          width: 260px !important;
+          height: 100px !important;
+
+          @include breakpoint($breakpoint-tablet--large) {
+            width: 200px !important;
+            height: 70px !important;
+          }
+
+          &:first-child {
+            margin-right: 30px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.modal-portfolio.micromodal-slide {
+  display: block;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.modal-portfolio.micromodal-slide.is-open {
+  visibility: visible;
+  opacity: 1;
 }

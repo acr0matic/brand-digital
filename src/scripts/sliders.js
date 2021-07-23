@@ -250,8 +250,6 @@ const processSliderWide = new Swiper('.process-slider--wide', {
 });
 
 const processSliderCommon = new Swiper('.process-slider--common', {
-  // simulateTouch: false,
-
   centeredSlides: true,
   autoHeight: true,
 

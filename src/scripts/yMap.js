@@ -5,7 +5,7 @@ let mapData = null;
 if (mapContainer) {
 
   ymaps.ready(function () {
-    fetch('/data/map.json')
+    fetch('/brand-digital/data/map.json')
       .then((response) => response.json())
       .then((data) => {
         mapData = data;
