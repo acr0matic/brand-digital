@@ -5,6 +5,7 @@
 
 $input__border: 1px solid #282828;
 $input__border--required: 1px solid $palette-orange;
+$input__border--error: #ff0000;
 
 @import "input";
 @import "checkbox";

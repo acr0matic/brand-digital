@@ -655,12 +655,14 @@
               <button class="modal__button button button-outline button-outline--promotions">Получить акцию</button>
               <form class="modal__form form form-promotions mt-3" action="">
                 <div class="input mb-2">
-                  <input placeholder="Имя" autocomplete="off" type="text" name="user_name" class="input__field input__field--modal input__field--required">
+                  <input data-required placeholder="Имя" autocomplete="off" type="text" name="user_name" class="input__field input__field--modal input__field--required">
+                  <img data-tippy-content="Имя не указано или содержит ошибки" class="input__warning" src="img/icons/warning.svg" alt="">
                 </div>
                 <!-- /.input -->
 
                 <div class="input mb-2">
-                  <input placeholder="+7 ХХХ ХХХ-ХХ-ХХ" autocomplete="off" type="tel" name="user_email" class="input__field input__field--modal input__field--required">
+                  <input data-required placeholder="+7 ХХХ ХХХ-ХХ-ХХ" autocomplete="off" type="tel" name="user_email" class="input__field input__field--modal input__field--required">
+                  <img data-tippy-content="Телефон не указан или содержит ошибки" class="input__warning" src="img/icons/warning.svg" alt="">
                 </div>
                 <!-- /.input -->
 
@@ -671,7 +673,6 @@
                   <!-- /.input -->
 
                   <span class="form__info form__info--mobile mt-2">Обязательные поля</span>
-
 
                   <button class="form__button button button-primary mt-3 mt-sm-0 ms-0 ms-sm-3 ms-lg-0" type="submit">Отправить</button>
                 </div>
@@ -720,12 +721,14 @@
 
           <form action="" class="modal__form form form-modal">
             <div class="input mb-2 mb-md-3">
-              <input placeholder="Имя" autocomplete="off" type="text" name="user_name" class="input__field input__field--modal input__field--required">
+              <input data-required placeholder="Имя" autocomplete="off" type="text" name="user_name" class="input__field input__field--modal input__field--required">
+              <img data-tippy-content="Имя не указано или содержит ошибки" class="input__warning" src="img/icons/warning.svg" alt="">
             </div>
             <!-- /.input -->
 
             <div class="input mb-2 mb-md-3">
-              <input placeholder="+7 ХХХ ХХХ-ХХ-ХХ" autocomplete="off" type="tel" name="user_phone" class="input__field input__field--modal input__field--required">
+              <input data-required placeholder="+7 ХХХ ХХХ-ХХ-ХХ" autocomplete="off" type="tel" name="user_phone" class="input__field input__field--modal input__field--required">
+              <img data-tippy-content="Телефон не указан или содержит ошибки" class="input__warning" src="img/icons/warning.svg" alt="">
             </div>
             <!-- /.input -->
 

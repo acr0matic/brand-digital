@@ -48,3 +48,10 @@ const lightbox = GLightbox({
   autoplayVideos: true,
   openEffect: 'fade',
 });
+
+tippy('.input__warning[data-tippy-content]', {
+  placement: 'right',
+  allowHTML: true,
+  maxWidth: 300,
+  theme: 'brand-digital',
+});

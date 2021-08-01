@@ -51,7 +51,9 @@
     }
 
     &__info {
-      display: none;
+      @include breakpoint($breakpoint-mobile--large) {
+        display: none;
+      }
     }
   }
 }

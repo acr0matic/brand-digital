@@ -1,0 +1,19 @@
+.tippy-box[data-theme~="brand-digital"] {
+  z-index: 5;
+  padding: 0;
+
+  background-color: #ffffff;
+  color: $text-black;
+  border-radius: 5px;
+
+  font-size: 14px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+
+  .tippy-content {
+    padding: 10px;
+  }
+
+  .tippy-arrow {
+    color: #ffffff;
+  }
+}

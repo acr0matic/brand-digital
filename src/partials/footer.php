@@ -127,12 +127,14 @@
 
         <form action="" class="modal__form form form-modal">
           <div class="input mb-2 mb-md-3">
-            <input placeholder="Имя" autocomplete="off" type="text" name="user_name" class="input__field input__field--modal input__field--required">
+            <input data-required placeholder="Имя" autocomplete="off" type="text" name="user_name" class="input__field input__field--modal input__field--required">
+            <img data-tippy-content="Имя не указано или содержит ошибки" class="input__warning" src="img/icons/warning.svg" alt="">
           </div>
           <!-- /.input -->
 
           <div class="input mb-2 mb-md-3">
-            <input placeholder="+7 ХХХ ХХХ-ХХ-ХХ" autocomplete="off" type="tel" name="user_phone" class="input__field input__field--modal input__field--required">
+            <input data-required placeholder="+7 ХХХ ХХХ-ХХ-ХХ" autocomplete="off" type="tel" name="user_phone" class="input__field input__field--modal input__field--required">
+            <img data-tippy-content="Телефон не указан или содержит ошибки" class="input__warning" src="img/icons/warning.svg" alt="">
           </div>
           <!-- /.input -->
 
@@ -143,7 +145,7 @@
 
           <span class="form__info mb-3 mb-md-4">Обязательные поля</span>
 
-          <div class="input mb-2 mb-md-3">
+          <div class="input input--box mb-2 mb-md-3">
             <textarea rows="3" placeholder="Комментарий" name="user_message" class="input__field input__field--modal input__field--box"></textarea>
           </div>
           <!-- /.input -->
@@ -201,6 +203,8 @@
 <script src="scripts/libraries/smoothScroll.js"></script>
 <script src="scripts/libraries/handorgel.js"></script>
 <script src="scripts/libraries/glightbox.min.js"></script>
+<script src="scripts/libraries/popper.js"></script>
+<script src="scripts/libraries/tippy.js"></script>
 
 <script src="scripts/script.js"></script>
 <script src="scripts/sliders.js"></script>
