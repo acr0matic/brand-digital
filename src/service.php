@@ -38,7 +38,7 @@
             </a>
 
             <div class="hero__motion">
-              <video class="hero__video" autoplay loop>
+              <video class="hero__video" autoplay loop playsinline muted>
                 <source src="video/motion/car.webm">
               </video>
             </div>
@@ -222,25 +222,57 @@
           </h2>
 
           <div class="modal__swipe"></div>
+          <!-- /.modal__swipe -->
+
           <svg class="modal__close" data-micromodal-close viewBox="0 0 36 35" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path data-micromodal-close d="M2 2L34 33M34 2L2 33" stroke="white" stroke-width="4" />
           </svg>
         </header>
 
         <main class="modal__content">
-          <div class="row">
-            <div class="col-12 col-lg-6 pe-5 modal__inner">
-              <div style="background-image: url(''); background-color: #FF8025" class="promotions__item promotions-item promotions-item--big">
-                <h3 class="promotions-item__title">1 из 5</h3>
-                <p class="promotions-item__description">бонусов в подарок</p>
+          <div class="row flex-column-reverse flex-lg-row">
+            <div class="col-12 col-lg-7 pe-md-5 position-relative">
+              <div class="modal__inner">
+                <div style="background-image: url(''); background-color: #FF8025" class="promotions__item promotions-item promotions-item--big">
+                  <h3 class="promotions-item__title">1 из 5</h3>
+                  <p class="promotions-item__description">бонусов в подарок</p>
 
-                <span class="promotions-item__info">акция действует до 22.03.2021</span>
+                  <span class="promotions-item__info">акция действует до 22.03.2021</span>
+                </div>
+                <!-- /.promotions__item -->
               </div>
-              <!-- /.promotions__item -->
+
+              <button class="modal__button button button-outline button-outline--promotions">Получить акцию</button>
+              <form class="modal__form form form-promotions mt-3" action="">
+                <div class="input mb-2">
+                  <input placeholder="Имя" autocomplete="off" type="text" name="user_name" class="input__field input__field--modal input__field--required">
+                </div>
+                <!-- /.input -->
+
+                <div class="input mb-2">
+                  <input placeholder="+7 ХХХ ХХХ-ХХ-ХХ" autocomplete="off" type="tel" name="user_email" class="input__field input__field--modal input__field--required">
+                </div>
+                <!-- /.input -->
+
+                <div class="form__wrapper">
+                  <div class="input">
+                    <input placeholder="E-mail" autocomplete="off" type="email" name="user_email" class="input__field input__field--modal">
+                  </div>
+                  <!-- /.input -->
+
+                  <span class="form__info form__info--mobile mt-2">Обязательные поля</span>
+
+
+                  <button class="form__button button button-primary mt-3 mt-sm-0 ms-0 ms-sm-3 ms-lg-0" type="submit">Отправить</button>
+                </div>
+                <!-- /.form__wrapper -->
+
+                <span class="form__info mt-2">Обязательные поля</span>
+              </form>
             </div>
             <!-- /.col-6 -->
 
-            <div class="col-12 col-lg-6">
+            <div class="col-12 col-lg-5">
               <h3 class="modal__title">
                 1 из 5 бонусов в подарок
               </h3>
@@ -256,6 +288,7 @@
       </div>
     </div>
   </div>
+
 
   <?php include_once('partials/callback.php') ?>
 </main>

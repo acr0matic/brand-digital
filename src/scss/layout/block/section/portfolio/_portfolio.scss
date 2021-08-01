@@ -12,7 +12,7 @@
     }
 
     &__thumbs {
-      padding: 95px 10px 10px 10px;
+      padding: 45px 10px 10px 10px;
 
       @include breakpoint($breakpoint-laptop--large) {
         padding-top: 65px;

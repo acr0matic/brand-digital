@@ -1,7 +1,18 @@
 .modal-callback {
   .modal {
+    &__overlay {
+      @include breakpoint($breakpoint-mobile--large) {
+        align-items: flex-end;
+      }
+    }
+
     &__container {
       max-width: 1040px;
+
+      @include breakpoint($breakpoint-mobile--large) {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+      }
     }
 
     &__header {

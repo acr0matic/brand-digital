@@ -132,19 +132,19 @@
           <!-- /.input -->
 
           <div class="input mb-2 mb-md-3">
-            <input placeholder="+7 ХХХ ХХХ-ХХ-ХХ" autocomplete="off" type="tel" name="user_name" class="input__field input__field--modal input__field--required">
+            <input placeholder="+7 ХХХ ХХХ-ХХ-ХХ" autocomplete="off" type="tel" name="user_phone" class="input__field input__field--modal input__field--required">
           </div>
           <!-- /.input -->
 
           <div class="input mb-3 mb-md-4">
-            <input placeholder="E-mail" autocomplete="off" type="email" name="user_name" class="input__field input__field--modal">
+            <input placeholder="E-mail" autocomplete="off" type="email" name="user_email" class="input__field input__field--modal">
           </div>
           <!-- /.input -->
 
           <span class="form__info mb-3 mb-md-4">Обязательные поля</span>
 
           <div class="input mb-2 mb-md-3">
-            <textarea rows="3" placeholder="Комментарий" name="user_name" class="input__field input__field--modal input__field--box"></textarea>
+            <textarea rows="3" placeholder="Комментарий" name="user_message" class="input__field input__field--modal input__field--box"></textarea>
           </div>
           <!-- /.input -->
 
@@ -152,7 +152,7 @@
             <label class="checkbox mb-3 mb-md-4">
               <input type="checkbox">
               <span class="checkbox__mark"></span>
-              <span class="checkbox__label">Согласен с <a href="" class="checkbox__policy">Политикой обработки данных</a></span>
+              <span class="checkbox__label">Согласен с <a href="privacy.php" class="checkbox__policy">Политикой обработки данных</a></span>
             </label>
 
             <button class="modal__button form__button button button-primary mt-1" type="submit">Отправить</button>
@@ -212,6 +212,7 @@
 <script src="scripts/price.js"></script>
 <script src="scripts/process.js"></script>
 <script src="scripts/blog.js"></script>
+<script src="scripts/modal.js"></script>
 
 <script src="scripts/header.js"></script>
 <!-- endbuild -->

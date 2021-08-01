@@ -177,8 +177,8 @@
         <!-- /.header__nav -->
 
         <div class="header__callback">
-          <a href="" class="link link--main mb-1">+7 999 141-24-80</a>
-          <a href="" class="link link--main">info@brandigital.ru</a>
+          <a href="tel:" class="link link--main mb-1">+7 999 141-24-80</a>
+          <a href="mailto:" class="link link--main">info@brandigital.ru</a>
         </div>
         <!-- /.header__callback -->
 

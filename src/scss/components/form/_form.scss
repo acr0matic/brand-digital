@@ -18,6 +18,14 @@
     @include breakpoint($breakpoint-mobile--large) {
       font-size: 12px;
     }
+
+    &--mobile {
+      display: none;
+
+      @include breakpoint($breakpoint-mobile--large) {
+        display: block !important;
+      }
+    }
   }
 
   &__action {

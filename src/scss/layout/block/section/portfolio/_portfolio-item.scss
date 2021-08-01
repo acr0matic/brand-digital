@@ -2,8 +2,12 @@
   .portfolio-item {
     display: flex;
 
-    width: 85%;
+    width: 70%;
     margin: 0 auto;
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      width: 85%;
+    }
 
     @include breakpoint($breakpoint-tablet--large) {
       flex-direction: column;
@@ -14,10 +18,10 @@
     &__picture {
       flex-shrink: 0;
 
-      width: 750px;
-      height: 475px;
+      width: 500px;
+      height: 300px;
 
-      margin-right: 45px;
+      margin-right: 35px;
 
       border-radius: $border-radius-large;
       overflow: hidden;
@@ -57,7 +61,7 @@
     }
 
     &__content {
-      margin-top: 30px;
+      margin-top: 15px;
 
       @include breakpoint($breakpoint-tablet--large) {
         margin-top: 10px;

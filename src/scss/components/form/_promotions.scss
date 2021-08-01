@@ -1,0 +1,57 @@
+.form-promotions {
+  .input {
+    width: 310px;
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      width: 260px;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      width: 100%;
+      max-width: 220px;
+    }
+  }
+
+  .form {
+    &__wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      @include breakpoint($breakpoint-tablet--large) {
+        flex-direction: row;
+        justify-content: flex-start;
+      }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+
+    &__button {
+      margin-top: 0;
+
+      padding: 12px 55px;
+      font-size: 16px;
+
+      @include breakpoint($breakpoint-mobile--large) {
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid $button-small__border;
+
+        padding: 12px 45px;
+
+
+        background-color: $palette-white;
+        color: $text-orange;
+
+        font-weight: $weight-Medium;
+      }
+    }
+
+    &__info {
+      display: none;
+    }
+  }
+}

@@ -1765,7 +1765,7 @@
       </div>
       <!-- /.swiper-container portfolio-slider-tab -->
 
-      <button class="portfolio__button button button-primary">Смотреть все работы</button>
+      <button onclick="window.location.href='portfolio.php'" class="portfolio__button button button-primary">Смотреть все работы</button>
     </div>
     <!-- /.portfolio -->
   </div>

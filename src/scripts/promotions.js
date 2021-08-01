@@ -22,5 +22,13 @@ if (promotions) {
       title.innerHTML = copied.querySelector('.promotions-item__title').innerHTML + " " + copied.querySelector('.promotions-item__description').innerHTML;
       text.innerHTML = copied.querySelector('.promotions-item__text').innerHTML;
     });
+
+    const button = modal.querySelector('.modal__button');
+    const form = modal.querySelector('.modal__form');
+
+    button.addEventListener('click', () => {
+      button.classList.add('modal__button--hidden');
+      form.classList.add('modal__form--visible');
+    });
   });
 }

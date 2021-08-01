@@ -3,6 +3,10 @@
     border-radius: 50px;
     overflow: hidden;
 
+    @include breakpoint($breakpoint-laptop--large) {
+      border-radius: 35px;
+    }
+
     @include breakpoint($breakpoint-tablet) {
       border-radius: 20px;
     }
@@ -18,6 +22,10 @@
 
     @include breakpoint($breakpoint-laptop--large) {
       height: 350px;
+    }
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      height: 300px;
     }
 
     @include breakpoint($breakpoint-tablet--large) {
