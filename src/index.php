@@ -300,7 +300,7 @@
         <div class="container">
           <div class="hero__cta">
             <button data-micromodal-trigger="modal-callback" class="button button--cta button-primary mb-3 mb-md-0 me-sm-3">Начать проект</button>
-            <button href="#portfolio" class="button button--cta button-outline">Портфолио</button>
+            <a href="#portfolio"><button class="button button--cta button-outline">Портфолио</button></a>
           </div>
           <!-- /.hero__action -->
         </div>

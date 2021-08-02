@@ -9,19 +9,24 @@ if (serviceSection) {
 }
 
 const serviceContentSection = document.getElementById('service-content');
+let serviceItems;
 
 if (serviceContentSection) {
-  const serviceItems = serviceContentSection.querySelectorAll('.service-content-tabs__item');
+  serviceItems = serviceContentSection.querySelectorAll('.service-content-tabs__item');
 
   serviceItems.forEach((item, index) => {
     item.addEventListener('click', () => {
-      const activeItem = document.querySelector('.service-content-tabs__item--active');
-      if (activeItem) activeItem.classList.remove('service-content-tabs__item--active');
-
-      item.classList.add('service-content-tabs__item--active');
-      serviceTabs.slideTo(index);
+      ChangeServiceTab(item, index)
     });
   });
+}
+
+function ChangeServiceTab(item, index) {
+  const activeItem = document.querySelector('.service-content-tabs__item--active');
+  if (activeItem) activeItem.classList.remove('service-content-tabs__item--active');
+
+  item.classList.add('service-content-tabs__item--active');
+  serviceTabs.slideTo(index);
 }
 
 const serviceTabs = new Swiper('.service-content-slider', {

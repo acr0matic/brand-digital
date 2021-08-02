@@ -5,7 +5,7 @@
     width: 70%;
     margin: 0 auto;
 
-    @include breakpoint($breakpoint-laptop--medium) {
+    @include breakpoint($breakpoint-laptop--large) {
       width: 85%;
     }
 

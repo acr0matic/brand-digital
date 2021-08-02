@@ -43,12 +43,12 @@
 
         <nav class="nav nav--footer">
           <ul class="nav__list">
-            <li class="nav__item"><a href="" class="nav__link">Оклейка транспорта</a></li>
-            <li class="nav__item"><a href="" class="nav__link">Тенты</a></li>
-            <li class="nav__item"><a href="" class="nav__link">Дизайн</a></li>
-            <li class="nav__item"><a href="" class="nav__link">Интерьерная печать</a></li>
-            <li class="nav__item"><a href="" class="nav__link">Наклейки</a></li>
-            <li class="nav__item"><a href="" class="nav__link">Сувернирная прод.</a></li>
+            <li class="nav__item"><a href="service-page.php" class="nav__link">Оклейка транспорта</a></li>
+            <li class="nav__item"><a href="service.php" class="nav__link">Тенты</a></li>
+            <li class="nav__item"><a href="service.php" class="nav__link">Дизайн</a></li>
+            <li class="nav__item"><a href="service.php" class="nav__link">Интерьерная печать</a></li>
+            <li class="nav__item"><a href="service.php" class="nav__link">Наклейки</a></li>
+            <li class="nav__item"><a href="service.php" class="nav__link">Сувернирная прод.</a></li>
           </ul>
         </nav>
       </div>
@@ -217,6 +217,7 @@
 <script src="scripts/process.js"></script>
 <script src="scripts/blog.js"></script>
 <script src="scripts/modal.js"></script>
+<script src="scripts/navigator.js"></script>
 
 <script src="scripts/header.js"></script>
 <!-- endbuild -->

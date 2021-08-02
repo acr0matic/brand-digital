@@ -14,13 +14,14 @@
   margin-bottom: -70px;
 
   @include breakpoint($breakpoint-laptop--large) {
-    margin-bottom: -130px;
+    margin-bottom: -100px;
 
     background-size: 720px;
     background-position-y: calc(100% - 94px);
   }
 
   @include breakpoint($breakpoint-laptop--medium) {
+    margin-bottom: -140px;
     background-size: 550px;
   }
 

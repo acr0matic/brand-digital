@@ -18,7 +18,7 @@
 
             <div class="hero__cta">
               <button data-micromodal-trigger="modal-callback" class="button button-primary me-sm-3">Начать проект</button>
-              <button class="button button-outline button-outline--orange">Портфолио</button>
+              <a style="text-align: center;" href="#portfolio"><button class="button button-outline button-outline--orange">Портфолио</button></a>
 
               <div class="hero__mobile hero-mobile">
                 <img class="hero-mobile__icon" src="img/page/main/hero/icons/mobile/1.svg" alt="">
@@ -62,7 +62,7 @@
         <div class="container">
           <div class="hero__cta">
             <button class="button button--cta button-primary mb-3 mb-md-0 me-md-3">Наши акции</button>
-            <button class="button button--cta button-outline">Портфолио</button>
+            <a style="text-align: center;" href="#portfolio"><button class="button button--cta button-outline">Портфолио</button></a>
           </div>
           <!-- /.hero__action -->
         </div>

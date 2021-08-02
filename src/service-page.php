@@ -20,6 +20,7 @@
             <!-- /.service-content-tabs__picture -->
 
             <div class="service-content-tabs__title">Легковое авто</div>
+            <a class="stretched-link" href="#category-1"></a>
           </div>
           <!-- /.service-content-tabs__item service-content-tabs__item--active -->
 
@@ -32,6 +33,7 @@
             <!-- /.service-content-tabs__picture -->
 
             <div class="service-content-tabs__title">Малое грузовое</div>
+            <a class="stretched-link" href="#category-2"></a>
           </div>
           <!-- /.service-content-tabs__item -->
 
@@ -44,6 +46,7 @@
             <!-- /.service-content-tabs__picture -->
 
             <div class="service-content-tabs__title">Фургон</div>
+            <a class="stretched-link" href="#category-3"></a>
           </div>
           <!-- /.service-content-tabs__item -->
 
@@ -56,6 +59,7 @@
             <!-- /.service-content-tabs__picture -->
 
             <div class="service-content-tabs__title">Грузовое авто</div>
+            <a class="stretched-link" href="#category-4"></a>
           </div>
           <!-- /.service-content-tabs__item -->
 
@@ -68,6 +72,7 @@
             <!-- /.service-content-tabs__picture -->
 
             <div class="service-content-tabs__title">Фура</div>
+            <a class="stretched-link" href="#category-5"></a>
           </div>
           <!-- /.service-content-tabs__item -->
         </div>
@@ -501,7 +506,7 @@
           <!-- /.footer__social -->
 
           <button data-micromodal-trigger="modal-callback" class="button button-primary mb-2 mb-sm-0 me-sm-3">Начать проект</button>
-          <button href="#portfolio" class="button button-outline mt-1 mt-sm-0">Портфолио</button>
+          <a style="text-align: center;" href="#portfolio"><button class="button button-outline mt-1 mt-sm-0">Портфолио</button></a>
         </div>
         <!-- /.hero__action -->
       </div>
