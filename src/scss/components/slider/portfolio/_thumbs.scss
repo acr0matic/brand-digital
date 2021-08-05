@@ -1,45 +1,6 @@
 .portfolio-slider-thumb {
   overflow: visible;
 
-  &::before,
-  &::after {
-    content: "";
-    position: absolute;
-    z-index: 100;
-    top: 50%;
-
-    width: 350px;
-    height: 100%;
-
-    transform: translateY(-50%);
-
-    pointer-events: none;
-
-    @include breakpoint($breakpoint-tablet--large) {
-      display: none;
-    }
-  }
-
-  &::after {
-    left: -250px;
-
-    background: linear-gradient(
-      90deg,
-      rgba(255, 255, 255, 1) 20%,
-      rgba(255, 255, 255, 0) 100%
-    );
-  }
-
-  &::before {
-    right: -250px;
-
-    background: linear-gradient(
-      270deg,
-      rgba(255, 255, 255, 1) 20%,
-      rgba(255, 255, 255, 0) 100%
-    );
-  }
-
   @include breakpoint($breakpoint-tablet--large) {
     display: none;
   }

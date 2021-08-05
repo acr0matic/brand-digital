@@ -121,12 +121,13 @@
     margin-left: auto;
     margin-right: auto;
 
-    padding: 25px 75px;
+    padding: 20px 75px;
 
     font-size: 30px;
 
-    @include breakpoint($breakpoint-laptop--medium) {
-      padding: 18px 55px;
+    @include breakpoint($breakpoint-laptop--large) {
+      margin-top: 55px;
+      padding: 16px 45px;
       font-size: 24px;
     }
 

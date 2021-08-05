@@ -6,7 +6,7 @@
     margin: 0 auto;
 
     @include breakpoint($breakpoint-laptop--large) {
-      width: 85%;
+      width: 80%;
     }
 
     @include breakpoint($breakpoint-tablet--large) {
@@ -26,12 +26,6 @@
       border-radius: $border-radius-large;
       overflow: hidden;
 
-      @include breakpoint($breakpoint-laptop--large) {
-        width: 610px;
-        height: 380px;
-
-        margin-right: 38px;
-      }
 
       @include breakpoint($breakpoint-laptop--medium) {
         width: 420px;

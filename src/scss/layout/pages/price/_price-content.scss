@@ -62,7 +62,7 @@
 
     text-align: center;
 
-    font-size: 36px;
+    font-size: 24px;
     cursor: pointer;
 
     @include breakpoint($breakpoint-laptop--medium) {
@@ -116,16 +116,16 @@
 
   &__icon {
     margin-bottom: 15px;
-    width: 190px;
-    height: 190px;
+    width: 165px;
+    height: 165px;
 
     filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.161));
 
     transition: 0.3s ease;
 
     @include breakpoint($breakpoint-laptop--large) {
-      width: 150px;
-      height: 150px;
+      width: 130px;
+      height: 130px;
     }
 
     @include breakpoint($breakpoint-laptop--medium) {
@@ -197,6 +197,6 @@
 
   &__button {
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 15px auto;
   }
 }

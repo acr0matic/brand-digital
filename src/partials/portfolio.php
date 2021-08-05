@@ -1,4 +1,4 @@
-<section id="portfolio" class="section">
+<section id="portfolio" class="section position-relative">
   <div class="container">
     <div class="portfolio portfolio--block">
       <h2 class="portfolio__title section__title text-center">Портфолио</h2>
@@ -1770,6 +1770,11 @@
     <!-- /.portfolio -->
   </div>
   <!-- /.container -->
+
+  <div class="portfolio-fade">
+
+  </div>
+  <!-- /.portfolio-fade -->
 
   <div class="modal modal-portfolio micromodal-slide" id="modal-portfolio" aria-hidden="true">
     <div class="modal__overlay" tabindex="-1" data-micromodal-close>

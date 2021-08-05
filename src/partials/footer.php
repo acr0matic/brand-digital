@@ -209,6 +209,7 @@
 <script src="scripts/script.js"></script>
 <script src="scripts/sliders.js"></script>
 <script src="scripts/portfolio.js"></script>
+<script src="scripts/header.js"></script>
 <script src="scripts/service.js"></script>
 <script src="scripts/promotions.js"></script>
 <script src="scripts/misc.js"></script>
@@ -218,8 +219,7 @@
 <script src="scripts/blog.js"></script>
 <script src="scripts/modal.js"></script>
 <script src="scripts/navigator.js"></script>
-
-<script src="scripts/header.js"></script>
+<script src="scripts/video.js"></script>
 <!-- endbuild -->
 </body>
 

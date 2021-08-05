@@ -14,10 +14,6 @@
     &__thumbs {
       padding: 45px 10px 10px 10px;
 
-      @include breakpoint($breakpoint-laptop--large) {
-        padding-top: 65px;
-      }
-
       @include breakpoint($breakpoint-tablet--large) {
         padding: 0;
       }
@@ -31,5 +27,61 @@
         margin-top: 30px;
       }
     }
+  }
+}
+
+.portfolio-fade {
+  position: absolute;
+  bottom: 120px;
+
+  width: 100%;
+  height: 270px;
+
+  @include breakpoint($breakpoint-laptop--large) {
+    bottom: 90px;
+    height: 250px;
+  }
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+
+    width: 250px;
+    height: 100%;
+
+    transform: translateY(-50%);
+
+    pointer-events: none;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      width: 50px;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      display: none;
+    }
+  }
+
+  &::after {
+    left: 0;
+
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 1) 20%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
+
+  &::before {
+    right: 0;
+
+    background: linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 1) 20%,
+      rgba(255, 255, 255, 0) 100%
+    );
   }
 }

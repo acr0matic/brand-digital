@@ -25,7 +25,10 @@ if (mapContainer) {
           var place = new ymaps.Placemark(
             element.coordinates, {
             balloonContentBody: address,
-          }
+          },
+            {
+              iconColor: '#ff8025',
+            },
           );
 
           map.geoObjects.add(place);

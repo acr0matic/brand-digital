@@ -83,7 +83,7 @@
         <h2 class="service__title section__title text-center">Какие авто мы брендируем</h2>
 
         <div class="service__wrapper">
-          <div onclick="window.location.href='https://yandex.ru'" class="service__card service-card">
+          <div onclick="window.location.href='service-page.php#category-4'" class="service__card service-card">
             <div class="service-card__wrapper">
               <h3 class="service-card__title">Грузовой <br> автомобиль</h3>
               <div class="service-card__price">от 14 000₽</div>
@@ -94,7 +94,7 @@
           </div>
           <!-- /.service__card service-card -->
 
-          <div onclick="window.location.href='https://yandex.ru'" class="service__card service-card">
+          <div onclick="window.location.href='service-page.php#category-1'" class="service__card service-card">
             <div class="service-card__wrapper">
               <h3 class="service-card__title">Легковой</h3>
               <div class="service-card__price">от 8 000₽</div>
@@ -105,7 +105,7 @@
           </div>
           <!-- /.service__card service-card -->
 
-          <div onclick="window.location.href='https://yandex.ru'" class="service__card service-card">
+          <div onclick="window.location.href='service-page.php#category-3'" class="service__card service-card">
             <div class="service-card__wrapper">
               <h3 class="service-card__title">Фургон</h3>
               <div class="service-card__price">от 15 000₽</div>
@@ -116,7 +116,7 @@
           </div>
           <!-- /.service__card service-card -->
 
-          <div onclick="window.location.href='https://yandex.ru'" class="service__card service-card">
+          <div onclick="window.location.href='service-page.php#category-2'" class="service__card service-card">
             <div class="service-card__wrapper">
               <h3 class="service-card__title">Малый <br> Грузовой</h3>
               <div class="service-card__price">от 13 000₽</div>
@@ -127,7 +127,7 @@
           </div>
           <!-- /.service__card service-card -->
 
-          <div onclick="window.location.href='https://yandex.ru'" class="service__card service-card">
+          <div onclick="window.location.href='service-page.php#category-5'" class="service__card service-card">
             <div class="service-card__wrapper">
               <h3 class="service-card__title">Фура</h3>
               <div class="service-card__price">от 25 000₽</div>
@@ -138,7 +138,7 @@
           </div>
           <!-- /.service__card service-card -->
 
-          <div onclick="window.location.href='https://yandex.ru'" class="service__card service-card">
+          <div data-micromodal-trigger="modal-price" class="service__card service-card">
             <div class="service-card__wrapper">
               <h3 class="service-card__title">Ваш транспорт</h3>
               <div class="service-card__price">Спец. цена</div>
@@ -289,6 +289,67 @@
     </div>
   </div>
 
+  <div class="modal modal--window modal-callback micromodal-slide" id="modal-price" aria-hidden="true">
+    <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+      <div class="modal__container" role="dialog">
+        <header class="modal__header">
+          <h2 class="modal__title" id="modal-1-title">
+            Предлагаем рассчитать цену на ваш транспорт
+          </h2>
+
+          <div class="modal__swipe"></div>
+          <svg class="modal__close" data-micromodal-close viewBox="0 0 36 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path data-micromodal-close d="M2 2L34 33M34 2L2 33" stroke="white" stroke-width="4" />
+          </svg>
+        </header>
+
+        <main class="modal__content">
+          <p class="modal__text">
+            В комментариях укажите ваш транспорт, наши менеджеры свяжуться с вами в ближайшее время
+          </p>
+
+          <form action="" class="modal__form form form-modal">
+            <div class="input mb-2 mb-md-3">
+              <input data-required placeholder="Имя" autocomplete="off" type="text" name="user_name" class="input__field input__field--modal input__field--required">
+              <img data-tippy-content="Имя не указано или содержит ошибки" class="input__warning" src="img/icons/warning.svg" alt="">
+            </div>
+            <!-- /.input -->
+
+            <div class="input mb-2 mb-md-3">
+              <input data-required placeholder="+7 ХХХ ХХХ-ХХ-ХХ" autocomplete="off" type="tel" name="user_phone" class="input__field input__field--modal input__field--required">
+              <img data-tippy-content="Телефон не указан или содержит ошибки" class="input__warning" src="img/icons/warning.svg" alt="">
+            </div>
+            <!-- /.input -->
+
+            <div class="input mb-3 mb-md-4">
+              <input placeholder="E-mail" autocomplete="off" type="email" name="user_email" class="input__field input__field--modal">
+            </div>
+            <!-- /.input -->
+
+            <span class="form__info mb-3 mb-md-4">Обязательные поля</span>
+
+            <div class="input mb-2 mb-md-3">
+              <textarea rows="3" placeholder="Комментарий" name="user_message" class="input__field input__field--modal input__field--box"></textarea>
+            </div>
+            <!-- /.input -->
+
+            <div class="form__action">
+              <label class="checkbox mb-3 mb-md-4">
+                <input type="checkbox">
+                <span class="checkbox__mark"></span>
+                <span class="checkbox__label">Согласен с <a href="privacy.php" class="checkbox__policy">Политикой обработки данных</a></span>
+              </label>
+
+              <button class="modal__button form__button button button-primary mt-1" type="submit">Отправить</button>
+            </div>
+            <!-- /.form__action -->
+          </form>
+
+          <img src="img/misc/modal/modal-price.jpg" alt="" class="modal__image">
+        </main>
+      </div>
+    </div>
+  </div>
 
   <?php include_once('partials/callback.php') ?>
 </main>

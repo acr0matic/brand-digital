@@ -104,7 +104,7 @@
                     <!-- /.hero__content -->
 
                     <div class="hero__motion">
-                      <video class="hero__video" autoplay loop mute playsinline>
+                      <video class="hero__video" muted playsinline loop autoplay>
                         <source src="video/motion/car.webm">
                       </video>
                     </div>
@@ -138,7 +138,7 @@
                     <!-- /.hero__content -->
 
                     <div class="hero__motion">
-                      <video class="hero__video" autoplay loop mute playsinline>
+                      <video class="hero__video" muted playsinline loop preload="none">
                         <source src="video/motion/car.webm">
                       </video>
                     </div>
@@ -172,7 +172,7 @@
                     <!-- /.hero__content -->
 
                     <div class="hero__motion">
-                      <video class="hero__video" autoplay loop mute playsinline>
+                      <video class="hero__video" muted playsinline loop preload="none">
                         <source src="video/motion/design.webm">
                       </video>
                     </div>
@@ -204,7 +204,7 @@
                     <!-- /.hero__content -->
 
                     <div class="hero__motion">
-                      <video class="hero__video" autoplay loop mute playsinline>
+                      <video class="hero__video" muted playsinline loop preload="none">
                         <source src="video/motion/room.webm">
                       </video>
                     </div>
@@ -236,7 +236,7 @@
                     <!-- /.hero__content -->
 
                     <div class="hero__motion">
-                      <video class="hero__video" autoplay loop mute playsinline>
+                      <video class="hero__video" muted playsinline loop preload="none">
                         <source src="video/motion/suv.webm">
                       </video>
                     </div>
@@ -268,7 +268,7 @@
                     <!-- /.hero__content -->
 
                     <div class="hero__motion">
-                      <video class="hero__video" autoplay loop mute playsinline>
+                      <video class="hero__video" muted playsinline loop preload="none">
                         <source src="video/motion/notebook.webm">
                       </video>
                     </div>

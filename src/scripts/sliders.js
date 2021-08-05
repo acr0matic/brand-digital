@@ -3,6 +3,8 @@ if (hero) {
   const heroAction = hero.querySelectorAll('.hero__service');
   heroAction.forEach((action, index) => {
     action.addEventListener('click', (e) => {
+      if (!heroVideos[index].playing) heroVideos[index].play();
+
       const activeCard = document.querySelector('.hero__service--active');
 
       if (e.currentTarget === activeCard) {
