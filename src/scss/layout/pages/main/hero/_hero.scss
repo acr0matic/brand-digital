@@ -258,6 +258,15 @@
     @include breakpoint($breakpoint-tablet--large) {
       display: none;
     }
+
+    &--gif {
+      right: -40px;
+      bottom: -47px;
+
+      @include breakpoint($breakpoint-laptop--large) {
+        bottom: -24px;
+      }
+    }
   }
 
   &__video {

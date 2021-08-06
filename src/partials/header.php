@@ -300,12 +300,12 @@
 
               <div class="mobile-menu__dropdown mobile-dropdown__wrapper">
                 <ul class="nav__list">
-                  <li class="nav__item"><a href="service.php" class="nav__link">Упр. проектами</a></li>
-                  <li class="nav__item"><a href="service.php" class="nav__link">Дизайн</a></li>
-                  <li class="nav__item"><a href="service.php" class="nav__link">Материал</a></li>
-                  <li class="nav__item"><a href="service.php" class="nav__link">Производство</a></li>
-                  <li class="nav__item"><a href="service.php" class="nav__link">Монтаж</a></li>
-                  <li class="nav__item"><a href="service.php" class="nav__link">Гарантия</a></li>
+                  <li class="nav__item"><a href="process-managment.php" class="nav__link">Упр. проектами</a></li>
+                  <li class="nav__item"><a href="process-design.php" class="nav__link">Дизайн</a></li>
+                  <li class="nav__item"><a href="process-material.php" class="nav__link">Материал</a></li>
+                  <li class="nav__item"><a href="process-manufacturing.php" class="nav__link">Производство</a></li>
+                  <li class="nav__item"><a href="process-assembly.php" class="nav__link">Монтаж</a></li>
+                  <li class="nav__item"><a href="process-warranty.php" class="nav__link">Гарантия</a></li>
                 </ul>
               </div>
               <!-- /.mobile-menu__dropdown -->
