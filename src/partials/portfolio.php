@@ -1,4 +1,4 @@
-<section id="portfolio" class="section position-relative">
+<section id="portfolio--block" class="section position-relative">
   <div class="container">
     <div class="portfolio portfolio--block">
       <h2 class="portfolio__title section__title text-center">Портфолио</h2>

@@ -42,7 +42,6 @@
 
         padding: 12px 45px;
 
-
         background-color: $palette-white;
         color: $text-orange;
 
@@ -51,8 +50,27 @@
     }
 
     &__info {
+      position: absolute;
+      right: -150px;
+      bottom: 12px;
+
+      @include breakpoint($breakpoint-tablet--large) {
+        right: initial;
+        bottom: 50px;
+        left: 10px;
+      }
+
       @include breakpoint($breakpoint-mobile--large) {
+        position: static;
         display: none;
+      }
+    }
+
+    &__action {
+      @include breakpoint($breakpoint-mobile--large) {
+        position: absolute;
+        bottom: 50px;
+        left: 13px;
       }
     }
   }

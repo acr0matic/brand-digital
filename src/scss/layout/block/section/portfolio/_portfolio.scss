@@ -1,3 +1,10 @@
+#portfolio--block {
+  @include breakpoint($breakpoint-mobile--large) {
+    margin-top: -65px;
+    padding-top: 95px;
+  }
+}
+
 .portfolio--block {
   .portfolio {
     &__title {

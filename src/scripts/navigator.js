@@ -11,7 +11,7 @@ function GetItemPos(item) {
 
 function Scroll(container) {
   container.scroll({
-    left: itemPos - 22,
+    left: itemPos - 25,
     behavior: 'smooth',
   });
 }
@@ -24,6 +24,7 @@ function ChangeActive(func, item) {
 document.addEventListener("DOMContentLoaded", () => {
   const serviceTabs = document.querySelector('.service-content-tabs');
   const portfolioTabs = document.querySelector('.portfolio-body__action');
+  const processTabs = document.querySelector('.process-hero__action');
 
   GetHash();
 
@@ -36,6 +37,14 @@ document.addEventListener("DOMContentLoaded", () => {
         GetHash();
         ChangeActive(ChangeServiceTab, serviceItems[index]);
       });
+    }
+  }
+
+  else {
+    if (processTabs) {
+      const active = processTabs.querySelector('.process-hero__service--active');
+      GetItemPos(active);
+      Scroll(processTabs);
     }
   }
 });

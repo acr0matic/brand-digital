@@ -10,7 +10,10 @@
           <p class="process-hero__text section__text page__text">Каждый этап реализации заказа выверен и <br> отработан до мелчайших деталей. Отработан <br> годами во множестве проектах.</p>
         </div>
         <!-- /.process-hero__content -->
+      </div>
+      <!-- /.container -->
 
+      <div class="container">
         <div class="process-hero__action">
           <div class="process-hero__service">
             <svg class="process-hero__icon svg" width="165" height="167" viewBox="0 0 165 167" fill="none" xmlns="http://www.w3.org/2000/svg">

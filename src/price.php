@@ -330,7 +330,7 @@
                     <div class="col-12 col-sm-6 col-lg-4">
                       <div class="price-content__card price-card">
                         <h3 class="price-card__title">Легковой автомобиль</h3>
-                        <img src="img/page/price/items/car/6.jpg" alt="" class="price-card__picture">
+                        <img src="img/page/price/items/car/6.png" alt="" class="price-card__picture">
                         <span data-micromodal-trigger="modal-price" class="price-card__cost price-card__cost--unknown">Узнать цену</span>
                       </div>
                       <!-- /.price-content__card price-card -->
@@ -396,7 +396,7 @@
                     <div class="col-12 col-sm-6 col-lg-4">
                       <div class="price-content__card price-card">
                         <h3 class="price-card__title">Легковой автомобиль</h3>
-                        <img src="img/page/price/items/desing/6.jpg" alt="" class="price-card__picture">
+                        <img src="img/page/price/items/desing/6.png" alt="" class="price-card__picture">
                         <span class="price-card__cost price-card__cost--unknown">Узнать цену</span>
                       </div>
                       <!-- /.price-content__card price-card -->
@@ -462,7 +462,7 @@
                     <div class="col-12 col-sm-6 col-lg-4">
                       <div class="price-content__card price-card">
                         <h3 class="price-card__title">Легковой автомобиль</h3>
-                        <img src="img/page/price/items/car/6.jpg" alt="" class="price-card__picture">
+                        <img src="img/page/price/items/car/6.png" alt="" class="price-card__picture">
                         <span class="price-card__cost price-card__cost--unknown">Узнать цену</span>
                       </div>
                       <!-- /.price-content__card price-card -->
@@ -528,7 +528,7 @@
                     <div class="col-12 col-sm-6 col-lg-4">
                       <div class="price-content__card price-card">
                         <h3 class="price-card__title">Легковой автомобиль</h3>
-                        <img src="img/page/price/items/desing/6.jpg" alt="" class="price-card__picture">
+                        <img src="img/page/price/items/desing/6.png" alt="" class="price-card__picture">
                         <span class="price-card__cost price-card__cost--unknown">Узнать цену</span>
                       </div>
                       <!-- /.price-content__card price-card -->
@@ -594,7 +594,7 @@
                     <div class="col-12 col-sm-6 col-lg-4">
                       <div class="price-content__card price-card">
                         <h3 class="price-card__title">Легковой автомобиль</h3>
-                        <img src="img/page/price/items/car/6.jpg" alt="" class="price-card__picture">
+                        <img src="img/page/price/items/car/6.png" alt="" class="price-card__picture">
                         <span class="price-card__cost price-card__cost--unknown">Узнать цену</span>
                       </div>
                       <!-- /.price-content__card price-card -->
@@ -674,9 +674,18 @@
 
                   <span class="form__info form__info--mobile mt-2">Обязательные поля</span>
 
-                  <button class="form__button button button-primary mt-3 mt-sm-0 ms-0 ms-sm-3 ms-lg-0" type="submit">Отправить</button>
+                  <button class="form__button button button-primary mt-5 mt-sm-0 ms-sm-3 ms-lg-0" type="submit">Отправить</button>
                 </div>
                 <!-- /.form__wrapper -->
+
+                <div class="form__action mt-2 mt-sm-5 mt-lg-2">
+                  <label class="checkbox mb-2">
+                    <input type="checkbox">
+                    <span class="checkbox__mark"></span>
+                    <span class="checkbox__label">Согласен с <a href="privacy.php" class="checkbox__policy">Политикой обработки данных</a></span>
+                  </label>
+                </div>
+                <!-- /.form__action -->
 
                 <span class="form__info mt-2">Обязательные поля</span>
               </form>
@@ -739,7 +748,7 @@
 
             <span class="form__info mb-3 mb-md-4">Обязательные поля</span>
 
-            <div class="input mb-2 mb-md-3">
+            <div class="input input--box mb-2 mb-md-3">
               <textarea rows="3" placeholder="Комментарий" name="user_message" class="input__field input__field--modal input__field--box"></textarea>
             </div>
             <!-- /.input -->

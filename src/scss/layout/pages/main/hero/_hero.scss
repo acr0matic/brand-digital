@@ -107,6 +107,14 @@
 
     @include breakpoint($breakpoint-mobile--large) {
       flex-direction: column;
+      align-items: center;
+    }
+
+    .button,
+    a {
+      @include breakpoint($breakpoint-mobile--large) {
+        width: 280px;
+      }
     }
   }
 

@@ -1,7 +1,7 @@
 .modal-promotions {
   .modal {
     &__overlay {
-      @include breakpoint($breakpoint-tablet) {
+      @include breakpoint($breakpoint-mobile--large) {
         align-items: flex-end;
       }
     }
@@ -86,7 +86,7 @@
       color: $text-gray;
 
       @include breakpoint($breakpoint-mobile--large) {
-        max-height: 180px;
+        max-height: 95px;
 
         padding-right: 15px;
         padding-bottom: 15px;
