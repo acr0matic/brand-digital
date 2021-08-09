@@ -272,6 +272,8 @@ const processSliderCommon = new Swiper('.process-slider--common', {
 });
 
 const processSliderSmall = new Swiper('.process-slider--small', {
+  simulateTouch: false,
+  allowTouchMove: false,
   speed: 500,
   spaceBetween: 30,
   slidesPerView: 1,

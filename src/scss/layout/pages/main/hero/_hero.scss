@@ -121,8 +121,18 @@
     font-size: 23px;
     cursor: pointer;
 
+    @media (hover: hover) {
+      &:hover {
+        .hero__icon {
+          transform: scale(0.9);
+        }
+      }
+    }
+
     &--active {
       .hero__icon {
+        transform: none !important;
+
         .background {
           fill: $palette-white;
         }
@@ -150,6 +160,7 @@
     margin-bottom: 10px;
     width: 100px;
     height: 100px;
+    transition: 0.2s ease;
 
     @include breakpoint($breakpoint-laptop--large) {
       width: 85px;

@@ -89,10 +89,10 @@
       <!-- /.footer__contact -->
 
       <div class="footer__office">
-        <a href="" class="footer__link footer__link--main link link--main link--orange">Офисы и боксы</a>
-        <a href="" class="footer__link link link--orange">г. Нижний Новгород</a>
-        <a href="" class="footer__link link link--orange">г. Москва</a>
-        <a href="" class="footer__link link link--orange">г. Казань</a>
+        <a href="/contact.php" class="footer__link footer__link--main link link--main link--orange">Офисы и боксы</a>
+        <a href="/contact.php" class="footer__link link link--orange">г. Нижний Новгород</a>
+        <a href="/contact.php" class="footer__link link link--orange">г. Москва</a>
+        <a href="/contact.php" class="footer__link link link--orange">г. Казань</a>
 
         <span class="footer__additional">Работаем по всей России!</span>
       </div>

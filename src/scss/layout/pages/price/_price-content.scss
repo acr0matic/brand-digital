@@ -90,6 +90,14 @@
       }
     }
 
+    @media (hover: hover) {
+      &:hover {
+        .price-content__icon {
+          transform: scale(0.9);
+        }
+      }
+    }
+
     &--active {
       font-weight: $weight-Medium;
 
@@ -102,6 +110,7 @@
 
       .price-content__icon {
         filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 0.25));
+        transform: none !important;
 
         .background {
           fill: $palette-white;

@@ -39,6 +39,9 @@
     picture {
       height: 350px;
 
+      border-radius: 10px;
+      overflow: hidden;
+
       @include breakpoint($breakpoint-laptop--large) {
         height: 280px;
       }

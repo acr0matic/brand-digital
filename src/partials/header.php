@@ -127,7 +127,7 @@
 
                 <div class="dropdown__content">
                   <div class="dropdown">
-                    <a href="service-page.php" class="dropdown__item dropdown__item--arrow">
+                    <a href="service.php" class="dropdown__item dropdown__item--arrow">
                       Оклейка транспорта
                       <svg class="dropdown__icon dropdown__icon--right" viewBox="0 0 19 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1.07617 1.64258L8.98926 9.55566L17.2393 1.64258" stroke="#FF8025" stroke-width="2.5" />
@@ -149,7 +149,6 @@
                   <a class="dropdown__item" href="service.php">Интерьерная печать</a>
                   <a class="dropdown__item" href="service.php">Наклейки</a>
                   <a class="dropdown__item" href="service.php">Сувенирная прод.</a>
-                  <a class="dropdown__item" href="service.php">Брендирование</a>
                 </div>
                 <!-- /.dropdown__content -->
               </li>
@@ -162,7 +161,7 @@
                 </span>
 
                 <div class="dropdown__content">
-                  <a class="dropdown__item" href="process-managment.php">Упр. проектами</a>
+                  <a class="dropdown__item dropdown__item--arrow" href="process-managment.php">Упр. проектами</a>
                   <a class="dropdown__item" href="process-design.php">Дизайн</a>
                   <a class="dropdown__item" href="process-material.php">Материал</a>
                   <a class="dropdown__item" href="process-manufacturing.php">Производство</a>
@@ -281,7 +280,7 @@
 
               <div class="mobile-menu__dropdown mobile-dropdown__wrapper">
                 <ul class="nav__list">
-                  <li class="nav__item"><a href="service-page.php" class="nav__link">Оклейка транспорта</a></li>
+                  <li class="nav__item"><a href="service.php" class="nav__link">Оклейка транспорта</a></li>
                   <li class="nav__item"><a href="service.php" class="nav__link">Дизайн</a></li>
                   <li class="nav__item"><a href="service.php" class="nav__link">Интерьерная печать</a></li>
                   <li class="nav__item"><a href="service.php" class="nav__link">Сувенирная прод.</a></li>

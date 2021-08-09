@@ -8,10 +8,11 @@
 
   @include breakpoint($breakpoint-laptop--large) {
     background-size: 800px;
-    // margin-bottom: -50px;
+    margin-bottom: 55px;
   }
 
   @include breakpoint($breakpoint-laptop--medium) {
+    margin-bottom: -50px;
     background-size: 650px;
   }
 
@@ -129,6 +130,20 @@
 
       @include breakpoint($breakpoint-mobile--large) {
         display: block !important;
+      }
+    }
+
+    &--service {
+      .hero__motion--gif {
+        bottom: -183px;
+
+        @include breakpoint($breakpoint-laptop--large) {
+          bottom: -150px;
+        }
+
+        @include breakpoint($breakpoint-laptop--medium) {
+          bottom: -110px;
+        }
       }
     }
   }

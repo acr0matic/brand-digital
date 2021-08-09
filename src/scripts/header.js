@@ -20,12 +20,21 @@ headerDropdown.forEach(dropdown => {
   window.addEventListener('scroll',
     () => {
       scrollPosition = window.pageYOffset;
+      const heroBlock = document.querySelector('.hero')
+      const heroHeight =  heroBlock ? heroBlock.offsetHeight : null;
+
       if (scrollPosition >= 150) dropdown.parentNode.classList.remove('dropdown--open');
 
-      if (window.scrollY >= header.offsetHeight + 50) header.classList.add('header-inverted');
-      else header.classList.remove('header-inverted')
-    });
+      if (heroHeight) {
+        if (window.scrollY >= heroHeight - 150) header.classList.add('header-inverted');
+        else header.classList.remove('header-inverted')
+      }
 
+      else {
+        if (window.scrollY >= header.offsetHeight + 50) header.classList.add('header-inverted');
+        else header.classList.remove('header-inverted')
+      }
+    });
 });
 
 
@@ -63,7 +72,7 @@ sideMenuClose.addEventListener('click', () => Menu('side', 'close'));
 
 mobileMenuOverlay.addEventListener('click', () => Menu('mobile', 'toggle'));
 mobileMenuDropdown.forEach(dropdown => {
- dropdown.addEventListener('click', () => dropdown.classList.toggle('mobile-dropdown--open'));
+  dropdown.addEventListener('click', () => dropdown.classList.toggle('mobile-dropdown--open'));
 });
 
 function Menu(menu, state) {
