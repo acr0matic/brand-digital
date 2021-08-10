@@ -1,6 +1,3 @@
-const forms = document.querySelectorAll('form');
-forms.forEach(form => new Form(form));
-
 MicroModal.init({
   awaitCloseAnimation: true,
   disableFocus: true,
@@ -10,7 +7,6 @@ const modalParams = {
   awaitCloseAnimation: true,
   disableFocus: true,
 };
-
 
 // Прелоадер
 const preloader = document.getElementById('preloader');

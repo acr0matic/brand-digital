@@ -77,6 +77,8 @@
       resize: none;
     }
 
+    /* purgecss start ignore */
+
     &::placeholder {
       color: #9b9b9b;
     }
@@ -88,6 +90,8 @@
         visibility: hidden;
       }
     }
+
+    /* purgecss end ignore */
   }
 
   &__placeholder {

@@ -18,13 +18,6 @@ task('html', () => src(paths.html.src)
     title: 'Replaced:',
     showCount: false,
   }))
-  .pipe(
-    htmlMin({
-      sortAttributes: true,
-      sortClassName: true,
-      collapseWhitespace: false,
-    }),
-  )
   .pipe(debug({
     title: 'Minified:',
     showCount: false,

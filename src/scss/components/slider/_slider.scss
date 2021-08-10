@@ -1,3 +1,5 @@
+/* purgecss start ignore */
+
 .swiper-container-fade {
   & > .swiper-wrapper {
     & > .swiper-slide {
@@ -87,3 +89,5 @@
     }
   }
 }
+
+/* purgecss end ignore */

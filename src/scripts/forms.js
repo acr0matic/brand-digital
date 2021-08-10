@@ -1,3 +1,6 @@
+const forms = document.querySelectorAll('form');
+forms.forEach(form => new Form(form));
+
 forms.forEach(form => {
   const privacy = form.querySelector('input[type=checkbox]');
   const button = form.querySelector('button[type=submit]');
