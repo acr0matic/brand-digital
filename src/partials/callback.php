@@ -8,7 +8,7 @@
         или закажите обратный звонок
       </p>
 
-      <form action="" class="callback__form form form-callback">
+      <form action="php/mail.php" class="callback__form form form-callback">
         <div class="form__wrapper">
           <div class="input me-0 me-lg-4 mb-lg-0 mb-3">
             <input placeholder="&nbsp;" autocomplete="off" type="tel" name="user_phone" class="input__field input__field--required">

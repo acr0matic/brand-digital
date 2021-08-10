@@ -331,7 +331,7 @@
                       <div class="price-content__card price-card">
                         <h3 class="price-card__title">Легковой автомобиль</h3>
                         <img src="img/page/price/items/car/6.png" alt="" class="price-card__picture">
-                        <span data-micromodal-trigger="modal-price" class="price-card__cost price-card__cost--unknown">Узнать цену</span>
+                        <span data-micromodal-trigger="modal-callback" data-type="price" data-additional="car" data-title="Предлагаем рассчитать цену на ваш транспорт" data-desc="В комментариях укажите ваш транспорт, наши менеджеры свяжуться с вами в ближайшее время" data-image="img/misc/modal/modal-price.jpg" class="price-card__cost price-card__cost--unknown">Узнать цену</span>
                       </div>
                       <!-- /.price-content__card price-card -->
                     </div>
@@ -397,7 +397,7 @@
                       <div class="price-content__card price-card">
                         <h3 class="price-card__title">Легковой автомобиль</h3>
                         <img src="img/page/price/items/desing/6.png" alt="" class="price-card__picture">
-                        <span class="price-card__cost price-card__cost--unknown">Узнать цену</span>
+                        <span data-micromodal-trigger="modal-callback" data-type="price" data-additional="car" data-title="Предлагаем рассчитать цену на ваш транспорт" data-desc="В комментариях укажите ваш транспорт, наши менеджеры свяжуться с вами в ближайшее время" data-image="img/misc/modal/modal-price.jpg" class="price-card__cost price-card__cost--unknown">Узнать цену</span>
                       </div>
                       <!-- /.price-content__card price-card -->
                     </div>
@@ -463,7 +463,7 @@
                       <div class="price-content__card price-card">
                         <h3 class="price-card__title">Легковой автомобиль</h3>
                         <img src="img/page/price/items/car/6.png" alt="" class="price-card__picture">
-                        <span class="price-card__cost price-card__cost--unknown">Узнать цену</span>
+                        <span data-micromodal-trigger="modal-callback" data-type="price" data-additional="car" data-title="Предлагаем рассчитать цену на ваш транспорт" data-desc="В комментариях укажите ваш транспорт, наши менеджеры свяжуться с вами в ближайшее время" data-image="img/misc/modal/modal-price.jpg" class="price-card__cost price-card__cost--unknown">Узнать цену</span>
                       </div>
                       <!-- /.price-content__card price-card -->
                     </div>
@@ -529,7 +529,7 @@
                       <div class="price-content__card price-card">
                         <h3 class="price-card__title">Легковой автомобиль</h3>
                         <img src="img/page/price/items/desing/6.png" alt="" class="price-card__picture">
-                        <span class="price-card__cost price-card__cost--unknown">Узнать цену</span>
+                        <span data-micromodal-trigger="modal-callback" data-type="price" data-additional="car" data-title="Предлагаем рассчитать цену на ваш транспорт" data-desc="В комментариях укажите ваш транспорт, наши менеджеры свяжуться с вами в ближайшее время" data-image="img/misc/modal/modal-price.jpg" class="price-card__cost price-card__cost--unknown">Узнать цену</span>
                       </div>
                       <!-- /.price-content__card price-card -->
                     </div>
@@ -595,7 +595,7 @@
                       <div class="price-content__card price-card">
                         <h3 class="price-card__title">Легковой автомобиль</h3>
                         <img src="img/page/price/items/car/6.png" alt="" class="price-card__picture">
-                        <span class="price-card__cost price-card__cost--unknown">Узнать цену</span>
+                        <span data-micromodal-trigger="modal-callback" data-type="price" data-additional="car" data-title="Предлагаем рассчитать цену на ваш транспорт" data-desc="В комментариях укажите ваш транспорт, наши менеджеры свяжуться с вами в ближайшее время" data-image="img/misc/modal/modal-price.jpg" class="price-card__cost price-card__cost--unknown">Узнать цену</span>
                       </div>
                       <!-- /.price-content__card price-card -->
                     </div>
@@ -653,7 +653,7 @@
               </div>
 
               <button class="modal__button button button-outline button-outline--promotions">Получить акцию</button>
-              <form class="modal__form form form-promotions mt-3" action="">
+              <form novalidate class="modal__form form form-promotions mt-3" action="" data-target="promotion">
                 <div class="input mb-2">
                   <input data-required placeholder="Имя" autocomplete="off" type="text" name="user_name" class="input__field input__field--modal input__field--required">
                   <img data-tippy-content="Имя не указано или содержит ошибки" class="input__warning" src="img/icons/warning.svg" alt="">
@@ -669,12 +669,13 @@
                 <div class="form__wrapper">
                   <div class="input">
                     <input placeholder="E-mail" autocomplete="off" type="email" name="user_email" class="input__field input__field--modal">
+                    <img data-tippy-content="Почта содержит ошибки" class="input__warning" src="img/icons/warning.svg" alt="">
                   </div>
                   <!-- /.input -->
 
                   <span class="form__info form__info--mobile mt-2">Обязательные поля</span>
 
-                  <button class="form__button button button-primary mt-5 mt-sm-0 ms-sm-3 ms-lg-0" type="submit">Отправить</button>
+                  <button disabled class="form__button button button-primary mt-5 mt-sm-0 ms-sm-3 ms-lg-0" type="submit">Отправить</button>
                 </div>
                 <!-- /.form__wrapper -->
 
@@ -708,69 +709,6 @@
       </div>
     </div>
   </div>
-
-  <div class="modal modal--window modal-callback micromodal-slide" id="modal-price" aria-hidden="true">
-    <div class="modal__overlay" tabindex="-1" data-micromodal-close>
-      <div class="modal__container" role="dialog">
-        <header class="modal__header">
-          <h2 class="modal__title" id="modal-1-title">
-            Предлагаем рассчитать цену на ваш транспорт
-          </h2>
-
-          <div class="modal__swipe"></div>
-          <svg class="modal__close" data-micromodal-close viewBox="0 0 36 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path data-micromodal-close d="M2 2L34 33M34 2L2 33" stroke="white" stroke-width="4" />
-          </svg>
-        </header>
-
-        <main class="modal__content">
-          <p class="modal__text">
-            В комментариях укажите ваш транспорт, наши менеджеры свяжуться с вами в ближайшее время
-          </p>
-
-          <form action="" class="modal__form form form-modal">
-            <div class="input mb-2 mb-md-3">
-              <input data-required placeholder="Имя" autocomplete="off" type="text" name="user_name" class="input__field input__field--modal input__field--required">
-              <img data-tippy-content="Имя не указано или содержит ошибки" class="input__warning" src="img/icons/warning.svg" alt="">
-            </div>
-            <!-- /.input -->
-
-            <div class="input mb-2 mb-md-3">
-              <input data-required placeholder="+7 ХХХ ХХХ-ХХ-ХХ" autocomplete="off" type="tel" name="user_phone" class="input__field input__field--modal input__field--required">
-              <img data-tippy-content="Телефон не указан или содержит ошибки" class="input__warning" src="img/icons/warning.svg" alt="">
-            </div>
-            <!-- /.input -->
-
-            <div class="input mb-3 mb-md-4">
-              <input placeholder="E-mail" autocomplete="off" type="email" name="user_email" class="input__field input__field--modal">
-            </div>
-            <!-- /.input -->
-
-            <span class="form__info mb-3 mb-md-4">Обязательные поля</span>
-
-            <div class="input input--box mb-2 mb-md-3">
-              <textarea rows="3" placeholder="Комментарий" name="user_message" class="input__field input__field--modal input__field--box"></textarea>
-            </div>
-            <!-- /.input -->
-
-            <div class="form__action">
-              <label class="checkbox mb-3 mb-md-4">
-                <input type="checkbox">
-                <span class="checkbox__mark"></span>
-                <span class="checkbox__label">Согласен с <a href="privacy.php" class="checkbox__policy">Политикой обработки данных</a></span>
-              </label>
-
-              <button class="modal__button form__button button button-primary mt-1" type="submit">Отправить</button>
-            </div>
-            <!-- /.form__action -->
-          </form>
-
-          <img src="img/misc/modal/modal-price.jpg" alt="" class="modal__image">
-        </main>
-      </div>
-    </div>
-  </div>
-
 </main>
 
 <?php include_once('partials/footer.php') ?>

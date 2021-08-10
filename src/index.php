@@ -562,8 +562,9 @@
           <!-- /.col-5 -->
 
           <div class="col-12 col-lg-7">
-            <div class="about__video">
-              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/rDaC1yokRQs" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="about__video position-relative">
+              <img class="video__preloader preloader preloader--center" src="img/misc/preloader.svg" alt="">
+              <iframe class="position-relative lazy" width="100%" height="100%" data-src="https://www.youtube.com/embed/rDaC1yokRQs" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <!-- /.about__video -->
           </div>

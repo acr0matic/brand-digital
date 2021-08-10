@@ -125,7 +125,7 @@
           Оставьте ваши контактные данные и мы свяжемся с вами, удобным для вас способом
         </p>
 
-        <form action="" class="modal__form form form-modal">
+        <form novalidate action="php/mail.php" class="modal__form form form-modal" data-target="callback">
           <div class="input mb-2 mb-md-3">
             <input data-required placeholder="Имя" autocomplete="off" type="text" name="user_name" class="input__field input__field--modal input__field--required">
             <img data-tippy-content="Имя не указано или содержит ошибки" class="input__warning" src="img/icons/warning.svg" alt="">
@@ -140,6 +140,7 @@
 
           <div class="input mb-3 mb-md-4">
             <input placeholder="E-mail" autocomplete="off" type="email" name="user_email" class="input__field input__field--modal">
+            <img data-tippy-content="Почта содержит ошибки" class="input__warning" src="img/icons/warning.svg" alt="">
           </div>
           <!-- /.input -->
 
@@ -157,7 +158,7 @@
               <span class="checkbox__label">Согласен с <a href="privacy.php" class="checkbox__policy">Политикой обработки данных</a></span>
             </label>
 
-            <button class="modal__button form__button button button-primary mt-1" type="submit">Отправить</button>
+            <button data-sending="Отправка..." disabled class="modal__button form__button button button-primary mt-1" type="submit">Отправить</button>
           </div>
           <!-- /.form__action -->
         </form>
@@ -220,6 +221,7 @@
 <script src="scripts/modal.js"></script>
 <script src="scripts/navigator.js"></script>
 <script src="scripts/video.js"></script>
+<script src="scripts/forms.js"></script>
 <!-- endbuild -->
 </body>
 

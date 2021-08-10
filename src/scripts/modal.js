@@ -1,68 +1,52 @@
-// const modalCallback = document.getElementById('modal-callback');
-// const modalCallbackTarget = modalCallback.querySelector('form');
-// const modalCallbackTitle = modalCallback.querySelector('.modal__title');
+const modals = document.querySelectorAll('.modal');
+const modalDefault = {};
 
-// const targetModalButton = document.querySelectorAll('[data-modal-target]');
+modals.forEach(modal => {
+  const close = modal.querySelector('.modal__swipe');
+  if (close) close.addEventListener('touchend', () => MicroModal.close(modal.getAttribute('id')));
+});
 
-// const modalDefault = {
-//   'callback': {
-//     'title': modalCallbackTitle.innerHTML,
-//   }
-// }
 
-// targetModalButton.forEach(button => {
-//   const target = button.getAttribute('data-modal-target');
-//   const addtional = button.getAttribute('data-modal-additional');
+modals.forEach(modal => {
+  const id = modal.getAttribute('id');
+  const type = id.substring(6);
+  const button = document.querySelectorAll(`[data-micromodal-trigger=${id}`);
 
-//   button.addEventListener('click', () => {
-//     modalCallbackTarget.setAttribute('data-target', target);
+  modalDefault[type] = {};
 
-//     if (target === 'sign-up' || target === 'trial' || target === 'order') modalCallbackTitle.innerHTML = button.getAttribute('data-modal-title');
-//     else modalCallbackTitle.innerHTML = modalDefault.callback.title;
+  const title = modal.querySelector('.modal__title');
+  const desc = modal.querySelector('.modal__text');
+  const image = modal.querySelector('.modal__image');
+  const form = modal.querySelector('.modal__form');
 
-//     if (addtional) modalCallbackTarget.setAttribute('data-additional', addtional);
-//     else modalCallbackTarget.removeAttribute('data-additional');
-//   });
-// });
+  function ResetModal(params) {
+    title.innerHTML = params['title'];
+    desc.innerHTML = params['desc'];
+    image.src = params['image'];
+    form.setAttribute('data-additional', params['additional']);
+  }
 
-// const modalInfo = document.getElementById('modal-info');
-// if (modalInfo) {
-//   const modalInfoTitle = modalInfo.querySelector('.modal__title');
-//   const modalInfoContent = modalInfo.querySelector('.modal__content');
-//   const modalInfoButton = document.querySelectorAll('[data-micromodal-trigger=modal-info]');
+  if (modal.classList.contains('modal-callback')) {
+    modalDefault[type]['title'] = title.innerHTML;
+    modalDefault[type]['desc'] = desc.innerHTML;
+    modalDefault[type]['image'] = image.src;
+    modalDefault[type]['additional'] = form.getAttribute('data-additional');
 
-//   modalInfoButton.forEach(button => {
-//     button.addEventListener('click', () => {
-//       const title = button.getAttribute('data-title');
-//       const description = button.getAttribute('data-description');
+    button.forEach(item => {
+      item.addEventListener('click', () => {
+        const modalType = item.getAttribute('data-type');
 
-//       modalInfoTitle.innerHTML = title;
-//       modalInfoContent.innerHTML = description;
-//     });
-//   });
-// }
+        if (!modalType) {
+          ResetModal(modalDefault[type])
+        }
 
-// const modalDefault = {
-//   'callback': {
-//     'title': '',
-//     'desc': '',
-//     'image': '',
-//   }
-// }
-
-// const customModals = document.querySelectorAll('[data-custom-modal]');
-// customModals.forEach(modal => {
-//   const title = modal.getAttribute('data-title');
-//   const desc = modal.getAttribute('data-desc');
-//   const image = modal.getAttribute('data-image');
-//   const type = modal.getAttribute('data-type');
-
-//   if (type === 'callback') {
-//     const targetModal = document.getElementById('modal-callback');
-//     if (targetModal) {
-//       targetModal.querySelector('.modal__title').innerHTML = title;
-//       targetModal.querySelector('.modal__text').innerHTML = desc;
-//       targetModal.querySelector('.modal__image').src = image;
-//     }
-//   }
-// });
+        else {
+          title.innerHTML = item.getAttribute('data-title');
+          desc.innerHTML = item.getAttribute('data-desc');
+          image.src = item.getAttribute('data-image');
+          form.setAttribute('data-additional', item.getAttribute('data-additional'));
+        }
+      });
+    });
+  }
+});

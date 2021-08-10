@@ -21,6 +21,7 @@ class Form {
       message: /.{6,}/,
       date: /[0-9]{2}\.[0-9]{2}\.[0-9]{4}/,
       age: /(^[0-9]{0,3}$)/,
+      email: /(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|"(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])/,
     }
 
     this.Mask();
@@ -82,6 +83,7 @@ class Form {
     const input_phone = this.form.querySelectorAll('input[type=tel]');
     const input_name = this.form.querySelectorAll('input[name=user_name], input[name=user_child]')
     const input_age = this.form.querySelectorAll('input[name=user_age]');
+    const input_email = this.form.querySelectorAll('input[name=user_email]');
     const input_message = this.form.querySelectorAll('input[name=user_message]')
 
     const Validate = (field, type) => {
@@ -99,6 +101,10 @@ class Form {
 
     input_age.forEach(input => {
       if (input.value !== '') Validate(input, 'age')
+    });
+
+    input_email.forEach(input => {
+      if (input.value !== '') Validate(input, 'email')
     });
 
     input_message.forEach(input => {
@@ -128,6 +134,10 @@ class Form {
     data.append('target', target);
     if (additional) data.append('additional', additional);
 
+    // for (var pair of data.entries()) {
+    //   console.log(pair[0]+ ', ' + pair[1]);
+    // }
+
     try {
       let response = await fetch(this.action, {
         method: 'POST',
@@ -137,10 +147,17 @@ class Form {
       if (response.ok) {
         if (this.redirect) window.location.href = this.redirect;
 
-        MicroModal.show('modal-accept', {
+        MicroModal.show('modal-thank', {
           disableFocus: true,
           awaitCloseAnimation: true,
         });
+
+        setTimeout(() => {
+          MicroModal.close('modal-thank', {
+            disableFocus: true,
+            awaitCloseAnimation: true,
+          });
+        }, 3000);
       }
 
       let result = await response.json();

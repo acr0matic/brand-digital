@@ -1790,7 +1790,7 @@
 
         <main class="modal__content">
           <div class="modal__picture">
-            <img class="modal__preloader preloader" src="img/misc/preloader.svg" alt="">
+            <img class="modal__preloader preloader preloader--center" src="img/misc/preloader.svg" alt="">
             <img src="" data-src="img/portfolio/thumb.jpg" alt="" class="modal__image cms-image lazy">
           </div>
 

@@ -622,7 +622,7 @@
             <div class="swiper-container modal-slider">
               <div class="swiper-wrapper modal__photos">
                 <div class="swiper-slide modal__picture">
-                  <img class="modal__preloader preloader" src="img/misc/preloader.svg" alt="">
+                  <img class="modal__preloader preloader preloader--center" src="img/misc/preloader.svg" alt="">
 
                   <a href="img/portfolio/page/1.jpg" class="glightbox" data-gallery="main">
                     <img data-src="img/portfolio/page/1.jpg" alt="" class="modal__image cms-image lazy">
@@ -630,7 +630,7 @@
                 </div>
 
                 <div class="swiper-slide modal__picture">
-                  <img class="modal__preloader preloader" src="img/misc/preloader.svg" alt="">
+                  <img class="modal__preloader preloader preloader--center" src="img/misc/preloader.svg" alt="">
 
                   <a href="img/portfolio/page/2.jpg" class="glightbox" data-gallery="main">
                     <img data-src="img/portfolio/page/2.jpg" alt="" class="modal__image cms-image lazy">
@@ -638,7 +638,7 @@
                 </div>
 
                 <div class="swiper-slide modal__picture">
-                  <img class="modal__preloader preloader" src="img/misc/preloader.svg" alt="">
+                  <img class="modal__preloader preloader preloader--center" src="img/misc/preloader.svg" alt="">
 
                   <a href="img/portfolio/page/3.jpg" class="glightbox" data-gallery="main">
                     <img data-src="img/portfolio/page/3.jpg" alt="" class="modal__image cms-image lazy">
@@ -646,7 +646,7 @@
                 </div>
 
                 <div class="swiper-slide modal__picture">
-                  <img class="modal__preloader preloader" src="img/misc/preloader.svg" alt="">
+                  <img class="modal__preloader preloader preloader--center" src="img/misc/preloader.svg" alt="">
 
                   <a href="img/portfolio/page/4.jpg" class="glightbox" data-gallery="main">
                     <img data-src="img/portfolio/page/4.jpg" alt="" class="modal__image cms-image lazy">
@@ -665,7 +665,7 @@
               <div>
                 <picture class="modal__picture">
                   <source srcset="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" media="(max-width: 768px)">
-                  <img class="modal__preloader preloader" src="img/misc/preloader.svg" alt="">
+                  <img class="modal__preloader preloader preloader--center" src="img/misc/preloader.svg" alt="">
 
                   <a href="img/portfolio/page/additional/1.jpg" class="glightbox" data-gallery="additional">
                     <img data-src="img/portfolio/page/additional/1.jpg" alt="" class="modal__image cms-image lazy">
@@ -674,7 +674,7 @@
 
                 <picture class="modal__picture">
                   <source srcset="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" media="(max-width: 768px)">
-                  <img class="modal__preloader preloader" src="img/misc/preloader.svg" alt="">
+                  <img class="modal__preloader preloader preloader--center" src="img/misc/preloader.svg" alt="">
 
                   <a href="img/portfolio/page/additional/2.jpg" class="glightbox" data-gallery="additional">
                     <img data-src="img/portfolio/page/additional/2.jpg" alt="" class="modal__image cms-image lazy">

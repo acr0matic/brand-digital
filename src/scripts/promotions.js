@@ -12,6 +12,9 @@ if (promotions) {
 
   let copied = null;
 
+  const button = modal.querySelector('.modal__button');
+  const form = modal.querySelector('.modal__form');
+
   items.forEach(item => {
     item.addEventListener('click', () => {
       content.innerHTML = '';
@@ -19,12 +22,12 @@ if (promotions) {
       copied.classList.add('promotions-item--big');
       content.appendChild(copied);
 
-      title.innerHTML = copied.querySelector('.promotions-item__title').innerHTML + " " + copied.querySelector('.promotions-item__description').innerHTML;
-      text.innerHTML = copied.querySelector('.promotions-item__text').innerHTML;
-    });
+      const header = copied.querySelector('.promotions-item__title').innerHTML + " " + copied.querySelector('.promotions-item__description').innerHTML;
 
-    const button = modal.querySelector('.modal__button');
-    const form = modal.querySelector('.modal__form');
+      title.innerHTML = header;
+      text.innerHTML = copied.querySelector('.promotions-item__text').innerHTML;
+      form.setAttribute('data-additional', header)
+    });
 
     button.addEventListener('click', () => {
       button.classList.add('modal__button--hidden');

@@ -11,15 +11,6 @@ const modalParams = {
   disableFocus: true,
 };
 
-const modals = document.querySelectorAll('.modal');
-modals.forEach(modal => {
-  const close = modal.querySelector('.modal__swipe');
-
-  if (close)
-    close.addEventListener('touchend', () => {
-      MicroModal.close(modal.getAttribute('id'))
-    });
-});
 
 // Прелоадер
 const preloader = document.getElementById('preloader');

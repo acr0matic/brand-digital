@@ -100,6 +100,18 @@
       @include breakpoint($breakpoint-mobile--large) {
         display: none;
       }
+
+      @media (hover: hover) {
+        &:hover {
+          svg {
+            transform: translateY(5px);
+          }
+        }
+      }
+
+      svg {
+        transition: 0.2s ease;
+      }
     }
 
     &__motion {
