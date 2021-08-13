@@ -26,7 +26,7 @@ headerDropdown.forEach(dropdown => {
       if (scrollPosition >= 150) dropdown.parentNode.classList.remove('dropdown--open');
 
       if (heroHeight) {
-        if (window.scrollY >= heroHeight - 150) header.classList.add('header-inverted');
+        if (window.scrollY >= heroHeight - 125) header.classList.add('header-inverted');
         else header.classList.remove('header-inverted')
       }
 

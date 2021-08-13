@@ -71,7 +71,10 @@
           <!-- /.hero__link -->
         </div>
         <!-- /.portfolio-body__action -->
+      </div>
+      <!-- /.container -->
 
+      <div class="container">
         <div class="portfolio-body__grid">
           <div class="row">
             <div class="col-6 col-lg-4">

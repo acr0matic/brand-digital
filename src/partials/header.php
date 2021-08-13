@@ -135,6 +135,7 @@
                     </a>
 
                     <div class="dropdown__content dropdown__content--right">
+                      <a class="dropdown__item" href="service.php">Брендирование авто</a>
                       <a class="dropdown__item" href="service-page.php#category-4">Грузовой авто</a>
                       <a class="dropdown__item" href="service-page.php#category-3">Фургон</a>
                       <a class="dropdown__item" href="service-page.php#category-2">Малый грузовой</a>
@@ -272,6 +273,26 @@
             <li class="nav__item"><a href="portfolio.php" class="nav__link">Наши работы</a></li>
 
             <li class="nav__item mobile-dropdown">
+              <span class="nav__link">Оклейка транспорта</span>
+
+              <svg class="mobile-dropdown__arrow" width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.50879 0.918945L5.76914 5.1793L10.562 0.918945" stroke="black" stroke-width="2.13018" />
+              </svg>
+
+              <div class="mobile-menu__dropdown mobile-dropdown__wrapper">
+                <ul class="nav__list">
+                  <li class="nav__item"><a href="service.php" class="nav__link">Брендирование авто</a></li>
+                  <li class="nav__item"><a href="service.php" class="nav__link">Грузовой авто</a></li>
+                  <li class="nav__item"><a href="service.php" class="nav__link">Фургон</a></li>
+                  <li class="nav__item"><a href="service.php" class="nav__link">Малый грузовой</a></li>
+                  <li class="nav__item"><a href="service.php" class="nav__link">Фура</a></li>
+                  <li class="nav__item"><a href="service.php" class="nav__link">Легковой авто</a></li>
+                </ul>
+              </div>
+              <!-- /.mobile-menu__dropdown -->
+            </li>
+
+            <li class="nav__item mobile-dropdown">
               <span class="nav__link">Услуги</span>
 
               <svg class="mobile-dropdown__arrow" width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -291,7 +312,7 @@
             </li>
 
             <li class="nav__item mobile-dropdown">
-              <span class="nav__link">Как мы делаем</span>
+              <span class="nav__link">Наши процессы</span>
 
               <svg class="mobile-dropdown__arrow" width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M1.50879 0.918945L5.76914 5.1793L10.562 0.918945" stroke="black" stroke-width="2.13018" />

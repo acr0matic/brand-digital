@@ -45,9 +45,11 @@
     }
 
     &__content {
+      padding-top: 30px;
       height: 100%;
 
       @include breakpoint($breakpoint-mobile--large) {
+        padding-top: 0;
         padding-left: 35px;
         padding-right: 35px;
       }

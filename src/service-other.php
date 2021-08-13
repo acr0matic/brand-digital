@@ -37,7 +37,7 @@
               </svg>
             </a>
 
-            <div class="hero__motion hero__motion--margin">
+            <div class="hero__motion">
               <video class="hero__video" autoplay loop playsinline muted>
                 <source src="video/motion/car.webm">
               </video>
@@ -80,72 +80,50 @@
   <section id="service" class="section">
     <div class="container">
       <div class="service">
-        <h2 class="service__title section__title text-center">Какие авто мы брендируем</h2>
+        <h2 class="service__title section__title text-center">Какие наклейки мы делаем</h2>
 
         <div class="service__wrapper">
           <div onclick="window.location.href='service-page.php#category-4'" class="service__card service-card">
             <div class="service-card__wrapper">
-              <h3 class="service-card__title">Грузовой <br> автомобиль</h3>
+              <h3 class="service-card__title">Стикерпаки</h3>
               <div class="service-card__price">от 14 000₽</div>
             </div>
             <!-- /.service-card__wrapper -->
 
-            <img src="img/page/service/car/1.png" alt="" class="service-card__image">
+            <img src="img/page/service/stikers/1.png" alt="" class="service-card__image">
           </div>
           <!-- /.service__card service-card -->
 
           <div onclick="window.location.href='service-page.php#category-1'" class="service__card service-card">
             <div class="service-card__wrapper">
-              <h3 class="service-card__title">Легковой</h3>
+              <h3 class="service-card__title">Наклейки <br> для электроники</h3>
               <div class="service-card__price">от 8 000₽</div>
             </div>
             <!-- /.service-card__wrapper -->
 
-            <img src="img/page/service/car/2.png" alt="" class="service-card__image">
+            <img src="img/page/service/stikers/2.png" alt="" class="service-card__image">
           </div>
           <!-- /.service__card service-card -->
 
           <div onclick="window.location.href='service-page.php#category-3'" class="service__card service-card">
             <div class="service-card__wrapper">
-              <h3 class="service-card__title">Фургон</h3>
+              <h3 class="service-card__title">Напольные наклейки</h3>
               <div class="service-card__price">от 15 000₽</div>
             </div>
             <!-- /.service-card__wrapper -->
 
-            <img src="img/page/service/car/3.png" alt="" class="service-card__image">
-          </div>
-          <!-- /.service__card service-card -->
-
-          <div onclick="window.location.href='service-page.php#category-2'" class="service__card service-card">
-            <div class="service-card__wrapper">
-              <h3 class="service-card__title">Малый <br> Грузовой</h3>
-              <div class="service-card__price">от 13 000₽</div>
-            </div>
-            <!-- /.service-card__wrapper -->
-
-            <img src="img/page/service/car/4.png" alt="" class="service-card__image">
-          </div>
-          <!-- /.service__card service-card -->
-
-          <div onclick="window.location.href='service-page.php#category-5'" class="service__card service-card">
-            <div class="service-card__wrapper">
-              <h3 class="service-card__title">Фура</h3>
-              <div class="service-card__price">от 25 000₽</div>
-            </div>
-            <!-- /.service-card__wrapper -->
-
-            <img src="img/page/service/car/5.png" alt="" class="service-card__image">
+            <img src="img/page/service/stikers/3.png" alt="" class="service-card__image">
           </div>
           <!-- /.service__card service-card -->
 
           <div data-micromodal-trigger="modal-callback" data-type="price" data-title="Предлагаем рассчитать цену на ваш транспорт" data-desc="В комментариях укажите ваш транспорт, наши менеджеры свяжуться с вами в ближайшее время" data-image="img/misc/modal/modal-price.jpg" data-additional="car" class="service__card service-card">
             <div class="service-card__wrapper">
-              <h3 class="service-card__title">Ваш транспорт</h3>
-              <div class="service-card__price">Спец. цена</div>
+              <h3 class="service-card__title">Наклейки</h3>
+              <div class="service-card__price">от 10 000 р.</div>
             </div>
             <!-- /.service-card__wrapper -->
 
-            <img src="img/page/service/car/6.png" alt="" class="service-card__image">
+            <img src="img/page/service/stikers/4.png" alt="" class="service-card__image">
           </div>
           <!-- /.service__card service-card -->
         </div>

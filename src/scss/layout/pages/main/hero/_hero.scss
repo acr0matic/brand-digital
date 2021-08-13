@@ -278,6 +278,14 @@
       display: none;
     }
 
+    &--margin {
+      bottom: -175px;
+
+      @include breakpoint($breakpoint-laptop--large) {
+        bottom: -130px;
+      }
+    }
+
     &--gif {
       right: -40px;
       bottom: -47px;

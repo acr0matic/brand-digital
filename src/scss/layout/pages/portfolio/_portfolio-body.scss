@@ -1,4 +1,11 @@
 .portfolio-body {
+  .container:nth-child(1) {
+    @include breakpoint($breakpoint-tablet) {
+      max-width: 540px;
+      padding: 0;
+    }
+  }
+
   &__action {
     position: relative;
     z-index: 2;
@@ -25,6 +32,9 @@
       top: -160px;
       overflow: auto;
       padding-bottom: 15px;
+
+      padding-left: 20px;
+      padding-right: 20px;
     }
   }
 

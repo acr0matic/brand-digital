@@ -157,7 +157,7 @@ class Form {
             disableFocus: true,
             awaitCloseAnimation: true,
           });
-        }, 3000);
+        }, 2000);
       }
 
       let result = await response.json();

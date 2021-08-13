@@ -210,6 +210,7 @@ if (window.matchMedia('(max-width: 1200px)').matches) {
 
 const priceSlider = new Swiper('.price-content-slider', {
   simulateTouch: false,
+  allowTouchMove: false,
   speed: 500,
   slidesPerView: 1,
   roundLengths: true,

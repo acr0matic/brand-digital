@@ -35,6 +35,10 @@
 
     &__header {
       margin-bottom: 65px;
+
+      @include breakpoint($breakpoint-tablet) {
+        margin-bottom: 55px;
+      }
     }
 
     &__picture {
@@ -54,6 +58,15 @@
       @include breakpoint($breakpoint-tablet--large) {
         height: 230px;
         margin-top: 10px;
+      }
+
+      @include breakpoint($breakpoint-tablet) {
+        height: 200px;
+        margin-top: 0;
+      }
+
+      @include breakpoint($breakpoint-mobile--medium) {
+        height: 180px;
       }
     }
 

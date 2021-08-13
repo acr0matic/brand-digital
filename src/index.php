@@ -103,7 +103,7 @@
                     </div>
                     <!-- /.hero__content -->
 
-                    <div class="hero__motion">
+                    <div class="hero__motion hero__motion--margin">
                       <video class="hero__video" muted playsinline loop autoplay>
                         <source src="video/motion/car.webm">
                       </video>

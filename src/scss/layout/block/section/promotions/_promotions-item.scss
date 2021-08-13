@@ -119,10 +119,12 @@
   }
 
   &__title {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 
     font-size: 48px;
     font-weight: $weight-Bold;
+
+    line-height: 100%;
 
     @include breakpoint($breakpoint-laptop--large) {
       font-size: 36px;
