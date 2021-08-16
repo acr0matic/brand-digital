@@ -62,3 +62,15 @@ if (window.matchMedia('(max-width: 768px)').matches) {
     });
   }
 }
+
+// const serviceOther = document.querySelector('.service--other');
+// if (serviceOther) {
+//   const cards = serviceOther.querySelectorAll('.service-card');
+
+//   cards.forEach(card => {
+//     const imageSrc = card.querySelector('.service-card__image').src;
+//     card.addEventListener('click', () => {
+
+//     });
+//   });
+// }

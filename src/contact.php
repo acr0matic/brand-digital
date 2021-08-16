@@ -130,7 +130,7 @@
           <h2 class="map__title section__title">Места оклейки</h2>
           <p class="map__text section__text">выездные работы по всей России</p>
 
-          <ul class="map__list list list--clear">
+          <ul class="map__list list list--clear custom-scrollbar">
             <li class="list__item list__item--active">Нижний Новгород, Воротынская 2А</li>
             <li class="list__item">Нижний Новгород, Борская 17к1</li>
             <li class="list__item">Москва, Добролюбова 1</li>

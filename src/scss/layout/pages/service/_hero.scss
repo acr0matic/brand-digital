@@ -131,6 +131,14 @@
 
       &--margin {
         bottom: -190px;
+
+        @include breakpoint($breakpoint-laptop--large) {
+          bottom: -140px;
+        }
+
+        @include breakpoint($breakpoint-laptop--medium) {
+          bottom: -100px;
+        }
       }
     }
 

@@ -60,7 +60,7 @@
   <!-- endbuild -->
 </head>
 
-<body class="page">
+<body class="page custom-scrollbar">
   <!-- Прелоадер -->
   <div class="preloader preloader--page" id="preloader">
     <div class="preloader__wrapper">

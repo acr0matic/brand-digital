@@ -23,7 +23,11 @@ modals.forEach(modal => {
     title.innerHTML = params['title'];
     desc.innerHTML = params['desc'];
     image.src = params['image'];
-    form.setAttribute('data-additional', params['additional']);
+
+    if (params['additional'])
+      form.setAttribute('data-additional', params['additional']);
+    else
+      form.removeAttribute('data-additional');
   }
 
   if (modal.classList.contains('modal-callback')) {

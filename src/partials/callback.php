@@ -10,7 +10,7 @@
 
       <form action="php/mail.php" class="callback__form form form-callback">
         <div class="form__wrapper">
-          <div class="input me-0 me-lg-4 mb-lg-0 mb-3">
+          <div class="input input--placeholder me-0 me-lg-4 mb-lg-0 mb-3">
             <input placeholder="&nbsp;" autocomplete="off" type="tel" name="user_phone" class="input__field input__field--required">
             <div class="input__placeholder"><span>+7</span> XXX XXX-XX-XX</div>
           </div>

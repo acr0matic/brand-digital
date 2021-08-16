@@ -13,6 +13,6 @@ if (isSafari) {
     const videoSource = container.querySelector('.hero__motion source').src;
     const newSource = videoSource.replace(/motion/gi, 'motion/fallback').replace(/webm/gi, 'png');
 
-    container.outerHTML = `<div class="hero__motion hero__motion--gif"><img class="hero__video" src="${newSource}" alt=""/></div>`;
+    container.innerHTML = `<video class="hero__video" autoplay loop playsinline muted><source src="${newSource}"></video>`;
   });
 }

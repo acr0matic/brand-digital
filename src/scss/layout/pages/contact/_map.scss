@@ -36,16 +36,12 @@
   &__title {
     margin-bottom: 5px;
 
-    @include breakpoint($breakpoint-tablet--large) {
-      margin-bottom: 15px;
-    }
-
     @include breakpoint($breakpoint-mobile--large) {
       text-align: left;
     }
 
     &:last-of-type {
-      margin-bottom: 15px;
+      margin-bottom: 0;
 
       @include breakpoint($breakpoint-tablet--large) {
         margin-bottom: 5px;
@@ -55,7 +51,7 @@
   }
 
   &__text {
-    margin-bottom: 35px;
+    margin-bottom: 10px;
     color: #7a7a7a;
 
     @include breakpoint($breakpoint-tablet--large) {
@@ -68,8 +64,17 @@
     flex-direction: column;
     align-items: flex-start;
 
+    max-height: 240px;
+    overflow-y: auto;
+
+    padding-right: 15px;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      max-height: 195px;
+    }
+
     &:not(:last-child) {
-      margin-bottom: 60px;
+      margin-bottom: 45px;
 
       @include breakpoint($breakpoint-tablet--large) {
         margin-bottom: 30px;
@@ -80,6 +85,7 @@
       position: relative;
 
       font-size: 30px;
+      line-height: 200%;
       cursor: pointer;
 
       transition: 0.15s ease;
@@ -102,23 +108,23 @@
         }
       }
 
-      &:not(:last-child) {
-        margin-bottom: 30px;
+      // &:not(:last-child) {
+      //   margin-bottom: 30px;
 
-        @include breakpoint($breakpoint-laptop--large) {
-          margin-bottom: 20px;
-        }
+      //   @include breakpoint($breakpoint-laptop--large) {
+      //     margin-bottom: 20px;
+      //   }
 
-        @include breakpoint($breakpoint-tablet--large) {
-          margin-bottom: 15px;
-        }
-      }
+      //   @include breakpoint($breakpoint-tablet--large) {
+      //     margin-bottom: 15px;
+      //   }
+      // }
 
       &::after {
         content: "";
 
         position: absolute;
-        bottom: -5px;
+        bottom: 5px;
         left: 0;
 
         width: 100%;

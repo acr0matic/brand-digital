@@ -1,6 +1,13 @@
 .input {
   position: relative;
 
+  &--placeholder {
+    .input__placeholder {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+
   &--error {
     .input__field {
       border-color: $input__border--error;
@@ -77,21 +84,9 @@
       resize: none;
     }
 
-    /* purgecss start ignore */
-
     &::placeholder {
       color: #9b9b9b;
     }
-
-    &:focus,
-    &:not(:placeholder-shown) {
-      & ~ .input__placeholder {
-        opacity: 0;
-        visibility: hidden;
-      }
-    }
-
-    /* purgecss end ignore */
   }
 
   &__placeholder {
@@ -103,6 +98,9 @@
 
     color: $text-gray;
     letter-spacing: 2px;
+
+    opacity: 0;
+    visibility: hidden;
 
     pointer-events: none;
     transition: 0.15s ease;
