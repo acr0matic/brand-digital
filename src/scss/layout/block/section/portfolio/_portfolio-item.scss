@@ -87,15 +87,22 @@
     }
 
     &__description {
+      max-height: 90px;
+
       margin-bottom: 20px;
+      padding-right: 15px;
+
       font-size: $font-text;
+      overflow: auto;
 
       @include breakpoint($breakpoint-laptop--large) {
+        max-height: 150px;
         margin-bottom: 15px;
         font-size: $font-text - 4;
       }
 
       @include breakpoint($breakpoint-laptop--medium) {
+        max-height: 130px;
         font-size: $font-text - 8;
       }
 

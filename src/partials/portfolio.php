@@ -26,7 +26,7 @@
 
                       <div class="portfolio-item__deadline">Срок исполнения: <span>3 дня</span></div>
 
-                      <p class="portfolio-item__description">
+                      <p class="portfolio-item__description custom-scrollbar">
                         Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
                       </p>
 

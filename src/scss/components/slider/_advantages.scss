@@ -23,13 +23,5 @@
     @include breakpoint($breakpoint-laptop--medium) {
       width: 100%;
     }
-
-    &--mobile {
-      display: none;
-
-      @include breakpoint($breakpoint-laptop--medium) {
-        display: block;
-      }
-    }
   }
 }

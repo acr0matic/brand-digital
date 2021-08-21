@@ -5,7 +5,7 @@ let mapData = null;
 if (mapContainer) {
 
   ymaps.ready(function () {
-    fetch('/brand-digital/data/map.json')
+    fetch('/wp-content/themes/brand-digital/assets/data/map.json')
       .then((response) => response.json())
       .then((data) => {
         mapData = data;

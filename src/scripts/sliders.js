@@ -1,8 +1,11 @@
 const hero = document.getElementById('hero');
 if (hero) {
   const heroAction = hero.querySelectorAll('.hero__service');
+  const slides = hero.querySelectorAll('.hero-slider .swiper-slide');
+
   heroAction.forEach((action, index) => {
     action.addEventListener('click', (e) => {
+      const backgroundURL = slides[index + 1].getAttribute('data-bg');
       if (!heroVideos[index].playing) heroVideos[index].play();
 
       const activeCard = document.querySelector('.hero__service--active');
@@ -11,6 +14,7 @@ if (hero) {
         heroSlider.slideTo(0);
         portfolioTabs.slideTo(0);
         activeCard.classList.remove('hero__service--active');
+        hero.style.backgroundImage = `url(${slides[0].getAttribute('data-bg')})`;
       }
 
       else {
@@ -19,7 +23,7 @@ if (hero) {
 
         heroSlider.slideTo(index + 1);
         portfolioTabs.slideTo(index);
-        hero.style.backgroundImage = `url('/img/page/main/hero/bg/${index + 1}.png')`;
+        hero.style.backgroundImage = `url(${backgroundURL})`;
       }
     });
   });
