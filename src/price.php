@@ -14,7 +14,7 @@
               <div class="swiper-slide">
                 <div class="row justify-content-lg-center">
                   <div class="col-12 col-sm-8 col-lg-4">
-                    <div data-micromodal-trigger="modal-promotions" style="background-image: url('img/section/promotions/1.svg'); background-color: #FF8025" class="promotions__item promotions-item">
+                    <div data-micromodal-trigger="modal-promotions" style="background-image: url('img/section/promotions/1.svg'); background-color: #FF8025" class="promotions__item promotions-item promotions-item--new promotions-item--new-black">
                       <h3 class="promotions-item__title">1 из 5</h3>
                       <p class="promotions-item__description">бонусов в подарок</p>
 

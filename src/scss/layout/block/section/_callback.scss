@@ -16,7 +16,7 @@
   }
 
   @include breakpoint($breakpoint-mobile--large) {
-    background: none;
+    background: none !important;
     padding-bottom: 30px;
   }
 }

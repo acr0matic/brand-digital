@@ -77,6 +77,14 @@
       }
     }
 
+    @media (hover: hover) {
+      &:hover {
+        .portfolio-body__icon {
+          transform: scale(0.9);
+        }
+      }
+    }
+
     &--active {
       font-weight: $weight-Bold;
 

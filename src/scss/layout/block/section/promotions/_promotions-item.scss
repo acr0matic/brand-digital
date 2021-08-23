@@ -5,12 +5,10 @@
   flex-direction: column;
 
   height: 270px;
-  overflow: hidden;
 
   padding: 25px;
 
   border-radius: 25px;
-
   color: $text-white;
 
   cursor: pointer;
@@ -95,10 +93,11 @@
       content: "NEW";
       position: absolute;
       top: 0;
-      right: 0;
+      right: -1px;
 
       padding: 5px 20px;
       border-bottom-left-radius: $border-radius-large;
+      border-top-right-radius: $border-radius-large;
 
       background-color: $palette-orange;
 
@@ -114,12 +113,20 @@
 
       @include breakpoint($breakpoint-tablet--large) {
         border-bottom-left-radius: $border-radius-medium;
+        border-top-right-radius: $border-radius-medium;
       }
+    }
+  }
+
+  &--new-black {
+    &::after {
+      background-color: $palette-black;
     }
   }
 
   &__title {
     margin-bottom: 10px;
+    margin-top: 10px;
 
     font-size: 48px;
     font-weight: $weight-Bold;
