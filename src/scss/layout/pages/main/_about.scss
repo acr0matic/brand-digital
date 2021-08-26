@@ -2,10 +2,10 @@
   margin-top: 100px;
   padding-top: 0;
 
-  background-image: url("../img/page/main/about/background.svg");
+  background-image: url("../img/page/main/about/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #f3f3f3;
+  background-color: #ffffff;
 
   @include breakpoint($breakpoint-tablet--large) {
     margin-top: 0;

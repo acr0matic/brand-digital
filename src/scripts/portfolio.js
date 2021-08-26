@@ -39,6 +39,7 @@ function InitPortfolio() {
     else {
       const close = modal.querySelector('.modal__swipe');
       const title = modal.querySelector('.modal__title');
+      const info = modal.querySelector('.modal__info');
       const text = modal.querySelector('.modal__text');
       const list = modal.querySelector('.modal__list');
       const images = modal.querySelectorAll('.modal__photos .modal__image');
@@ -55,27 +56,30 @@ function InitPortfolio() {
           const imageSource = item.querySelectorAll('.portfolio-item__gallery .portfolio-item__image');
           const additionalSource = item.querySelectorAll('.portfolio-item__additional .portfolio-item__image');
 
-          list.innerHTML = '';
-          images.forEach((image, index) => {
-            if (imageSource[index]) {
-              image.parentElement.parentElement.style.display = "block";
-              image.setAttribute('data-src', imageSource[index].src);
-            }
-            else {
-              image.parentElement.parentElement.style.display = "none";
-            }
-          });
+          title.innerHTML = item.querySelector('.portfolio-item__title').innerHTML;
+          info.innerHTML = item.querySelector('.portfolio-item__category').innerHTML;
+          text.innerHTML = item.querySelector('.portfolio-item__description').innerHTML;
 
-          additionalImages.forEach((image, index) => image.setAttribute('data-src', additionalSource[index].src));
+          list.innerHTML = '';
+          const listItems = item.querySelectorAll('.portfolio-item__list .list__item');
+          listItems.forEach(element => list.innerHTML += element.outerHTML);
+
+          if (images)
+            images.forEach((image, index) => {
+              if (imageSource[index]) {
+                image.parentElement.parentElement.style.display = "block";
+                image.setAttribute('data-src', imageSource[index].src);
+              }
+              else {
+                image.parentElement.parentElement.style.display = "none";
+              }
+            });
+
+          if (additionalImages)
+            additionalImages.forEach((image, index) => image.setAttribute('data-src', additionalSource[index].src));
 
           if (portfolioModalSlider) portfolioModalSlider.update();
           lazyLoadInstance.update();
-
-          title.innerHTML = item.querySelector('.portfolio-item__title').innerHTML;
-          text.innerHTML = item.querySelector('.portfolio-item__description').innerHTML;
-
-          const listItems = item.querySelectorAll('.portfolio-item__list .list__item');
-          listItems.forEach(element => list.innerHTML += element.outerHTML);
         });
       });
     }
@@ -94,4 +98,3 @@ if (window.matchMedia('(max-width: 768px)').matches) {
     },
   });
 }
-
