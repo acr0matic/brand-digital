@@ -131,15 +131,15 @@
           <p class="map__text section__text">выездные работы по всей России</p>
 
           <ul class="map__list list list--clear custom-scrollbar">
-            <li class="list__item list__item--active">Нижний Новгород, Воротынская 2А</li>
-            <li class="list__item">Нижний Новгород, Борская 17к1</li>
-            <li class="list__item">Москва, Добролюбова 1</li>
-            <li class="list__item">Москва, Иркутская 1</li>
+            <li data-coords="56.297633, 43.954764" data-address="" class="list__item list__item--active">Нижний Новгород, Воротынская 2А</li>
+            <li data-coords="56.259318, 43.890023" data-address="" class="list__item">Нижний Новгород, Борская 17к1</li>
+            <li data-coords="55.809024, 37.594135" data-address="" class="list__item">Москва, Добролюбова 1</li>
+            <li data-coords="55.813824, 37.785018" data-address="" class="list__item">Москва, Иркутская 1</li>
           </ul>
 
           <h2 class="map__title section__title">Центральный офис</h2>
           <ul class="map__list list list--clear">
-            <li class="list__item">Нижний Новгород, Воротынская 2А</li>
+            <li data-coords="56.297633, 43.954764" data-address="" class="list__item">Нижний Новгород, Воротынская 2А</li>
           </ul>
         </div>
         <!-- /.map__content -->

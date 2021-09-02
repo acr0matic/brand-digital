@@ -72,6 +72,10 @@
 .swiper-slide-invisible-blank {
   visibility: hidden;
 }
+
+/* purgecss start ignore */
+
+
 /* Auto Height */
 .swiper-container-autoheight,
 .swiper-container-autoheight .swiper-slide {
@@ -81,6 +85,9 @@
   align-items: flex-start;
   transition-property: transform, height;
 }
+
+/* purgecss end ignore */
+
 /* 3D Effects */
 .swiper-container-3d {
   perspective: 1200px;

@@ -222,6 +222,7 @@
 <script src="scripts/navigator.js"></script>
 <script src="scripts/video.js"></script>
 <script src="scripts/forms.js"></script>
+<script src="scripts/loadmore.js"></script>
 <!-- endbuild -->
 </body>
 

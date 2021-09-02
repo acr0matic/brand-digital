@@ -91,7 +91,7 @@ const portfolioSliders = document.querySelectorAll('.portfolio-slider-tab [data-
 portfolioSliders.forEach(slider => {
   if (window.matchMedia('(min-width: 991px)').matches) {
     const portfolioThumbs = new Swiper(slider.querySelector('.portfolio-slider-thumb'), {
-      allowTouchMove: true,
+      allowTouchMove: false,
       centeredSlides: true,
       centeredSlidesBounds: true,
 
@@ -103,18 +103,20 @@ portfolioSliders.forEach(slider => {
       nested: true,
 
       breakpoints: {
-        991: {
-          allowTouchMove: false,
+        768: {
           slidesPerView: 3,
         },
 
-        1200: {
-          allowTouchMove: false,
+        991: {
           slidesPerView: 4,
         },
 
-        1540: {
+        1200: {
           slidesPerView: 5,
+        },
+
+        1540: {
+          slidesPerView: 6,
         },
       },
     });
@@ -218,6 +220,7 @@ const priceSlider = new Swiper('.price-content-slider', {
   speed: 500,
   slidesPerView: 1,
   roundLengths: true,
+  autoHeight: true,
 
   effect: 'fade',
   fadeEffect: {

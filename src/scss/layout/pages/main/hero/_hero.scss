@@ -17,12 +17,12 @@
     margin-bottom: -100px;
 
     background-size: 720px;
-    background-position-y: calc(100% - 94px);
+    background-position-y: calc(100% - 123px);
   }
 
   @include breakpoint($breakpoint-laptop--medium) {
     margin-bottom: -140px;
-    background-size: 550px;
+    background-position-y: calc(100% - 110px);
   }
 
   @include breakpoint($breakpoint-tablet--large) {
@@ -283,6 +283,10 @@
 
       @include breakpoint($breakpoint-laptop--large) {
         bottom: -130px;
+      }
+
+      @include breakpoint($breakpoint-laptop--medium) {
+        bottom: -90px;
       }
     }
 

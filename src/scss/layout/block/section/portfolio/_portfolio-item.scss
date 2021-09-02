@@ -18,7 +18,7 @@
     &__picture {
       flex-shrink: 0;
 
-      width: 500px;
+      width: 430px;
       height: 300px;
 
       margin-right: 35px;
@@ -87,6 +87,7 @@
     }
 
     &__description {
+      min-height: 85px;
       max-height: 90px;
 
       margin-bottom: 20px;

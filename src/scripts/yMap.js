@@ -3,48 +3,43 @@ let map = null;
 let mapData = null;
 
 if (mapContainer) {
-
   ymaps.ready(function () {
-    fetch('/wp-content/themes/brand-digital/assets/data/map.json')
-      .then((response) => response.json())
-      .then((data) => {
-        mapData = data;
+    let coords = [],
+      address = [];
+    const points = document.querySelectorAll('.map__content .list__item');
 
-        map = new ymaps.Map(mapContainer, {
-          center: mapData[1].coordinates,
-          zoom: 15
-        });
+    points.forEach(point => {
+      coords.push(point.getAttribute('data-coords').replace(' ', '').split(','));
+      address.push(point.getAttribute('data-address'));
+    });
 
-        map.behaviors.disable('scrollZoom');
+    map = new ymaps.Map(mapContainer, {
+      center: coords[0],
+      zoom: 15
+    });
 
-        for (const key in mapData) {
-          const element = data[key];
+    map.behaviors.disable('scrollZoom');
 
-          let address = element.address;
+    points.forEach((point, index) => {
+      point.addEventListener('click', () => {
+        const active = document.querySelector('.list__item--active');
 
-          var place = new ymaps.Placemark(
-            element.coordinates, {
-            balloonContentBody: address,
-          },
-            {
-              iconColor: '#ff8025',
-            },
-          );
+        if (active) active.classList.remove('list__item--active');
+        point.classList.add('list__item--active');
 
-          map.geoObjects.add(place);
-        }
+        map.panTo([coords[index]])
       });
-  });
 
-  const points = document.querySelectorAll('#map .map__list .list__item');
-  points.forEach((point, index) => {
-    point.addEventListener('click', () => {
-      const active = document.querySelector('.list__item--active');
+      var place = new ymaps.Placemark(
+        coords[index], {
+        balloonContentBody: address[index],
+      },
+        {
+          iconColor: '#ff8025',
+        },
+      );
 
-      if (active) active.classList.remove('list__item--active');
-      point.classList.add('list__item--active');
-
-      map.panTo([mapData[index + 1].coordinates])
+      map.geoObjects.add(place);
     });
   });
 }

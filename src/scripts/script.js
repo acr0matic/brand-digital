@@ -19,6 +19,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
 const lazyLoadInstance = new LazyLoad({
   elements_selector: '.lazy',
+  callback_loaded: (el) => {
+    const container = el.closest('div');
+    const loader = container.querySelector('.preloader');
+
+    if (!container.classList.contains('modal__picture') && loader)
+      loader.classList.add('preloader--hide');
+  },
 });
 
 new SmoothScroll('a[href*="#"]', {

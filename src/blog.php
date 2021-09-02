@@ -51,7 +51,7 @@
         <div class="blog__wrapper">
           <div class="blog__item blog-item">
             <div class="row">
-              <div class="col-12 col-lg-5 mb-3 mb-lg0">
+              <div class="col-12 col-lg-5 mb-3 mb-lg-0 pe-5">
                 <picture class="blog-item__picture">
                   <img src="img/page/blog/1.jpg" alt="" class="blog-item__image">
                 </picture>
@@ -249,6 +249,8 @@
           <!-- /.blog__item blog-item -->
         </div>
         <!-- /.blog__wrapper -->
+
+        <button id="load-more" data-loading-text="Загрузка..." data-paged="1" data-max-pages="0" class="blog__button button button-primary">Смотреть больше</button>
       </div>
       <!-- /.blog -->
     </div>

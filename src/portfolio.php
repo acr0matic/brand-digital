@@ -599,7 +599,7 @@
         </div>
         <!-- /.portfolio-body__grid -->
 
-        <button class="portfolio-body__button button button-primary">Смотреть больше</button>
+        <button id="load-more" data-loading-text="Загрузка..." data-paged="0" data-max-pages="0" class="portfolio-body__button button button-primary">Смотреть больше</button>
       </div>
       <!-- /.container -->
     </div>

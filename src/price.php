@@ -346,36 +346,6 @@
                     <div class="col-12 col-sm-6 col-lg-4">
                       <div class="price-content__card price-card">
                         <h3 class="price-card__title">Легковой автомобиль</h3>
-                        <img src="img/page/price/items/desing/1.jpg" alt="" class="price-card__picture">
-                        <span class="price-card__cost">от 8000₽</span>
-                      </div>
-                      <!-- /.price-content__card price-card -->
-                    </div>
-                    <!-- /.col-12 col-sm-6 col-lg-4 -->
-
-                    <div class="col-12 col-sm-6 col-lg-4">
-                      <div class="price-content__card price-card">
-                        <h3 class="price-card__title">Легковой автомобиль</h3>
-                        <img src="img/page/price/items/desing/2.jpg" alt="" class="price-card__picture">
-                        <span class="price-card__cost">от 8000₽</span>
-                      </div>
-                      <!-- /.price-content__card price-card -->
-                    </div>
-                    <!-- /.col-12 col-sm-6 col-lg-4 -->
-
-                    <div class="col-12 col-sm-6 col-lg-4">
-                      <div class="price-content__card price-card">
-                        <h3 class="price-card__title">Легковой автомобиль</h3>
-                        <img src="img/page/price/items/desing/3.jpg" alt="" class="price-card__picture">
-                        <span class="price-card__cost">от 8000₽</span>
-                      </div>
-                      <!-- /.price-content__card price-card -->
-                    </div>
-                    <!-- /.col-12 col-sm-6 col-lg-4 -->
-
-                    <div class="col-12 col-sm-6 col-lg-4">
-                      <div class="price-content__card price-card">
-                        <h3 class="price-card__title">Легковой автомобиль</h3>
                         <img src="img/page/price/items/desing/4.jpg" alt="" class="price-card__picture">
                         <span class="price-card__cost">от 8000₽</span>
                       </div>
