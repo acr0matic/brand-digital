@@ -1,3 +1,9 @@
+MicroModal.init(modalParams);
+const modalParams = {
+  awaitCloseAnimation: true,
+  disableFocus: true,
+};
+
 const modals = document.querySelectorAll('.modal');
 const modalDefault = {};
 

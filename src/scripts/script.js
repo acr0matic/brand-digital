@@ -1,13 +1,3 @@
-MicroModal.init({
-  awaitCloseAnimation: true,
-  disableFocus: true,
-});
-
-const modalParams = {
-  awaitCloseAnimation: true,
-  disableFocus: true,
-};
-
 // Прелоадер
 const preloader = document.getElementById('preloader');
 document.addEventListener("DOMContentLoaded", function () {

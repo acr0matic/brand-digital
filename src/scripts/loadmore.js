@@ -40,6 +40,8 @@ function loadContentAJAX(trigger, container) {
 
         let result = await response.text();
         container.insertAdjacentHTML('beforeend', result);
+        MicroModal.init(modalParams);
+        InitPortfolio();
         if (lazyLoadInstance) lazyLoadInstance.update();
       }
 
