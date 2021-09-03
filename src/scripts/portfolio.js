@@ -6,17 +6,12 @@ function InitPortfolio() {
   if (modal) {
     if (!modal.classList.contains('modal-portfolio--full')) {
       if (window.matchMedia('(max-width: 991px)').matches) {
-        const close = modal.querySelector('.modal__swipe');
         const title = modal.querySelector('.modal__title');
         const text = modal.querySelector('.modal__text');
         const list = modal.querySelector('.modal__list');
         const image = modal.querySelector('.modal__image');
 
         const items = document.querySelectorAll('.portfolio--block .portfolio-item');
-
-        close.addEventListener('touchend', () => {
-          MicroModal.close('modal-portfolio', modalParams)
-        });
 
         items.forEach(item => {
           item.addEventListener('click', () => {
@@ -37,7 +32,6 @@ function InitPortfolio() {
     }
 
     else {
-      const close = modal.querySelector('.modal__swipe');
       const title = modal.querySelector('.modal__title');
       const info = modal.querySelector('.modal__info');
       const text = modal.querySelector('.modal__text');
@@ -47,7 +41,6 @@ function InitPortfolio() {
 
       const items = document.querySelectorAll('.portfolio-body .portfolio-item');
 
-      close.addEventListener('touchend', () => MicroModal.close('modal-portfolio', modalParams));
 
       items.forEach(item => {
         item.addEventListener('click', () => {

@@ -1,17 +1,5 @@
-MicroModal.init(modalParams);
-const modalParams = {
-  awaitCloseAnimation: true,
-  disableFocus: true,
-};
-
 const modals = document.querySelectorAll('.modal');
 const modalDefault = {};
-
-modals.forEach(modal => {
-  const close = modal.querySelector('.modal__swipe');
-  if (close) close.addEventListener('touchend', () => MicroModal.close(modal.getAttribute('id')));
-});
-
 
 modals.forEach(modal => {
   const id = modal.getAttribute('id');

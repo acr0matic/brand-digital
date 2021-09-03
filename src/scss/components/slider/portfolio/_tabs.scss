@@ -4,6 +4,10 @@
   &__control {
     text-align: center;
     overflow: auto;
+
+    @include breakpoint($breakpoint-tablet--large) {
+      margin-bottom: 15px;
+    }
   }
 
   .swiper-pagination {
@@ -17,7 +21,7 @@
     border-bottom: 2px solid rgba(0, 0, 0, 0.1);
 
     @include breakpoint($breakpoint-tablet--large) {
-      margin-bottom: 25px;
+      margin-bottom: 15px;
     }
 
     &-bullet {

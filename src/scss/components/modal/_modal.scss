@@ -7,16 +7,6 @@
         }
       }
 
-      &__swipe {
-        @include breakpoint($breakpoint-tablet) {
-          display: none;
-        }
-
-        @include breakpoint($breakpoint-mobile--large) {
-          display: block;
-        }
-      }
-
       &__container {
         @include breakpoint($breakpoint-mobile--large) {
           padding: 0;
@@ -36,24 +26,11 @@
         }
 
         @include breakpoint($breakpoint-mobile--large) {
-          padding-top: 40px;
+          padding-top: 50px;
           padding-bottom: 0;
 
           color: $text-orange;
           background-color: $palette-white;
-        }
-      }
-
-      &__close {
-        @include breakpoint($breakpoint-tablet--large) {
-          top: 20px;
-          right: 25px;
-
-          transform: scale(0.8);
-        }
-
-        @include breakpoint($breakpoint-mobile--large) {
-          display: none;
         }
       }
 
@@ -129,6 +106,10 @@
     width: 95%;
   }
 
+  @include breakpoint($breakpoint-tablet--large) {
+    border-radius: 15px;
+  }
+
   @include breakpoint($breakpoint-mobile--large) {
     width: 100%;
     padding: 15px;
@@ -138,32 +119,6 @@
 .modal__header {
   @include breakpoint($breakpoint-mobile--large) {
     margin-bottom: 20px;
-  }
-}
-
-.modal__swipe {
-  position: absolute;
-  top: 5px;
-  left: 50%;
-
-  display: none;
-
-  padding: 10px 20px;
-
-  transform: translateX(-50%);
-
-  @include breakpoint($breakpoint-tablet) {
-    display: block;
-  }
-
-  &::after {
-    content: "";
-
-    display: block;
-    width: 50px;
-    height: 3px;
-
-    background-color: #ececec;
   }
 }
 
@@ -187,8 +142,17 @@
 
   transition: opacity 0.15s ease;
 
-  @include breakpoint($breakpoint-tablet) {
-    display: none;
+  @include breakpoint($breakpoint-tablet--large) {
+    top: 15px;
+    right: 20px;
+
+    transform: scale(0.6);
+  }
+
+  path {
+    @include breakpoint($breakpoint-tablet--large) {
+      stroke: $palette-orange;
+    }
   }
 
   &:hover {
@@ -240,11 +204,22 @@
 }
 
 @keyframes mmslideOutMobile {
-  from {
+  0% {
     transform: translateY(0);
   }
-  to {
-    transform: translateY(30%);
+
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+@keyframes mmslideInMobile {
+  0% {
+    transform: translateY(100%);
+  }
+
+  100% {
+    transform: translateY(0);
   }
 }
 
@@ -258,21 +233,37 @@
 
 .micromodal-slide[aria-hidden="false"] .modal__overlay {
   animation: mmfadeIn 0.3s cubic-bezier(0, 0, 0.2, 1);
+
+  @include breakpoint($breakpoint-tablet) {
+    animation-timing-function: ease;
+    // animation-delay: 0.3s;
+  }
 }
 
 .micromodal-slide[aria-hidden="false"] .modal__container {
   animation: mmslideIn 0.3s cubic-bezier(0, 0, 0.2, 1);
+
+  @include breakpoint($breakpoint-tablet) {
+    animation: mmslideInMobile 0.4s cubic-bezier(0, 0, 0.2, 1);
+    animation-timing-function: ease;
+  }
 }
 
 .micromodal-slide[aria-hidden="true"] .modal__overlay {
   animation: mmfadeOut 0.3s cubic-bezier(0, 0, 0.2, 1);
+
+  @include breakpoint($breakpoint-tablet) {
+    animation-timing-function: ease;
+    animation-delay: 0.2s;
+  }
 }
 
 .micromodal-slide[aria-hidden="true"] .modal__container {
   animation: mmslideOut 0.3s cubic-bezier(0, 0, 0.2, 1);
 
   @include breakpoint($breakpoint-tablet) {
-    animation: mmslideOutMobile 0.3s cubic-bezier(0, 0, 0.2, 1);
+    animation: mmslideOutMobile 0.4s cubic-bezier(0, 0, 0.2, 1);
+    animation-timing-function: ease;
   }
 }
 

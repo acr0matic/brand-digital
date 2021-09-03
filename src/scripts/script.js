@@ -40,3 +40,9 @@ tippy('.input__warning[data-tippy-content]', {
   theme: 'brand-digital',
 });
 
+const modalParams = {
+  awaitCloseAnimation: true,
+  disableFocus: true,
+};
+
+MicroModal.init(modalParams);
