@@ -119,19 +119,19 @@
         <div class="process-content__wrapper">
           <div class="row flex-column-reverse flex-lg-row align-items-center">
             <div class="col-12 col-lg-5 col-xxl-6">
-              <div class="process-content__textblock process-textblock">
-                <div class="process-textblock__wrapper">
-                  <h3 class="process-textblock__title">RF-640, серии VersaEXPRESS</h3>
-                  <p class="process-textblock__text">Плоттер Roland RF-640 серии VersaEXPRESS обладает впечатляющей скоростью печати и качеством, повышенной производительностью и непревзойденной надежностью.</p>
+              <div class="process-content__textblock textblock">
+                <div class="textblock__wrapper">
+                  <h3 class="textblock__title">RF-640, серии VersaEXPRESS</h3>
+                  <p class="textblock__text">Плоттер Roland RF-640 серии VersaEXPRESS обладает впечатляющей скоростью печати и качеством, повышенной производительностью и непревзойденной надежностью.</p>
                 </div>
-                <!-- /.process-textblock__wrapper -->
+                <!-- /.textblock__wrapper -->
               </div>
-              <!-- /.process-content__item process-textblock -->
+              <!-- /.process-content__item textblock -->
             </div>
             <!-- /.col-12 col-lg-5 col-xxl-6 -->
 
             <div class="col-12 col-lg-7 col-xxl-6 mb-3 mb-lg-0">
-              <img src="img/page/process/manufacturing/1.jpg" alt="" class="process-textblock__image">
+              <img src="img/page/process/manufacturing/1.jpg" alt="" class="textblock__image">
             </div>
             <!-- /.col-12 col-lg-5 col-xxl-6 -->
           </div>
@@ -139,19 +139,19 @@
 
           <div class="row flex-column-reverse align-items-center flex-lg-row-reverse">
             <div class="col-12 col-lg-5 col-xxl-6 ps-lg-5">
-              <div class="process-content__textblock process-textblock">
-                <div class="process-textblock__wrapper">
-                  <h3 class="process-textblock__title">Camm-1 GR-640</h3>
-                  <p class="process-textblock__text">Профессиональный режущий плоттер Roland GR-640. Теперь можно резать то, что раньше вам казалось непрорезаемым на обычном режущем плоттере.</p>
+              <div class="process-content__textblock textblock">
+                <div class="textblock__wrapper">
+                  <h3 class="textblock__title">Camm-1 GR-640</h3>
+                  <p class="textblock__text">Профессиональный режущий плоттер Roland GR-640. Теперь можно резать то, что раньше вам казалось непрорезаемым на обычном режущем плоттере.</p>
                 </div>
-                <!-- /.process-textblock__wrapper -->
+                <!-- /.textblock__wrapper -->
               </div>
-              <!-- /.process-content__item process-textblock -->
+              <!-- /.process-content__item textblock -->
             </div>
             <!-- /.col-12 col-lg-5 col-xxl-6 -->
 
             <div class="col-12 col-lg-7 col-xxl-6 mb-3 mb-lg-0">
-              <img src="img/page/process/manufacturing/2.jpg" alt="" class="process-textblock__image">
+              <img src="img/page/process/manufacturing/2.jpg" alt="" class="textblock__image">
             </div>
             <!-- /.col-12 col-lg-7 col-xxl-6 -->
           </div>
@@ -159,19 +159,19 @@
 
           <div class="row flex-column-reverse flex-lg-row align-items-center">
             <div class="col-12 col-lg-5 col-xxl-6">
-              <div class="process-content__textblock process-textblock">
-                <div class="process-textblock__wrapper">
-                  <h3 class="process-textblock__title">Ламинатор Mefu MF1700-С3 Trimmer</h3>
-                  <p class="process-textblock__text">Ламинатор Mefu MF1700-C3 для одностороннего горячего и холодного ламинирования с интегрированной функцией продольной резки ламинированного изделия.</p>
+              <div class="process-content__textblock textblock">
+                <div class="textblock__wrapper">
+                  <h3 class="textblock__title">Ламинатор Mefu MF1700-С3 Trimmer</h3>
+                  <p class="textblock__text">Ламинатор Mefu MF1700-C3 для одностороннего горячего и холодного ламинирования с интегрированной функцией продольной резки ламинированного изделия.</p>
                 </div>
-                <!-- /.process-textblock__wrapper -->
+                <!-- /.textblock__wrapper -->
               </div>
-              <!-- /.process-content__item process-textblock -->
+              <!-- /.process-content__item textblock -->
             </div>
             <!-- /.col-12 col-lg-5 col-xxl-6 -->
 
             <div class="col-12 col-lg-7 col-xxl-6 mb-3 mb-lg-0">
-              <img src="img/page/process/manufacturing/3.jpg" alt="" class="process-textblock__image">
+              <img src="img/page/process/manufacturing/3.jpg" alt="" class="textblock__image">
             </div>
             <!-- /.col-12 col-lg-7 col-xxl-6 -->
           </div>

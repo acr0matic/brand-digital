@@ -21,14 +21,14 @@
         margin-bottom: 25px;
       }
 
-      .process-textblock {
+      .textblock {
         @include breakpoint($breakpoint-tablet--large) {
           text-align: center;
         }
       }
 
       &:last-child {
-        .process-textblock {
+        .textblock {
           @include breakpoint($breakpoint-tablet--large) {
             margin-bottom: 20px;
           }
@@ -36,7 +36,7 @@
       }
 
       &:not(:last-child) {
-        .process-textblock {
+        .textblock {
           @include breakpoint($breakpoint-tablet--large) {
             padding-bottom: 20px;
             border-bottom: 1px solid #878686;

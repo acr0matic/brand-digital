@@ -102,6 +102,35 @@
       <!-- /.footer__up -->
     </div>
     <!-- /.footer -->
+
+    <div class="acr0matic">
+      <div class="acr0matic__wrapper">
+        <svg onclick="window.open('https://t.me/acr0matic', '_blank');" class="acr0matic__icon" width="100%" height="100%" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0)">
+            <path class="main" fill-rule="evenodd" clip-rule="evenodd" d="M23.2627 99.56L63.724 99.5678C63.7978 99.5682 63.8716 99.5685 63.9454 99.5685C83.6139 99.5684 99.5583 83.6277 99.5583 63.9638C99.5583 55.5775 96.6583 47.8685 91.8062 41.7844C89.9501 39.457 91.4717 35.2981 94.4485 35.2981L104.662 35.2981C106.576 35.2981 108.128 33.7462 108.128 31.8318C108.128 29.9177 106.577 28.3659 104.663 28.3655L63.9791 28.3577L63.979 28.3584L63.9789 28.3591C63.9677 28.3591 63.9566 28.3591 63.9454 28.3591C44.277 28.3591 28.3325 44.2999 28.3325 63.9638C28.3325 72.3493 31.2321 80.0578 36.0835 86.1417C37.9393 88.469 36.4178 92.6275 33.4412 92.6275L23.2634 92.6275C21.349 92.6275 19.7971 94.1794 19.7971 96.0937C19.7971 98.0078 21.3486 99.5596 23.2627 99.56ZM92.6174 63.9638C92.6174 48.1348 79.782 35.3001 63.9454 35.3001C48.1089 35.3001 35.2735 48.1348 35.2735 63.9638C35.2735 79.7928 48.1089 92.6275 63.9454 92.6275C79.782 92.6275 92.6174 79.7928 92.6174 63.9638Z" fill="#F2F2F2" />
+            <g filter="url(#filter0_d)">
+              <ellipse cx="64" cy="64" rx="20" ry="20" transform="rotate(180 64 64)" fill="#F2F2F2" />
+            </g>
+          </g>
+          <defs>
+            <filter id="filter0_d" x="33.5455" y="33.5455" width="60.9091" height="60.9091" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+              <feOffset />
+              <feGaussianBlur stdDeviation="5.22727" />
+              <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.2 0" />
+              <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+              <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+            </filter>
+            <clipPath id="clip0">
+              <rect width="128" height="128" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+      </div>
+      <!-- /.acr0matic__wrapper -->
+    </div>
+    <!-- /.acr0matic -->
   </div>
   <!-- /.container -->
 </footer>

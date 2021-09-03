@@ -3,20 +3,16 @@
 // -----------------------------------------------------------------------------
 
 #footer {
-  padding-top: 65px;
-  padding-bottom: 105px;
-
   background-color: $palette-black;
-
-  @include breakpoint($breakpoint-mobile--large) {
-    padding-top: 50px;
-    padding-bottom: 35px;
-  }
 }
 
 .footer {
   display: flex;
   justify-content: space-between;
+
+  padding-top: 65px;
+  padding-bottom: 105px;
+
   color: $text-white;
 
   @include breakpoint($breakpoint-tablet--large) {
@@ -24,6 +20,9 @@
   }
 
   @include breakpoint($breakpoint-mobile--large) {
+    padding-top: 50px;
+    padding-bottom: 35px;
+
     line-height: 150%;
   }
 

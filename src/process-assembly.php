@@ -119,19 +119,19 @@
         <div class="process-content__wrapper">
           <div class="row flex-column-reverse flex-lg-row align-items-center">
             <div class="col-12 col-lg-5 col-xxl-6">
-              <div class="process-content__textblock process-textblock">
-                <div class="process-textblock__wrapper">
-                  <h3 class="process-textblock__title">Нож OLFA svr-2</h3>
-                  <p class="process-textblock__text">Профессиональный стандартный нож, полностью изготовленный из нержавеющей стали. Нержавеющее стальное лезвие мягче, чем лезвие из углеродистой стали, и не оставляет царапин и рисок при тонировании обычного стекла, сталинита и триплекса</p>
+              <div class="process-content__textblock textblock">
+                <div class="textblock__wrapper">
+                  <h3 class="textblock__title">Нож OLFA svr-2</h3>
+                  <p class="textblock__text">Профессиональный стандартный нож, полностью изготовленный из нержавеющей стали. Нержавеющее стальное лезвие мягче, чем лезвие из углеродистой стали, и не оставляет царапин и рисок при тонировании обычного стекла, сталинита и триплекса</p>
                 </div>
-                <!-- /.process-textblock__wrapper -->
+                <!-- /.textblock__wrapper -->
               </div>
-              <!-- /.process-content__item process-textblock -->
+              <!-- /.process-content__item textblock -->
             </div>
             <!-- /.col-12 col-lg-5 col-xxl-6 -->
 
             <div class="col-12 col-lg-7 col-xxl-6 mb-3 mb-lg-0">
-              <img src="img/page/process/assembly/1.jpg" alt="" class="process-textblock__image">
+              <img src="img/page/process/assembly/1.jpg" alt="" class="textblock__image">
             </div>
             <!-- /.col-12 col-lg-5 col-xxl-6 -->
           </div>
@@ -139,19 +139,19 @@
 
           <div class="row flex-column-reverse align-items-center flex-lg-row-reverse">
             <div class="col-12 col-lg-5 col-xxl-6 ps-lg-5">
-              <div class="process-content__textblock process-textblock">
-                <div class="process-textblock__wrapper">
-                  <h3 class="process-textblock__title">Ракель Avery</h3>
-                  <p class="process-textblock__text">Инструмент предназначен для разглаживания и нанесения виниловых пленок. Боковая плоскость снабжена небольшим отрезком фетра шириной 17 мм. Он мягче и эластичней предыдущих моделей и прекрасно подойдёт для нанесения самоклеющейся пленки на изогнутые и гофрированные поверхности.</p>
+              <div class="process-content__textblock textblock">
+                <div class="textblock__wrapper">
+                  <h3 class="textblock__title">Ракель Avery</h3>
+                  <p class="textblock__text">Инструмент предназначен для разглаживания и нанесения виниловых пленок. Боковая плоскость снабжена небольшим отрезком фетра шириной 17 мм. Он мягче и эластичней предыдущих моделей и прекрасно подойдёт для нанесения самоклеющейся пленки на изогнутые и гофрированные поверхности.</p>
                 </div>
-                <!-- /.process-textblock__wrapper -->
+                <!-- /.textblock__wrapper -->
               </div>
-              <!-- /.process-content__item process-textblock -->
+              <!-- /.process-content__item textblock -->
             </div>
             <!-- /.col-12 col-lg-5 col-xxl-6 -->
 
             <div class="col-12 col-lg-7 col-xxl-6 mb-3 mb-lg-0">
-              <img src="img/page/process/assembly/2.jpg" alt="" class="process-textblock__image">
+              <img src="img/page/process/assembly/2.jpg" alt="" class="textblock__image">
             </div>
             <!-- /.col-12 col-lg-7 col-xxl-6 -->
           </div>
@@ -159,19 +159,19 @@
 
           <div class="row flex-column-reverse flex-lg-row align-items-center">
             <div class="col-12 col-lg-5 col-xxl-6">
-              <div class="process-content__textblock process-textblock">
-                <div class="process-textblock__wrapper">
-                  <h3 class="process-textblock__title">Магнитный держатель для пленки</h3>
-                  <p class="process-textblock__text">Магнитные держатели применяются для фиксации пленки при оклеивании. Держатель имеет удобную ручку, магнит находится в прорезиненном покрытии, что позволяет не беспокоиться о повреждении ЛКП при работе с магнитами-фиксаторами. Для работы с большими деталями кузова автомобиля понадобится не менее двух магнитов для пленки.</p>
+              <div class="process-content__textblock textblock">
+                <div class="textblock__wrapper">
+                  <h3 class="textblock__title">Магнитный держатель для пленки</h3>
+                  <p class="textblock__text">Магнитные держатели применяются для фиксации пленки при оклеивании. Держатель имеет удобную ручку, магнит находится в прорезиненном покрытии, что позволяет не беспокоиться о повреждении ЛКП при работе с магнитами-фиксаторами. Для работы с большими деталями кузова автомобиля понадобится не менее двух магнитов для пленки.</p>
                 </div>
-                <!-- /.process-textblock__wrapper -->
+                <!-- /.textblock__wrapper -->
               </div>
-              <!-- /.process-content__item process-textblock -->
+              <!-- /.process-content__item textblock -->
             </div>
             <!-- /.col-12 col-lg-5 col-xxl-6 -->
 
             <div class="col-12 col-lg-7 col-xxl-6 mb-3 mb-lg-0">
-              <img src="img/page/process/assembly/3.jpg" alt="" class="process-textblock__image">
+              <img src="img/page/process/assembly/3.jpg" alt="" class="textblock__image">
             </div>
             <!-- /.col-12 col-lg-7 col-xxl-6 -->
           </div>
