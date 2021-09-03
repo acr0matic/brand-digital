@@ -1,0 +1,9 @@
+@import "fade";
+@import "slide";
+
+.a-fade-out,
+.a-fade-in {
+  animation-name: mmfadeOut;
+  animation-duration: 0.5s;
+  animation-timing-function: ease;
+}
