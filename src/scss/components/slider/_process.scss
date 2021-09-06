@@ -1,10 +1,7 @@
 .process-slider {
   &--common {
+    width: 60%;
     overflow: visible;
-
-    @include breakpoint($breakpoint-laptop--large) {
-      width: 88%;
-    }
 
     @include breakpoint($breakpoint-tablet--large) {
       width: 100%;

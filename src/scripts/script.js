@@ -13,7 +13,7 @@ const lazyLoadInstance = new LazyLoad({
     const container = el.closest('div');
     const loader = container.querySelector('.preloader');
 
-    if (!container.classList.contains('modal__picture') && loader)
+    if (!container.classList.contains('modal__picture') && loader && !container.classList.contains('modal__row'))
       loader.classList.add('preloader--hide');
   },
 });

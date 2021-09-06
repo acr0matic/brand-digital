@@ -41,7 +41,6 @@ function InitPortfolio() {
 
       const items = document.querySelectorAll('.portfolio-body .portfolio-item');
 
-
       items.forEach(item => {
         item.addEventListener('click', () => {
           if (portfolioModalSlider) portfolioModalSlider.slideTo(0);
@@ -57,21 +56,44 @@ function InitPortfolio() {
           const listItems = item.querySelectorAll('.portfolio-item__list .list__item');
           listItems.forEach(element => list.innerHTML += element.outerHTML);
 
-          if (images)
-            images.forEach((image, index) => {
-              if (imageSource[index]) {
+          images.forEach((image, index) => {
+            if (imageSource[index]) {
+              const link = image.parentElement;
+              image.parentElement.parentElement.style.display = "block";
+              if (image.src !== '') image.src = '';
+              image.setAttribute('data-src', imageSource[index].src);
+              LazyLoad.resetStatus(image);
+              link.setAttribute('href', imageSource[index].getAttribute('data-full'));
+            }
+            else {
+              image.parentElement.parentElement.style.display = "none";
+            }
+          });
+
+          if (additionalSource.length !== 0) {
+            modal.querySelector('.modal__additional').style.display = 'block';
+            additionalImages.forEach((image, index) => {
+              if (additionalSource[index]) {
+                const link = image.parentElement;
                 image.parentElement.parentElement.style.display = "block";
-                image.setAttribute('data-src', imageSource[index].src);
+                if (image.src !== '') image.src = '';
+                image.setAttribute('data-src', additionalSource[index].src);
+                LazyLoad.resetStatus(image);
+                link.setAttribute('href', additionalSource[index].getAttribute('data-full'));
               }
+
               else {
                 image.parentElement.parentElement.style.display = "none";
               }
             });
+          }
 
-          if (additionalImages)
-            additionalImages.forEach((image, index) => image.setAttribute('data-src', additionalSource[index].src));
+          else {
+            modal.querySelector('.modal__additional').style.display = 'none';
+          }
 
           if (portfolioModalSlider) portfolioModalSlider.update();
+          lightbox.reload();
           lazyLoadInstance.update();
         });
       });

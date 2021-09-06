@@ -129,15 +129,6 @@
                   <!-- /.portfolio-item__gallery -->
 
                   <div class="portfolio-item__additional">
-                    <picture class="portfolio-item__picture">
-                      <source srcset="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=">
-                      <img src="img/portfolio/page/additional/1.jpg" alt="" class="portfolio-item__image cms-image">
-                    </picture>
-
-                    <picture class="portfolio-item__picture">
-                      <source srcset="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=">
-                      <img src="img/portfolio/page/additional/2.jpg" alt="" class="portfolio-item__image cms-image">
-                    </picture>
 
                   </div>
                   <!-- /.portfolio-item__additional -->
@@ -211,11 +202,6 @@
                   <!-- /.portfolio-item__gallery -->
 
                   <div class="portfolio-item__additional">
-                    <picture class="portfolio-item__picture">
-                      <source srcset="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=">
-                      <img src="img/portfolio/page/additional/1.jpg" alt="" class="portfolio-item__image cms-image">
-                    </picture>
-
                     <picture class="portfolio-item__picture">
                       <source srcset="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=">
                       <img src="img/portfolio/page/additional/2.jpg" alt="" class="portfolio-item__image cms-image">
@@ -662,7 +648,7 @@
             <div class="modal__additional">
               <span>Доп. материалы</span>
 
-              <div>
+              <div class="modal__row">
                 <picture class="modal__picture">
                   <source srcset="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" media="(max-width: 768px)">
                   <img class="modal__preloader preloader preloader--center" src="img/misc/preloader.svg" alt="">
