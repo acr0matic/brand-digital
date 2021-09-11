@@ -13,6 +13,28 @@
 
   &__wrapper {
     margin-bottom: 65px;
+
+    &--loading {
+      pointer-events: none;
+      animation-name: fading;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+
+      @keyframes fading {
+        0% {
+          opacity: 0.6;
+        }
+
+        50% {
+          opacity: 0.3;
+        }
+
+        100% {
+          opacity: 0.6;
+        }
+      }
+    }
   }
 
   > .blog__filters {

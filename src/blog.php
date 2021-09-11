@@ -24,22 +24,22 @@
           <div class="blog-filters__title">Фильтры</div>
 
           <div class="blog-filters__wrapper">
-            <div class="blog-filters__item blog-filters__item--blue">
+            <div data-category="interior" class="blog-filters__item blog-filters__item--blue blog-filters__item--unselected">
               Интерьер
             </div>
             <!-- /.blog-filters__item -->
 
-            <div class="blog-filters__item blog-filters__item--green blog-filters__item--unselected">
+            <div data-category="design" class="blog-filters__item blog-filters__item--green blog-filters__item--unselected">
               Дизайн
             </div>
             <!-- /.blog-filters__item -->
 
-            <div class="blog-filters__item blog-filters__item--purple blog-filters__item--unselected">
+            <div data-category="branding" class="blog-filters__item blog-filters__item--purple blog-filters__item--unselected">
               Брендирование
             </div>
             <!-- /.blog-filters__item -->
 
-            <div class="blog-filters__item blog-filters__item--gray blog-filters__item--unselected">
+            <div data-category="souvenirs" class="blog-filters__item blog-filters__item--gray blog-filters__item--unselected">
               Сувениры
             </div>
             <!-- /.blog-filters__item -->

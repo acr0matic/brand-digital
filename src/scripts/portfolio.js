@@ -61,7 +61,7 @@ function InitPortfolio() {
               const link = image.parentElement;
               image.parentElement.parentElement.style.display = "block";
               if (image.src !== '') image.src = '';
-              image.setAttribute('data-src', imageSource[index].src);
+              image.setAttribute('data-src', imageSource[index].getAttribute('data-src'));
               LazyLoad.resetStatus(image);
               link.setAttribute('href', imageSource[index].getAttribute('data-full'));
             }
@@ -77,7 +77,7 @@ function InitPortfolio() {
                 const link = image.parentElement;
                 image.parentElement.parentElement.style.display = "block";
                 if (image.src !== '') image.src = '';
-                image.setAttribute('data-src', additionalSource[index].src);
+                image.setAttribute('data-src', additionalSource[index].getAttribute('data-src'));
                 LazyLoad.resetStatus(image);
                 link.setAttribute('href', additionalSource[index].getAttribute('data-full'));
               }
