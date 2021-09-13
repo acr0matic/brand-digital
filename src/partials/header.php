@@ -210,7 +210,7 @@
       <div class="side-menu__wrapper">
         <div class="side-menu__action">
           <div class="side-menu__close">
-            <svg width="43" height="44" viewBox="0 0 43 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width="100%" height="100%" viewBox="0 0 43 44" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M1.49731 42.0457L41.4973 2.6377" stroke="white" stroke-width="3" />
               <path d="M1.49731 2.0459L41.4973 41.7739" stroke="white" stroke-width="3" />
             </svg>

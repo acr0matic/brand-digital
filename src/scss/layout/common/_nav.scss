@@ -115,6 +115,10 @@
 
       transition: none;
 
+      @include breakpoint($breakpoint-laptop--medium) {
+        font-size: 21px;
+      }
+
       &::after {
         content: url("../img/icons/misc/arrow__right--small.svg");
         position: absolute;

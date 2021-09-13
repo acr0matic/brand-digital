@@ -39,9 +39,16 @@
 .blog-hero {
   position: relative;
   z-index: 3;
+
+  width: 50%;
   color: $text-white;
 
   &__title {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
     margin-bottom: 30px;
 
     @include breakpoint($breakpoint-tablet--large) {

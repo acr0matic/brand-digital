@@ -2,6 +2,14 @@
   @include breakpoint($breakpoint-laptop--medium) {
     margin-top: 45px;
   }
+
+  @include breakpoint($breakpoint-tablet--large) {
+    margin-top: 95px;
+  }
+
+  @include breakpoint($breakpoint-tablet) {
+    margin-top: 45px;
+  }
 }
 
 .confidence {

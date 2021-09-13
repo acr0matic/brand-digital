@@ -49,11 +49,19 @@
 
     background-color: $palette-orange;
     transition: 0.3s ease-in-out;
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      max-width: 400px;
+    }
   }
 
   &__wrapper {
     overflow: auto;
     padding: 45px 50px 60px 65px;
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      padding: 35px 50px 30px 65px;
+    }
   }
 
   &__action {
@@ -65,8 +73,13 @@
 
   &__close {
     display: inline-block;
+    width: 42px;
     margin-left: auto;
     cursor: pointer;
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      width: 32px;
+    }
   }
 
   &__social {
@@ -77,7 +90,7 @@
     width: 50px;
     height: 50px;
 
-    @include breakpoint($breakpoint-mobile--large) {
+    @include breakpoint($breakpoint-laptop--medium) {
       width: 36px;
       height: 36px;
     }
@@ -90,6 +103,8 @@
     flex-grow: 1;
 
     background-image: url("../img/misc/sidemenu/map.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 
     @include breakpoint($breakpoint-tablet) {
       background: none;
@@ -109,7 +124,7 @@
     border-radius: 3px;
     font-size: 20px;
 
-    @include breakpoint(max-height 750px) {
+    @include breakpoint(max-height 680px) {
       display: none;
     }
 
@@ -129,7 +144,7 @@
   }
 
   &__points {
-    @include breakpoint(max-height 750px) {
+    @include breakpoint(max-height 680px) {
       display: none;
     }
   }

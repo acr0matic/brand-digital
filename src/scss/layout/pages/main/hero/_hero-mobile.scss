@@ -21,6 +21,10 @@
 
     width: 100px;
 
+    @include breakpoint($breakpoint-mobile--medium) {
+      width: 80px;
+    }
+
     @include breakpoint($breakpoint-mobile) {
       width: 70px;
     }

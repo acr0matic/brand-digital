@@ -45,8 +45,8 @@
 
     font-size: 28px;
 
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
 
     cursor: pointer;
 
@@ -56,38 +56,42 @@
     }
 
     @include breakpoint($breakpoint-tablet--large) {
-      padding-left: 15%;
-      padding-right: 15%;
       font-size: 14px;
     }
 
     @include breakpoint($breakpoint-tablet) {
-      height: 60px;
+      height: initial;
+
+      padding-top: 10px;
+      padding-bottom: 10px;
     }
 
     @include breakpoint($breakpoint-mobile--large) {
       flex-direction: column;
 
       width: 49.7%;
-      height: 60px;
 
-      font-size: 12px;
+      font-size: 14px;
       padding-left: 10px;
       padding-right: 10px;
     }
 
     &--left {
+      margin-right: auto;
+
       @media (hover: hover) {
         &:hover::after {
-          left: 20%;
+          left: 5%;
         }
       }
     }
 
     &--right {
+      margin-left: auto;
+
       @media (hover: hover) {
         &:hover::after {
-          right: 20%;
+          right: 5%;
         }
       }
     }
@@ -116,13 +120,9 @@
     }
 
     &--left::after {
-      left: 25%;
+      left: 15%;
 
       @include breakpoint($breakpoint-laptop--medium) {
-        left: 20%;
-      }
-
-      @include breakpoint($breakpoint-tablet) {
         left: 10%;
       }
 
@@ -132,7 +132,7 @@
     }
 
     &--right::after {
-      right: 25%;
+      right: 15%;
       transform: translateY(-50%) rotate(180deg);
 
       @include breakpoint($breakpoint-laptop--large) {
@@ -140,7 +140,7 @@
       }
 
       @include breakpoint($breakpoint-laptop--medium) {
-        right: 20%;
+        right: 10%;
       }
 
       @include breakpoint($breakpoint-tablet) {
@@ -274,16 +274,14 @@
     h2,
     h3,
     h4 {
-      margin: 25px 0;
       font-size: 30px;
+      font-weight: 500;
 
       @include breakpoint($breakpoint-tablet--large) {
-        margin: 15px 0;
         font-size: 27px;
       }
 
       @include breakpoint($breakpoint-mobile--large) {
-        margin: 5px 0;
         font-size: 18px;
       }
     }
