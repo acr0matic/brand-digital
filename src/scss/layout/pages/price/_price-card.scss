@@ -36,7 +36,7 @@
 
     @include breakpoint($breakpoint-mobile--large) {
       padding-left: 15px;
-      font-size: 12px;
+      font-size: 14px;
     }
   }
 
@@ -59,8 +59,6 @@
       bottom: -35px;
 
       width: 200px;
-
-      transform: scaleX(-1);
     }
 
     @include breakpoint($breakpoint-mobile--medium) {
@@ -71,6 +69,12 @@
     @include breakpoint($breakpoint-mobile) {
       bottom: -45px;
       width: 160px;
+    }
+
+    &--mirror {
+      @include breakpoint($breakpoint-mobile--large) {
+        transform: scaleX(-1);
+      }
     }
   }
 

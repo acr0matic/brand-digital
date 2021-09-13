@@ -60,6 +60,7 @@ const portfolioTabs = new Swiper('.portfolio-slider-tab', {
   simulateTouch: false,
   allowTouchMove: false,
   roundLengths: true,
+  autoHeight: true,
 
   effect: 'fade',
   fadeEffect: {

@@ -271,7 +271,25 @@
   }
 
   &__text {
-    p {
+    h2,
+    h3,
+    h4 {
+      margin: 25px 0;
+      font-size: 30px;
+
+      @include breakpoint($breakpoint-tablet--large) {
+        margin: 15px 0;
+        font-size: 27px;
+      }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        margin: 5px 0;
+        font-size: 18px;
+      }
+    }
+
+    p,
+    li {
       font-size: $font-text;
 
       @include breakpoint($breakpoint-laptop--large) {
@@ -279,8 +297,13 @@
       }
 
       @include breakpoint($breakpoint-mobile--large) {
-        font-size: 14px;
+        font-size: 16px;
       }
+    }
+
+    ul {
+      list-style-type: disc;
+      margin-left: 20px;
     }
   }
 

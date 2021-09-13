@@ -19,6 +19,13 @@
       color: $text-white;
       background-color: $palette-black;
     }
+
+    .container:nth-child(2) {
+      @include breakpoint($breakpoint-tablet) {
+        max-width: 540px;
+        padding: 0;
+      }
+    }
   }
 
   &__title {
@@ -46,6 +53,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    @include breakpoint($breakpoint-tablet) {
+      padding: 0 20px;
+    }
 
     @include breakpoint($breakpoint-mobile--large) {
       justify-content: flex-start;

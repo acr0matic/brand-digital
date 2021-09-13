@@ -7,198 +7,198 @@
       <div class="container">
         <div class="price-header">
           <h1 class="price-header__title section__title page__title">Цены и акции</h1>
-          <h1 class="price-header__title price-header__title--mobile section__title page__title">Акции и скидки</h1>
+          <h2 class="price-header__title price-header__title--mobile section__title page__title">Акции и скидки</h1>
 
-          <div class="swiper-container slider-promotions price-header__promotions promotions">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="row justify-content-lg-center">
-                  <div class="col-12 col-sm-8 col-lg-4">
-                    <div data-micromodal-trigger="modal-promotions" style="background-image: url('img/section/promotions/1.svg'); background-color: #FF8025" class="promotions__item promotions-item promotions-item--new promotions-item--new-black">
-                      <h3 class="promotions-item__title">1 из 5</h3>
-                      <p class="promotions-item__description">бонусов в подарок</p>
+            <div class="swiper-container slider-promotions price-header__promotions promotions">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="row justify-content-lg-center">
+                    <div class="col-12 col-sm-8 col-lg-4">
+                      <div data-micromodal-trigger="modal-promotions" style="background-image: url('img/section/promotions/1.svg'); background-color: #FF8025" class="promotions__item promotions-item promotions-item--new promotions-item--new-black">
+                        <h3 class="promotions-item__title">1 из 5</h3>
+                        <p class="promotions-item__description">бонусов в подарок</p>
 
-                      <span class="promotions-item__info">акция действует до 22.03.2021</span>
+                        <span class="promotions-item__info">акция действует до 22.03.2021</span>
 
-                      <p class="promotions-item__text">
-                        Задача организации, в особенности же новая модель организационной деятельности способствует подготовки и реализации форм развития. Таким образом постоянный количественный рост и сфера нашей активности обеспечивает широкому кругу (специалистов) участие в формировании форм развития.
-                        <br> <br>
+                        <p class="promotions-item__text">
+                          Задача организации, в особенности же новая модель организационной деятельности способствует подготовки и реализации форм развития. Таким образом постоянный количественный рост и сфера нашей активности обеспечивает широкому кругу (специалистов) участие в формировании форм развития.
+                          <br> <br>
 
-                        Задача организации, в особенности же новая модель организационной деятельности способствует подготовки и реализации форм развития.
-                      </p>
+                          Задача организации, в особенности же новая модель организационной деятельности способствует подготовки и реализации форм развития.
+                        </p>
+                      </div>
+                      <!-- /.promotions__item -->
                     </div>
-                    <!-- /.promotions__item -->
-                  </div>
-                  <!-- /.col-12 col-sm-6 col-lg-4 -->
+                    <!-- /.col-12 col-sm-6 col-lg-4 -->
 
-                  <div class="col-12 col-sm-8 col-lg-4">
-                    <div data-micromodal-trigger="modal-promotions" style="background-image: url('img/section/promotions/2.svg'); background-color: #121212" class="promotions__item promotions-item promotions-item--new">
-                      <h3 class="promotions-item__title">499₽</h3>
-                      <p class="promotions-item__description">наклейки на двери</p>
+                    <div class="col-12 col-sm-8 col-lg-4">
+                      <div data-micromodal-trigger="modal-promotions" style="background-image: url('img/section/promotions/2.svg'); background-color: #121212" class="promotions__item promotions-item promotions-item--new">
+                        <h3 class="promotions-item__title">499₽</h3>
+                        <p class="promotions-item__description">наклейки на двери</p>
 
-                      <span class="promotions-item__info">акция действует до 22.03.2021</span>
+                        <span class="promotions-item__info">акция действует до 22.03.2021</span>
 
-                      <p class="promotions-item__text"></p>
+                        <p class="promotions-item__text"></p>
+                      </div>
+                      <!-- /.promotions__item -->
                     </div>
-                    <!-- /.promotions__item -->
-                  </div>
-                  <!-- /.col-12 col-sm-6 col-lg-4 -->
+                    <!-- /.col-12 col-sm-6 col-lg-4 -->
 
-                  <div class="col-12 col-sm-8 col-lg-4">
-                    <div data-micromodal-trigger="modal-promotions" style="background-image: url('img/section/promotions/3.svg'); background-color: #FF8025" class="promotions__item promotions-item">
-                      <h3 class="promotions-item__title">Бизнес по-русски</h3>
-                      <p class="promotions-item__description">20% скидка</p>
+                    <div class="col-12 col-sm-8 col-lg-4">
+                      <div data-micromodal-trigger="modal-promotions" style="background-image: url('img/section/promotions/3.svg'); background-color: #FF8025" class="promotions__item promotions-item">
+                        <h3 class="promotions-item__title">Бизнес по-русски</h3>
+                        <p class="promotions-item__description">20% скидка</p>
 
-                      <span class="promotions-item__info">акция действует до 22.03.2021</span>
+                        <span class="promotions-item__info">акция действует до 22.03.2021</span>
 
-                      <p class="promotions-item__text"></p>
+                        <p class="promotions-item__text"></p>
+                      </div>
+                      <!-- /.promotions__item -->
                     </div>
-                    <!-- /.promotions__item -->
+                    <!-- /.col-12 col-sm-6 col-lg-4 -->
                   </div>
-                  <!-- /.col-12 col-sm-6 col-lg-4 -->
+                  <!-- /.row -->
                 </div>
-                <!-- /.row -->
-              </div>
-              <!-- /.swiper-slide -->
+                <!-- /.swiper-slide -->
 
-              <div class="swiper-slide">
-                <div class="row justify-content-lg-center">
-                  <div class="col-12 col-sm-8 col-lg-4">
-                    <div data-micromodal-trigger="modal-promotions" style="background-image: url('img/section/promotions/1.svg'); background-color: #FF8025" class="promotions__item promotions-item">
-                      <h3 class="promotions-item__title">1 из 5</h3>
-                      <p class="promotions-item__description">бонусов в подарок</p>
+                <div class="swiper-slide">
+                  <div class="row justify-content-lg-center">
+                    <div class="col-12 col-sm-8 col-lg-4">
+                      <div data-micromodal-trigger="modal-promotions" style="background-image: url('img/section/promotions/1.svg'); background-color: #FF8025" class="promotions__item promotions-item">
+                        <h3 class="promotions-item__title">1 из 5</h3>
+                        <p class="promotions-item__description">бонусов в подарок</p>
 
-                      <span class="promotions-item__info">акция действует до 22.03.2021</span>
+                        <span class="promotions-item__info">акция действует до 22.03.2021</span>
 
-                      <p class="promotions-item__text">
-                        Задача организации, в особенности же новая модель организационной деятельности способствует подготовки и реализации форм развития. Таким образом постоянный количественный рост и сфера нашей активности обеспечивает широкому кругу (специалистов) участие в формировании форм развития.
-                        <br> <br>
+                        <p class="promotions-item__text">
+                          Задача организации, в особенности же новая модель организационной деятельности способствует подготовки и реализации форм развития. Таким образом постоянный количественный рост и сфера нашей активности обеспечивает широкому кругу (специалистов) участие в формировании форм развития.
+                          <br> <br>
 
-                        Задача организации, в особенности же новая модель организационной деятельности способствует подготовки и реализации форм развития.
-                      </p>
+                          Задача организации, в особенности же новая модель организационной деятельности способствует подготовки и реализации форм развития.
+                        </p>
+                      </div>
+                      <!-- /.promotions__item -->
                     </div>
-                    <!-- /.promotions__item -->
+                    <!-- /.col-12 col-sm-6 col-lg-4 -->
                   </div>
-                  <!-- /.col-12 col-sm-6 col-lg-4 -->
+                  <!-- /.row -->
                 </div>
-                <!-- /.row -->
-              </div>
-              <!-- /.swiper-slide -->
+                <!-- /.swiper-slide -->
 
-              <div class="swiper-slide">
-                <div class="row justify-content-lg-center">
-                  <div class="col-12 col-sm-8 col-lg-4">
-                    <div data-micromodal-trigger="modal-promotions" style="background-image: url('img/section/promotions/1.svg'); background-color: #FF8025" class="promotions__item promotions-item">
-                      <h3 class="promotions-item__title">1 из 5</h3>
-                      <p class="promotions-item__description">бонусов в подарок</p>
+                <div class="swiper-slide">
+                  <div class="row justify-content-lg-center">
+                    <div class="col-12 col-sm-8 col-lg-4">
+                      <div data-micromodal-trigger="modal-promotions" style="background-image: url('img/section/promotions/1.svg'); background-color: #FF8025" class="promotions__item promotions-item">
+                        <h3 class="promotions-item__title">1 из 5</h3>
+                        <p class="promotions-item__description">бонусов в подарок</p>
 
-                      <span class="promotions-item__info">акция действует до 22.03.2021</span>
+                        <span class="promotions-item__info">акция действует до 22.03.2021</span>
 
-                      <p class="promotions-item__text">
-                        Задача организации, в особенности же новая модель организационной деятельности способствует подготовки и реализации форм развития. Таким образом постоянный количественный рост и сфера нашей активности обеспечивает широкому кругу (специалистов) участие в формировании форм развития.
-                        <br> <br>
+                        <p class="promotions-item__text">
+                          Задача организации, в особенности же новая модель организационной деятельности способствует подготовки и реализации форм развития. Таким образом постоянный количественный рост и сфера нашей активности обеспечивает широкому кругу (специалистов) участие в формировании форм развития.
+                          <br> <br>
 
-                        Задача организации, в особенности же новая модель организационной деятельности способствует подготовки и реализации форм развития.
-                      </p>
+                          Задача организации, в особенности же новая модель организационной деятельности способствует подготовки и реализации форм развития.
+                        </p>
+                      </div>
+                      <!-- /.promotions__item -->
                     </div>
-                    <!-- /.promotions__item -->
-                  </div>
-                  <!-- /.col-12 col-sm-6 col-lg-4 -->
+                    <!-- /.col-12 col-sm-6 col-lg-4 -->
 
-                  <div class="col-12 col-sm-8 col-lg-4">
-                    <div data-micromodal-trigger="modal-promotions" style="background-image: url('img/section/promotions/3.svg'); background-color: #FF8025" class="promotions__item promotions-item">
-                      <h3 class="promotions-item__title">Бизнес по-русски</h3>
-                      <p class="promotions-item__description">20% скидка</p>
+                    <div class="col-12 col-sm-8 col-lg-4">
+                      <div data-micromodal-trigger="modal-promotions" style="background-image: url('img/section/promotions/3.svg'); background-color: #FF8025" class="promotions__item promotions-item">
+                        <h3 class="promotions-item__title">Бизнес по-русски</h3>
+                        <p class="promotions-item__description">20% скидка</p>
 
-                      <span class="promotions-item__info">акция действует до 22.03.2021</span>
+                        <span class="promotions-item__info">акция действует до 22.03.2021</span>
 
-                      <p class="promotions-item__text"></p>
+                        <p class="promotions-item__text"></p>
+                      </div>
+                      <!-- /.promotions__item -->
                     </div>
-                    <!-- /.promotions__item -->
+                    <!-- /.col-12 col-sm-6 col-lg-4 -->
                   </div>
-                  <!-- /.col-12 col-sm-6 col-lg-4 -->
+                  <!-- /.row -->
                 </div>
-                <!-- /.row -->
-              </div>
-              <!-- /.swiper-slide -->
+                <!-- /.swiper-slide -->
 
-              <div class="swiper-slide">
-                <div class="row justify-content-lg-center">
-                  <div class="col-12 col-sm-8 col-lg-4">
-                    <div data-micromodal-trigger="modal-promotions" style="background-image: url('img/section/promotions/1.svg'); background-color: #FF8025" class="promotions__item promotions-item">
-                      <h3 class="promotions-item__title">1 из 5</h3>
-                      <p class="promotions-item__description">бонусов в подарок</p>
+                <div class="swiper-slide">
+                  <div class="row justify-content-lg-center">
+                    <div class="col-12 col-sm-8 col-lg-4">
+                      <div data-micromodal-trigger="modal-promotions" style="background-image: url('img/section/promotions/1.svg'); background-color: #FF8025" class="promotions__item promotions-item">
+                        <h3 class="promotions-item__title">1 из 5</h3>
+                        <p class="promotions-item__description">бонусов в подарок</p>
 
-                      <span class="promotions-item__info">акция действует до 22.03.2021</span>
+                        <span class="promotions-item__info">акция действует до 22.03.2021</span>
 
-                      <p class="promotions-item__text">
-                        Задача организации, в особенности же новая модель организационной деятельности способствует подготовки и реализации форм развития. Таким образом постоянный количественный рост и сфера нашей активности обеспечивает широкому кругу (специалистов) участие в формировании форм развития.
-                        <br> <br>
+                        <p class="promotions-item__text">
+                          Задача организации, в особенности же новая модель организационной деятельности способствует подготовки и реализации форм развития. Таким образом постоянный количественный рост и сфера нашей активности обеспечивает широкому кругу (специалистов) участие в формировании форм развития.
+                          <br> <br>
 
-                        Задача организации, в особенности же новая модель организационной деятельности способствует подготовки и реализации форм развития.
-                      </p>
+                          Задача организации, в особенности же новая модель организационной деятельности способствует подготовки и реализации форм развития.
+                        </p>
+                      </div>
+                      <!-- /.promotions__item -->
                     </div>
-                    <!-- /.promotions__item -->
-                  </div>
-                  <!-- /.col-12 col-sm-6 col-lg-4 -->
+                    <!-- /.col-12 col-sm-6 col-lg-4 -->
 
-                  <div class="col-12 col-sm-8 col-lg-4">
-                    <div data-micromodal-trigger="modal-promotions" style="background-image: url('img/section/promotions/2.svg'); background-color: #121212" class="promotions__item promotions-item promotions-item--new">
-                      <h3 class="promotions-item__title">499₽</h3>
-                      <p class="promotions-item__description">наклейки на двери</p>
+                    <div class="col-12 col-sm-8 col-lg-4">
+                      <div data-micromodal-trigger="modal-promotions" style="background-image: url('img/section/promotions/2.svg'); background-color: #121212" class="promotions__item promotions-item promotions-item--new">
+                        <h3 class="promotions-item__title">499₽</h3>
+                        <p class="promotions-item__description">наклейки на двери</p>
 
-                      <span class="promotions-item__info">акция действует до 22.03.2021</span>
+                        <span class="promotions-item__info">акция действует до 22.03.2021</span>
 
-                      <p class="promotions-item__text"></p>
+                        <p class="promotions-item__text"></p>
+                      </div>
+                      <!-- /.promotions__item -->
                     </div>
-                    <!-- /.promotions__item -->
-                  </div>
-                  <!-- /.col-12 col-sm-6 col-lg-4 -->
+                    <!-- /.col-12 col-sm-6 col-lg-4 -->
 
-                  <div class="col-12 col-sm-8 col-lg-4">
-                    <div data-micromodal-trigger="modal-promotions" style="background-image: url('img/section/promotions/3.svg'); background-color: #FF8025" class="promotions__item promotions-item">
-                      <h3 class="promotions-item__title">Бизнес по-русски</h3>
-                      <p class="promotions-item__description">20% скидка</p>
+                    <div class="col-12 col-sm-8 col-lg-4">
+                      <div data-micromodal-trigger="modal-promotions" style="background-image: url('img/section/promotions/3.svg'); background-color: #FF8025" class="promotions__item promotions-item">
+                        <h3 class="promotions-item__title">Бизнес по-русски</h3>
+                        <p class="promotions-item__description">20% скидка</p>
 
-                      <span class="promotions-item__info">акция действует до 22.03.2021</span>
+                        <span class="promotions-item__info">акция действует до 22.03.2021</span>
 
-                      <p class="promotions-item__text"></p>
+                        <p class="promotions-item__text"></p>
+                      </div>
+                      <!-- /.promotions__item -->
                     </div>
-                    <!-- /.promotions__item -->
+                    <!-- /.col-12 col-sm-6 col-lg-4 -->
                   </div>
-                  <!-- /.col-12 col-sm-6 col-lg-4 -->
+                  <!-- /.row -->
                 </div>
-                <!-- /.row -->
-              </div>
-              <!-- /.swiper-slide -->
+                <!-- /.swiper-slide -->
 
-              <div class="swiper-slide">
-                <div class="row justify-content-lg-center">
-                  <div class="col-12 col-sm-8 col-lg-4">
-                    <div data-micromodal-trigger="modal-promotions" style="background-image: url('img/section/promotions/1.svg'); background-color: #FF8025" class="promotions__item promotions-item">
-                      <h3 class="promotions-item__title">1 из 5</h3>
-                      <p class="promotions-item__description">бонусов в подарок</p>
+                <div class="swiper-slide">
+                  <div class="row justify-content-lg-center">
+                    <div class="col-12 col-sm-8 col-lg-4">
+                      <div data-micromodal-trigger="modal-promotions" style="background-image: url('img/section/promotions/1.svg'); background-color: #FF8025" class="promotions__item promotions-item">
+                        <h3 class="promotions-item__title">1 из 5</h3>
+                        <p class="promotions-item__description">бонусов в подарок</p>
 
-                      <span class="promotions-item__info">акция действует до 22.03.2021</span>
+                        <span class="promotions-item__info">акция действует до 22.03.2021</span>
 
-                      <p class="promotions-item__text">
-                        Задача организации, в особенности же новая модель организационной деятельности способствует подготовки и реализации форм развития. Таким образом постоянный количественный рост и сфера нашей активности обеспечивает широкому кругу (специалистов) участие в формировании форм развития.
-                        <br> <br>
+                        <p class="promotions-item__text">
+                          Задача организации, в особенности же новая модель организационной деятельности способствует подготовки и реализации форм развития. Таким образом постоянный количественный рост и сфера нашей активности обеспечивает широкому кругу (специалистов) участие в формировании форм развития.
+                          <br> <br>
 
-                        Задача организации, в особенности же новая модель организационной деятельности способствует подготовки и реализации форм развития.
-                      </p>
+                          Задача организации, в особенности же новая модель организационной деятельности способствует подготовки и реализации форм развития.
+                        </p>
+                      </div>
+                      <!-- /.promotions__item -->
                     </div>
-                    <!-- /.promotions__item -->
+                    <!-- /.col-12 col-sm-6 col-lg-4 -->
                   </div>
-                  <!-- /.col-12 col-sm-6 col-lg-4 -->
+                  <!-- /.row -->
                 </div>
-                <!-- /.row -->
+                <!-- /.swiper-slide -->
               </div>
-              <!-- /.swiper-slide -->
+              <!-- /.swiper-wrapper -->
             </div>
-            <!-- /.swiper-wrapper -->
-          </div>
-          <!-- /.swiper-container -->
+            <!-- /.swiper-container -->
         </div>
         <!-- /.price-header -->
       </div>
@@ -211,7 +211,10 @@
         <div class="price-content__head">
           <div class="container">
             <h2 class="price-content__title section__title">Цены</h2>
+          </div>
+          <!-- /.container -->
 
+          <div class="container">
             <div class="price-content__action">
               <div class="price-content__service price-content__service--active">
                 <svg class="price-content__icon svg" width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -280,7 +283,7 @@
                     <div class="col-12 col-sm-6 col-lg-4">
                       <div class="price-content__card price-card">
                         <h3 class="price-card__title">Легковой автомобиль</h3>
-                        <img src="img/page/price/items/car/1.png" alt="" class="price-card__picture">
+                        <img src="img/page/price/items/car/1.png" alt="" class="price-card__picture price-card__picture--mirror">
                         <span class="price-card__cost">от 8000₽</span>
                       </div>
                       <!-- /.price-content__card price-card -->
@@ -290,7 +293,7 @@
                     <div class="col-12 col-sm-6 col-lg-4">
                       <div class="price-content__card price-card">
                         <h3 class="price-card__title">Легковой автомобиль</h3>
-                        <img src="img/page/price/items/car/2.png" alt="" class="price-card__picture">
+                        <img src="img/page/price/items/car/2.png" alt="" class="price-card__picture price-card__picture--mirror">
                         <span class="price-card__cost">от 8000₽</span>
                       </div>
                       <!-- /.price-content__card price-card -->
@@ -300,7 +303,7 @@
                     <div class="col-12 col-sm-6 col-lg-4">
                       <div class="price-content__card price-card">
                         <h3 class="price-card__title">Легковой автомобиль</h3>
-                        <img src="img/page/price/items/car/3.png" alt="" class="price-card__picture">
+                        <img src="img/page/price/items/car/3.png" alt="" class="price-card__picture price-card__picture--mirror">
                         <span class="price-card__cost">от 8000₽</span>
                       </div>
                       <!-- /.price-content__card price-card -->
@@ -310,7 +313,7 @@
                     <div class="col-12 col-sm-6 col-lg-4">
                       <div class="price-content__card price-card">
                         <h3 class="price-card__title">Легковой автомобиль</h3>
-                        <img src="img/page/price/items/car/4.png" alt="" class="price-card__picture">
+                        <img src="img/page/price/items/car/4.png" alt="" class="price-card__picture price-card__picture--mirror">
                         <span class="price-card__cost">от 8000₽</span>
                       </div>
                       <!-- /.price-content__card price-card -->
@@ -320,7 +323,7 @@
                     <div class="col-12 col-sm-6 col-lg-4">
                       <div class="price-content__card price-card">
                         <h3 class="price-card__title">Легковой автомобиль</h3>
-                        <img src="img/page/price/items/car/5.png" alt="" class="price-card__picture">
+                        <img src="img/page/price/items/car/5.png" alt="" class="price-card__picture price-card__picture--mirror">
                         <span class="price-card__cost">от 8000₽</span>
                       </div>
                       <!-- /.price-content__card price-card -->
@@ -330,7 +333,7 @@
                     <div class="col-12 col-sm-6 col-lg-4">
                       <div class="price-content__card price-card">
                         <h3 class="price-card__title">Легковой автомобиль</h3>
-                        <img src="img/page/price/items/car/6.png" alt="" class="price-card__picture">
+                        <img src="img/page/price/items/car/6.png" alt="" class="price-card__picture price-card__picture--mirror">
                         <span data-micromodal-trigger="modal-callback" data-type="price" data-additional="car" data-title="Предлагаем рассчитать цену на ваш транспорт" data-desc="В комментариях укажите ваш транспорт, наши менеджеры свяжуться с вами в ближайшее время" data-image="img/misc/modal/modal-price.jpg" class="price-card__cost price-card__cost--unknown">Узнать цену</span>
                       </div>
                       <!-- /.price-content__card price-card -->

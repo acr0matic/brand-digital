@@ -157,6 +157,16 @@ class Form {
             disableFocus: true,
             awaitCloseAnimation: true,
           });
+
+          MicroModal.close('modal-promotions', {
+            disableFocus: true,
+            awaitCloseAnimation: true,
+          });
+
+          MicroModal.close('modal-callback', {
+            disableFocus: true,
+            awaitCloseAnimation: true,
+          });
         }, 2000);
       }
 
