@@ -40,6 +40,14 @@
     @include breakpoint($breakpoint-tablet--large) {
       font-size: 24px;
     }
+
+    @include breakpoint($breakpoint-tablet) {
+      font-size: 18px;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      font-size: 16px;
+    }
   }
 
   &__wrapper {

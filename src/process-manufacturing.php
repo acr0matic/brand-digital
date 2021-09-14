@@ -110,6 +110,10 @@
 
     <div class="process__banner">
       <img class="cms-image" src="img/page/process/manufacturing/banner.jpg" alt="">
+      <div class="container position-relative">
+        <span class="process__banner-text">Производство компании Brand&Digital</span>
+      </div>
+      <!-- /.container -->
     </div>
     <!-- /.process__banner -->
 

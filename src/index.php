@@ -97,7 +97,7 @@
 
                       <div class="hero__mobile hero-mobile">
                         <span class="hero-mobile__text">Сделаем ваш <br> бизнес ярче</span>
-                        <img class="hero-mobile__icon" src="img/page/main/hero/icons/mobile/default.svg" alt="">
+                        <img class="hero-mobile__icon hero-mobile__icon--large" src="img/page/main/hero/icons/mobile/default.svg" alt="">
                       </div>
                       <!-- /.hero__mobile -->
                     </div>

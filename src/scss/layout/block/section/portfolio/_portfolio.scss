@@ -1,4 +1,6 @@
 #portfolio--block {
+  overflow: hidden;
+
   @include breakpoint($breakpoint-mobile--large) {
     margin-top: -65px;
     padding-top: 95px;

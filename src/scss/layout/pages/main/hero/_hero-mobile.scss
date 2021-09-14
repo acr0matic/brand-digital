@@ -28,5 +28,17 @@
     @include breakpoint($breakpoint-mobile) {
       width: 70px;
     }
+
+    &--large {
+      width: 120px;
+
+      @include breakpoint($breakpoint-mobile--medium) {
+        width: 100px;
+      }
+
+      @include breakpoint($breakpoint-mobile) {
+        width: 80px;
+      }
+    }
   }
 }

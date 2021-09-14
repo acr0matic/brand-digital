@@ -60,7 +60,7 @@
     padding: 45px 50px 60px 65px;
 
     @include breakpoint($breakpoint-laptop--medium) {
-      padding: 35px 50px 30px 65px;
+      padding: 35px 30px 30px 65px;
     }
   }
 
@@ -187,11 +187,20 @@
     text-align: right;
 
     clip-path: polygon(50% 0, 100% 0%, 100% 100%, 25% 100%);
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      max-height: 90px;
+      padding: 12px 15px;
+    }
   }
 
   &__city {
     font-size: 20px;
     color: $text-white;
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      font-size: 18px;
+    }
 
     &:not(:last-child) {
       margin-bottom: 5px;
