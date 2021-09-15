@@ -107,10 +107,8 @@
 
   &__bg {
     position: absolute;
-    top: 55%;
+    top: 15%;
     left: 0;
-
-    transform: translateY(-40%);
 
     @include breakpoint($breakpoint-mobile--large) {
       position: static;
@@ -155,10 +153,13 @@
 
   &__partner {
     width: 90px;
+    height: 90px;
+
     margin-right: 35px;
 
-    @include breakpoint($breakpoint-laptop--medium) {
-      width: 75px;
+    @include breakpoint($breakpoint-laptop--large) {
+      width: 80px;
+      height: 80px;
     }
   }
 

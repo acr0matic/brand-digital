@@ -147,6 +147,7 @@ class Form {
       if (response.ok) {
         if (this.redirect) window.location.href = this.redirect;
 
+        
         MicroModal.show('modal-thank', {
           disableFocus: true,
           awaitCloseAnimation: true,
