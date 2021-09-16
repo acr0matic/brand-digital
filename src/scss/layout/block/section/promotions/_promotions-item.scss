@@ -18,6 +18,14 @@
   background-size: 100%;
   background-position: center right;
 
+  @include breakpoint($breakpoint-laptop--medium) {
+    background-size: 70%;
+  }
+
+  @include breakpoint($breakpoint-tablet--large) {
+    background-size: 100%;
+  }
+
   &--big {
     min-height: 280px !important;
     cursor: default;

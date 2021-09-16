@@ -49,6 +49,10 @@
 
       transform: translateY(-50%);
 
+      @include breakpoint($breakpoint-laptop--medium) {
+        width: 100px;
+      }
+
       @include breakpoint($breakpoint-tablet--large) {
         width: 50px;
       }
@@ -63,6 +67,10 @@
         rgba(255, 255, 255, 0) 100%
       );
 
+      @include breakpoint($breakpoint-laptop--medium) {
+        left: -100px;
+      }
+
       @include breakpoint($breakpoint-tablet--large) {
         left: -50px;
       }
@@ -76,6 +84,10 @@
         rgba(255, 255, 255, 1) 20%,
         rgba(255, 255, 255, 0) 100%
       );
+
+      @include breakpoint($breakpoint-laptop--medium) {
+        right: -100px;
+      }
 
       @include breakpoint($breakpoint-tablet--large) {
         right: -50px;
@@ -176,7 +188,7 @@
 
       transform: translateY(-50%);
 
-      @include breakpoint($breakpoint-tablet--large) {
+      @include breakpoint($breakpoint-laptop--medium) {
         width: 50px;
       }
 

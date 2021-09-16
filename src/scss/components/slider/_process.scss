@@ -167,5 +167,19 @@
     @include breakpoint($breakpoint-tablet--large) {
       width: 100%;
     }
+
+    .process-slide__item {
+      @include breakpoint($breakpoint-laptop--medium) {
+        height: 280px;
+      }
+
+      @include breakpoint($breakpoint-tablet--large) {
+        height: 250px;
+      }
+
+      @include breakpoint($breakpoint-tablet) {
+        height: 170px;
+      }
+    }
   }
 }

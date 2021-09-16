@@ -38,8 +38,11 @@
       </div>
       <!-- /.footer__info -->
 
+
       <div class="footer__nav">
         <a href="" class="footer__link footer__link--main link link--main link--orange">Брендирование</a>
+
+        <span class="footer__additional">Работаем по всей России!</span>
 
         <nav class="nav nav--footer">
           <ul class="nav__list">

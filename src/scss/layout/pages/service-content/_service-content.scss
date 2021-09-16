@@ -1,5 +1,5 @@
 #service-content {
-  @include breakpoint($breakpoint-tablet--large) {
+  @include breakpoint($breakpoint-laptop--medium) {
     margin-bottom: -100px;
   }
 

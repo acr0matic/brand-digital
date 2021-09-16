@@ -140,6 +140,18 @@
         display: none;
       }
     }
+
+    .footer__additional {
+      display: none;
+      margin-top: 10px;
+      margin-bottom: 20px;
+
+      font-weight: $weight-Bold;
+
+      @include breakpoint($breakpoint-mobile--large) {
+        display: block;
+      }
+    }
   }
 
   &__additional {
