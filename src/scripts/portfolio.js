@@ -16,16 +16,19 @@ function InitPortfolio() {
         items.forEach(item => {
           item.addEventListener('click', () => {
             MicroModal.show('modal-portfolio', modalParams);
-            image.setAttribute('src', '');
+            if (image.src !== '') image.src = '';
             list.innerHTML = '';
 
-            image.setAttribute('src', item.querySelector('.portfolio-item__image').src);
+            image.setAttribute('data-src', item.querySelector('.portfolio-item__image').src);
+            LazyLoad.resetStatus(image);
 
             title.innerHTML = item.querySelector('.portfolio-item__title').innerHTML;
             text.innerHTML = item.querySelector('.portfolio-item__description').innerHTML;
 
             const listItems = item.querySelectorAll('.portfolio-item__list .list__item');
             listItems.forEach(element => list.innerHTML += element.outerHTML);
+
+            lazyLoadInstance.update();
           });
         });
       }
@@ -71,21 +74,23 @@ function InitPortfolio() {
           });
 
           if (additionalSource.length !== 0) {
-            modal.querySelector('.modal__additional').style.display = 'block';
-            additionalImages.forEach((image, index) => {
-              if (additionalSource[index]) {
-                const link = image.parentElement;
-                image.parentElement.parentElement.style.display = "block";
-                if (image.src !== '') image.src = '';
-                image.setAttribute('data-src', additionalSource[index].getAttribute('data-src'));
-                LazyLoad.resetStatus(image);
-                link.setAttribute('href', additionalSource[index].getAttribute('data-full'));
-              }
+            if (window.matchMedia('(min-width: 991px)').matches) {
+              modal.querySelector('.modal__additional').style.display = 'block';
+              additionalImages.forEach((image, index) => {
+                if (additionalSource[index]) {
+                  const link = image.parentElement;
+                  image.parentElement.parentElement.style.display = "block";
+                  if (image.src !== '') image.src = '';
+                  image.setAttribute('data-src', additionalSource[index].getAttribute('data-src'));
+                  LazyLoad.resetStatus(image);
+                  link.setAttribute('href', additionalSource[index].getAttribute('data-full'));
+                }
 
-              else {
-                image.parentElement.parentElement.style.display = "none";
-              }
-            });
+                else {
+                  image.parentElement.parentElement.style.display = "none";
+                }
+              });
+            }
           }
 
           else {

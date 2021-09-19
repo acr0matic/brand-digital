@@ -218,6 +218,7 @@
   --swiper-pagination-color: var(--swiper-theme-color);
   */
 }
+
 .swiper-pagination {
   position: absolute;
   text-align: center;
@@ -477,6 +478,9 @@ button.swiper-pagination-bullet {
 .swiper-container-fade .swiper-slide-active .swiper-slide-active {
   pointer-events: auto;
 }
+
+/* purgecss end ignore */
+
 .swiper-container-cube {
   overflow: visible;
 }
