@@ -169,6 +169,8 @@
     }
 
     .process-slide__item {
+      height: 450px;
+
       @include breakpoint($breakpoint-laptop--medium) {
         height: 280px;
       }

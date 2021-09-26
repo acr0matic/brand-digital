@@ -135,6 +135,62 @@
     <!-- /.container -->
   </section>
 
+  <section id="textblock" class="section">
+    <div class="container">
+      <h2 class="service__title section__title text-center">Идеи для сувенирного набора</h2>
+
+      <div class="textblock--service">
+        <div class="textblock__container">
+          <div class="mb-5 mt-3 row">
+            <div class="col-12 col-sm-6">
+              <div class="textblock">
+                <div class="textblock__wrapper">
+                  <h3 class="textblock__title">Разделочная доска</h3>
+                  <p class="textblock__text">Отличный подарок тем, кто уделяет <br>
+                    отдельное внимание вкусной еде <br>
+                    и самому процессу готовки.</p>
+                </div>
+                <!-- /.textblock__wrapper -->
+              </div>
+              <!-- /.process-content__item textblock -->
+            </div>
+            <!-- /.col-12 col-lg-6 -->
+
+            <div class="col-12 col-sm-6">
+              <img src="https://brandigital.ru/wp-content/uploads/2021/09/1.jpg" alt="" class="textblock__image ms-sm-auto">
+            </div>
+            <!-- /.col-12 col-lg-6 -->
+          </div>
+          <!-- /.row -->
+          <div class="mb-5 row flex-sm-row-reverse">
+            <div class="col-12 col-sm-6">
+              <div class="textblock">
+                <div class="textblock__wrapper">
+                  <h3 class="textblock__title">Специи</h3>
+                  <p class="textblock__text">Когда нужно удивить. <br>
+                    Данный подарок точно пригодиться <br>
+                    в быту.</p>
+                </div>
+                <!-- /.textblock__wrapper -->
+              </div>
+              <!-- /.process-content__item textblock -->
+            </div>
+            <!-- /.col-12 col-lg-6 -->
+
+            <div class="col-12 col-sm-6">
+              <img src="https://brandigital.ru/wp-content/uploads/2021/09/2.jpg" alt="" class="textblock__image  me-sm-auto">
+            </div>
+            <!-- /.col-12 col-lg-6 -->
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.textblock__container -->
+      </div>
+      <!-- /.texblock textblock--service -->
+    </div>
+    <!-- /.container -->
+  </section>
+
   <section id="promotions" class="section">
     <div class="container">
       <div class="promotions">
