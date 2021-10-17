@@ -14,39 +14,8 @@
                 <div class="swiper-slide">
                   <div class="portfolio__item portfolio-item">
                     <picture class="portfolio-item__picture">
-                      <source srcset="img/portfolio/full.webp" type="image/webp">
-                      <img class="portfolio-item__image cms-image" src="img/portfolio/full.jpg" alt="">
-                    </picture>
-                    <!-- /.portfolio-item__picture -->
-
-                    <div class="portfolio-item__content">
-                      <h3 class="portfolio-item__title">
-                        Название проекта
-                      </h3>
-
-                      <div class="portfolio-item__deadline">Срок исполнения: <span>3 дня</span></div>
-
-                      <p class="portfolio-item__description custom-scrollbar">
-                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
-                      </p>
-
-                      <ul class="list list--feature portfolio-item__list">
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                      </ul>
-                    </div>
-                    <!-- /.portfolio-item__content -->
-                  </div>
-                  <!-- /.portfolio__item portfolio-item -->
-                </div>
-                <!-- /.swiper-slide -->
-
-                <div class="swiper-slide">
-                  <div class="portfolio__item portfolio-item">
-                    <picture class="portfolio-item__picture">
-                      <source srcset="img/portfolio/full.webp" type="image/webp">
-                      <img class="portfolio-item__image cms-image" src="img/portfolio/full.jpg" alt="">
+                      <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
+                      <img class="portfolio-item__image cms-image lazy" data-src="img/portfolio/full.jpg" alt="">
                     </picture>
                     <!-- /.portfolio-item__picture -->
 
@@ -76,8 +45,8 @@
                 <div class="swiper-slide">
                   <div class="portfolio__item portfolio-item">
                     <picture class="portfolio-item__picture">
-                      <source srcset="img/portfolio/full.webp" type="image/webp">
-                      <img class="portfolio-item__image cms-image" src="img/portfolio/full.jpg" alt="">
+                      <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
+                      <img class="portfolio-item__image cms-image lazy" data-src="img/portfolio/full.jpg" alt="">
                     </picture>
                     <!-- /.portfolio-item__picture -->
 
@@ -107,8 +76,8 @@
                 <div class="swiper-slide">
                   <div class="portfolio__item portfolio-item">
                     <picture class="portfolio-item__picture">
-                      <source srcset="img/portfolio/full.webp" type="image/webp">
-                      <img class="portfolio-item__image cms-image" src="img/portfolio/full.jpg" alt="">
+                      <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
+                      <img class="portfolio-item__image cms-image lazy" data-src="img/portfolio/full.jpg" alt="">
                     </picture>
                     <!-- /.portfolio-item__picture -->
 
@@ -138,8 +107,8 @@
                 <div class="swiper-slide">
                   <div class="portfolio__item portfolio-item">
                     <picture class="portfolio-item__picture">
-                      <source srcset="img/portfolio/full.webp" type="image/webp">
-                      <img class="portfolio-item__image cms-image" src="img/portfolio/full.jpg" alt="">
+                      <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
+                      <img class="portfolio-item__image cms-image lazy" data-src="img/portfolio/full.jpg" alt="">
                     </picture>
                     <!-- /.portfolio-item__picture -->
 
@@ -169,8 +138,8 @@
                 <div class="swiper-slide">
                   <div class="portfolio__item portfolio-item">
                     <picture class="portfolio-item__picture">
-                      <source srcset="img/portfolio/full.webp" type="image/webp">
-                      <img class="portfolio-item__image cms-image" src="img/portfolio/full.jpg" alt="">
+                      <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
+                      <img class="portfolio-item__image cms-image lazy" data-src="img/portfolio/full.jpg" alt="">
                     </picture>
                     <!-- /.portfolio-item__picture -->
 
@@ -200,8 +169,39 @@
                 <div class="swiper-slide">
                   <div class="portfolio__item portfolio-item">
                     <picture class="portfolio-item__picture">
-                      <source srcset="img/portfolio/full.webp" type="image/webp">
-                      <img class="portfolio-item__image cms-image" src="img/portfolio/full.jpg" alt="">
+                      <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
+                      <img class="portfolio-item__image cms-image lazy" data-src="img/portfolio/full.jpg" alt="">
+                    </picture>
+                    <!-- /.portfolio-item__picture -->
+
+                    <div class="portfolio-item__content">
+                      <h3 class="portfolio-item__title">
+                        Название проекта
+                      </h3>
+
+                      <div class="portfolio-item__deadline">Срок исполнения: <span>3 дня</span></div>
+
+                      <p class="portfolio-item__description">
+                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
+                      </p>
+
+                      <ul class="list list--feature portfolio-item__list">
+                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                      </ul>
+                    </div>
+                    <!-- /.portfolio-item__content -->
+                  </div>
+                  <!-- /.portfolio__item portfolio-item -->
+                </div>
+                <!-- /.swiper-slide -->
+
+                <div class="swiper-slide">
+                  <div class="portfolio__item portfolio-item">
+                    <picture class="portfolio-item__picture">
+                      <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
+                      <img class="portfolio-item__image cms-image lazy" data-src="img/portfolio/full.jpg" alt="">
                     </picture>
                     <!-- /.portfolio-item__picture -->
 
@@ -240,7 +240,7 @@
                 <div class="swiper-slide">
                   <div class="portfolio__thumb portfolio-thumb portfolio-thumb--active">
                     <picture class="portfolio-thumb__picture">
-                      <source srcset="img/portfolio/thumb.webp" type="image/webp">
+                      <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
                       <img class="portfolio-thumb__image cms-image" src="img/portfolio/thumb.jpg" alt="">
                     </picture>
                     <!-- /.portfolio-item__picture -->
@@ -258,7 +258,7 @@
                 <div class="swiper-slide">
                   <div class="portfolio__thumb portfolio-thumb portfolio-thumb--active">
                     <picture class="portfolio-thumb__picture">
-                      <source srcset="img/portfolio/thumb.webp" type="image/webp">
+                      <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
                       <img class="portfolio-thumb__image cms-image" src="img/portfolio/thumb.jpg" alt="">
                     </picture>
                     <!-- /.portfolio-item__picture -->
@@ -276,7 +276,7 @@
                 <div class="swiper-slide">
                   <div class="portfolio__thumb portfolio-thumb portfolio-thumb--active">
                     <picture class="portfolio-thumb__picture">
-                      <source srcset="img/portfolio/thumb.webp" type="image/webp">
+                      <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
                       <img class="portfolio-thumb__image cms-image" src="img/portfolio/thumb.jpg" alt="">
                     </picture>
                     <!-- /.portfolio-item__picture -->
@@ -294,7 +294,7 @@
                 <div class="swiper-slide">
                   <div class="portfolio__thumb portfolio-thumb portfolio-thumb--active">
                     <picture class="portfolio-thumb__picture">
-                      <source srcset="img/portfolio/thumb.webp" type="image/webp">
+                      <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
                       <img class="portfolio-thumb__image cms-image" src="img/portfolio/thumb.jpg" alt="">
                     </picture>
                     <!-- /.portfolio-item__picture -->
@@ -312,7 +312,7 @@
                 <div class="swiper-slide">
                   <div class="portfolio__thumb portfolio-thumb portfolio-thumb--active">
                     <picture class="portfolio-thumb__picture">
-                      <source srcset="img/portfolio/thumb.webp" type="image/webp">
+                      <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
                       <img class="portfolio-thumb__image cms-image" src="img/portfolio/thumb.jpg" alt="">
                     </picture>
                     <!-- /.portfolio-item__picture -->
@@ -330,7 +330,7 @@
                 <div class="swiper-slide">
                   <div class="portfolio__thumb portfolio-thumb portfolio-thumb--active">
                     <picture class="portfolio-thumb__picture">
-                      <source srcset="img/portfolio/thumb.webp" type="image/webp">
+                      <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
                       <img class="portfolio-thumb__image cms-image" src="img/portfolio/thumb.jpg" alt="">
                     </picture>
                     <!-- /.portfolio-item__picture -->
@@ -348,7 +348,7 @@
                 <div class="swiper-slide">
                   <div class="portfolio__thumb portfolio-thumb portfolio-thumb--active">
                     <picture class="portfolio-thumb__picture">
-                      <source srcset="img/portfolio/thumb.webp" type="image/webp">
+                      <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
                       <img class="portfolio-thumb__image cms-image" src="img/portfolio/thumb.jpg" alt="">
                     </picture>
                     <!-- /.portfolio-item__picture -->
@@ -362,7 +362,6 @@
                   <!-- /.portfolio__item portfolio-thumb -->
                 </div>
                 <!-- /.swiper-slide -->
-
               </div>
               <!-- /.swiper-wrapper -->
             </div>

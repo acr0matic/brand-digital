@@ -224,6 +224,19 @@
   </div>
 </div>
 
+<div class="widget">
+  <a class="widget__link widget__link--hide" href="https://api.whatsapp.com/send?phone=74954102300%E2%80%99" target="_blank">
+    <img src="img/icons/widget/whatsapp.svg" alt="" class="widget__icon">
+  </a>
+
+  <a class="widget__link widget__link--hide" href="https://t.me/" target="_blank">
+    <img src="img/icons/widget/telegram.svg" alt="" class="widget__icon">
+  </a>
+
+  <img id="widget" src="img/icons/widget/widget.svg" alt="" class="widget__icon">
+</div>
+<!-- /.widget -->
+
 <!-- Скрипты -->
 <!-- build:js -->
 <script src="scripts/libraries/swiper.js"></script>

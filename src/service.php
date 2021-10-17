@@ -156,6 +156,36 @@
     <!-- /.container -->
   </section>
 
+  <!-- Включается через админку -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="about">
+        <div class="row">
+          <div class="col-12 mb-4 mb-lg-0 col-lg-5">
+            <div class="about__content">
+              <h2 class="about__title section__title">Студия <br> брендирования <span>B&D</span></h2>
+              <p class="about__text section__text">Наша команда занимается созданием визуальных <br> решений для бизнеса. Специалисты B&D заточены <br> на то, чтобы формировать яркий и заметный бренд.</p>
+            </div>
+            <!-- /.about__content -->
+          </div>
+          <!-- /.col-5 -->
+
+          <div class="col-12 col-lg-7">
+            <div class="about__video position-relative">
+              <img class="video__preloader preloader preloader--center" src="img/misc/preloader.svg" alt="">
+              <iframe class="position-relative lazy" width="100%" height="100%" data-src="https://www.youtube.com/embed/rDaC1yokRQs" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <!-- /.about__video -->
+          </div>
+          <!-- /.col-7 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.about -->
+    </div>
+    <!-- /.container -->
+  </section>
+
   <section id="promotions" class="section">
     <div class="container">
       <div class="promotions">

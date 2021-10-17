@@ -1,0 +1,47 @@
+.widget {
+  position: fixed;
+  z-index: 50;
+  right: 50px;
+  bottom: 120px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @include breakpoint($breakpoint-mobile--large) {
+    right: 20px;
+    bottom: 20px;
+  }
+
+  &__link {
+    &--hide {
+      pointer-events: none;
+
+      .widget__icon {
+        opacity: 0;
+        visibility: hidden;
+      }
+    }
+  }
+
+  &__icon {
+    width: 56px;
+    height: 56px;
+
+    margin-bottom: 10px;
+
+    opacity: 1;
+    visibility: visible;
+
+    cursor: pointer;
+    transition: all 0.15s ease;
+
+    &:hover {
+      opacity: 0.7;
+
+      @include breakpoint($breakpoint-tablet) {
+        opacity: 1;
+      }
+    }
+  }
+}
