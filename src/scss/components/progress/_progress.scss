@@ -1,0 +1,37 @@
+.progress {
+  text-align: center;
+
+  &__wrapper {
+    position: relative;
+    height: 7px;
+  }
+
+  &__line,
+  &__track {
+    height: 100%;
+
+    border-radius: $border-radius-medium;
+  }
+
+  &__line {
+    width: 0px;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    background-color: $progress__line;
+
+    transition: 0.3s linear;
+  }
+
+  &__track {
+    width: 100%;
+    background-color: $progress__track;
+  }
+
+  &__text {
+    margin-top: 25px;
+    color: $text-gray;
+  }
+}

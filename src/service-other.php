@@ -37,7 +37,7 @@
               </svg>
             </a>
 
-            <div class="hero__motion">
+            <div data-safari="" poster="" class="hero__motion">
               <!-- <img class="hero__video hero__video--gif" src="video/motion/fallback/test.png" alt=""> -->
               <video class="hero__video" autoplay loop playsinline muted>
                 <source src="video/motion/room.webm">

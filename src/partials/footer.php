@@ -200,6 +200,66 @@
   </div>
 </div>
 
+<div class="modal modal--window modal-exit micromodal-slide" id="modal-exit" aria-hidden="true">
+  <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+    <div class="modal__container" role="dialog">
+      <header class="modal__header">
+        <h2 class="modal__title" id="modal-1-title">
+          Успей получить скидку 10%
+        </h2>
+
+        <svg class="modal__close" data-micromodal-close viewBox="0 0 36 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path data-micromodal-close d="M2 2L34 33M34 2L2 33" stroke="white" stroke-width="4" />
+        </svg>
+      </header>
+
+      <main class="modal__content">
+        <p class="modal__text">
+          Оставьте ваши контактные данные прямо сейчас <br> и здесь появится промо-код на персональную скидку
+        </p>
+
+        <form novalidate action="php/mail.php" class="modal__form form form-modal" data-target="callback">
+          <div class="input mb-2 mb-md-3">
+            <input data-required placeholder="Имя" autocomplete="off" type="text" name="user_name" class="input__field input__field--modal input__field--required">
+            <img data-tippy-content="Имя не указано или содержит ошибки" class="input__warning" src="img/icons/warning.svg" alt="">
+          </div>
+          <!-- /.input -->
+
+          <div class="input mb-2 mb-md-3">
+            <input data-required placeholder="+7 ХХХ ХХХ-ХХ-ХХ" autocomplete="off" type="tel" name="user_phone" class="input__field input__field--modal input__field--required">
+            <img data-tippy-content="Телефон не указан или содержит ошибки" class="input__warning" src="img/icons/warning.svg" alt="">
+          </div>
+          <!-- /.input -->
+
+          <div class="form__action">
+            <label class="checkbox mb-3 mb-md-4">
+              <input type="checkbox">
+              <span class="checkbox__mark"></span>
+              <span class="checkbox__label">Согласен с <a href="privacy.php" class="checkbox__policy">Политикой обработки данных</a></span>
+            </label>
+
+            <button data-sending="Отправка..." disabled class="modal__button form__button button button-primary mt-1" type="submit">Отправить</button>
+          </div>
+          <!-- /.form__action -->
+        </form>
+
+        <div class="modal__progress progress">
+          <div class="progress__wrapper">
+            <div class="progress__line"></div>
+            <div class="progress__track"></div>
+          </div>
+          <!-- /.progress__wrapper -->
+
+          <p data-fail="Упс, вы не успели... В любом случае, обратитесь к нашему менеджеру и мы предложим вам выгодную цену!" class="progress__text">Успей отправить за 1 минуту - иначе промо-код сгорит:(</p>
+        </div>
+        <!-- /.modal__progress -->
+
+        <img src="img/misc/modal/modal-exit.svg" alt="" class="modal__image">
+      </main>
+    </div>
+  </div>
+</div>
+
 <div class="modal modal-thank micromodal-slide" id="modal-thank" aria-hidden="true">
   <div class="modal__overlay" tabindex="-1" data-micromodal-close>
     <div class="modal__container" role="dialog">
@@ -266,6 +326,7 @@
 <script src="scripts/video.js"></script>
 <script src="scripts/forms.js"></script>
 <script src="scripts/loadmore.js"></script>
+<script src="scripts/exit.js"></script>
 <!-- endbuild -->
 </body>
 

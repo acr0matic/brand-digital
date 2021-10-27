@@ -10,9 +10,7 @@ let heroVideos = document.querySelectorAll('.hero__video:not([autoplay])');
 const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
 if (isSafari) {
   videoContainer.forEach(container => {
-    const videoSource = container.querySelector('.hero__motion source').src;
-    const newSource = videoSource.replace(/motion/gi, 'motion/fallback').replace(/webm/gi, 'apng');
-
+    const newSource = container.getAttribute('data-safari');
     container.innerHTML = `<img class="hero__video" src="${newSource}"/>`;
   });
 }
