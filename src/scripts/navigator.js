@@ -49,3 +49,15 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
+const url = window.location.href;
+const utm = [...url.matchAll(/utm_([^=]+)=([^&]*)/g)].reduce((acc, [, k, v]) => (acc[k] = v, acc), {});
+
+if (Object.keys(utm).length !== 0) {
+  const formated = JSON.stringify(utm)
+  forms.forEach(form => form.setAttribute('data-utm', formated));
+  localStorage.setItem('utm', formated);
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+  if (localStorage.getItem('utm')) forms.forEach(form => form.setAttribute('data-utm', localStorage.getItem('utm')));
+});

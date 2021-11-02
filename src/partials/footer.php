@@ -218,7 +218,7 @@
           Оставьте ваши контактные данные прямо сейчас <br> и здесь появится промо-код на персональную скидку
         </p>
 
-        <form novalidate action="php/mail.php" class="modal__form form form-modal" data-target="callback">
+        <form id="promo" novalidate action="php/mail.php" class="modal__form form form-modal" data-target="promo">
           <div class="input mb-2 mb-md-3">
             <input data-required placeholder="Имя" autocomplete="off" type="text" name="user_name" class="input__field input__field--modal input__field--required">
             <img data-tippy-content="Имя не указано или содержит ошибки" class="input__warning" src="img/icons/warning.svg" alt="">
@@ -255,6 +255,28 @@
         <!-- /.modal__progress -->
 
         <img src="img/misc/modal/modal-exit.svg" alt="" class="modal__image">
+      </main>
+    </div>
+  </div>
+</div>
+
+<div class="modal modal-promo micromodal-slide" id="modal-promo" aria-hidden="true" data-title="Спасибо! <br> Ваш промо-код:">
+  <div class="modal__overlay" tabindex="-1">
+    <div class="modal__container" role="dialog">
+      <header class="modal__header">
+        <h2 class="modal__title" >
+          Вы не успели <br> получить промо-код
+        </h2>
+
+        <svg class="modal__close" data-micromodal-close viewBox="0 0 36 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path data-micromodal-close d="M2 2L34 33M34 2L2 33" stroke="white" stroke-width="4" />
+        </svg>
+      </header>
+
+      <main class="modal__content">
+        <p class="modal__text">
+          Мы ценним каждого клиента! Менеджер компании свяжется с вами и предложит выгодные условия.
+        </p>
       </main>
     </div>
   </div>
@@ -322,9 +344,9 @@
 <script src="scripts/process.js"></script>
 <script src="scripts/blog.js"></script>
 <script src="scripts/modal.js"></script>
-<script src="scripts/navigator.js"></script>
 <script src="scripts/video.js"></script>
 <script src="scripts/forms.js"></script>
+<script src="scripts/navigator.js"></script>
 <script src="scripts/loadmore.js"></script>
 <script src="scripts/exit.js"></script>
 <!-- endbuild -->

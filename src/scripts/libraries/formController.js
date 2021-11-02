@@ -130,9 +130,11 @@ class Form {
 
     const target = this.form.getAttribute('data-target');
     const additional = this.form.getAttribute('data-additional');
+    const utm = this.form.getAttribute('data-utm');
 
     data.append('target', target);
     if (additional) data.append('additional', additional);
+    if (utm) data.append('utm', utm);
 
     // for (var pair of data.entries()) {
     //   console.log(pair[0]+ ', ' + pair[1]);
@@ -147,28 +149,36 @@ class Form {
       if (response.ok) {
         if (this.redirect) window.location.href = this.redirect;
 
-        
-        MicroModal.show('modal-thank', {
-          disableFocus: true,
-          awaitCloseAnimation: true,
-        });
+        if (this.form.getAttribute('id') === 'promo') {
+          MicroModal.show('modal-promo', {
+            disableFocus: true,
+            awaitCloseAnimation: true,
+          });
+        }
 
-        setTimeout(() => {
-          MicroModal.close('modal-thank', {
+        else {
+          MicroModal.show('modal-thank', {
             disableFocus: true,
             awaitCloseAnimation: true,
           });
 
-          MicroModal.close('modal-promotions', {
-            disableFocus: true,
-            awaitCloseAnimation: true,
-          });
+          setTimeout(() => {
+            MicroModal.close('modal-thank', {
+              disableFocus: true,
+              awaitCloseAnimation: true,
+            });
 
-          MicroModal.close('modal-callback', {
-            disableFocus: true,
-            awaitCloseAnimation: true,
-          });
-        }, 2000);
+            MicroModal.close('modal-promotions', {
+              disableFocus: true,
+              awaitCloseAnimation: true,
+            });
+
+            MicroModal.close('modal-callback', {
+              disableFocus: true,
+              awaitCloseAnimation: true,
+            });
+          }, 2000);
+        }
       }
 
       let result = await response.json();
