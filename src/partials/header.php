@@ -150,8 +150,48 @@
 
                   <a class="dropdown__item" href="service.php">Дизайн</a>
                   <a class="dropdown__item" href="service.php">Интерьерная печать</a>
+                                    <div class="dropdown dropdown__item">
+                    <a href="service.php" class="dropdown__item">
+                      Оклейка транспорта
+                      <svg class="dropdown__icon dropdown__icon--right" viewBox="0 0 19 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.07617 1.64258L8.98926 9.55566L17.2393 1.64258" stroke="#FF8025" stroke-width="2.5" />
+                      </svg>
+                    </a>
+
+                    <div class="dropdown__content dropdown__content--right">
+                      <a class="dropdown__item" href="service.php">Брендирование авто</a>
+                      <a class="dropdown__item" href="service-page.php#category-4">Грузовой авто</a>
+                      <a class="dropdown__item" href="service-page.php#category-3">Фургон</a>
+                      <a class="dropdown__item" href="service-page.php#category-2">Малый грузовой</a>
+                      <a class="dropdown__item" href="service-page.php#category-5">Фура</a>
+                      <a class="dropdown__item" href="service-page.php#category-1">Легковой авто</a>
+                    </div>
+                    <!-- /.dropdown__content -->
+                  </div>
+                  <!-- /.dropdown -->
+
                   <a class="dropdown__item" href="service.php">Наклейки</a>
                   <a class="dropdown__item" href="service.php">Сувенирная прод.</a>
+
+                  <div class="dropdown dropdown__item">
+                    <a href="service.php" class="dropdown__item">
+                      Оклейка транспорта
+                      <svg class="dropdown__icon dropdown__icon--right" viewBox="0 0 19 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.07617 1.64258L8.98926 9.55566L17.2393 1.64258" stroke="#FF8025" stroke-width="2.5" />
+                      </svg>
+                    </a>
+
+                    <div class="dropdown__content dropdown__content--right">
+                      <a class="dropdown__item" href="service.php">Брендирование авто</a>
+                      <a class="dropdown__item" href="service-page.php#category-4">Грузовой авто</a>
+                      <a class="dropdown__item" href="service-page.php#category-3">Фургон</a>
+                      <a class="dropdown__item" href="service-page.php#category-2">Малый грузовой</a>
+                      <a class="dropdown__item" href="service-page.php#category-5">Фура</a>
+                      <a class="dropdown__item" href="service-page.php#category-1">Легковой авто</a>
+                    </div>
+                    <!-- /.dropdown__content -->
+                  </div>
+                  <!-- /.dropdown -->
                 </div>
                 <!-- /.dropdown__content -->
               </li>
