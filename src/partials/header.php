@@ -137,7 +137,7 @@
                     </a>
 
                     <div class="dropdown__content dropdown__content--right">
-                      <a class="dropdown__item" href="service.php">Брендирование авто</a>
+                      <a class="dropdown__item dropdown__item--main" href="service.php">Брендирование авто</a>
                       <a class="dropdown__item" href="service-page.php#category-4">Грузовой авто</a>
                       <a class="dropdown__item" href="service-page.php#category-3">Фургон</a>
                       <a class="dropdown__item" href="service-page.php#category-2">Малый грузовой</a>
@@ -150,7 +150,7 @@
 
                   <a class="dropdown__item" href="service.php">Дизайн</a>
                   <a class="dropdown__item" href="service.php">Интерьерная печать</a>
-                                    <div class="dropdown dropdown__item">
+                  <div class="dropdown dropdown__item">
                     <a href="service.php" class="dropdown__item">
                       Оклейка транспорта
                       <svg class="dropdown__icon dropdown__icon--right" viewBox="0 0 19 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -159,7 +159,7 @@
                     </a>
 
                     <div class="dropdown__content dropdown__content--right">
-                      <a class="dropdown__item" href="service.php">Брендирование авто</a>
+                      <a class="dropdown__item dropdown__item--main" href="service.php">Брендирование авто</a>
                       <a class="dropdown__item" href="service-page.php#category-4">Грузовой авто</a>
                       <a class="dropdown__item" href="service-page.php#category-3">Фургон</a>
                       <a class="dropdown__item" href="service-page.php#category-2">Малый грузовой</a>
@@ -182,7 +182,7 @@
                     </a>
 
                     <div class="dropdown__content dropdown__content--right">
-                      <a class="dropdown__item" href="service.php">Брендирование авто</a>
+                      <a class="dropdown__item dropdown__item--main" href="service.php">Брендирование авто</a>
                       <a class="dropdown__item" href="service-page.php#category-4">Грузовой авто</a>
                       <a class="dropdown__item" href="service-page.php#category-3">Фургон</a>
                       <a class="dropdown__item" href="service-page.php#category-2">Малый грузовой</a>
