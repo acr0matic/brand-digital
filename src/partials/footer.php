@@ -307,12 +307,16 @@
 </div>
 
 <div id="widget" class="widget">
-  <a class="widget__link widget__link--hide" href="https://api.whatsapp.com/send?phone=79290393884%E2%80%99" target="_blank">
-    <img src="img/icons/widget/whatsapp.svg" alt="" class="widget__icon">
+  <a class="widget__link widget__link--hide" href="https://api.whatsapp.com/send?phone=79290393884" target="_blank">
+    <img src="img/icons/widget/whatsapp--original.svg" alt="" class="widget__icon">
   </a>
 
   <a class="widget__link widget__link--hide" href="https://t.me/79290393884" target="_blank">
-    <img src="img/icons/widget/telegram.svg" alt="" class="widget__icon">
+    <img src="img/icons/widget/telegram--original.svg" alt="" class="widget__icon">
+  </a>
+
+  <a class="widget__link widget__link--hide" href="tel:+79290393884">
+    <img src="img/icons/widget/phone.svg" alt="" class="widget__icon">
   </a>
 
   <div class="widget__wrapper">

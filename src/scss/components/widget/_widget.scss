@@ -2,7 +2,7 @@
   position: fixed;
   z-index: 50;
   right: 50px;
-  bottom: 70px;
+  bottom: 80px;
 
   display: flex;
   flex-direction: column;
@@ -10,12 +10,12 @@
 
   @include breakpoint($breakpoint-mobile--large) {
     right: 20px;
-    bottom: 50px;
+    bottom: 60px;
   }
 
   &__wrapper {
     position: relative;
-    margin-top: 32px;
+    margin-top: 38px;
   }
 
   &__link {
@@ -30,10 +30,10 @@
   }
 
   &__icon {
-    width: 56px;
-    height: 56px;
+    width: 64px;
+    height: 64px;
 
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 
     opacity: 1;
     visibility: visible;
@@ -57,8 +57,8 @@
     left: 50%;
     z-index: 2;
 
-    width: 64px;
-    height: 64px;
+    width: 74px;
+    height: 74px;
 
     margin-bottom: 0;
     transform: translate(-50%, -50%);
@@ -80,8 +80,8 @@
     left: 50%;
 
     display: block;
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
 
     transform: translate(-50%, -50%);
   }
