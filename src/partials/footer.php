@@ -264,7 +264,7 @@
   <div class="modal__overlay" tabindex="-1">
     <div class="modal__container" role="dialog">
       <header class="modal__header">
-        <h2 class="modal__title" >
+        <h2 class="modal__title">
           Вы не успели <br> получить промо-код
         </h2>
 
@@ -306,16 +306,25 @@
   </div>
 </div>
 
-<div class="widget">
-  <a class="widget__link widget__link--hide" href="https://api.whatsapp.com/send?phone=74954102300%E2%80%99" target="_blank">
+<div id="widget" class="widget">
+  <a class="widget__link widget__link--hide" href="https://api.whatsapp.com/send?phone=79290393884%E2%80%99" target="_blank">
     <img src="img/icons/widget/whatsapp.svg" alt="" class="widget__icon">
   </a>
 
-  <a class="widget__link widget__link--hide" href="https://t.me/" target="_blank">
+  <a class="widget__link widget__link--hide" href="https://t.me/79290393884" target="_blank">
     <img src="img/icons/widget/telegram.svg" alt="" class="widget__icon">
   </a>
 
-  <img id="widget" src="img/icons/widget/widget.svg" alt="" class="widget__icon">
+  <div class="widget__wrapper">
+    <img src="img/icons/widget/widget.svg" alt="" class="widget__icon widget__action">
+    <img src="img/icons/widget/telegram.svg" alt="" class="widget__icon widget__action widget__action--hide">
+    <img src="img/icons/widget/whatsapp.svg" alt="" class="widget__icon widget__action widget__action--hide">
+    <div class="widget__pulse">
+      <div class="widget__circle"></div>
+      <div class="widget__circle widget__circle--additional"></div>
+    </div>
+  </div>
+  <!-- /.widget__wrapper -->
 </div>
 <!-- /.widget -->
 
