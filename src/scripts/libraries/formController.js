@@ -133,6 +133,7 @@ class Form {
     const utm = this.form.getAttribute('data-utm');
 
     data.append('target', target);
+    data.append('page_title', document.title);
     if (additional) data.append('additional', additional);
     if (utm) data.append('utm', utm);
 
@@ -148,6 +149,7 @@ class Form {
 
       if (response.ok) {
         if (this.redirect) window.location.href = this.redirect;
+        localStorage.setItem('userLeave', true);
 
         if (this.form.getAttribute('id') === 'promo') {
           MicroModal.show('modal-promo', {

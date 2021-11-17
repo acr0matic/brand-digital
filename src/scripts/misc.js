@@ -19,12 +19,10 @@ widgetWrapper.addEventListener('click', () => {
   });
 });
 
-['click', 'touchstart'].forEach(evt =>
-  window.addEventListener(evt, (e) => {
-    if (!widgetWrapper.contains(e.target))
-      widgetIcons.forEach(icon => icon.classList.add('widget__link--hide'));
-  })
-);
+window.addEventListener('click', (e) => {
+  if (!widgetWrapper.contains(e.target))
+    widgetIcons.forEach(icon => icon.classList.add('widget__link--hide'));
+})
 
 function ChangeWidgetIcon() {
   widgetAction.forEach((action, index) => {
