@@ -1,8 +1,8 @@
 // Прелоадер
-const preloader = document.getElementById('preloader');
+const preloader = document.getElementById('page-loader');
 document.addEventListener("DOMContentLoaded", function () {
   window.setTimeout(function () {
-    preloader.classList.add('preloader--hide');
+    preloader.classList.add('page-loader--hide');
   }, 2500);
 });
 
