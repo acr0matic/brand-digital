@@ -1,11 +1,13 @@
 // Прелоадер
 const preloader = document.getElementById('page-loader');
+const isLoaded = new CustomEvent('pageLoaded');
+
 document.addEventListener("DOMContentLoaded", function () {
   window.setTimeout(function () {
     preloader.classList.add('page-loader--hide');
+    window.dispatchEvent(isLoaded);
   }, 2500);
 });
-
 
 const lazyLoadInstance = new LazyLoad({
   elements_selector: '.lazy',

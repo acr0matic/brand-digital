@@ -344,6 +344,7 @@
 <script src="scripts/libraries/glightbox.min.js"></script>
 <script src="scripts/libraries/popper.js"></script>
 <script src="scripts/libraries/tippy.js"></script>
+<script src="scripts/libraries/countUp.min.js"></script>
 
 <script src="scripts/script.js"></script>
 <script src="scripts/sliders.js"></script>
@@ -362,6 +363,7 @@
 <script src="scripts/navigator.js"></script>
 <script src="scripts/loadmore.js"></script>
 <script src="scripts/exit.js"></script>
+<script src="scripts/project.js"></script>
 <!-- endbuild -->
 </body>
 

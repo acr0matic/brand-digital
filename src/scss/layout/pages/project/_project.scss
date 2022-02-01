@@ -1,0 +1,54 @@
+#project {
+  position: relative;
+  padding-top: 120px;
+
+  background-color: $palette-black;
+  color: $text-white;
+}
+
+.project {
+  &__header {
+    margin-bottom: 50px;
+  }
+
+  &__title {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 25px;
+
+    span {
+      color: var(--accent-color);
+    }
+  }
+
+  &__background {
+    position: absolute;
+    z-index: 0;
+    top: 85px;
+    left: 50%;
+
+    width: 99%;
+
+    transform: translateX(-50%);
+  }
+
+  &__count {
+    margin-bottom: 15px;
+
+    font-size: 128px;
+    font-weight: $weight-SemiBold;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      font-size: 96px;
+    }
+  }
+
+  &__goal {
+    font-size: $font-text;
+    color: var(--accent-color);
+
+    @include breakpoint($breakpoint-laptop--large) {
+      font-size: $font-text - 3;
+    }
+  }
+}
