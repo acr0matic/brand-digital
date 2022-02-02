@@ -1,0 +1,43 @@
+.text-scrolling {
+  &__content {
+    position: relative;
+    display: block;
+
+    animation: marquee 30s linear infinite;
+    white-space: nowrap;
+
+    text-transform: uppercase;
+
+    font-style: italic;
+    font-weight: $weight-SemiBold;
+
+    &--large {
+      color: $text-black;
+      -webkit-text-stroke: 1px #a59a9a;
+
+      font-size: 120px;
+    }
+
+    &--medium {
+      color: $text-black;
+      -webkit-text-stroke: 1px $text-white;
+
+      font-size: 80px;
+    }
+
+    &--small {
+      color: #888386;
+
+      font-size: 60px;
+    }
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

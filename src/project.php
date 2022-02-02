@@ -100,6 +100,26 @@
       <!-- /.project -->
     </div>
     <!-- /.container -->
+
+    <div class="text-scrolling mt-5">
+      <div class="text-scrolling__content text-scrolling__content--large">
+        <span>МЫ ОКЛЕИЛИ 7 ВИДОВ ТРАНСПОРТА МЫ ОКЛЕИЛИ 7 ВИДОВ ТРАНСПОРТА</span>
+        <span>МЫ ОКЛЕИЛИ 7 ВИДОВ ТРАНСПОРТА МЫ ОКЛЕИЛИ 7 ВИДОВ ТРАНСПОРТА</span>
+      </div>
+      <!-- /.text-scrolling__content -->
+
+      <div class="text-scrolling__content text-scrolling__content--medium mt-3">
+        <span>АВТОБУСЫ ФУРГОНЫ МАЛЫЕ ГРУЗОВЫЕ АВТОМОБИЛИ АВТОБУС</span>
+        <span>АВТОБУСЫ ФУРГОНЫ МАЛЫЕ ГРУЗОВЫЕ АВТОМОБИЛИ АВТОБУС</span>
+      </div>
+      <!-- /.text-scrolling__content -->
+
+      <div class="text-scrolling__content text-scrolling__content--small mt-4">
+        <span>72 АВТО 72 АВТО 72 АВТО 72 АВТО 72 АВТО 72 АВТО 72 АВТО 72 АВТО</span>
+        <span>72 АВТО 72 АВТО 72 АВТО 72 АВТО 72 АВТО 72 АВТО 72 АВТО 72 АВТО</span>
+      </div>
+      <!-- /.text-scrolling__content -->
+    </div>
   </section>
 </main>
 
