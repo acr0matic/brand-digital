@@ -30,6 +30,13 @@
 
       font-size: 60px;
     }
+
+    &--footer {
+      color: $text-white;
+      -webkit-text-stroke: 1px #aea3a3;
+
+      font-size: 50px;
+    }
   }
 }
 

@@ -232,7 +232,17 @@
       <!-- /.result -->
     </div>
     <!-- /.container -->
+
+    <div class="text-scrolling mt-5">
+      <div class="text-scrolling__content text-scrolling__content--footer">
+        <span>KazanExpress KazanExpress KazanExpress KazanExpress KazanExpress KazanExpress KazanExpress KazanExpress</span>
+        <span>KazanExpress KazanExpress KazanExpress KazanExpress KazanExpress KazanExpress KazanExpress KazanExpress</span>
+      </div>
+      <!-- /.text-scrolling__content -->
+    </div>
   </section>
+
+  <?php include_once('partials/callback.php') ?>
 </main>
 
 <?php include_once('partials/footer.php') ?>
