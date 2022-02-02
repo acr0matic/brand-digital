@@ -2,7 +2,7 @@
 
 <!-- Основной контент -->
 <main>
-  <section id="blog-hero">
+  <section id="blog-hero" data-hero>
     <div class="container">
       <div class="blog-hero">
         <h2 class="blog-hero__title page__title section__title">Автомобильная плёнка в две строки Название а то и длиннее</h2>

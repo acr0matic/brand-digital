@@ -4,7 +4,7 @@
 <main>
   <section id="hero">
     <div class="hero">
-      <div class="hero__row">
+      <div class="hero__row" data-hero>
         <div class="container">
           <div class="hero__wrapper">
             <div class="hero__slider">

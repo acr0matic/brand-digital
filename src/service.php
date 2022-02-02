@@ -2,7 +2,7 @@
 
 <!-- Основной контент -->
 <main>
-  <section style="background-image: url('img/page/main/hero/bg/1.png');" id="service-hero">
+  <section data-hero style="background-image: url('img/page/main/hero/bg/1.png');" id="service-hero">
     <div class="hero hero--service">
       <div class="hero__row">
         <div class="container">

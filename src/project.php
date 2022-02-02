@@ -2,7 +2,7 @@
 
 <!-- Основной контент -->
 <main>
-  <section id="project" style="--accent-color: red">
+  <section data-hero id="project" style="--accent-color: red">
     <div class="container">
       <div class="project">
         <div class="project__header">

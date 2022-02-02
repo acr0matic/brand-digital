@@ -9,8 +9,9 @@ const mobileMenu = document.getElementById('mobile-menu');
 const mobileMenuOverlay = mobileMenu.querySelector('.mobile-menu__overlay');
 const mobileMenuDropdown = mobileMenu.querySelectorAll('.mobile-dropdown');
 
-let scrollPosition = window.pageYOffset;
 headerDropdown.forEach(dropdown => {
+  let scrollPosition = window.pageYOffset;
+
   dropdown.addEventListener('click', () => dropdown.parentNode.classList.toggle('dropdown--open'));
   window.addEventListener('click',
     (e) => {
@@ -20,23 +21,25 @@ headerDropdown.forEach(dropdown => {
   window.addEventListener('scroll',
     () => {
       scrollPosition = window.pageYOffset;
-      const heroBlock = document.querySelector('.hero')
-      const heroHeight =  heroBlock ? heroBlock.offsetHeight : null;
-
       if (scrollPosition >= 150) dropdown.parentNode.classList.remove('dropdown--open');
-
-      if (heroHeight) {
-        if (window.scrollY >= heroHeight - 125) header.classList.add('header-inverted');
-        else header.classList.remove('header-inverted')
-      }
-
-      else {
-        if (window.scrollY >= header.offsetHeight + 50) header.classList.add('header-inverted');
-        else header.classList.remove('header-inverted')
-      }
     });
 });
 
+window.addEventListener('scroll',
+  () => {
+    const heroBlock = document.querySelector('[data-hero]')
+    const heroHeight = heroBlock ? heroBlock.offsetHeight : null;
+
+    if (heroHeight) {
+      if (window.scrollY >= heroHeight) header.classList.add('header-inverted');
+      else header.classList.remove('header-inverted')
+    }
+
+    else {
+      if (window.scrollY >= header.offsetHeight + 50) header.classList.add('header-inverted');
+      else header.classList.remove('header-inverted')
+    }
+  });
 
 const headerBurger = header.querySelector('.header__burger');
 
