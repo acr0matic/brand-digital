@@ -3,7 +3,7 @@
     position: relative;
     display: block;
 
-    animation: marquee 30s linear infinite;
+    animation: marquee 30s linear infinite alternate;
     white-space: nowrap;
 
     text-transform: uppercase;
