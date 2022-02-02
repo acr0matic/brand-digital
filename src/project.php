@@ -121,6 +121,118 @@
       <!-- /.text-scrolling__content -->
     </div>
   </section>
+
+  <section id="result" class="section">
+    <div class="container">
+      <div class="section__header">
+        <h2 class="section__title mb-3">Итоги</h2>
+        <p class="section__text">
+          Каждая деталь важна в монтаже плёнки, от этого зависит качество и срок службы покрытия.
+          <br>
+          Мы относимся к этому с заботой и полной ответсвенностью.
+        </p>
+      </div>
+      <!-- /.section__header -->
+
+      <div class="result">
+        <div class="result__gallery">
+          <div class="row">
+            <div class="col-4 mb-4">
+              <a href="img/page/project/result/photo.jpg" class="glightbox">
+                <div class="result__picture">
+                  <img class="preloader preloader--center" src="img/misc/preloader.svg" alt="">
+                  <img data-src="img/page/project/result/photo.jpg" alt="" class="result__image lazy">
+                </div>
+                <!-- /.result__picture -->
+              </a>
+            </div>
+            <!-- /.col-4 -->
+
+            <div class="col-4 mb-4">
+              <a href="img/page/project/result/photo.jpg" class="glightbox">
+                <div class="result__picture">
+                  <img class="preloader preloader--center" src="img/misc/preloader.svg" alt="">
+                  <img data-src="img/page/project/result/photo.jpg" alt="" class="result__image lazy">
+                </div>
+                <!-- /.result__picture -->
+              </a>
+            </div>
+            <!-- /.col-4 -->
+
+            <div class="col-4 mb-4">
+              <a href="img/page/project/result/photo.jpg" class="glightbox">
+                <div class="result__picture">
+                  <img class="preloader preloader--center" src="img/misc/preloader.svg" alt="">
+                  <img data-src="img/page/project/result/photo.jpg" alt="" class="result__image lazy">
+                </div>
+                <!-- /.result__picture -->
+              </a>
+            </div>
+            <!-- /.col-4 -->
+
+            <div class="col-4 mb-4">
+              <a href="img/page/project/result/photo.jpg" class="glightbox">
+                <div class="result__picture">
+                  <img class="preloader preloader--center" src="img/misc/preloader.svg" alt="">
+                  <img data-src="img/page/project/result/photo.jpg" alt="" class="result__image lazy">
+                </div>
+                <!-- /.result__picture -->
+              </a>
+            </div>
+            <!-- /.col-4 -->
+
+            <div class="col-4 mb-4">
+              <a href="img/page/project/result/photo.jpg" class="glightbox">
+                <div class="result__picture">
+                  <img class="preloader preloader--center" src="img/misc/preloader.svg" alt="">
+                  <img data-src="img/page/project/result/photo.jpg" alt="" class="result__image lazy">
+                </div>
+                <!-- /.result__picture -->
+              </a>
+            </div>
+            <!-- /.col-4 -->
+
+            <div class="col-4 mb-4">
+              <a href="img/page/project/result/photo.jpg" class="glightbox">
+                <div class="result__picture">
+                  <img class="preloader preloader--center" src="img/misc/preloader.svg" alt="">
+                  <img data-src="img/page/project/result/photo.jpg" alt="" class="result__image lazy">
+                </div>
+                <!-- /.result__picture -->
+              </a>
+            </div>
+            <!-- /.col-4 -->
+
+            <div class="col-6">
+              <a href="img/page/project/result/photo.jpg" class="glightbox">
+                <div class="result__picture result__picture--large">
+                  <img class="preloader preloader--center" src="img/misc/preloader.svg" alt="">
+                  <img data-src="img/page/project/result/photo.jpg" alt="" class="result__image lazy">
+                </div>
+                <!-- /.result__picture -->
+              </a>
+            </div>
+            <!-- /.col-6 -->
+
+            <div class="col-6">
+              <a href="img/page/project/result/photo.jpg" class="glightbox">
+                <div class="result__picture result__picture--large">
+                  <img class="preloader preloader--center" src="img/misc/preloader.svg" alt="">
+                  <img data-src="img/page/project/result/photo.jpg" alt="" class="result__image lazy">
+                </div>
+                <!-- /.result__picture -->
+              </a>
+            </div>
+            <!-- /.col-6 -->
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.result__gallery -->
+      </div>
+      <!-- /.result -->
+    </div>
+    <!-- /.container -->
+  </section>
 </main>
 
 <?php include_once('partials/footer.php') ?>
