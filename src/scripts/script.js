@@ -48,3 +48,7 @@ const modalParams = {
 };
 
 MicroModal.init(modalParams);
+
+AOS.init({
+  once: true,
+});

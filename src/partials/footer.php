@@ -345,6 +345,7 @@
 <script src="scripts/libraries/popper.js"></script>
 <script src="scripts/libraries/tippy.js"></script>
 <script src="scripts/libraries/countUp.min.js"></script>
+<script src="scripts/libraries/aos.min.js"></script>
 
 <script src="scripts/script.js"></script>
 <script src="scripts/sliders.js"></script>

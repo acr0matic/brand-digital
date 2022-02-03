@@ -122,6 +122,40 @@
     </div>
   </section>
 
+  <section id="layout">
+    <div class="container">
+      <div class="section__header">
+        <h2 class="section__title mb-3">Дизайн макета</h2>
+        <p class="section__text">
+          Каждый макет оклейки KazanExpress включал в себя около 15-30 элементов на комплект.
+        </p>
+      </div>
+      <!-- /.section__header -->
+
+      <div class="layout">
+        <div class="layout__row">
+          <div class="layout__picture layout__picture--medium" data-aos="fade-right" data-aos-offset="300">
+            <img class="layout__image" src="img/page/project/layout/2.png" alt="">
+          </div>
+          <!-- /.layout__picture -->
+
+          <div class="layout__picture layout__picture--small" data-aos="fade-left" data-aos-offset="300">
+            <img class="layout__image" src="img/page/project/layout/1.png" alt="">
+          </div>
+          <!-- /.layout__picture -->
+        </div>
+        <!-- /.layout__row -->
+
+        <div class="layout__picture layout__picture--large" data-aos="fade-left" data-aos-offset="300">
+          <img class="layout__image" src="img/page/project/layout/3.png" alt="">
+        </div>
+        <!-- /.layout__picture -->
+      </div>
+      <!-- /.layout -->
+    </div>
+    <!-- /.container -->
+  </section>
+
   <section id="result" class="section">
     <div class="container">
       <div class="section__header">

@@ -1,0 +1,49 @@
+#layout {
+  padding-top: 70px;
+  background-image: url('../img/page/project/layout/background.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.layout {
+  &__row {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 40px;
+  }
+
+  &__picture {
+    position: relative;
+    flex-shrink: 0;
+
+    &--small {
+      width: 60%;
+      height: 375px;
+    }
+
+    &--medium {
+      width: 66%;
+      height: 495px;
+    }
+
+    &--large {
+      right: -100px;
+      width: 105%;
+      height: 665px;
+
+      margin-left: auto;
+
+      @include breakpoint($breakpoint-laptop--large) {
+        margin-top: -100px;
+        margin-bottom: -100px;
+      }
+    }
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
