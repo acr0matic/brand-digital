@@ -1,0 +1,17 @@
+[data-aos="slide-right"] {
+  transform: translateX(-100%);
+  transition-property: transform, opacity;
+
+  &.aos-animate {
+    transform: translateX(0);
+  }
+}
+
+[data-aos="slide-left"] {
+  transform: translateX(100%);
+  transition-property: transform, opacity;
+
+  &.aos-animate {
+    transform: translateX(0);
+  }
+}

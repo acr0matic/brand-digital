@@ -1,21 +1,87 @@
 .assembly-card {
   position: relative;
+  display: flex;
+  align-items: center;
+
+  width: 50%;
+  height: 335px;
+
+  @media (hover: hover) {
+    &:hover {
+      .assembly-card__content,
+      .assembly-card__media::after {
+        opacity: 0;
+        visibility: hidden;
+      }
+    }
+  }
+
+  &--video {
+    img[class="assembly-card__source"] {
+      position: absolute;
+      z-index: 2;
+      top: 0;
+      right: 0;
+    }
+
+    video[class="assembly-card__source"] {
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      right: 0;
+    }
+
+    @media (hover: hover) {
+      &:hover {
+        img[class="assembly-card__source"] {
+          opacity: 0;
+          visibility: hidden;
+        }
+
+        video[class="assembly-card__source"] {
+          opacity: 1;
+          visibility: visible;
+        }
+      }
+    }
+  }
+
+  &--left {
+    .assembly-card__media {
+      right: 0;
+    }
+  }
+
+  &--right {
+    .assembly-card__content {
+      padding-left: 40px;
+    }
+
+    .assembly-card__media {
+      left: 0;
+    }
+  }
 
   &__media {
-    position: relative;
-    width: calc(50vw - 25px);
+    position: absolute;
+    z-index: 1;
+    top: 0;
 
-    height: 335px;
+    width: calc(50vw - 35px);
+
+    height: 100%;
 
     &::after {
       content: "";
       position: absolute;
+      z-index: 3;
       top: 0;
       right: 0;
       bottom: 0;
       left: 0;
 
       background-color: rgba(0, 0, 0, 0.7);
+      transition: 0.2s ease;
     }
   }
 
@@ -24,6 +90,15 @@
     height: 100%;
 
     object-fit: cover;
+    transition: 0.2s ease;
+  }
+
+  &__content {
+    position: relative;
+    z-index: 2;
+
+    color: $text-white;
+    transition: 0.2s ease;
   }
 
   &__title {
@@ -43,21 +118,6 @@
 
     @include breakpoint($breakpoint-laptop--large) {
       font-size: $font-text - 4;
-    }
-  }
-
-  &__content {
-    position: absolute;
-    z-index: 2;
-    top: 40%;
-    left: 150px;
-
-    color: $text-white;
-
-    transform: translateY(-50%);
-
-    @include breakpoint($breakpoint-laptop--large) {
-      left: 30px;
     }
   }
 }

@@ -134,19 +134,19 @@
 
       <div class="layout">
         <div class="layout__row">
-          <div class="layout__picture layout__picture--medium" data-aos="fade-right" data-aos-offset="300">
+          <div class="layout__picture layout__picture--medium" data-aos="slide-right" data-aos-offset="300" data-aos-duration="700">
             <img class="layout__image" src="img/page/project/layout/2.png" alt="">
           </div>
           <!-- /.layout__picture -->
 
-          <div class="layout__picture layout__picture--small" data-aos="fade-left" data-aos-offset="300">
+          <div class="layout__picture layout__picture--small" data-aos="slide-left" data-aos-offset="300" data-aos-duration="700">
             <img class="layout__image" src="img/page/project/layout/1.png" alt="">
           </div>
           <!-- /.layout__picture -->
         </div>
         <!-- /.layout__row -->
 
-        <div class="layout__picture layout__picture--large" data-aos="fade-left" data-aos-offset="300">
+        <div class="layout__picture layout__picture--large" data-aos="slide-left" data-aos-offset="300" data-aos-duration="700">
           <img class="layout__image" src="img/page/project/layout/3.png" alt="">
         </div>
         <!-- /.layout__picture -->
@@ -211,7 +211,7 @@
 
       <div class="container">
         <div class="assembly__detail">
-          <div class="assembly__card assembly-card me-4">
+          <div class="assembly__card assembly-card assembly-card--left me-4">
             <div class="assembly-card__content">
               <h3 class="assembly-card__title">400 л</h3>
               <p class="assembly-card__text">
@@ -224,12 +224,15 @@
 
             <div class="assembly-card__media">
               <img class="assembly-card__source" src="img/page/project/assembly/picture.jpg" class="" alt="">
+              <video loop muted class="assembly-card__source" src="">
+                <source src="" type="video/mp4">
+              </video>
             </div>
             <!-- /.assembly__picture -->
           </div>
           <!-- /.assembly__card -->
 
-          <div class="assembly__card assembly-card">
+          <div class="assembly__card assembly-card assembly-card--right assembly-card--video">
             <div class="assembly-card__content">
               <h3 class="assembly-card__title">400 л</h3>
               <p class="assembly-card__text">
@@ -242,6 +245,9 @@
 
             <div class="assembly-card__media">
               <img class="assembly-card__source" src="img/page/project/assembly/picture.jpg" class="" alt="">
+              <video loop muted class="assembly-card__source" src="">
+                <source src="" type="video/mp4">
+              </video>
             </div>
             <!-- /.assembly__picture -->
           </div>

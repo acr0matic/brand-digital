@@ -319,8 +319,14 @@ const assemblySlider = new Swiper('.assembly-slider', {
   loop: true,
   speed: 500,
   spaceBetween: 25,
+
   slidesPerView: 'auto',
+
   centeredSlides: true,
-  centeredSlidesBounds: true,
   grabCursor: true,
+
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  }
 });
