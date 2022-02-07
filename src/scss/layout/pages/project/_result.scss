@@ -21,6 +21,10 @@
       height: 530px !important;
     }
 
+    @include breakpoint($breakpoint-laptop--medium) {
+      height: 430px !important;
+    }
+
     &--large {
       height: 700px;
 

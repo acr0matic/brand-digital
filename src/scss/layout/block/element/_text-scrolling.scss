@@ -19,6 +19,10 @@
       -webkit-text-stroke: 1px #a59a9a;
 
       font-size: 120px;
+
+      @include breakpoint($breakpoint-laptop--medium) {
+        font-size: 81px;
+      }
     }
 
     &--medium {
@@ -26,12 +30,20 @@
       -webkit-text-stroke: 1px $text-white;
 
       font-size: 80px;
+
+      @include breakpoint($breakpoint-laptop--medium) {
+        font-size: 48px;
+      }
     }
 
     &--small {
       color: #888386;
 
       font-size: 60px;
+
+      @include breakpoint($breakpoint-laptop--medium) {
+        font-size: 36px;
+      }
     }
 
     &--footer {

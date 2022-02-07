@@ -19,6 +19,10 @@
     @include breakpoint($breakpoint-laptop--large) {
       height: 330px;
     }
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      height: 280px;
+    }
   }
 
   &__image {

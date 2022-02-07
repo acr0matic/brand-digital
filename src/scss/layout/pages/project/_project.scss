@@ -43,6 +43,10 @@
     @include breakpoint($breakpoint-laptop--large) {
       font-size: 96px;
     }
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      font-size: 64px;
+    }
   }
 
   &__goal {
