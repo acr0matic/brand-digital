@@ -1,0 +1,34 @@
+#project-hero {
+  background-color: $palette-black;
+  padding-bottom: 85px;
+
+  .hero__description {
+    min-height: initial;
+    margin-bottom: 60px;
+  }
+
+  .hero__cta {
+    padding-top: 0;
+  }
+
+  .hero__content {
+    position: relative;
+  }
+
+  .hero__title,
+  .hero__description {
+    position: relative;
+    z-index: 2;
+  }
+
+  .hero__background {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 50%;
+
+    width: 100%;
+
+    transform: translateX(-50%);
+  }
+}
