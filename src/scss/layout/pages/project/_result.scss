@@ -25,6 +25,12 @@
       height: 430px !important;
     }
 
+    @include breakpoint($breakpoint-tablet--large) {
+      height: 280px !important;
+
+      border-radius: $border-radius-medium;
+    }
+
     &--large {
       height: 700px;
 

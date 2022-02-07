@@ -5,6 +5,10 @@
 
   background-color: $palette-black;
   color: $text-white;
+
+  @include breakpoint($breakpoint-tablet--large) {
+    padding-top: 60px;
+  }
 }
 
 .project {
@@ -22,6 +26,14 @@
     }
   }
 
+  &__description {
+    @include breakpoint($breakpoint-tablet--large) {
+      br {
+        display: none;
+      }
+    }
+  }
+
   &__background {
     position: absolute;
     z-index: 0;
@@ -32,6 +44,10 @@
 
     transform: translateX(-50%);
     pointer-events: none;
+
+    @include breakpoint($breakpoint-tablet--large) {
+      top: 30px;
+    }
   }
 
   &__count {
@@ -47,6 +63,11 @@
     @include breakpoint($breakpoint-laptop--medium) {
       font-size: 64px;
     }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      margin-bottom: 5px;
+      font-size: 45px;
+    }
   }
 
   &__goal {
@@ -55,6 +76,14 @@
 
     @include breakpoint($breakpoint-laptop--large) {
       font-size: $font-text - 3;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      font-size: 18px;
+
+      br {
+        display: none;
+      }
     }
   }
 }

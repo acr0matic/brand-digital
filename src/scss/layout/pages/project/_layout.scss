@@ -25,11 +25,19 @@
       @include breakpoint($breakpoint-laptop--medium) {
         height: 320px;
       }
+
+      @include breakpoint($breakpoint-tablet--large) {
+        height: 200px;
+      }
     }
 
     &--medium {
       width: 66%;
       height: 495px;
+
+      @include breakpoint($breakpoint-tablet--large) {
+        height: 335px;
+      }
     }
 
     &--large {
@@ -46,6 +54,10 @@
 
       @include breakpoint($breakpoint-laptop--medium) {
         height: 500px;
+      }
+
+      @include breakpoint($breakpoint-tablet--large) {
+        height: 420px;
       }
     }
   }
