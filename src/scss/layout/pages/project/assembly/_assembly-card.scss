@@ -6,6 +6,10 @@
   width: 50%;
   height: 335px;
 
+  @include breakpoint($breakpoint-laptop--large) {
+    height: 230px;
+  }
+
   @media (hover: hover) {
     &:hover {
       .assembly-card__content,
@@ -49,6 +53,12 @@
   &--left {
     .assembly-card__media {
       right: 0;
+    }
+
+    .assembly-card__content {
+      @include breakpoint(max-width 1280px) {
+        padding-left: 40px;
+      }
     }
   }
 

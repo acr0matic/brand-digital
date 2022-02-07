@@ -275,7 +275,7 @@
       <div class="result">
         <div class="result__gallery">
           <div class="row">
-            <div class="col-4 mb-4">
+            <div class="col-6 col-xxl-4 mb-4">
               <a href="img/page/project/result/photo.jpg" class="glightbox">
                 <div class="result__picture">
                   <img class="preloader preloader--center" src="img/misc/preloader.svg" alt="">
@@ -286,7 +286,7 @@
             </div>
             <!-- /.col-4 -->
 
-            <div class="col-4 mb-4">
+            <div class="col-6 col-xxl-4 mb-4">
               <a href="img/page/project/result/photo.jpg" class="glightbox">
                 <div class="result__picture">
                   <img class="preloader preloader--center" src="img/misc/preloader.svg" alt="">
@@ -297,7 +297,7 @@
             </div>
             <!-- /.col-4 -->
 
-            <div class="col-4 mb-4">
+            <div class="col-6 col-xxl-4 mb-4">
               <a href="img/page/project/result/photo.jpg" class="glightbox">
                 <div class="result__picture">
                   <img class="preloader preloader--center" src="img/misc/preloader.svg" alt="">
@@ -308,7 +308,7 @@
             </div>
             <!-- /.col-4 -->
 
-            <div class="col-4 mb-4">
+            <div class="col-6 col-xxl-4 mb-4">
               <a href="img/page/project/result/photo.jpg" class="glightbox">
                 <div class="result__picture">
                   <img class="preloader preloader--center" src="img/misc/preloader.svg" alt="">
@@ -319,7 +319,7 @@
             </div>
             <!-- /.col-4 -->
 
-            <div class="col-4 mb-4">
+            <div class="col-6 col-xxl-4 mb-4">
               <a href="img/page/project/result/photo.jpg" class="glightbox">
                 <div class="result__picture">
                   <img class="preloader preloader--center" src="img/misc/preloader.svg" alt="">
@@ -330,7 +330,7 @@
             </div>
             <!-- /.col-4 -->
 
-            <div class="col-4 mb-4">
+            <div class="col-6 col-xxl-4 mb-4">
               <a href="img/page/project/result/photo.jpg" class="glightbox">
                 <div class="result__picture">
                   <img class="preloader preloader--center" src="img/misc/preloader.svg" alt="">
@@ -341,7 +341,7 @@
             </div>
             <!-- /.col-4 -->
 
-            <div class="col-6">
+            <div class="col-6 col-xxl-6">
               <a href="img/page/project/result/photo.jpg" class="glightbox">
                 <div class="result__picture result__picture--large">
                   <img class="preloader preloader--center" src="img/misc/preloader.svg" alt="">
@@ -352,7 +352,7 @@
             </div>
             <!-- /.col-6 -->
 
-            <div class="col-6">
+            <div class="col-6 col-xxl-6">
               <a href="img/page/project/result/photo.jpg" class="glightbox">
                 <div class="result__picture result__picture--large">
                   <img class="preloader preloader--center" src="img/misc/preloader.svg" alt="">
