@@ -1,0 +1,15 @@
+.assembly-slider {
+  .swiper-slide {
+    @include each(1) {
+      width: 556px;
+    }
+
+    @include each(2) {
+      width: 490px;
+    }
+
+    @include each(3) {
+      width: 1030px;
+    }
+  }
+}

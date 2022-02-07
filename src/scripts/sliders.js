@@ -314,3 +314,13 @@ const processFeedback = new Swiper('.process-slider--feedback', {
     prevEl: '.process-slider-controls--feedback .process-slider-prev--orange',
   },
 });
+
+const assemblySlider = new Swiper('.assembly-slider', {
+  loop: true,
+  speed: 500,
+  spaceBetween: 25,
+  slidesPerView: 'auto',
+  centeredSlides: true,
+  centeredSlidesBounds: true,
+  grabCursor: true,
+});

@@ -1,8 +1,8 @@
 <?php include_once('partials/header.php') ?>
 
 <!-- Основной контент -->
-<main>
-  <section data-hero id="project" style="--accent-color: red">
+<main style="--accent-color: red">
+  <section data-hero id="project">
     <div class="container">
       <div class="project">
         <div class="project__header">
@@ -122,7 +122,7 @@
     </div>
   </section>
 
-  <section id="layout">
+  <section id="layout" style="background-image: url('img/page/project/layout/background.svg'); background-color: #ffffff;">
     <div class="container">
       <div class="section__header">
         <h2 class="section__title mb-3">Дизайн макета</h2>
@@ -154,6 +154,104 @@
       <!-- /.layout -->
     </div>
     <!-- /.container -->
+  </section>
+
+  <section id="assembly" style="background-image: url(img/page/project/assembly/background.jpg); background-color: #ffffff;">
+    <div class="assembly">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title mb-3">Производство</h2>
+          <p class="section__text">
+            Как и указывалось выше, оборудование отпечатало 3020 метров плёнки и работало без остановки 480 ч. - это 3 недели подряд.
+          </p>
+        </div>
+        <!-- /.section__header -->
+      </div>
+      <!-- /.container -->
+
+      <div class="assembly__slider swiper-container assembly-slider mt-4 mb-5">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <picture class="assembly__picture">
+              <img src="img/page/process/manufacturing/slider-small/1.jpg" class="assembly__image cms-image" alt="">
+            </picture>
+          </div>
+          <!-- /.swiper-slide -->
+
+          <div class="swiper-slide">
+            <picture class="assembly__picture">
+              <img src="img/page/process/manufacturing/slider-small/2.jpg" class="assembly__image cms-image" alt="">
+            </picture>
+          </div>
+          <!-- /.swiper-slide -->
+
+          <div class="swiper-slide">
+            <picture class="assembly__picture">
+              <img src="img/page/process/manufacturing/slider-small/3.jpg" class="assembly__image cms-image" alt="">
+            </picture>
+          </div>
+          <!-- /.swiper-slide -->
+        </div>
+        <!-- /.swiper-wrapper -->
+      </div>
+      <!-- /.swiper-container process-slider--small -->
+
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title mb-3">Монтаж</h2>
+          <p class="section__text">
+            Каждая деталь важна в монтаже плёнки, от этого зависит качество и срок службы покрытия.
+            <br>
+            Мы относимся к этому с заботой и полной ответсвенностью.
+          </p>
+        </div>
+        <!-- /.section__header -->
+      </div>
+      <!-- /.container -->
+
+      <div class="container">
+        <div class="assembly__detail">
+          <div class="assembly__card assembly-card me-4">
+            <div class="assembly-card__content">
+              <h3 class="assembly-card__title">400 л</h3>
+              <p class="assembly-card__text">
+                спирта потрачено
+                <br>
+                для обработки кузовов
+              </p>
+            </div>
+            <!-- /.assembly-card__content -->
+
+            <div class="assembly-card__media">
+              <img class="assembly-card__source" src="img/page/project/assembly/picture.jpg" class="" alt="">
+            </div>
+            <!-- /.assembly__picture -->
+          </div>
+          <!-- /.assembly__card -->
+
+          <div class="assembly__card assembly-card">
+            <div class="assembly-card__content">
+              <h3 class="assembly-card__title">400 л</h3>
+              <p class="assembly-card__text">
+                спирта потрачено
+                <br>
+                для обработки кузовов
+              </p>
+            </div>
+            <!-- /.assembly-card__content -->
+
+            <div class="assembly-card__media">
+              <img class="assembly-card__source" src="img/page/project/assembly/picture.jpg" class="" alt="">
+            </div>
+            <!-- /.assembly__picture -->
+          </div>
+          <!-- /.assembly__card -->
+        </div>
+        <!-- /.assembly__detail -->
+      </div>
+      <!-- /.container -->
+    </div>
+    <!-- /.assembly -->
   </section>
 
   <section id="result" class="section">

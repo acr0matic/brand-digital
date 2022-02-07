@@ -1,0 +1,63 @@
+.assembly-card {
+  position: relative;
+
+  &__media {
+    position: relative;
+    width: calc(50vw - 25px);
+
+    height: 335px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+  }
+
+  &__source {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+  }
+
+  &__title {
+    margin-bottom: 20px;
+
+    font-size: 128px;
+    font-weight: $weight-SemiBold;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      font-size: 75px;
+    }
+  }
+
+  &__text {
+    color: var(--accent-color);
+    font-size: $font-text;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      font-size: $font-text - 4;
+    }
+  }
+
+  &__content {
+    position: absolute;
+    z-index: 2;
+    top: 40%;
+    left: 150px;
+
+    color: $text-white;
+
+    transform: translateY(-50%);
+
+    @include breakpoint($breakpoint-laptop--large) {
+      left: 30px;
+    }
+  }
+}
