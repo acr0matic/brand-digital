@@ -4,6 +4,19 @@
 
   background-repeat: no-repeat;
   background-size: cover;
+
+  @include breakpoint($breakpoint-tablet) {
+    padding-top: 30px;
+    padding-bottom: 50px;
+
+    .section__header {
+      text-align: center;
+
+      br {
+        display: none;
+      }
+    }
+  }
 }
 
 .layout {
@@ -12,6 +25,10 @@
     justify-content: center;
 
     margin-top: 40px;
+
+    @include breakpoint($breakpoint-tablet) {
+      flex-direction: column-reverse;
+    }
   }
 
   &__picture {
@@ -29,6 +46,16 @@
       @include breakpoint($breakpoint-tablet--large) {
         height: 200px;
       }
+
+      @include breakpoint($breakpoint-tablet) {
+        height: 130px;
+        margin-left: auto;
+      }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        right: -30px;
+        width: 270px;
+      }
     }
 
     &--medium {
@@ -37,6 +64,15 @@
 
       @include breakpoint($breakpoint-tablet--large) {
         height: 335px;
+      }
+
+      @include breakpoint($breakpoint-tablet) {
+        height: 165px;
+      }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        left: -30px;
+        width: 280px;
       }
     }
 
@@ -58,6 +94,18 @@
 
       @include breakpoint($breakpoint-tablet--large) {
         height: 420px;
+      }
+
+      @include breakpoint($breakpoint-tablet) {
+        right: -30px;
+
+        height: 180px;
+        margin: 10px 0 0 0;
+      }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        min-width: 330px;
+        margin-left: auto;
       }
     }
   }

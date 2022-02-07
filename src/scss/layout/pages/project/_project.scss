@@ -9,11 +9,27 @@
   @include breakpoint($breakpoint-tablet--large) {
     padding-top: 60px;
   }
+
+  @include breakpoint($breakpoint-tablet) {
+    padding-top: 30px;
+
+    .section__header {
+      text-align: center;
+    }
+  }
+
+  @include breakpoint($breakpoint-mobile--large) {
+    padding-bottom: 25px;
+  }
 }
 
 .project {
   &__header {
     margin-bottom: 50px;
+
+    @include breakpoint($breakpoint-mobile--large) {
+      margin-bottom: 25px;
+    }
   }
 
   &__title {
@@ -24,6 +40,11 @@
     span {
       color: var(--accent-color);
     }
+
+    @include breakpoint($breakpoint-tablet) {
+      margin-bottom: 20px;
+      text-align: center;
+    }
   }
 
   &__description {
@@ -31,6 +52,10 @@
       br {
         display: none;
       }
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      display: none;
     }
   }
 
@@ -47,6 +72,11 @@
 
     @include breakpoint($breakpoint-tablet--large) {
       top: 30px;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      top: 20px;
+      width: 90%;
     }
   }
 
@@ -68,6 +98,14 @@
       margin-bottom: 5px;
       font-size: 45px;
     }
+
+    @include breakpoint($breakpoint-tablet) {
+      font-size: 30px;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      font-size: 27px;
+    }
   }
 
   &__goal {
@@ -84,6 +122,14 @@
       br {
         display: none;
       }
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      font-size: 16px;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      font-size: 14px;
     }
   }
 }

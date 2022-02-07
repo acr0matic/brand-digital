@@ -1,4 +1,15 @@
 #result {
+  background: linear-gradient(180deg, #ffffff 66.65%, #f9f9f9 101.3%);
+
+  @include breakpoint($breakpoint-tablet) {
+    .section__header {
+      text-align: center;
+
+      br {
+        display: none;
+      }
+    }
+  }
 }
 
 .result {
@@ -29,6 +40,14 @@
       height: 280px !important;
 
       border-radius: $border-radius-medium;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      height: 220px !important;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      height: 150px !important;
     }
 
     &--large {

@@ -14,7 +14,7 @@
 
         <div class="project__digits">
           <div class="row">
-            <div class="col-6 mb-5">
+            <div class="col-5 col-sm-6 mb-3 mb-md-5">
               <div class="project__item">
                 <div class="project__count">
                   <span>1 238</span>
@@ -31,7 +31,7 @@
             </div>
             <!-- /.col-6 -->
 
-            <div class="col-6 mb-5">
+            <div class="col-7 col-sm-6 mb-3 mb-md-5">
               <div class="project__item">
                 <div class="project__count">
                   <span>100 000</span>
@@ -50,7 +50,7 @@
             </div>
             <!-- /.col-6 -->
 
-            <div class="col-6">
+            <div class="col-5 col-sm-6">
               <div class="project__item">
                 <div class="project__count">
                   <span>3020</span>
@@ -69,7 +69,7 @@
             </div>
             <!-- /.col-6 -->
 
-            <div class="col-6">
+            <div class="col-7 col-sm-6">
               <div class="project__item">
                 <div class="project__count">
                   <span>480</span>
@@ -108,13 +108,13 @@
       </div>
       <!-- /.text-scrolling__content -->
 
-      <div class="text-scrolling__content text-scrolling__content--medium mt-2 mt-lg-3">
+      <div class="text-scrolling__content text-scrolling__content--medium mt-3 mt-md-2 mt-lg-3">
         <span>АВТОБУСЫ ФУРГОНЫ МАЛЫЕ ГРУЗОВЫЕ АВТОМОБИЛИ АВТОБУС</span>
         <span>АВТОБУСЫ ФУРГОНЫ МАЛЫЕ ГРУЗОВЫЕ АВТОМОБИЛИ АВТОБУС</span>
       </div>
       <!-- /.text-scrolling__content -->
 
-      <div class="text-scrolling__content text-scrolling__content--small mt-3 mt-lg-4">
+      <div class="text-scrolling__content text-scrolling__content--small mt-4 mt-md-3 mt-lg-4">
         <span>72 АВТО 72 АВТО 72 АВТО 72 АВТО 72 АВТО 72 АВТО 72 АВТО 72 АВТО</span>
         <span>72 АВТО 72 АВТО 72 АВТО 72 АВТО 72 АВТО 72 АВТО 72 АВТО 72 АВТО</span>
       </div>
@@ -211,7 +211,7 @@
 
       <div class="container">
         <div class="assembly__detail">
-          <div class="assembly__card assembly-card assembly-card--left me-4">
+          <div class="assembly__card assembly-card assembly-card--left me-md-4 mb-3 mb-md-0">
             <div class="assembly-card__content">
               <h3 class="assembly-card__title">400 л</h3>
               <p class="assembly-card__text">

@@ -322,11 +322,16 @@ const assemblySlider = new Swiper('.assembly-slider', {
 
   slidesPerView: 'auto',
 
-  centeredSlides: true,
   grabCursor: true,
 
   autoplay: {
     delay: 3000,
     disableOnInteraction: false,
-  }
+  },
+
+  breakpoints: {
+    768: {
+      centeredSlides: true,
+    },
+  },
 });

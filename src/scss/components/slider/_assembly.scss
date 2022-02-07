@@ -1,5 +1,9 @@
 .assembly-slider {
   .swiper-slide {
+    @include breakpoint($breakpoint-mobile--large) {
+      width: 90% !important;
+    }
+
     @include each(1) {
       width: 556px;
 

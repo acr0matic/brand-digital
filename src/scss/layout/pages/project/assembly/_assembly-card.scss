@@ -14,13 +14,19 @@
     height: 190px;
   }
 
-  @media (hover: hover) {
-    &:hover {
-      .assembly-card__content,
-      .assembly-card__media::after {
-        opacity: 0;
-        visibility: hidden;
-      }
+  @include breakpoint($breakpoint-tablet) {
+    width: 100%;
+  }
+
+  @include breakpoint($breakpoint-mobile--large) {
+    height: 150px;
+  }
+
+  &:hover {
+    .assembly-card__content,
+    .assembly-card__media::after {
+      opacity: 0;
+      visibility: hidden;
     }
   }
 
@@ -39,17 +45,15 @@
       right: 0;
     }
 
-    @media (hover: hover) {
-      &:hover {
-        img[class="assembly-card__source"] {
-          opacity: 0;
-          visibility: hidden;
-        }
+    &:hover {
+      img[class="assembly-card__source"] {
+        opacity: 0;
+        visibility: hidden;
+      }
 
-        video[class="assembly-card__source"] {
-          opacity: 1;
-          visibility: visible;
-        }
+      video[class="assembly-card__source"] {
+        opacity: 1;
+        visibility: visible;
       }
     }
   }
@@ -89,6 +93,10 @@
 
     height: 100%;
 
+    @include breakpoint($breakpoint-tablet) {
+      width: 100%;
+    }
+
     &::after {
       content: "";
       position: absolute;
@@ -117,6 +125,10 @@
 
     color: $text-white;
     transition: 0.2s ease;
+
+    @include breakpoint($breakpoint-tablet) {
+      padding-left: 25px !important;
+    }
   }
 
   &__title {
@@ -133,6 +145,11 @@
       margin-bottom: 0;
       font-size: 54px;
     }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      margin-bottom: 5px;
+      font-size: 30px;
+    }
   }
 
   &__text {
@@ -145,6 +162,10 @@
 
     @include breakpoint($breakpoint-tablet--large) {
       font-size: $font-text - 6;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      font-size: 14px;
     }
   }
 }

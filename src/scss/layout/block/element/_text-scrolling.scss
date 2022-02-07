@@ -23,6 +23,10 @@
       @include breakpoint($breakpoint-laptop--medium) {
         font-size: 81px;
       }
+
+      @include breakpoint($breakpoint-tablet) {
+        font-size: 42px;
+      }
     }
 
     &--medium {
@@ -33,6 +37,11 @@
 
       @include breakpoint($breakpoint-laptop--medium) {
         font-size: 48px;
+        -webkit-text-stroke: 0.5px #ffffff;
+      }
+
+      @include breakpoint($breakpoint-tablet) {
+        font-size: 27px;
       }
     }
 
@@ -44,6 +53,10 @@
       @include breakpoint($breakpoint-laptop--medium) {
         font-size: 36px;
       }
+
+      @include breakpoint($breakpoint-tablet) {
+        font-size: 18px;
+      }
     }
 
     &--footer {
@@ -51,6 +64,10 @@
       -webkit-text-stroke: 1px #aea3a3;
 
       font-size: 50px;
+
+      @include breakpoint($breakpoint-tablet) {
+        font-size: 24px;
+      }
     }
   }
 }
