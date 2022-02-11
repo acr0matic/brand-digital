@@ -318,7 +318,7 @@ const processFeedback = new Swiper('.process-slider--feedback', {
 const assemblySlider = new Swiper('.assembly-slider', {
   loop: true,
   speed: 500,
-  spaceBetween: 25,
+  spaceBetween: 10,
 
   slidesPerView: 'auto',
 
@@ -331,6 +331,7 @@ const assemblySlider = new Swiper('.assembly-slider', {
 
   breakpoints: {
     768: {
+      spaceBetween: 25,
       centeredSlides: true,
     },
   },

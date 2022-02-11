@@ -9,10 +9,12 @@
     animation: marquee 30s linear infinite alternate;
     white-space: nowrap;
 
-    text-transform: uppercase;
-
     font-style: italic;
     font-weight: $weight-SemiBold;
+
+    &--reverse {
+      animation-direction: reverse;
+    }
 
     &--large {
       color: $text-black;

@@ -50,5 +50,13 @@ const modalParams = {
 MicroModal.init(modalParams);
 
 AOS.init({
-  once: true,
+  mirror: true,
 });
+
+if (window.matchMedia('(max-width: 768px)').matches) {
+  const animated = document.querySelectorAll('.layout__picture');
+
+  animated.forEach(item => {
+    item.dataset.aosOffset = 200;
+  });
+}

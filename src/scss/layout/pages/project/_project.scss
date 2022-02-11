@@ -1,10 +1,12 @@
 #project {
   position: relative;
-  padding-top: 120px;
+  padding-top: 80px;
   padding-bottom: 80px;
 
   background-color: $palette-black;
   color: $text-white;
+
+  overflow: hidden;
 
   @include breakpoint($breakpoint-tablet--large) {
     padding-top: 60px;
@@ -62,7 +64,7 @@
   &__background {
     position: absolute;
     z-index: 0;
-    top: 85px;
+    top: 40px;
     left: 50%;
 
     width: 99%;
@@ -84,7 +86,7 @@
     margin-bottom: 15px;
 
     font-size: 128px;
-    font-weight: $weight-SemiBold;
+    font-weight: $weight-Medium;
 
     @include breakpoint($breakpoint-laptop--large) {
       font-size: 96px;

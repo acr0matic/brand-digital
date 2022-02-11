@@ -185,8 +185,11 @@
     display: block;
 
     color: $text-white;
-
     line-height: 140%;
+
+    a {
+      color: $text-white;
+    }
 
     &--main {
       margin-bottom: 40px;

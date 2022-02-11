@@ -93,33 +93,31 @@
         <!-- /.project__digits -->
 
         <div class="project__footer">
+          <div class="text-scrolling mt-4 mt-lg-5">
+            <div class="text-scrolling__content text-scrolling__content--large">
+              <span>МЫ ОКЛЕИЛИ 7 ВИДОВ ТРАНСПОРТА МЫ ОКЛЕИЛИ 7 ВИДОВ ТРАНСПОРТА</span>
+              <span>МЫ ОКЛЕИЛИ 7 ВИДОВ ТРАНСПОРТА МЫ ОКЛЕИЛИ 7 ВИДОВ ТРАНСПОРТА</span>
+            </div>
+            <!-- /.text-scrolling__content -->
 
+            <div class="text-scrolling__content text-scrolling__content--reverse text-scrolling__content--medium mt-3 mt-md-2 mt-lg-3">
+              <span>АВТОБУСЫ ФУРГОНЫ МАЛЫЕ ГРУЗОВЫЕ АВТОМОБИЛИ АВТОБУС</span>
+              <span>АВТОБУСЫ ФУРГОНЫ МАЛЫЕ ГРУЗОВЫЕ АВТОМОБИЛИ АВТОБУС</span>
+            </div>
+            <!-- /.text-scrolling__content -->
+
+            <div class="text-scrolling__content text-scrolling__content--small mt-4 mt-md-3 mt-lg-4">
+              <span>72 АВТО 72 АВТО 72 АВТО 72 АВТО 72 АВТО 72 АВТО 72 АВТО 72 АВТО</span>
+              <span>72 АВТО 72 АВТО 72 АВТО 72 АВТО 72 АВТО 72 АВТО 72 АВТО 72 АВТО</span>
+            </div>
+            <!-- /.text-scrolling__content -->
+          </div>
         </div>
         <!-- /.project__footer -->
       </div>
       <!-- /.project -->
     </div>
     <!-- /.container -->
-
-    <div class="text-scrolling mt-4 mt-lg-5">
-      <div class="text-scrolling__content text-scrolling__content--large">
-        <span>МЫ ОКЛЕИЛИ 7 ВИДОВ ТРАНСПОРТА МЫ ОКЛЕИЛИ 7 ВИДОВ ТРАНСПОРТА</span>
-        <span>МЫ ОКЛЕИЛИ 7 ВИДОВ ТРАНСПОРТА МЫ ОКЛЕИЛИ 7 ВИДОВ ТРАНСПОРТА</span>
-      </div>
-      <!-- /.text-scrolling__content -->
-
-      <div class="text-scrolling__content text-scrolling__content--medium mt-3 mt-md-2 mt-lg-3">
-        <span>АВТОБУСЫ ФУРГОНЫ МАЛЫЕ ГРУЗОВЫЕ АВТОМОБИЛИ АВТОБУС</span>
-        <span>АВТОБУСЫ ФУРГОНЫ МАЛЫЕ ГРУЗОВЫЕ АВТОМОБИЛИ АВТОБУС</span>
-      </div>
-      <!-- /.text-scrolling__content -->
-
-      <div class="text-scrolling__content text-scrolling__content--small mt-4 mt-md-3 mt-lg-4">
-        <span>72 АВТО 72 АВТО 72 АВТО 72 АВТО 72 АВТО 72 АВТО 72 АВТО 72 АВТО</span>
-        <span>72 АВТО 72 АВТО 72 АВТО 72 АВТО 72 АВТО 72 АВТО 72 АВТО 72 АВТО</span>
-      </div>
-      <!-- /.text-scrolling__content -->
-    </div>
   </section>
 
   <section id="layout" style="background-image: url('img/page/project/layout/background.svg'); background-color: #ffffff;">
@@ -134,19 +132,19 @@
 
       <div class="layout">
         <div class="layout__row">
-          <div class="layout__picture layout__picture--medium" data-aos="slide-right" data-aos-offset="300" data-aos-duration="700">
+          <div class="layout__picture layout__picture--medium" data-aos="slide-right" data-aos-mirror="true" data-aos-offset="300" data-aos-duration="700">
             <img class="layout__image" src="img/page/project/layout/2.png" alt="">
           </div>
           <!-- /.layout__picture -->
 
-          <div class="layout__picture layout__picture--small" data-aos="slide-left" data-aos-offset="300" data-aos-duration="700">
+          <div class="layout__picture layout__picture--small" data-aos="slide-left" data-aos-mirror="true" data-aos-offset="300" data-aos-duration="700">
             <img class="layout__image" src="img/page/project/layout/1.png" alt="">
           </div>
           <!-- /.layout__picture -->
         </div>
         <!-- /.layout__row -->
 
-        <div class="layout__picture layout__picture--large" data-aos="slide-left" data-aos-offset="300" data-aos-duration="700">
+        <div class="layout__picture layout__picture--large" data-aos="slide-left" data-aos-mirror="true" data-aos-offset="300" data-aos-duration="700">
           <img class="layout__image" src="img/page/project/layout/3.png" alt="">
         </div>
         <!-- /.layout__picture -->
@@ -169,7 +167,7 @@
       </div>
       <!-- /.container -->
 
-      <div class="assembly__slider swiper-container assembly-slider mt-4 mb-5">
+      <div class="assembly__slider swiper-container assembly-slider">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <picture class="assembly__picture">
@@ -224,11 +222,13 @@
 
             <div class="assembly-card__media">
               <img class="assembly-card__source" src="img/page/project/assembly/picture.jpg" class="" alt="">
-              <video loop muted class="assembly-card__source" src="">
-                <source src="" type="video/mp4">
-              </video>
             </div>
             <!-- /.assembly__picture -->
+
+            <div class="assembly-card__touch">
+              <img class="assembly-card__icon" src="img/icons/misc/touch.svg" alt="">
+            </div>
+            <!-- /.assembly-card__touch -->
           </div>
           <!-- /.assembly__card -->
 
@@ -250,6 +250,11 @@
               </video>
             </div>
             <!-- /.assembly__picture -->
+
+            <div class="assembly-card__touch">
+              <img class="assembly-card__icon" src="img/icons/misc/touch.svg" alt="">
+            </div>
+            <!-- /.assembly-card__touch -->
           </div>
           <!-- /.assembly__card -->
         </div>
@@ -261,18 +266,18 @@
   </section>
 
   <section id="result" class="section">
-    <div class="container">
-      <div class="section__header">
-        <h2 class="section__title mb-3">Итоги</h2>
-        <p class="section__text">
-          Каждая деталь важна в монтаже плёнки, от этого зависит качество и срок службы покрытия.
-          <br>
-          Мы относимся к этому с заботой и полной ответсвенностью.
-        </p>
-      </div>
-      <!-- /.section__header -->
+    <div class="result">
+      <div class="container">
+        <div class="section__header">
+          <h2 class="section__title mb-3">Итоги</h2>
+          <p class="section__text">
+            Каждая деталь важна в монтаже плёнки, от этого зависит качество и срок службы покрытия.
+            <br>
+            Мы относимся к этому с заботой и полной ответсвенностью.
+          </p>
+        </div>
+        <!-- /.section__header -->
 
-      <div class="result">
         <div class="result__gallery">
           <div class="row">
             <div class="col-6 col-xxl-4 mb-4">
@@ -367,11 +372,13 @@
         </div>
         <!-- /.result__gallery -->
       </div>
-      <!-- /.result -->
-    </div>
-    <!-- /.container -->
+      <!-- /.container -->
 
-    <div class="text-scrolling mt-5">
+      <img class="result__background" src="img/page/project/result/background.svg" alt="">
+    </div>
+    <!-- /.result -->
+
+    <div class="text-scrolling">
       <div class="text-scrolling__content text-scrolling__content--footer">
         <span>KazanExpress KazanExpress KazanExpress KazanExpress KazanExpress KazanExpress KazanExpress KazanExpress</span>
         <span>KazanExpress KazanExpress KazanExpress KazanExpress KazanExpress KazanExpress KazanExpress KazanExpress</span>
