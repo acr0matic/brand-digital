@@ -4,6 +4,12 @@
 
   background: linear-gradient(180deg, #ffffff 66.65%, #f9f9f9 101.3%);
 
+  @include breakpoint($breakpoint-tablet--large) {
+    background: #f3f1f1;
+
+    margin-bottom: 10px;
+  }
+
   .text-scrolling {
     position: relative;
     bottom: -10px;
@@ -40,6 +46,19 @@
 
     transform: translateX(-50%);
     pointer-events: none;
+
+    @include breakpoint($breakpoint-tablet--large) {
+      width: 150%;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      top: 20px;
+      width: 170%;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      width: 250%;
+    }
   }
 
   &__gallery {

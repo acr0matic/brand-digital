@@ -7,7 +7,7 @@
     @include each(1) {
       width: 556px;
 
-      @include breakpoint($breakpoint-tablet--large) {
+      @include breakpoint($breakpoint-laptop--medium) {
         width: 50%;
       }
     }
@@ -15,7 +15,7 @@
     @include each(2) {
       width: 490px;
 
-      @include breakpoint($breakpoint-tablet--large) {
+      @include breakpoint($breakpoint-laptop--medium) {
         width: 50%;
       }
     }
@@ -23,7 +23,7 @@
     @include each(3) {
       width: 1030px;
 
-      @include breakpoint($breakpoint-tablet--large) {
+      @include breakpoint($breakpoint-laptop--medium) {
         width: 70%;
       }
     }
