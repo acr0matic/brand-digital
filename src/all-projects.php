@@ -8,9 +8,9 @@
         <div class="container">
           <div class="hero__wrapper">
             <div class="hero__content">
-              <h1 class="page__title section__title hero__title">Проекты которые мы уже <br> осуществили</h1>
-              <p class="page__description hero__description">Организация брендирования авто для <br> KazanExpress.</p>
-              <img class="hero__background" src="img/page/all-projects/hero/background.svg" alt="">
+              <h1 class="page__title section__title hero__title">Крупные проекты</h1>
+              <p class="page__description hero__description">Мы гордимся каждым нашим проектом, <br> но некоторые из них занимают особое <br> место в жизни нашей компании. </p>
+              <img class="hero__background" src="img/page/all-projects/hero/background.png" alt="">
             </div>
             <!-- /.hero__content -->
 
@@ -44,6 +44,80 @@
       <!-- /.hero__row hero__row--white -->
     </div>
     <!-- /.hero -->
+  </section>
+
+  <section id="projects">
+    <div class="projects__wrapper">
+      <div class="project-card">
+        <div class="project-card__content">
+          <div class="container">
+            <h2 class="page__title project-card__title">Брендирование авто <br> для KazanExpress</h2>
+            <button class="project-card__button button button-outline">Смотреть</button>
+          </div>
+          <!-- /.container -->
+        </div>
+        <!-- /.project-card__content -->
+
+        <div class="project-card__background">
+          <div style="background-color: #005C47;" class="project-card__fill"></div>
+          <img src="img/page/all-projects/project-card/background.png" alt="" class="project-card__pattern">
+          <img src="img/page/all-projects/project-card/image.jpg" alt="" class="project-card__image">
+        </div>
+        <!-- /.project-card__background -->
+      </div>
+      <!-- /.project-card -->
+
+      <div class="project-card">
+        <div class="project-card__content">
+          <div class="container">
+            <h2 class="page__title project-card__title">Брендирование авто <br> для KazanExpress</h2>
+            <button class="project-card__button button button-outline">Смотреть</button>
+          </div>
+          <!-- /.container -->
+        </div>
+        <!-- /.project-card__content -->
+
+        <div class="project-card__background">
+          <div style="background-color: #005C47;" class="project-card__fill"></div>
+          <img src="img/page/all-projects/project-card/background.png" alt="" class="project-card__pattern">
+          <img src="img/page/all-projects/project-card/image.jpg" alt="" class="project-card__image">
+        </div>
+        <!-- /.project-card__background -->
+      </div>
+      <!-- /.project-card -->
+
+      <div class="project-card">
+        <div class="project-card__content">
+          <div class="container">
+            <h2 class="page__title project-card__title">Брендирование авто <br> для KazanExpress</h2>
+            <button class="project-card__button button button-outline">Смотреть</button>
+          </div>
+          <!-- /.container -->
+        </div>
+        <!-- /.project-card__content -->
+
+        <div class="project-card__background">
+          <div style="background-color: #005C47;" class="project-card__fill"></div>
+          <img src="img/page/all-projects/project-card/background.png" alt="" class="project-card__pattern">
+          <img src="img/page/all-projects/project-card/image.jpg" alt="" class="project-card__image">
+        </div>
+        <!-- /.project-card__background -->
+      </div>
+      <!-- /.project-card -->
+    </div>
+    <!-- /.projects__wrapper -->
+
+    <div class="project__footer">
+      <div class="projects__marquee text-scrolling">
+        <div class="text-scrolling__content text-scrolling__content--image">
+          <img src="img/page/all-projects/projects/scrolling.png" alt="">
+          <img src="img/page/all-projects/projects/scrolling.png" alt="">
+        </div>
+        <!-- /.text-scrolling__content -->
+      </div>
+    </div>
+    <!-- /.project__footer -->
+
   </section>
 
   <?php include_once('partials/confidence.php') ?>

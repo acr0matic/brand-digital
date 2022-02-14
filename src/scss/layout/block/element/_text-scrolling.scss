@@ -4,7 +4,8 @@
 
   &__content {
     position: relative;
-    display: block;
+    display: flex;
+    align-items: center;
 
     animation: marquee 30s linear infinite alternate;
     white-space: nowrap;

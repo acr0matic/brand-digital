@@ -1,0 +1,11 @@
+#projects {
+  background-color: $palette-black;
+
+  padding-bottom: 70px;
+}
+
+.projects {
+  &__marquee {
+    margin-top: 70px;
+  }
+}

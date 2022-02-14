@@ -156,7 +156,7 @@
     margin-bottom: 20px;
 
     font-size: 128px;
-    font-weight: $weight-SemiBold;
+    font-weight: $weight-Medium;
 
     @include breakpoint($breakpoint-laptop--large) {
       font-size: 75px;

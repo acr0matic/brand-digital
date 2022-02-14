@@ -5,6 +5,8 @@
   background-repeat: no-repeat;
   background-size: cover;
 
+  overflow: hidden;
+
   @include breakpoint($breakpoint-tablet) {
     padding-top: 30px;
     padding-bottom: 50px;
