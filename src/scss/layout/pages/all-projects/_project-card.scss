@@ -10,6 +10,12 @@
     padding: 0;
   }
 
+  &--wide {
+    .project-card__image--mobile {
+      height: 180px;
+    }
+  }
+
   &:not(:last-child) {
     margin-bottom: 50px;
 
