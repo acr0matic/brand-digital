@@ -5,8 +5,17 @@
 
   padding: 75px 0;
 
+  @include breakpoint($breakpoint-tablet--large) {
+    flex-direction: column;
+    padding: 0;
+  }
+
   &:not(:last-child) {
     margin-bottom: 50px;
+
+    @include breakpoint($breakpoint-tablet--large) {
+      margin-bottom: 30px;
+    }
   }
 
   @media (hover: hover) {
@@ -21,6 +30,28 @@
     position: relative;
     z-index: 2;
     width: 100%;
+
+    @include breakpoint($breakpoint-tablet--large) {
+      z-index: 4;
+      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    }
+  }
+
+  &__content,
+  &__background {
+    @include breakpoint($breakpoint-tablet--large) {
+      height: 100px !important;
+    }
+  }
+
+  &__wrapper {
+    @include breakpoint($breakpoint-tablet--large) {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      padding: 25px 0;
+    }
   }
 
   &__title,
@@ -30,14 +61,24 @@
 
   &__title {
     margin-bottom: 20px;
+
+    @include breakpoint($breakpoint-tablet--large) {
+      margin-bottom: 0;
+      font-size: 16px;
+    }
   }
 
   &__button {
     border-color: $text-white;
+
+    @include breakpoint($breakpoint-mobile--large) {
+      font-size: 14px;
+    }
   }
 
   &__background,
   &__fill,
+  &__logo,
   &__pattern {
     position: absolute;
     width: 100%;
@@ -52,15 +93,29 @@
     background-color: $text-gray;
   }
 
-  &__pattern {
-    z-index: 1;
+  &__pattern,
+  &__logo {
     top: 0;
     left: 0;
+
+    object-fit: contain;
+  }
+
+  &__pattern {
+    z-index: 1;
+  }
+
+  &__logo {
+    z-index: 2;
+
+    @include breakpoint($breakpoint-tablet--large) {
+      display: none;
+    }
   }
 
   &__image {
     position: absolute;
-    z-index: 2;
+    z-index: 3;
     top: 0;
     right: 0;
 
@@ -72,5 +127,20 @@
     clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
     transform: translateX(100%);
     transition: 0.5s ease;
+
+    &--mobile {
+      display: none;
+
+      @include breakpoint($breakpoint-tablet--large) {
+        position: static;
+        display: block;
+
+        width: 100%;
+        height: 85px;
+
+        clip-path: none;
+        transform: none;
+      }
+    }
   }
 }

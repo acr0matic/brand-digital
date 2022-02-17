@@ -2,13 +2,33 @@
   background-color: $palette-black;
   padding-bottom: 85px;
 
+  @include breakpoint($breakpoint-tablet--large) {
+    padding-bottom: 30px;
+  }
+
   .hero__description {
     min-height: initial;
     margin-bottom: 60px;
+
+    @include breakpoint($breakpoint-tablet--large) {
+      display: block;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      br {
+        display: none;
+      }
+    }
   }
 
   .hero__cta {
     padding-top: 0;
+
+    @include breakpoint($breakpoint-tablet--large) {
+      display: none;
+    }
   }
 
   .hero__content {
@@ -19,6 +39,12 @@
   .hero__description {
     position: relative;
     z-index: 2;
+  }
+
+  .hero__title {
+    @include breakpoint($breakpoint-tablet--large) {
+      margin-bottom: 15px;
+    }
   }
 
   .hero__background {

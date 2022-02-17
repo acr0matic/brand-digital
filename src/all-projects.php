@@ -3,7 +3,7 @@
 <!-- Основной контент -->
 <main>
   <section data-hero id="project-hero">
-    <div data-hero class="hero hero--service">
+    <div data-hero class="hero">
       <div class="hero__row">
         <div class="container">
           <div class="hero__wrapper">
@@ -30,18 +30,6 @@
         <!-- /.container -->
       </div>
       <!-- /.hero__row -->
-
-      <div class="hero__row hero__row--white hero__row--mobile">
-        <div class="container">
-          <div class="hero__cta">
-            <a href="#promotions"><button class="button button--cta button-primary mb-3 mb-md-0 me-md-3">Наши акции</button></a>
-            <a style="text-align: center;" href="#portfolio--block"><button class="button button--cta button-outline">Портфолио</button></a>
-          </div>
-          <!-- /.hero__action -->
-        </div>
-        <!-- /.container -->
-      </div>
-      <!-- /.hero__row hero__row--white -->
     </div>
     <!-- /.hero -->
   </section>
@@ -51,8 +39,11 @@
       <div class="project-card">
         <div class="project-card__content">
           <div class="container">
-            <h2 class="page__title project-card__title">Брендирование авто <br> для KazanExpress</h2>
-            <button class="project-card__button button button-outline">Смотреть</button>
+            <div class="project-card__wrapper">
+              <h2 class="page__title project-card__title">Брендирование авто <br> для KazanExpress</h2>
+              <button class="project-card__button button button-outline">Смотреть</button>
+            </div>
+            <!-- /.project-card__wrapper -->
           </div>
           <!-- /.container -->
         </div>
@@ -61,17 +52,23 @@
         <div class="project-card__background">
           <div style="background-color: #005C47;" class="project-card__fill"></div>
           <img src="img/page/all-projects/project-card/background.png" alt="" class="project-card__pattern">
+          <img src="img/page/all-projects/project-card/logo.png" alt="" class="project-card__logo">
           <img src="img/page/all-projects/project-card/image.jpg" alt="" class="project-card__image">
         </div>
         <!-- /.project-card__background -->
+
+        <img src="img/page/all-projects/project-card/image.jpg" alt="" class="project-card__image project-card__image--mobile">
       </div>
       <!-- /.project-card -->
 
       <div class="project-card">
         <div class="project-card__content">
           <div class="container">
-            <h2 class="page__title project-card__title">Брендирование авто <br> для KazanExpress</h2>
-            <button class="project-card__button button button-outline">Смотреть</button>
+            <div class="project-card__wrapper">
+              <h2 class="page__title project-card__title">Брендирование авто <br> для KazanExpress</h2>
+              <button class="project-card__button button button-outline">Смотреть</button>
+            </div>
+            <!-- /.project-card__wrapper -->
           </div>
           <!-- /.container -->
         </div>
@@ -80,17 +77,23 @@
         <div class="project-card__background">
           <div style="background-color: #005C47;" class="project-card__fill"></div>
           <img src="img/page/all-projects/project-card/background.png" alt="" class="project-card__pattern">
+          <img src="img/page/all-projects/project-card/logo.png" alt="" class="project-card__logo">
           <img src="img/page/all-projects/project-card/image.jpg" alt="" class="project-card__image">
         </div>
         <!-- /.project-card__background -->
+
+        <img src="img/page/all-projects/project-card/image.jpg" alt="" class="project-card__image project-card__image--mobile">
       </div>
       <!-- /.project-card -->
 
       <div class="project-card">
         <div class="project-card__content">
           <div class="container">
-            <h2 class="page__title project-card__title">Брендирование авто <br> для KazanExpress</h2>
-            <button class="project-card__button button button-outline">Смотреть</button>
+            <div class="project-card__wrapper">
+              <h2 class="page__title project-card__title">Брендирование авто <br> для KazanExpress</h2>
+              <button class="project-card__button button button-outline">Смотреть</button>
+            </div>
+            <!-- /.project-card__wrapper -->
           </div>
           <!-- /.container -->
         </div>
@@ -99,9 +102,12 @@
         <div class="project-card__background">
           <div style="background-color: #005C47;" class="project-card__fill"></div>
           <img src="img/page/all-projects/project-card/background.png" alt="" class="project-card__pattern">
+          <img src="img/page/all-projects/project-card/logo.png" alt="" class="project-card__logo">
           <img src="img/page/all-projects/project-card/image.jpg" alt="" class="project-card__image">
         </div>
         <!-- /.project-card__background -->
+
+        <img src="img/page/all-projects/project-card/image.jpg" alt="" class="project-card__image project-card__image--mobile">
       </div>
       <!-- /.project-card -->
     </div>

@@ -2,10 +2,18 @@
   background-color: $palette-black;
 
   padding-bottom: 70px;
+
+  @include breakpoint($breakpoint-tablet--large) {
+    padding-bottom: 30px;
+  }
 }
 
 .projects {
   &__marquee {
     margin-top: 70px;
+
+    @include breakpoint($breakpoint-tablet--large) {
+      margin-top: 30px;
+    }
   }
 }
