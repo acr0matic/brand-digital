@@ -6,6 +6,15 @@
   @include breakpoint($breakpoint-tablet--large) {
     padding-bottom: 30px;
   }
+
+  .hero__cta--mobile {
+    display: none;
+    text-align: center;
+
+    @include breakpoint($breakpoint-tablet--large) {
+      display: block;
+    }
+  }
 }
 
 .projects {

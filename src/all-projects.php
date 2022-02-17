@@ -121,6 +121,12 @@
         </div>
         <!-- /.text-scrolling__content -->
       </div>
+
+      <div class="hero__cta hero__cta--mobile">
+        <button data-micromodal-trigger="modal-callback" class="button button-primary me-sm-3 mb-3">Начать проект</button>
+        <a style="text-align: center;" href="#portfolio--block"><button class="button button-outline button-outline--orange">Все работы</button></a>
+      </div>
+      <!-- /.hero__action -->
     </div>
     <!-- /.project__footer -->
 
