@@ -41,7 +41,7 @@
           <div class="container">
             <div class="project-card__wrapper">
               <h2 class="page__title project-card__title">Брендирование авто <br> для KazanExpress</h2>
-              <button class="project-card__button button button-outline">Смотреть</button>
+              <a href="" class="project-card__button button button-outline">Смотреть</a>
             </div>
             <!-- /.project-card__wrapper -->
           </div>

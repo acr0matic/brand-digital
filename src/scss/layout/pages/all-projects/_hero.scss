@@ -1,5 +1,6 @@
 #project-hero {
   background-color: $palette-black;
+  padding-top: 15px;
   padding-bottom: 85px;
 
   @include breakpoint($breakpoint-tablet--large) {
@@ -10,10 +11,14 @@
     min-height: initial;
     margin-bottom: 60px;
 
-    @include breakpoint($breakpoint-tablet--large) {
+    @include breakpoint($breakpoint-laptop--medium) {
       display: block;
-      margin-bottom: 0;
+      margin-bottom: 45px;
       padding-bottom: 0;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      margin-bottom: 0;
     }
 
     @include breakpoint($breakpoint-tablet) {
@@ -42,6 +47,8 @@
   }
 
   .hero__title {
+    margin-bottom: 35px;
+
     @include breakpoint($breakpoint-tablet--large) {
       margin-bottom: 15px;
     }
@@ -50,10 +57,10 @@
   .hero__background {
     position: absolute;
     z-index: 1;
-    top: 0;
+    top: -20px;
     left: 50%;
 
-    width: 100%;
+    width: 95vw;
 
     transform: translateX(-50%);
   }

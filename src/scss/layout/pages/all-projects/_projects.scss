@@ -1,7 +1,13 @@
 #projects {
+  overflow: hidden;
   background-color: $palette-black;
 
+  margin-bottom: -30px;
   padding-bottom: 70px;
+
+  @include breakpoint($breakpoint-laptop--medium) {
+    margin-bottom: -75px;
+  }
 
   @include breakpoint($breakpoint-tablet--large) {
     padding-bottom: 30px;
@@ -13,6 +19,10 @@
 
     @include breakpoint($breakpoint-tablet--large) {
       display: block;
+    }
+
+    .button-outline {
+      border-color: #ffffff;
     }
   }
 }
