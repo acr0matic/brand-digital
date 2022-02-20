@@ -194,8 +194,22 @@
                 </div>
                 <!-- /.dropdown__content -->
               </li>
+
               <li class="nav__item"><a href="price.php" class="nav__link link">ЦЕНЫ И АКЦИИ</a></li>
-              <li class="nav__item"><a href="portfolio.php" class="nav__link link">НАШИ РАБОТЫ</a></li>
+
+              <li class="nav__item dropdown">
+                <span class="dropdown__header nav__link link">
+                  НАШИ РАБОТЫ
+                  <img class="dropdown__icon" src="img/icons/control/arrow__dropdown.svg" alt="">
+                </span>
+
+                <div class="dropdown__content">
+                  <a class="dropdown__item dropdown__item--arrow" href="process-managment.php">Портфолио</a>
+                  <a class="dropdown__item" href="process-design.php">Проекты</a>
+                </div>
+                <!-- /.dropdown__content -->
+              </li>
+
               <li class="nav__item dropdown">
                 <span class="dropdown__header nav__link link">
                   НАШИ ПРОЦЕССЫ
@@ -311,7 +325,22 @@
         <nav class="mobile-menu__nav nav nav--mobile">
           <ul class="nav__list">
             <li class="nav__item"><a href="price.php" class="nav__link">Цены и акции</a></li>
-            <li class="nav__item"><a href="portfolio.php" class="nav__link">Наши работы</a></li>
+
+            <li class="nav__item mobile-dropdown">
+              <span class="nav__link">Наши работы</span>
+
+              <svg class="mobile-dropdown__arrow" width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.50879 0.918945L5.76914 5.1793L10.562 0.918945" stroke="black" stroke-width="2.13018" />
+              </svg>
+
+              <div class="mobile-menu__dropdown mobile-dropdown__wrapper">
+                <ul class="nav__list">
+                  <li class="nav__item"><a href="service.php" class="nav__link">Портфолио</a></li>
+                  <li class="nav__item"><a href="service.php" class="nav__link">Проекты</a></li>
+                </ul>
+              </div>
+              <!-- /.mobile-menu__dropdown -->
+            </li>
 
             <li class="nav__item mobile-dropdown">
               <span class="nav__link">Оклейка транспорта</span>
