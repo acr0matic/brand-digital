@@ -122,16 +122,16 @@
   &__logo {
     top: 0;
     left: 0;
-
-    object-fit: contain;
   }
 
   &__pattern {
     z-index: 1;
+    object-fit: cover;
   }
 
   &__logo {
     z-index: 2;
+    object-fit: contain;
     transition: 0.3s ease;
 
     @include breakpoint($breakpoint-tablet--large) {

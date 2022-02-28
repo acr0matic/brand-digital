@@ -147,6 +147,8 @@
     color: $text-white;
     transition: 0.2s ease;
 
+    pointer-events: none;
+
     @include breakpoint($breakpoint-tablet) {
       padding-left: 25px !important;
     }

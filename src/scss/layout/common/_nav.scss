@@ -7,10 +7,10 @@
         }
 
         &:not(:last-child) {
-          margin-right: 50px;
+          margin-right: 40px;
 
           @include breakpoint($breakpoint-laptop--large) {
-            margin-right: 25px;
+            margin-right: 20px;
           }
         }
       }
