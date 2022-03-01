@@ -1,0 +1,13 @@
+.process-slider--warranty {
+  overflow: initial;
+
+  @include breakpoint($breakpoint-mobile--large) {
+    overflow: hidden;
+    margin: -15px;
+    padding: 15px;
+  }
+
+  .swiper-slide {
+    height: initial;
+  }
+}

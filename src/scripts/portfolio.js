@@ -98,7 +98,7 @@ function InitPortfolio() {
           }
 
           if (portfolioModalSlider) portfolioModalSlider.update();
-          lightbox.reload();
+          refreshFsLightbox();
           lazyLoadInstance.update();
         });
       });

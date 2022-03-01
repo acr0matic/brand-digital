@@ -29,12 +29,6 @@ if (document.querySelector('.handorgel')) {
   var accordion = new handorgel(document.querySelector('.handorgel'));
 }
 
-const lightbox = GLightbox({
-  touchNavigation: true,
-  autoplayVideos: true,
-  openEffect: 'fade',
-});
-
 tippy('.input__warning[data-tippy-content]', {
   placement: 'right',
   allowHTML: true,

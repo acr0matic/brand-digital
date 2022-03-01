@@ -1,19 +1,12 @@
 .process-guarantee {
   .process-content.position-relative {
-    display: flex;
-    justify-content: space-between;
-
     @include breakpoint($breakpoint-tablet--large) {
       flex-direction: column;
     }
 
     .process-content__wrapper {
       position: relative;
-      width: 70%;
-
-      @include breakpoint($breakpoint-tablet--large) {
-        width: 100%;
-      }
+      width: 100%;
     }
 
     .process-content__title {
@@ -52,16 +45,6 @@
   }
 
   .process__content {
-    width: 90%;
-    margin: 0 auto;
-
-    @include breakpoint($breakpoint-laptop--large) {
-      width: 83%;
-    }
-
-    @include breakpoint($breakpoint-tablet--large) {
-      width: 100%;
-    }
   }
 
   .process-slider--feedback {
@@ -70,31 +53,16 @@
     }
   }
 
-  .swiper-slide {
-    width: 360px;
-    height: 510px;
-
-    @include breakpoint($breakpoint-laptop--large) {
-      width: 330px;
-      height: 450px;
-    }
-
-    @include breakpoint($breakpoint-tablet--large) {
-      width: 250px;
-      height: 370px;
-    }
-
-    @include breakpoint($breakpoint-tablet) {
-      width: 200px;
-      height: 320px;
-    }
-
-    @include breakpoint($breakpoint-mobile--medium) {
-      width: 180px;
-      height: 250px;
-    }
-  }
-
   .process-slide__picture {
+    position: relative;
+    transition: 0.2s ease;
+
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.25);
+
+    @media (hover: hover) {
+      &:hover {
+        opacity: 0.6;
+      }
+    }
   }
 }

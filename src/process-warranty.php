@@ -110,6 +110,217 @@
 
     <div class="container">
       <div class="process-content">
+        <h3 class="process-content__title">Рекомендации</h3>
+
+        <div class="process-content__wrapper">
+          <div class="process__content process-content">
+            <div class="process-content__slider process-slider process-slider--warranty swiper-container swiper-container--mobile">
+              <div class="swiper-wrapper row">
+                <div class="swiper-slide col-3 mb-4">
+                  <a href="img/page/process/warranty/slider/certificate.jpg" data-fslightbox="recomendation">
+                    <picture class="process-slide__picture">
+                      <img class="preloader preloader--center" src="img/misc/preloader.svg" alt="">
+                      <img class="cms-image lazy" data-src="img/page/process/warranty/slider/certificate.jpg" alt="">
+                    </picture>
+                  </a>
+                </div>
+                <!-- /.swiper-slide -->
+
+                <div class="swiper-slide col-3 mb-4">
+                  <a href="img/page/process/warranty/slider/certificate.jpg" data-fslightbox="recomendation">
+                    <picture class="process-slide__picture">
+                      <img class="preloader preloader--center" src="img/misc/preloader.svg" alt="">
+                      <img class="cms-image lazy" data-src="img/page/process/warranty/slider/certificate.jpg" alt="">
+                    </picture>
+                  </a>
+                </div>
+                <!-- /.swiper-slide -->
+
+                <div class="swiper-slide col-3 mb-4">
+                  <a href="img/page/process/warranty/slider/certificate.jpg" data-fslightbox="recomendation">
+                    <picture class="process-slide__picture">
+                      <img class="preloader preloader--center" src="img/misc/preloader.svg" alt="">
+                      <img class="cms-image lazy" data-src="img/page/process/warranty/slider/certificate.jpg" alt="">
+                    </picture>
+                  </a>
+                </div>
+                <!-- /.swiper-slide -->
+
+                <div class="swiper-slide col-3 mb-4">
+                  <a href="img/page/process/warranty/slider/certificate.jpg" data-fslightbox="recomendation">
+                    <picture class="process-slide__picture">
+                      <img class="preloader preloader--center" src="img/misc/preloader.svg" alt="">
+                      <img class="cms-image lazy" data-src="img/page/process/warranty/slider/certificate.jpg" alt="">
+                    </picture>
+                  </a>
+                </div>
+                <!-- /.swiper-slide -->
+
+                <div class="swiper-slide col-3">
+                  <a href="img/page/process/warranty/slider/certificate.jpg" data-fslightbox="recomendation">
+                    <picture class="process-slide__picture">
+                      <img class="preloader preloader--center" src="img/misc/preloader.svg" alt="">
+                      <img class="cms-image lazy" data-src="img/page/process/warranty/slider/certificate.jpg" alt="">
+                    </picture>
+                  </a>
+                </div>
+                <!-- /.swiper-slide -->
+
+                <div class="swiper-slide col-3">
+                  <a href="img/page/process/warranty/slider/certificate.jpg" data-fslightbox="recomendation">
+                    <picture class="process-slide__picture">
+                      <img class="preloader preloader--center" src="img/misc/preloader.svg" alt="">
+                      <img class="cms-image lazy" data-src="img/page/process/warranty/slider/certificate.jpg" alt="">
+                    </picture>
+                  </a>
+                </div>
+                <!-- /.swiper-slide -->
+
+                <div class="swiper-slide col-3">
+                  <a href="img/page/process/warranty/slider/certificate.jpg" data-fslightbox="recomendation">
+                    <picture class="process-slide__picture">
+                      <img class="preloader preloader--center" src="img/misc/preloader.svg" alt="">
+                      <img class="cms-image lazy" data-src="img/page/process/warranty/slider/certificate.jpg" alt="">
+                    </picture>
+                  </a>
+                </div>
+                <!-- /.swiper-slide -->
+
+                <div class="swiper-slide col-3">
+                  <a href="img/page/process/warranty/slider/certificate.jpg" data-fslightbox="recomendation">
+                    <picture class="process-slide__picture">
+                      <img class="preloader preloader--center" src="img/misc/preloader.svg" alt="">
+                      <img class="cms-image lazy" data-src="img/page/process/warranty/slider/certificate.jpg" alt="">
+                    </picture>
+                  </a>
+                </div>
+                <!-- /.swiper-slide -->
+              </div>
+              <!-- /.swiper-wrapper -->
+            </div>
+            <!-- /.process-content__wrapper -->
+          </div>
+          <!-- /.process__content -->
+        </div>
+        <!-- /.process-content__wrapper -->
+      </div>
+      <!-- /.process-content -->
+
+      <div class="process-content">
+        <h3 class="process-content__title">Сертификаты</h3>
+
+        <div class="process-content__wrapper">
+          <div class="process__content process-content">
+            <div class="process-content__slider process-slider process-slider--warranty swiper-container swiper-container--mobile">
+              <div class="swiper-wrapper row">
+                <div class="swiper-slide col-3">
+                  <a href="img/page/process/warranty/slider/certificate.jpg" data-fslightbox="certificate">
+                    <picture class="process-slide__picture">
+                      <img class="preloader preloader--center" src="img/misc/preloader.svg" alt="">
+                      <img class="cms-image lazy" data-src="img/page/process/warranty/slider/certificate.jpg" alt="">
+                    </picture>
+                  </a>
+                </div>
+                <!-- /.swiper-slide -->
+
+                <div class="swiper-slide col-3">
+                  <a href="img/page/process/warranty/slider/certificate.jpg" data-fslightbox="certificate">
+                    <picture class="process-slide__picture">
+                      <img class="preloader preloader--center" src="img/misc/preloader.svg" alt="">
+                      <img class="cms-image lazy" data-src="img/page/process/warranty/slider/certificate.jpg" alt="">
+                    </picture>
+                  </a>
+                </div>
+                <!-- /.swiper-slide -->
+
+                <div class="swiper-slide col-3">
+                  <a href="img/page/process/warranty/slider/certificate.jpg" data-fslightbox="certificate">
+                    <picture class="process-slide__picture">
+                      <img class="preloader preloader--center" src="img/misc/preloader.svg" alt="">
+                      <img class="cms-image lazy" data-src="img/page/process/warranty/slider/certificate.jpg" alt="">
+                    </picture>
+                  </a>
+                </div>
+                <!-- /.swiper-slide -->
+
+                <div class="swiper-slide col-3">
+                  <a href="img/page/process/warranty/slider/certificate.jpg" data-fslightbox="certificate">
+                    <picture class="process-slide__picture">
+                      <img class="preloader preloader--center" src="img/misc/preloader.svg" alt="">
+                      <img class="cms-image lazy" data-src="img/page/process/warranty/slider/certificate.jpg" alt="">
+                    </picture>
+                  </a>
+                </div>
+                <!-- /.swiper-slide -->
+              </div>
+              <!-- /.swiper-wrapper -->
+            </div>
+            <!-- /.process-content__wrapper -->
+          </div>
+          <!-- /.process__content -->
+        </div>
+        <!-- /.process-content__wrapper -->
+      </div>
+      <!-- /.process-content -->
+
+      <div class="process-content">
+        <h3 class="process-content__title">Отзывы</h3>
+
+        <div class="process-content__wrapper">
+          <div class="process__content process-content">
+            <div class="process-content__slider process-slider process-slider--warranty swiper-container swiper-container--mobile">
+              <div class="swiper-wrapper row">
+                <div class="swiper-slide col-3">
+                  <a href="img/page/process/warranty/slider/certificate.jpg" data-fslightbox="feedback">
+                    <picture class="process-slide__picture">
+                      <img class="preloader preloader--center" src="img/misc/preloader.svg" alt="">
+                      <img class="cms-image lazy" data-src="img/page/process/warranty/slider/certificate.jpg" alt="">
+                    </picture>
+                  </a>
+                </div>
+                <!-- /.swiper-slide -->
+
+                <div class="swiper-slide col-3">
+                  <a href="img/page/process/warranty/slider/certificate.jpg" data-fslightbox="feedback">
+                    <picture class="process-slide__picture">
+                      <img class="preloader preloader--center" src="img/misc/preloader.svg" alt="">
+                      <img class="cms-image lazy" data-src="img/page/process/warranty/slider/certificate.jpg" alt="">
+                    </picture>
+                  </a>
+                </div>
+                <!-- /.swiper-slide -->
+
+                <div class="swiper-slide col-3">
+                  <a href="img/page/process/warranty/slider/certificate.jpg" data-fslightbox="feedback">
+                    <picture class="process-slide__picture">
+                      <img class="preloader preloader--center" src="img/misc/preloader.svg" alt="">
+                      <img class="cms-image lazy" data-src="img/page/process/warranty/slider/certificate.jpg" alt="">
+                    </picture>
+                  </a>
+                </div>
+                <!-- /.swiper-slide -->
+
+                <div class="swiper-slide col-3">
+                  <a href="img/page/process/warranty/slider/certificate.jpg" data-fslightbox="feedback">
+                    <picture class="process-slide__picture">
+                      <img class="preloader preloader--center" src="img/misc/preloader.svg" alt="">
+                      <img class="cms-image lazy" data-src="img/page/process/warranty/slider/certificate.jpg" alt="">
+                    </picture>
+                  </a>
+                </div>
+                <!-- /.swiper-slide -->
+              </div>
+              <!-- /.swiper-wrapper -->
+            </div>
+            <!-- /.process-content__wrapper -->
+          </div>
+          <!-- /.process__content -->
+        </div>
+        <!-- /.process-content__wrapper -->
+      </div>
+      <!-- /.process-content -->
+
+      <div class="process-content">
         <h3 class="process-content__title">Мы даём гарантию на все наши услуги</h3>
 
         <div class="process-content__wrapper">
@@ -149,128 +360,8 @@
       </div>
       <!-- /.process-content -->
 
-      <div class="process-content position-relative">
-        <h3 class="process-content__title">Сертификаты</h3>
-
-        <div class="process-content__wrapper">
-          <div class="process-slider-controls process-slider-controls--common process-slider-controls--certificates">
-            <div class="swiper-button-prev process-slider-prev process-slider-prev--orange"></div>
-            <div class="swiper-button-next process-slider-next process-slider-next--orange"></div>
-          </div>
-          <!-- /.process-slider-controls -->
-
-          <div class="process__content process-content align-items-center">
-            <div class="process-content__slider process-slider process-slider--certificates swiper-container">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <a href="img/page/process/warranty/slider/certificate.jpg" class="glightbox" data-gallery="certificate">
-                    <picture class="process-slide__picture">
-                      <img class="cms-image" src="img/page/process/warranty/slider/certificate.jpg" alt="">
-                    </picture>
-                  </a>
-                </div>
-                <!-- /.swiper-slide -->
-
-                <div class="swiper-slide">
-                  <a href="img/page/process/warranty/slider/certificate.jpg" class="glightbox" data-gallery="certificate">
-                    <picture class="process-slide__picture">
-                      <img class="cms-image" src="img/page/process/warranty/slider/certificate.jpg" alt="">
-                    </picture>
-                  </a>
-                </div>
-                <!-- /.swiper-slide -->
-
-                <div class="swiper-slide">
-                  <a href="img/page/process/warranty/slider/certificate.jpg" class="glightbox" data-gallery="certificate">
-                    <picture class="process-slide__picture">
-                      <img class="cms-image" src="img/page/process/warranty/slider/certificate.jpg" alt="">
-                    </picture>
-                  </a>
-                </div>
-                <!-- /.swiper-slide -->
-
-                <div class="swiper-slide">
-                  <a href="img/page/process/warranty/slider/certificate.jpg" class="glightbox" data-gallery="certificate">
-                    <picture class="process-slide__picture">
-                      <img class="cms-image" src="img/page/process/warranty/slider/certificate.jpg" alt="">
-                    </picture>
-                  </a>
-                </div>
-                <!-- /.swiper-slide -->
-              </div>
-              <!-- /.swiper-wrapper -->
-            </div>
-            <!-- /.process-content__wrapper -->
-          </div>
-          <!-- /.process__content -->
-        </div>
-        <!-- /.process-content__wrapper -->
-      </div>
-      <!-- /.process-content -->
-
-      <div class="process-content position-relative">
-        <h3 class="process-content__title">Отзывы</h3>
-
-        <div class="process-content__wrapper">
-          <div class="process-slider-controls process-slider-controls--common process-slider-controls--feedback">
-            <div class="swiper-button-prev process-slider-prev process-slider-prev--orange"></div>
-            <div class="swiper-button-next process-slider-next process-slider-next--orange"></div>
-          </div>
-          <!-- /.process-slider-controls -->
-
-          <div class="process__content process-content align-items-center">
-            <div class="process-content__slider process-slider process-slider--feedback swiper-container">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <a href="img/page/process/warranty/slider/feedback.jpg" class="glightbox" data-gallery="feedback">
-                    <picture class="process-slide__picture">
-                      <img class="cms-image" src="img/page/process/warranty/slider/feedback.jpg" alt="">
-                    </picture>
-                  </a>
-                </div>
-                <!-- /.swiper-slide -->
-
-                <div class="swiper-slide">
-                  <a href="img/page/process/warranty/slider/feedback.jpg" class="glightbox" data-gallery="feedback">
-                    <picture class="process-slide__picture">
-                      <img class="cms-image" src="img/page/process/warranty/slider/feedback.jpg" alt="">
-                    </picture>
-                  </a>
-                </div>
-                <!-- /.swiper-slide -->
-
-                <div class="swiper-slide">
-                  <a href="img/page/process/warranty/slider/feedback.jpg" class="glightbox" data-gallery="feedback">
-                    <picture class="process-slide__picture">
-                      <img class="cms-image" src="img/page/process/warranty/slider/feedback.jpg" alt="">
-                    </picture>
-                  </a>
-                </div>
-                <!-- /.swiper-slide -->
-
-                <div class="swiper-slide">
-                  <a href="img/page/process/warranty/slider/feedback.jpg" class="glightbox" data-gallery="feedback">
-                    <picture class="process-slide__picture">
-                      <img class="cms-image" src="img/page/process/warranty/slider/feedback.jpg" alt="">
-                    </picture>
-                  </a>
-                </div>
-                <!-- /.swiper-slide -->
-              </div>
-              <!-- /.swiper-wrapper -->
-            </div>
-            <!-- /.process-content__wrapper -->
-          </div>
-          <!-- /.process__content -->
-        </div>
-        <!-- /.process-content__wrapper -->
-      </div>
-      <!-- /.process-content -->
-
       <button data-micromodal-trigger="modal-callback" class="process-content__button button button-primary">Начнём проект</button>
       <button class="process-content__button process-content__button--hidden button button-outline">Портфолио</button>
-    </div>
-    <!-- /.process__content -->
     </div>
     <!-- /.container -->
   </section>

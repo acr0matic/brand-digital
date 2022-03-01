@@ -293,27 +293,16 @@ const processSliderSmall = new Swiper('.process-slider--small', {
   },
 });
 
-const processCertificates = new Swiper('.process-slider--certificates', {
-  speed: 500,
-  spaceBetween: 30,
-  slidesPerView: 'auto',
-
-  navigation: {
-    nextEl: '.process-slider-controls--certificates .process-slider-next--orange',
-    prevEl: '.process-slider-controls--certificates .process-slider-prev--orange',
-  },
-});
-
-const processFeedback = new Swiper('.process-slider--feedback', {
-  speed: 500,
-  spaceBetween: 30,
-  slidesPerView: 'auto',
-
-  navigation: {
-    nextEl: '.process-slider-controls--feedback .process-slider-next--orange',
-    prevEl: '.process-slider-controls--feedback .process-slider-prev--orange',
-  },
-});
+if (window.matchMedia('(max-width: 991px)').matches) {
+  const warantySlider = document.querySelectorAll('.process-slider--warranty');
+  warantySlider.forEach(slider => {
+    new Swiper(slider, {
+      speed: 500,
+      slidesPerView: 'auto',
+      spaceBetween: 15,
+    });
+  });
+}
 
 const assemblySlider = new Swiper('.assembly-slider', {
   loop: true,

@@ -341,7 +341,7 @@
 <script src="scripts/libraries/micromodal.js"></script>
 <script src="scripts/libraries/smoothScroll.js"></script>
 <script src="scripts/libraries/handorgel.js"></script>
-<script src="scripts/libraries/glightbox.min.js"></script>
+<script src="scripts/libraries/fslightbox.js"></script>
 <script src="scripts/libraries/popper.js"></script>
 <script src="scripts/libraries/tippy.js"></script>
 <script src="scripts/libraries/countUp.min.js"></script>
