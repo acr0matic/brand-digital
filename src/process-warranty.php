@@ -108,7 +108,9 @@
     </div>
     <!-- /.container -->
 
-    <div class="container">
+    <div class="container position-relative">
+      <div id="recommendation" class="process__anchor"></div>
+
       <div class="process-content">
         <h3 class="process-content__title">Рекомендации</h3>
 

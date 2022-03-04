@@ -1,4 +1,8 @@
 .process-guarantee {
+  .process__anchor {
+    top: -95px;
+  }
+
   .process-content.position-relative {
     @include breakpoint($breakpoint-tablet--large) {
       flex-direction: column;
@@ -55,9 +59,10 @@
 
   .process-slide__picture {
     position: relative;
-    transition: 0.2s ease;
+    border: 1px solid #7e7e7e;
 
-    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.15);
+    transition: 0.2s ease;
 
     @media (hover: hover) {
       &:hover {

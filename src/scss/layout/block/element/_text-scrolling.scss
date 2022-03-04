@@ -14,7 +14,7 @@
     font-weight: $weight-SemiBold;
 
     &--reverse {
-      animation-direction: reverse;
+      animation-direction: alternate-reverse;
     }
 
     &--large {

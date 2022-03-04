@@ -59,16 +59,6 @@
                 <!-- /.contact__item -->
 
                 <div class="contact__item">
-                  <div class="contact__name">
-                    По всем вопросам:
-                  </div>
-                  <!-- /.contact__name -->
-
-                  <a href="mailto:" class="contact__email link link--orange"><strong>info@branddigital.ru</strong></a>
-                </div>
-                <!-- /.contact__item -->
-
-                <div class="contact__item">
                   <div class="contact__role">
                     Директор
                   </div>
@@ -84,16 +74,6 @@
                 <!-- /.contact__item -->
 
                 <div class="contact__item">
-                  <div class="contact__name">
-                    Телефон горячей линии
-                  </div>
-                  <!-- /.contact__name -->
-
-                  <a href="" class="contact__phone link link--orange"><strong>+7 930 819-18-83</strong></a>
-                </div>
-                <!-- /.contact__item -->
-
-                <div class="contact__item">
                   <div class="contact__role">
                     Маркетинг
                   </div>
@@ -105,6 +85,26 @@
                   <!-- /.contact__name -->
 
                   <a href="" class="contact__phone link link--orange">+7 930 819-18-83</a>
+                </div>
+                <!-- /.contact__item -->
+
+                <div class="contact__item">
+                  <div class="contact__name">
+                    По всем вопросам:
+                  </div>
+                  <!-- /.contact__name -->
+
+                  <a href="mailto:" class="contact__email link link--orange"><strong>info@branddigital.ru</strong></a>
+                </div>
+                <!-- /.contact__item -->
+
+                <div class="contact__item">
+                  <div class="contact__name">
+                    Телефон горячей линии
+                  </div>
+                  <!-- /.contact__name -->
+
+                  <a href="" class="contact__phone link link--orange"><strong>+7 930 819-18-83</strong></a>
                 </div>
                 <!-- /.contact__item -->
               </div>
