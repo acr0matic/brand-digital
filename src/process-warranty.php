@@ -89,8 +89,10 @@
   </section>
 
   <section id="process" class="process process-guarantee">
-    <div class="container">
+    <div class="container position-relative">
       <div class="process__heading process-heading process-heading--underline">
+        <div id="recommendation" class="process__anchor"></div>
+
         <div class="row">
           <div class="col-12 col-lg-6">
             <h2 class="process-heading__title section__title">Гарантия и сертификаты</h2>
@@ -108,9 +110,7 @@
     </div>
     <!-- /.container -->
 
-    <div class="container position-relative">
-      <div id="recommendation" class="process__anchor"></div>
-
+    <div class="container">
       <div class="process-content">
         <h3 class="process-content__title">Рекомендации</h3>
 

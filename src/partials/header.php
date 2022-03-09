@@ -206,6 +206,7 @@
                 <div class="dropdown__content">
                   <a class="dropdown__item dropdown__item--arrow" href="process-managment.php">Портфолио</a>
                   <a class="dropdown__item" href="process-design.php">Проекты</a>
+                  <a class="dropdown__item" href="process-design.php">Рекомендации</a>
                 </div>
                 <!-- /.dropdown__content -->
               </li>
@@ -337,6 +338,7 @@
                 <ul class="nav__list">
                   <li class="nav__item"><a href="service.php" class="nav__link">Портфолио</a></li>
                   <li class="nav__item"><a href="service.php" class="nav__link">Проекты</a></li>
+                  <li class="nav__item"><a href="service.php" class="nav__link">Рекомендации</a></li>
                 </ul>
               </div>
               <!-- /.mobile-menu__dropdown -->

@@ -1,6 +1,10 @@
 .process-guarantee {
   .process__anchor {
-    top: -95px;
+    top: -125px;
+
+    @include breakpoint($breakpoint-mobile--large) {
+      top: -90px;
+    }
   }
 
   .process-content.position-relative {
