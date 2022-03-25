@@ -313,6 +313,8 @@
 
   <?php include_once('partials/confidence.php') ?>
 
+  <?php include_once('partials/seo-block.php') ?>
+
   <?php include_once('partials/portfolio.php') ?>
 
   <section id="advantages" class="section">

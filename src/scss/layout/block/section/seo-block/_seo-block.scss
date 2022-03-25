@@ -1,0 +1,140 @@
+#seo-block {
+}
+
+.seo-block {
+  &__title {
+    margin-bottom: 45px;
+    font-size: $font-headline-3;
+
+    @include breakpoint($breakpoint-mobile--large) {
+      margin-bottom: 20px;
+      font-size: 22px;
+    }
+  }
+
+  &__content {
+    h3 {
+      font-weight: $weight-Regular;
+      font-size: $font-headline-3 - 2;
+
+      @include breakpoint($breakpoint-laptop--large) {
+        font-size: 24px;
+      }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        font-size: 20px;
+      }
+    }
+
+    p,
+    ul,
+    ol {
+      font-size: $font-text;
+
+      @include breakpoint($breakpoint-laptop--large) {
+        font-size: $font-text - 4;
+      }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        font-size: 16px;
+      }
+    }
+
+    ul,
+    ol {
+      padding-left: 60px;
+
+      @include breakpoint($breakpoint-mobile--large) {
+        padding-left: 20px;
+      }
+    }
+
+    li {
+      &:not(:last-child) {
+        margin-bottom: 5px;
+      }
+    }
+
+    ul {
+      list-style-type: disc;
+    }
+  }
+
+  &__side {
+    position: sticky;
+    top: 110px;
+
+    @include breakpoint($breakpoint-mobile--large) {
+      position: static;
+    }
+  }
+
+  &__image {
+    width: 100%;
+    margin-bottom: 35px;
+
+    @include breakpoint($breakpoint-mobile--large) {
+      margin-bottom: 20px;
+    }
+  }
+
+  &__link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    margin-bottom: 35px;
+
+    font-size: $font-text;
+    color: #888888;
+
+    transition: 0.2s ease;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      font-size: $font-text - 4;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      margin-bottom: 20px;
+    }
+
+    @media (hover: hover) {
+      &:hover {
+        color: $text-orange;
+
+        rect {
+          fill: $text-orange;
+        }
+
+        path {
+          stroke: $text-orange;
+        }
+      }
+    }
+  }
+
+  &__icon {
+    width: 32px;
+    height: 32px;
+
+    margin-left: 15px;
+
+    rect,
+    path {
+      transition: 0.2s ease;
+    }
+
+    @include breakpoint($breakpoint-laptop--large) {
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  &__text {
+    font-size: $font-text;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      font-size: $font-text - 4;
+    }
+  }
+}
