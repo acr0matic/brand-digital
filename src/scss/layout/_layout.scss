@@ -2,15 +2,15 @@
 // Соединяем все фрагменты разметки в один файл
 // -----------------------------------------------------------------------------
 
+// Фрагметы блоков
+@import "block/main";
+
 // Общие фрагметы, которые встречаются на всех страницах
 @import "common/header";
 @import "common/nav";
 @import "common/footer";
 @import "common/sidemenu";
 @import "common/mobile-menu";
-
-// Фрагметы блоков
-@import "block/main";
 
 // Фрагметы главной страницы
 @import "pages/main/hero/main.scss";

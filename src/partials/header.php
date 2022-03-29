@@ -283,9 +283,8 @@
         </nav>
 
         <div class="side-menu__social social">
-          <a href="" class="side-menu__link social__link"><img src="img/icons/social/instagram.svg" alt="" class="side-menu__icon"></a>
-          <a href="" class="side-menu__link social__link"><img src="img/icons/social/facebook.svg" alt="" class="side-menu__icon"></a>
           <a href="" class="side-menu__link social__link"><img src="img/icons/social/mail.svg" alt="" class="side-menu__icon"></a>
+          <a href="" class="side-menu__link social__link"><img src="img/icons/social/pinterest.svg" alt="" class="side-menu__icon"></a>
           <a href="" class="side-menu__link social__link"><img src="img/icons/social/pinterest.svg" alt="" class="side-menu__icon"></a>
         </div>
         <!-- /.side-menu__social -->

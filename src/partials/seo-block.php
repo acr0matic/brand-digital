@@ -1,8 +1,29 @@
 <section id="seo-block" class="section">
   <div class="container">
     <div class="seo-block">
-      <div class="row flex-column-reverse flex-lg-row">
-        <div class="col-12 col-lg-7 pe-5">
+      <div class="row">
+        <div class="col-12 col-lg-5 mb-5 mb-lg-0 pe-5">
+          <div class="seo-block__side">
+            <img src="img/section/seo-block/image.jpg" alt="" class="seo-block__image">
+            <a href="" class="seo-block__link" download>
+              <span>Скачать полное портфолио PDF</span>
+              <svg class="seo-block__icon" width="38" height="33" viewBox="0 0 38 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="18" y="7" width="3" height="25" rx="1.5" fill="#888888" />
+                <rect width="2.72638" height="12.2601" rx="1.36319" transform="matrix(0.752808 0.65824 -0.749352 0.662172 26.8086 23.0872)" fill="#888888" />
+                <rect width="2.72638" height="12.2601" rx="1.36319" transform="matrix(-0.752808 0.65824 0.749352 0.662172 12.3223 23.0872)" fill="#888888" />
+                <path d="M2 8.42788V2H36V8.42788" stroke="#888888" stroke-width="3" stroke-linecap="round" />
+              </svg>
+            </a>
+
+            <div class="seo-block__content">
+              <p><strong>Брендирование / брендинг</strong> - процесс создания новог или изменения существуюего образа компании. Визуальный стиль, слова, основной посыл в рекламных сообщениях и многое другое.</p>
+            </div>
+          </div>
+          <!-- /.seo__side -->
+        </div>
+        <!-- /.col-5 -->
+
+        <div class="col-12 col-lg-7">
           <h2 class="seo-block__title">
             Brand&Digital - мы занимаемся оформлением
             бизнеса
@@ -15,11 +36,11 @@
             <br>
             <p>Реализуем задачи корпоративного и продуктового брендинга. Основой работы выступает разработка миссии, ценностей, на этом стоится имидж компании и бренд в целом. </p>
             <br>
-            <h3>Зачем компании нужно брендирование?</h3>
+            <h4>Зачем компании нужно брендирование?</h4>
             <br>
             <p>Правильное позиционирование себя на рынке, современное и актуальное - позваляет громко и понятно рассказать о том, кто вы и чем занимаетесь. Самое главное быть услышанными.</p>
             <br>
-            <h3> Какие аспекты брендирования охватывает компания B&D:</h3>
+            <h6> Какие аспекты брендирования охватывает компания B&D:</h6>
             <br>
             <ul>
               <li>Создание дизайна / визуального стиля / айдентики;</li>
@@ -32,25 +53,6 @@
           <!-- /.seo-block__content -->
         </div>
         <!-- /.col-6 -->
-
-        <div class="col-12 col-lg-5 mb-5 mb-lg-0">
-          <div class="seo-block__side">
-            <img src="img/section/seo-block/image.jpg" alt="" class="seo-block__image">
-            <a class="seo-block__link" href="">
-              Скачать полное портфолио PDF
-              <svg class="seo-block__icon" width="38" height="33" viewBox="0 0 38 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect x="18" y="7" width="3" height="25" rx="1.5" fill="#888888" />
-                <rect width="2.72638" height="12.2601" rx="1.36319" transform="matrix(0.752808 0.65824 -0.749352 0.662172 26.8086 23.0872)" fill="#888888" />
-                <rect width="2.72638" height="12.2601" rx="1.36319" transform="matrix(-0.752808 0.65824 0.749352 0.662172 12.3223 23.0872)" fill="#888888" />
-                <path d="M2 8.42788V2H36V8.42788" stroke="#888888" stroke-width="3" stroke-linecap="round" />
-              </svg>
-            </a>
-
-            <p class="seo-block__text"><strong>Брендирование / брендинг</strong> - процесс создания нового или изменения существуюего образа компании. Визуальный стиль, слова, основной посыл в рекламных сообщениях и многое другое.</p>
-          </div>
-          <!-- /.seo__side -->
-        </div>
-        <!-- /.col-5 offset-1 -->
       </div>
       <!-- /.row -->
     </div>

@@ -83,7 +83,14 @@
   }
 
   &__social {
+    justify-content: flex-end;
     margin-top: 50px;
+
+    .social__link {
+      &:not(:last-child) {
+        margin-right: 65px;
+      }
+    }
   }
 
   &__icon {
@@ -113,7 +120,7 @@
 
   &__tooltip {
     position: absolute;
-    top: 22%;
+    top: 40%;
     left: 20.5%;
 
     background-color: $palette-orange;
@@ -123,6 +130,10 @@
 
     border-radius: 3px;
     font-size: 20px;
+
+    @include breakpoint(max-height 800px) {
+      top: 35%;
+    }
 
     @include breakpoint(max-height 680px) {
       display: none;
