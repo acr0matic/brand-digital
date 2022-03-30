@@ -369,6 +369,354 @@
           </div>
           <!-- /.swiper-slide -->
 
+          <div data-title="Тенты" class="swiper-slide">
+            <div class="swiper-container portfolio__items portfolio-slider-items">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="portfolio__item portfolio-item">
+                    <picture class="portfolio-item__picture">
+                      <source srcset="img/portfolio/full.webp" type="image/webp">
+                      <img class="portfolio-item__image cms-image" src="img/portfolio/full.jpg" alt="">
+                    </picture>
+                    <!-- /.portfolio-item__picture -->
+
+                    <div class="portfolio-item__content">
+                      <h3 class="portfolio-item__title">
+                        Название проекта
+                      </h3>
+
+                      <p class="portfolio-item__description">
+                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
+                      </p>
+
+                      <ul class="list list--feature portfolio-item__list">
+                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                      </ul>
+                    </div>
+                    <!-- /.portfolio-item__content -->
+                  </div>
+                  <!-- /.portfolio__item portfolio-item -->
+                </div>
+                <!-- /.swiper-slide -->
+
+                <div class="swiper-slide">
+                  <div class="portfolio__item portfolio-item">
+                    <picture class="portfolio-item__picture">
+                      <source srcset="img/portfolio/full.webp" type="image/webp">
+                      <img class="portfolio-item__image cms-image" src="img/portfolio/full.jpg" alt="">
+                    </picture>
+                    <!-- /.portfolio-item__picture -->
+
+                    <div class="portfolio-item__content">
+                      <h3 class="portfolio-item__title">
+                        Название проекта
+                      </h3>
+
+                      <p class="portfolio-item__description">
+                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
+                      </p>
+
+                      <ul class="list list--feature portfolio-item__list">
+                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                      </ul>
+                    </div>
+                    <!-- /.portfolio-item__content -->
+                  </div>
+                  <!-- /.portfolio__item portfolio-item -->
+                </div>
+                <!-- /.swiper-slide -->
+
+                <div class="swiper-slide">
+                  <div class="portfolio__item portfolio-item">
+                    <picture class="portfolio-item__picture">
+                      <source srcset="img/portfolio/full.webp" type="image/webp">
+                      <img class="portfolio-item__image cms-image" src="img/portfolio/full.jpg" alt="">
+                    </picture>
+                    <!-- /.portfolio-item__picture -->
+
+                    <div class="portfolio-item__content">
+                      <h3 class="portfolio-item__title">
+                        Название проекта
+                      </h3>
+
+                      <p class="portfolio-item__description">
+                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
+                      </p>
+
+                      <ul class="list list--feature portfolio-item__list">
+                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                      </ul>
+                    </div>
+                    <!-- /.portfolio-item__content -->
+                  </div>
+                  <!-- /.portfolio__item portfolio-item -->
+                </div>
+                <!-- /.swiper-slide -->
+
+                <div class="swiper-slide">
+                  <div class="portfolio__item portfolio-item">
+                    <picture class="portfolio-item__picture">
+                      <source srcset="img/portfolio/full.webp" type="image/webp">
+                      <img class="portfolio-item__image cms-image" src="img/portfolio/full.jpg" alt="">
+                    </picture>
+                    <!-- /.portfolio-item__picture -->
+
+                    <div class="portfolio-item__content">
+                      <h3 class="portfolio-item__title">
+                        Название проекта
+                      </h3>
+
+                      <p class="portfolio-item__description">
+                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
+                      </p>
+
+                      <ul class="list list--feature portfolio-item__list">
+                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                      </ul>
+                    </div>
+                    <!-- /.portfolio-item__content -->
+                  </div>
+                  <!-- /.portfolio__item portfolio-item -->
+                </div>
+                <!-- /.swiper-slide -->
+
+                <div class="swiper-slide">
+                  <div class="portfolio__item portfolio-item">
+                    <picture class="portfolio-item__picture">
+                      <source srcset="img/portfolio/full.webp" type="image/webp">
+                      <img class="portfolio-item__image cms-image" src="img/portfolio/full.jpg" alt="">
+                    </picture>
+                    <!-- /.portfolio-item__picture -->
+
+                    <div class="portfolio-item__content">
+                      <h3 class="portfolio-item__title">
+                        Название проекта
+                      </h3>
+
+                      <p class="portfolio-item__description">
+                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
+                      </p>
+
+                      <ul class="list list--feature portfolio-item__list">
+                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                      </ul>
+                    </div>
+                    <!-- /.portfolio-item__content -->
+                  </div>
+                  <!-- /.portfolio__item portfolio-item -->
+                </div>
+                <!-- /.swiper-slide -->
+
+                <div class="swiper-slide">
+                  <div class="portfolio__item portfolio-item">
+                    <picture class="portfolio-item__picture">
+                      <source srcset="img/portfolio/full.webp" type="image/webp">
+                      <img class="portfolio-item__image cms-image" src="img/portfolio/full.jpg" alt="">
+                    </picture>
+                    <!-- /.portfolio-item__picture -->
+
+                    <div class="portfolio-item__content">
+                      <h3 class="portfolio-item__title">
+                        Название проекта
+                      </h3>
+
+                      <p class="portfolio-item__description">
+                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
+                      </p>
+
+                      <ul class="list list--feature portfolio-item__list">
+                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                      </ul>
+                    </div>
+                    <!-- /.portfolio-item__content -->
+                  </div>
+                  <!-- /.portfolio__item portfolio-item -->
+                </div>
+                <!-- /.swiper-slide -->
+
+                <div class="swiper-slide">
+                  <div class="portfolio__item portfolio-item">
+                    <picture class="portfolio-item__picture">
+                      <source srcset="img/portfolio/full.webp" type="image/webp">
+                      <img class="portfolio-item__image cms-image" src="img/portfolio/full.jpg" alt="">
+                    </picture>
+                    <!-- /.portfolio-item__picture -->
+
+                    <div class="portfolio-item__content">
+                      <h3 class="portfolio-item__title">
+                        Название проекта
+                      </h3>
+
+                      <p class="portfolio-item__description">
+                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
+                      </p>
+
+                      <ul class="list list--feature portfolio-item__list">
+                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                      </ul>
+                    </div>
+                    <!-- /.portfolio-item__content -->
+                  </div>
+                  <!-- /.portfolio__item portfolio-item -->
+                </div>
+                <!-- /.swiper-slide -->
+              </div>
+              <!-- /.swiper-wrapper -->
+
+              <div class="swiper-button-prev portfolio-slider-prev"></div>
+              <div class="swiper-button-next portfolio-slider-next"></div>
+            </div>
+            <!-- /.swiper-container portfolio-slider-main -->
+
+            <div class="swiper-container portfolio__thumbs portfolio-slider-thumb">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="portfolio__thumb portfolio-thumb portfolio-thumb--active">
+                    <picture class="portfolio-thumb__picture">
+                      <source srcset="img/portfolio/thumb.webp" type="image/webp">
+                      <img class="portfolio-thumb__image cms-image" src="img/portfolio/thumb.jpg" alt="">
+                    </picture>
+                    <!-- /.portfolio-item__picture -->
+
+                    <div class="portfolio-thumb__content">
+                      <h4 class="portfolio-thumb__title">Название проекта</h4>
+                      <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
+                    </div>
+                    <!-- /.portfolio-thumb__content -->
+                  </div>
+                  <!-- /.portfolio__item portfolio-thumb -->
+                </div>
+                <!-- /.swiper-slide -->
+
+                <div class="swiper-slide">
+                  <div class="portfolio__thumb portfolio-thumb portfolio-thumb--active">
+                    <picture class="portfolio-thumb__picture">
+                      <source srcset="img/portfolio/thumb.webp" type="image/webp">
+                      <img class="portfolio-thumb__image cms-image" src="img/portfolio/thumb.jpg" alt="">
+                    </picture>
+                    <!-- /.portfolio-item__picture -->
+
+                    <div class="portfolio-thumb__content">
+                      <h4 class="portfolio-thumb__title">Название проекта</h4>
+                      <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
+                    </div>
+                    <!-- /.portfolio-thumb__content -->
+                  </div>
+                  <!-- /.portfolio__item portfolio-thumb -->
+                </div>
+                <!-- /.swiper-slide -->
+
+                <div class="swiper-slide">
+                  <div class="portfolio__thumb portfolio-thumb portfolio-thumb--active">
+                    <picture class="portfolio-thumb__picture">
+                      <source srcset="img/portfolio/thumb.webp" type="image/webp">
+                      <img class="portfolio-thumb__image cms-image" src="img/portfolio/thumb.jpg" alt="">
+                    </picture>
+                    <!-- /.portfolio-item__picture -->
+
+                    <div class="portfolio-thumb__content">
+                      <h4 class="portfolio-thumb__title">Название проекта</h4>
+                      <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
+                    </div>
+                    <!-- /.portfolio-thumb__content -->
+                  </div>
+                  <!-- /.portfolio__item portfolio-thumb -->
+                </div>
+                <!-- /.swiper-slide -->
+
+                <div class="swiper-slide">
+                  <div class="portfolio__thumb portfolio-thumb portfolio-thumb--active">
+                    <picture class="portfolio-thumb__picture">
+                      <source srcset="img/portfolio/thumb.webp" type="image/webp">
+                      <img class="portfolio-thumb__image cms-image" src="img/portfolio/thumb.jpg" alt="">
+                    </picture>
+                    <!-- /.portfolio-item__picture -->
+
+                    <div class="portfolio-thumb__content">
+                      <h4 class="portfolio-thumb__title">Название проекта</h4>
+                      <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
+                    </div>
+                    <!-- /.portfolio-thumb__content -->
+                  </div>
+                  <!-- /.portfolio__item portfolio-thumb -->
+                </div>
+                <!-- /.swiper-slide -->
+
+                <div class="swiper-slide">
+                  <div class="portfolio__thumb portfolio-thumb portfolio-thumb--active">
+                    <picture class="portfolio-thumb__picture">
+                      <source srcset="img/portfolio/thumb.webp" type="image/webp">
+                      <img class="portfolio-thumb__image cms-image" src="img/portfolio/thumb.jpg" alt="">
+                    </picture>
+                    <!-- /.portfolio-item__picture -->
+
+                    <div class="portfolio-thumb__content">
+                      <h4 class="portfolio-thumb__title">Название проекта</h4>
+                      <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
+                    </div>
+                    <!-- /.portfolio-thumb__content -->
+                  </div>
+                  <!-- /.portfolio__item portfolio-thumb -->
+                </div>
+                <!-- /.swiper-slide -->
+
+                <div class="swiper-slide">
+                  <div class="portfolio__thumb portfolio-thumb portfolio-thumb--active">
+                    <picture class="portfolio-thumb__picture">
+                      <source srcset="img/portfolio/thumb.webp" type="image/webp">
+                      <img class="portfolio-thumb__image cms-image" src="img/portfolio/thumb.jpg" alt="">
+                    </picture>
+                    <!-- /.portfolio-item__picture -->
+
+                    <div class="portfolio-thumb__content">
+                      <h4 class="portfolio-thumb__title">Название проекта</h4>
+                      <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
+                    </div>
+                    <!-- /.portfolio-thumb__content -->
+                  </div>
+                  <!-- /.portfolio__item portfolio-thumb -->
+                </div>
+                <!-- /.swiper-slide -->
+
+                <div class="swiper-slide">
+                  <div class="portfolio__thumb portfolio-thumb portfolio-thumb--active">
+                    <picture class="portfolio-thumb__picture">
+                      <source srcset="img/portfolio/thumb.webp" type="image/webp">
+                      <img class="portfolio-thumb__image cms-image" src="img/portfolio/thumb.jpg" alt="">
+                    </picture>
+                    <!-- /.portfolio-item__picture -->
+
+                    <div class="portfolio-thumb__content">
+                      <h4 class="portfolio-thumb__title">Название проекта</h4>
+                      <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
+                    </div>
+                    <!-- /.portfolio-thumb__content -->
+                  </div>
+                  <!-- /.portfolio__item portfolio-thumb -->
+                </div>
+                <!-- /.swiper-slide -->
+
+              </div>
+              <!-- /.swiper-wrapper -->
+            </div>
+            <!-- /.swiper-container portfolio-slider-thumb -->
+          </div>
+          <!-- /.swiper-slide -->
+
           <div data-title="Дизайн" class="swiper-slide">
             <div class="swiper-container portfolio__items portfolio-slider-items">
               <div class="swiper-wrapper">
@@ -718,354 +1066,6 @@
           <!-- /.swiper-slide -->
 
           <div data-title="Интерьер" class="swiper-slide">
-            <div class="swiper-container portfolio__items portfolio-slider-items">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <div class="portfolio__item portfolio-item">
-                    <picture class="portfolio-item__picture">
-                      <source srcset="img/portfolio/full.webp" type="image/webp">
-                      <img class="portfolio-item__image cms-image" src="img/portfolio/full.jpg" alt="">
-                    </picture>
-                    <!-- /.portfolio-item__picture -->
-
-                    <div class="portfolio-item__content">
-                      <h3 class="portfolio-item__title">
-                        Название проекта
-                      </h3>
-
-                      <p class="portfolio-item__description">
-                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
-                      </p>
-
-                      <ul class="list list--feature portfolio-item__list">
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                      </ul>
-                    </div>
-                    <!-- /.portfolio-item__content -->
-                  </div>
-                  <!-- /.portfolio__item portfolio-item -->
-                </div>
-                <!-- /.swiper-slide -->
-
-                <div class="swiper-slide">
-                  <div class="portfolio__item portfolio-item">
-                    <picture class="portfolio-item__picture">
-                      <source srcset="img/portfolio/full.webp" type="image/webp">
-                      <img class="portfolio-item__image cms-image" src="img/portfolio/full.jpg" alt="">
-                    </picture>
-                    <!-- /.portfolio-item__picture -->
-
-                    <div class="portfolio-item__content">
-                      <h3 class="portfolio-item__title">
-                        Название проекта
-                      </h3>
-
-                      <p class="portfolio-item__description">
-                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
-                      </p>
-
-                      <ul class="list list--feature portfolio-item__list">
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                      </ul>
-                    </div>
-                    <!-- /.portfolio-item__content -->
-                  </div>
-                  <!-- /.portfolio__item portfolio-item -->
-                </div>
-                <!-- /.swiper-slide -->
-
-                <div class="swiper-slide">
-                  <div class="portfolio__item portfolio-item">
-                    <picture class="portfolio-item__picture">
-                      <source srcset="img/portfolio/full.webp" type="image/webp">
-                      <img class="portfolio-item__image cms-image" src="img/portfolio/full.jpg" alt="">
-                    </picture>
-                    <!-- /.portfolio-item__picture -->
-
-                    <div class="portfolio-item__content">
-                      <h3 class="portfolio-item__title">
-                        Название проекта
-                      </h3>
-
-                      <p class="portfolio-item__description">
-                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
-                      </p>
-
-                      <ul class="list list--feature portfolio-item__list">
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                      </ul>
-                    </div>
-                    <!-- /.portfolio-item__content -->
-                  </div>
-                  <!-- /.portfolio__item portfolio-item -->
-                </div>
-                <!-- /.swiper-slide -->
-
-                <div class="swiper-slide">
-                  <div class="portfolio__item portfolio-item">
-                    <picture class="portfolio-item__picture">
-                      <source srcset="img/portfolio/full.webp" type="image/webp">
-                      <img class="portfolio-item__image cms-image" src="img/portfolio/full.jpg" alt="">
-                    </picture>
-                    <!-- /.portfolio-item__picture -->
-
-                    <div class="portfolio-item__content">
-                      <h3 class="portfolio-item__title">
-                        Название проекта
-                      </h3>
-
-                      <p class="portfolio-item__description">
-                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
-                      </p>
-
-                      <ul class="list list--feature portfolio-item__list">
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                      </ul>
-                    </div>
-                    <!-- /.portfolio-item__content -->
-                  </div>
-                  <!-- /.portfolio__item portfolio-item -->
-                </div>
-                <!-- /.swiper-slide -->
-
-                <div class="swiper-slide">
-                  <div class="portfolio__item portfolio-item">
-                    <picture class="portfolio-item__picture">
-                      <source srcset="img/portfolio/full.webp" type="image/webp">
-                      <img class="portfolio-item__image cms-image" src="img/portfolio/full.jpg" alt="">
-                    </picture>
-                    <!-- /.portfolio-item__picture -->
-
-                    <div class="portfolio-item__content">
-                      <h3 class="portfolio-item__title">
-                        Название проекта
-                      </h3>
-
-                      <p class="portfolio-item__description">
-                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
-                      </p>
-
-                      <ul class="list list--feature portfolio-item__list">
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                      </ul>
-                    </div>
-                    <!-- /.portfolio-item__content -->
-                  </div>
-                  <!-- /.portfolio__item portfolio-item -->
-                </div>
-                <!-- /.swiper-slide -->
-
-                <div class="swiper-slide">
-                  <div class="portfolio__item portfolio-item">
-                    <picture class="portfolio-item__picture">
-                      <source srcset="img/portfolio/full.webp" type="image/webp">
-                      <img class="portfolio-item__image cms-image" src="img/portfolio/full.jpg" alt="">
-                    </picture>
-                    <!-- /.portfolio-item__picture -->
-
-                    <div class="portfolio-item__content">
-                      <h3 class="portfolio-item__title">
-                        Название проекта
-                      </h3>
-
-                      <p class="portfolio-item__description">
-                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
-                      </p>
-
-                      <ul class="list list--feature portfolio-item__list">
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                      </ul>
-                    </div>
-                    <!-- /.portfolio-item__content -->
-                  </div>
-                  <!-- /.portfolio__item portfolio-item -->
-                </div>
-                <!-- /.swiper-slide -->
-
-                <div class="swiper-slide">
-                  <div class="portfolio__item portfolio-item">
-                    <picture class="portfolio-item__picture">
-                      <source srcset="img/portfolio/full.webp" type="image/webp">
-                      <img class="portfolio-item__image cms-image" src="img/portfolio/full.jpg" alt="">
-                    </picture>
-                    <!-- /.portfolio-item__picture -->
-
-                    <div class="portfolio-item__content">
-                      <h3 class="portfolio-item__title">
-                        Название проекта
-                      </h3>
-
-                      <p class="portfolio-item__description">
-                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
-                      </p>
-
-                      <ul class="list list--feature portfolio-item__list">
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                      </ul>
-                    </div>
-                    <!-- /.portfolio-item__content -->
-                  </div>
-                  <!-- /.portfolio__item portfolio-item -->
-                </div>
-                <!-- /.swiper-slide -->
-              </div>
-              <!-- /.swiper-wrapper -->
-
-              <div class="swiper-button-prev portfolio-slider-prev"></div>
-              <div class="swiper-button-next portfolio-slider-next"></div>
-            </div>
-            <!-- /.swiper-container portfolio-slider-main -->
-
-            <div class="swiper-container portfolio__thumbs portfolio-slider-thumb">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <div class="portfolio__thumb portfolio-thumb portfolio-thumb--active">
-                    <picture class="portfolio-thumb__picture">
-                      <source srcset="img/portfolio/thumb.webp" type="image/webp">
-                      <img class="portfolio-thumb__image cms-image" src="img/portfolio/thumb.jpg" alt="">
-                    </picture>
-                    <!-- /.portfolio-item__picture -->
-
-                    <div class="portfolio-thumb__content">
-                      <h4 class="portfolio-thumb__title">Название проекта</h4>
-                      <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
-                    </div>
-                    <!-- /.portfolio-thumb__content -->
-                  </div>
-                  <!-- /.portfolio__item portfolio-thumb -->
-                </div>
-                <!-- /.swiper-slide -->
-
-                <div class="swiper-slide">
-                  <div class="portfolio__thumb portfolio-thumb portfolio-thumb--active">
-                    <picture class="portfolio-thumb__picture">
-                      <source srcset="img/portfolio/thumb.webp" type="image/webp">
-                      <img class="portfolio-thumb__image cms-image" src="img/portfolio/thumb.jpg" alt="">
-                    </picture>
-                    <!-- /.portfolio-item__picture -->
-
-                    <div class="portfolio-thumb__content">
-                      <h4 class="portfolio-thumb__title">Название проекта</h4>
-                      <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
-                    </div>
-                    <!-- /.portfolio-thumb__content -->
-                  </div>
-                  <!-- /.portfolio__item portfolio-thumb -->
-                </div>
-                <!-- /.swiper-slide -->
-
-                <div class="swiper-slide">
-                  <div class="portfolio__thumb portfolio-thumb portfolio-thumb--active">
-                    <picture class="portfolio-thumb__picture">
-                      <source srcset="img/portfolio/thumb.webp" type="image/webp">
-                      <img class="portfolio-thumb__image cms-image" src="img/portfolio/thumb.jpg" alt="">
-                    </picture>
-                    <!-- /.portfolio-item__picture -->
-
-                    <div class="portfolio-thumb__content">
-                      <h4 class="portfolio-thumb__title">Название проекта</h4>
-                      <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
-                    </div>
-                    <!-- /.portfolio-thumb__content -->
-                  </div>
-                  <!-- /.portfolio__item portfolio-thumb -->
-                </div>
-                <!-- /.swiper-slide -->
-
-                <div class="swiper-slide">
-                  <div class="portfolio__thumb portfolio-thumb portfolio-thumb--active">
-                    <picture class="portfolio-thumb__picture">
-                      <source srcset="img/portfolio/thumb.webp" type="image/webp">
-                      <img class="portfolio-thumb__image cms-image" src="img/portfolio/thumb.jpg" alt="">
-                    </picture>
-                    <!-- /.portfolio-item__picture -->
-
-                    <div class="portfolio-thumb__content">
-                      <h4 class="portfolio-thumb__title">Название проекта</h4>
-                      <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
-                    </div>
-                    <!-- /.portfolio-thumb__content -->
-                  </div>
-                  <!-- /.portfolio__item portfolio-thumb -->
-                </div>
-                <!-- /.swiper-slide -->
-
-                <div class="swiper-slide">
-                  <div class="portfolio__thumb portfolio-thumb portfolio-thumb--active">
-                    <picture class="portfolio-thumb__picture">
-                      <source srcset="img/portfolio/thumb.webp" type="image/webp">
-                      <img class="portfolio-thumb__image cms-image" src="img/portfolio/thumb.jpg" alt="">
-                    </picture>
-                    <!-- /.portfolio-item__picture -->
-
-                    <div class="portfolio-thumb__content">
-                      <h4 class="portfolio-thumb__title">Название проекта</h4>
-                      <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
-                    </div>
-                    <!-- /.portfolio-thumb__content -->
-                  </div>
-                  <!-- /.portfolio__item portfolio-thumb -->
-                </div>
-                <!-- /.swiper-slide -->
-
-                <div class="swiper-slide">
-                  <div class="portfolio__thumb portfolio-thumb portfolio-thumb--active">
-                    <picture class="portfolio-thumb__picture">
-                      <source srcset="img/portfolio/thumb.webp" type="image/webp">
-                      <img class="portfolio-thumb__image cms-image" src="img/portfolio/thumb.jpg" alt="">
-                    </picture>
-                    <!-- /.portfolio-item__picture -->
-
-                    <div class="portfolio-thumb__content">
-                      <h4 class="portfolio-thumb__title">Название проекта</h4>
-                      <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
-                    </div>
-                    <!-- /.portfolio-thumb__content -->
-                  </div>
-                  <!-- /.portfolio__item portfolio-thumb -->
-                </div>
-                <!-- /.swiper-slide -->
-
-                <div class="swiper-slide">
-                  <div class="portfolio__thumb portfolio-thumb portfolio-thumb--active">
-                    <picture class="portfolio-thumb__picture">
-                      <source srcset="img/portfolio/thumb.webp" type="image/webp">
-                      <img class="portfolio-thumb__image cms-image" src="img/portfolio/thumb.jpg" alt="">
-                    </picture>
-                    <!-- /.portfolio-item__picture -->
-
-                    <div class="portfolio-thumb__content">
-                      <h4 class="portfolio-thumb__title">Название проекта</h4>
-                      <div class="portfolio-thumb__deadline">Срок исполнения: <span>3 дня</span></div>
-                    </div>
-                    <!-- /.portfolio-thumb__content -->
-                  </div>
-                  <!-- /.portfolio__item portfolio-thumb -->
-                </div>
-                <!-- /.swiper-slide -->
-
-              </div>
-              <!-- /.swiper-wrapper -->
-            </div>
-            <!-- /.swiper-container portfolio-slider-thumb -->
-          </div>
-          <!-- /.swiper-slide -->
-
-          <div data-title="Сувениры" class="swiper-slide">
             <div class="swiper-container portfolio__items portfolio-slider-items">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">

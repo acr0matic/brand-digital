@@ -27,6 +27,20 @@
                     <div class="hero__service">
                       <svg class="hero__icon svg" width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path class="background" d="M50 100C77.6142 100 100 77.6142 100 50C100 22.3858 77.6142 0 50 0C22.3858 0 0 22.3858 0 50C0 77.6142 22.3858 100 50 100Z" fill="#FF8025" />
+                        <path class="figure" fill-rule="evenodd" clip-rule="evenodd" d="M15.3485 42.0201V55.4359H19.2256V54.6546C18.6687 54.3582 18.2896 53.7719 18.2896 53.0971C18.2896 52.1233 19.079 51.3339 20.0527 51.3339C21.0265 51.3339 21.8159 52.1233 21.8159 53.0971C21.8159 53.7716 21.4371 54.3577 20.8807 54.6542V55.4359H28.4004V54.7974C27.6539 54.5923 27.1055 53.9087 27.1055 53.0971C27.1055 52.1233 27.8949 51.3339 28.8687 51.3339C29.8424 51.3339 30.6319 52.1233 30.6319 53.0971C30.6319 53.6138 30.4096 54.0786 30.0555 54.4011V55.4359H37.5747V54.7168C36.948 54.4465 36.5093 53.823 36.5093 53.0971C36.5093 52.1233 37.2987 51.3339 38.2725 51.3339C39.2463 51.3339 40.0357 52.1233 40.0357 53.0971C40.0357 53.7179 39.7148 54.2639 39.2298 54.578V55.4359H46.7495V54.5973C46.2475 54.2866 45.9131 53.7309 45.9131 53.0971C45.9131 52.1233 46.7025 51.3339 47.6763 51.3339C48.6501 51.3339 49.4395 52.1233 49.4395 53.0971C49.4395 53.8111 49.015 54.4261 48.4046 54.7033V55.4359H52.3308V34.558C51.7797 33.1681 50.9231 31.5271 49.7775 31.3279C47.9919 31.0175 45.9168 31.3279 44.5692 34.044C44.0754 35.0393 43.5978 36.1263 43.1219 37.2096L43.1219 37.2096L43.1219 37.2096C41.9589 39.8567 40.8057 42.4818 39.4481 43.6932C37.0567 45.8273 33.7955 44.3825 32.6796 42.6365C31.8487 41.3366 31.835 40.8657 31.8164 40.2296V40.2296C31.81 40.0113 31.8031 39.7735 31.7624 39.4761L31.7591 39.4517C31.5962 38.2614 31.0983 34.622 27.2984 34.044C24.4942 33.6174 18.7738 34.4252 15.3485 42.0201ZM15.1477 57.7169H19.2256V58.7673L13 58.7829V67.0736L19.1375 66.9645C19.1375 63.4762 21.9707 60.6475 25.4647 60.6475C28.9587 60.6475 31.7919 63.4762 31.7919 66.9645H54.3938V58.6796L48.4046 58.6945V57.7169H52.5316C53.6804 57.7169 54.6118 56.7856 54.6118 55.6368V30.0225C54.6118 28.8737 53.6804 27.9424 52.5316 27.9424H15.1477C13.9988 27.9424 13.0675 28.8737 13.0675 30.0225V55.6368C13.0675 56.7856 13.9988 57.7169 15.1477 57.7169ZM20.8807 58.7632V57.7169H28.4004V58.7444L20.8807 58.7632ZM30.0555 58.7403V57.7169H37.5747V58.7215L30.0555 58.7403ZM39.2298 58.7174V57.7169H46.7495V58.6986L39.2298 58.7174ZM55.9077 41.3593V66.96L71.4239 67.1436C71.4239 67.1436 70.4527 58.8702 78.2973 59.2201C78.2973 59.2201 83.5495 59.7537 83.5378 65.5314H87.0004C87.0004 65.5314 87.5977 61.6758 86.9198 58.394C86.7126 57.3956 86.1842 56.4891 85.4086 55.8293C84.73 55.2538 84.5917 55.2102 83.5314 54.8763L83.5313 54.8763C83.0377 54.7208 82.3442 54.5024 81.3033 54.1381C81.3033 54.1381 78.1296 52.4835 76.3882 49.0594C76.1423 48.6679 75.9589 48.162 75.7541 47.5971L75.7541 47.597C74.8393 45.0737 73.4978 41.3729 64.2462 41.4338C59.3041 41.3707 55.9077 41.3593 55.9077 41.3593ZM81.7652 65.8968C81.7652 68.3747 79.7532 70.3835 77.2715 70.3835C74.7893 70.3835 72.7778 68.3747 72.7778 65.8968C72.7778 63.4188 74.7893 61.41 77.2715 61.41C79.7532 61.41 81.7652 63.4188 81.7652 65.8968ZM29.7628 67.4183C29.7628 69.8962 27.7508 71.905 25.2688 71.905C22.7869 71.905 20.7749 69.8962 20.7749 67.4183C20.7749 64.9403 22.7869 62.9315 25.2688 62.9315C27.7508 62.9315 29.7628 64.9403 29.7628 67.4183Z" fill="white" />
+                      </svg>
+
+                      Тенты
+                    </div>
+                    <!-- /.hero__service -->
+                  </div>
+                  <!-- /.swiper-slide -->
+
+
+                  <div class="swiper-slide">
+                    <div class="hero__service">
+                      <svg class="hero__icon svg" width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="background" d="M50 100C77.6142 100 100 77.6142 100 50C100 22.3858 77.6142 0 50 0C22.3858 0 0 22.3858 0 50C0 77.6142 22.3858 100 50 100Z" fill="#FF8025" />
                         <path class="figure" fill-rule="evenodd" clip-rule="evenodd" d="M63.8803 27.7009L72.8034 36.6239L73.7949 35.6325C76.2735 33.1538 76.2735 29.188 73.7949 26.7094C71.3162 24.2308 67.3504 24.2308 64.8718 26.7094L63.8803 27.7009ZM41.5727 29.6752L38.5983 32.6496L36.1197 30.1709L39.094 27.1966L36.6154 24.7179L25.2137 36.1197L34.6325 45.5385L32.1538 48.0171L21.7436 37.6068C20.7521 36.6154 20.7521 35.6239 21.7436 34.6325L34.6325 21.7436C35.6239 20.7521 36.6154 20.7521 37.6068 21.7436L48.0171 32.1538L45.5385 34.6325L40.0855 40.0855L37.6068 37.6068L43.5149 31.675L41.5727 29.6752ZM70.3248 58.4274L67.3504 61.4017L69.8291 63.8803L72.8034 60.906L75.2821 63.3846L63.8803 74.7863L54.4615 65.3675L51.9829 67.8462L62.3932 78.2564C63.3846 79.2479 64.3761 79.2479 65.3675 78.2564L78.2564 65.3675C79.2479 64.3761 79.2479 63.3846 78.2564 62.3932L67.8462 51.9829L65.3675 54.4615L59.9145 59.9145L62.3932 62.3932L68.371 56.5311L70.3248 58.4274ZM34.6325 64.8718C34.6325 65.3675 34.6325 65.3675 34.6325 65.8633H35.1282C37.6068 65.8633 39.5897 67.3504 39.5897 69.8291L70.8205 38.5983L61.8974 29.6752L30.6667 60.906C32.6496 61.4017 34.6325 63.3846 34.6325 65.3675V64.8718ZM27.6923 68.3419L26.5 73L26.7009 73.2991H27.1966L31.1624 71.812C31.1624 71.812 31.6581 71.812 31.6581 71.3162V70.8205L28.6838 67.8462H28.188C28.188 67.8462 27.6923 67.8462 27.6923 68.3419Z" fill="#FEFEFE" />
                       </svg>
 
@@ -44,19 +58,6 @@
                       </svg>
 
                       Интерьер
-                    </div>
-                    <!-- /.hero__link -->
-                  </div>
-                  <!-- /.swiper-slide -->
-
-                  <div class="swiper-slide">
-                    <div class="hero__service">
-                      <svg class="hero__icon svg" width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path class="background" d="M50 100C77.6142 100 100 77.6142 100 50C100 22.3858 77.6142 0 50 0C22.3858 0 0 22.3858 0 50C0 77.6142 22.3858 100 50 100Z" fill="#FF8025" />
-                        <path class="figure" fill-rule="evenodd" clip-rule="evenodd" d="M71.4361 36.6269C72.267 35.5242 72.052 33.9498 70.9557 33.1104C70.8363 33.0189 70.7113 32.9399 70.5824 32.8732L75.4326 26.4368C76.0973 25.5547 77.3471 25.3839 78.2241 26.0555L83.7818 30.3113C84.6588 30.9829 84.8308 32.2424 84.1661 33.1246L65.5568 57.8198L66.9162 69.7932C67.3876 73.9456 64.1426 77.5836 59.9673 77.5836H42.8816H33.0434H24.0011C19.1972 77.5836 15.4766 73.3796 16.0604 68.6113L20.1013 35.6113C20.4102 33.0882 21.8721 30.9594 23.92 29.7266C25.1858 28.4108 26.9653 27.5836 28.9563 27.5836H55.8802C59.4371 27.5836 62.4274 30.2558 62.829 33.7932L63.7534 41.9355L67.6199 36.8045C67.7183 36.9119 67.8272 37.0121 67.9467 37.1035C69.0429 37.943 70.6052 37.7296 71.4361 36.6269ZM61.1319 45.4145L59.8509 34.1319C59.6214 32.1106 57.9127 30.5836 55.8802 30.5836H52.2147H28.9581C26.5726 30.5836 24.7185 32.6625 24.9878 35.0352L26.3548 47.0769C24.2744 48.9094 22.9618 51.5932 22.9618 54.5836C22.9618 58.3848 25.0827 61.6907 28.2058 63.3824L29.0745 71.0352C29.304 73.0566 31.0125 74.5836 33.0448 74.5836H49.1272H59.9673C62.3532 74.5836 64.2075 72.5047 63.9381 70.1319L62.5872 58.2328C62.4019 58.0123 62.1899 57.8085 61.9521 57.6264C61.1896 57.0425 60.2861 56.777 59.3992 56.8083C59.1808 55.9684 58.6918 55.1928 57.9521 54.6264C57.0016 53.8986 55.8322 53.6654 54.7486 53.8853L61.1319 45.4145ZM28.2058 63.3824C29.6202 64.1485 31.2402 64.5836 32.9618 64.5836C38.4846 64.5836 42.9618 60.1064 42.9618 54.5836C42.9618 49.0607 38.4846 44.5836 32.9618 44.5836C30.4293 44.5836 28.1167 45.525 26.3548 47.0769L28.2058 63.3824ZM70.5824 32.8732L67.6199 36.8045C66.816 35.9266 66.7259 34.5695 67.4663 33.587C68.2067 32.6045 69.5278 32.328 70.5824 32.8732ZM79.9027 23.7954L79 24.9934L84.5576 29.2492L85.4604 28.0513C86.6237 26.5075 86.3226 24.3034 84.7879 23.1281C83.2532 21.9529 81.066 22.2517 79.9027 23.7954ZM52.5157 63.9923C52.2139 64.8947 53.2134 65.6756 54.0049 65.1558L57.0449 63.1594C57.6182 62.7829 57.6511 61.9486 57.1093 61.5254L55.2286 60.0559C54.6868 59.6327 53.8936 59.8729 53.675 60.5265L52.5157 63.9923Z" fill="white" />
-                      </svg>
-
-                      Сувениры
                     </div>
                     <!-- /.hero__link -->
                   </div>
@@ -104,8 +105,8 @@
                     <!-- /.hero__content -->
 
                     <div class="hero__motion hero__motion--margin">
-                      <video poster="" class="hero__video" muted playsinline loop autoplay>
-                        <source src="video/motion/car.webm">
+                      <video data-safari="video/fallback/car.png" poster="video/poster/car.png" class="hero__video" muted playsinline loop autoplay>
+                        <source src="video/car.webm">
                       </video>
                     </div>
                     <!-- /.hero__motion -->
@@ -138,8 +139,40 @@
                     <!-- /.hero__content -->
 
                     <div class="hero__motion hero__motion--margin">
-                      <video poster="video/posters/car.png" class="hero__video" muted playsinline loop preload="none">
-                        <source src="video/motion/car.webm">
+                      <video data-safari="video/fallback/car.png" poster="video/posters/car.png" class="hero__video" muted playsinline loop preload="none">
+                        <source src="video/car.webm">
+                      </video>
+                    </div>
+                    <!-- /.hero__motion -->
+                  </div>
+                  <!-- /.swiper-slide -->
+
+                  <div data-bg="/img/page/main/hero/bg/4.png" class="swiper-slide">
+                    <div class="hero__content">
+                      <h2 class="page__title section__title hero__title">Сувенирная <br> продукция <span>B&D</span></h2>
+                      <p class="page__description hero__description">
+                        Сувенирная продукция под ваш бизнес.
+                        <br>
+                        Создаём уникальный образ, выбираем наилучшие
+                        <br>
+                        решения и реализуем их.
+                      </p>
+
+                      <p class="page__description hero__description hero__description--mobile">
+                        Изготовливаем сувенирную <br> продукцию под ваш бизнес
+                      </p>
+
+                      <div class="hero__mobile hero-mobile">
+                        <img class="hero-mobile__icon" src="img/page/main/hero/icons/mobile/4.svg" alt="">
+                        <button class="hero-mobile__button button button-primary">Узнать больше</button>
+                      </div>
+                      <!-- /.hero__mobile -->
+                    </div>
+                    <!-- /.hero__content -->
+
+                    <div class="hero__motion">
+                      <video data-safari="video/fallback/awning.png" poster="video/awning.png" class="hero__video" muted playsinline loop preload="none">
+                        <source src="video/awning.webm">
                       </video>
                     </div>
                     <!-- /.hero__motion -->
@@ -172,8 +205,8 @@
                     <!-- /.hero__content -->
 
                     <div class="hero__motion">
-                      <video poster="video/posters/design.png" class="hero__video" muted playsinline loop preload="none">
-                        <source src="video/motion/design.webm">
+                      <video data-safari="video/fallback/design.png" poster="video/posters/design.png" class="hero__video" muted playsinline loop preload="none">
+                        <source src="video/design.webm">
                       </video>
                     </div>
                     <!-- /.hero__motion -->
@@ -204,40 +237,8 @@
                     <!-- /.hero__content -->
 
                     <div class="hero__motion">
-                      <video poster="video/posters/interior.png" class="hero__video" muted playsinline loop preload="none">
-                        <source src="video/motion/room.webm">
-                      </video>
-                    </div>
-                    <!-- /.hero__motion -->
-                  </div>
-                  <!-- /.swiper-slide -->
-
-                  <div data-bg="/img/page/main/hero/bg/4.png" class="swiper-slide">
-                    <div class="hero__content">
-                      <h2 class="page__title section__title hero__title">Сувенирная <br> продукция <span>B&D</span></h2>
-                      <p class="page__description hero__description">
-                        Сувенирная продукция под ваш бизнес.
-                        <br>
-                        Создаём уникальный образ, выбираем наилучшие
-                        <br>
-                        решения и реализуем их.
-                      </p>
-
-                      <p class="page__description hero__description hero__description--mobile">
-                        Изготовливаем сувенирную <br> продукцию под ваш бизнес
-                      </p>
-
-                      <div class="hero__mobile hero-mobile">
-                        <img class="hero-mobile__icon" src="img/page/main/hero/icons/mobile/4.svg" alt="">
-                        <button class="hero-mobile__button button button-primary">Узнать больше</button>
-                      </div>
-                      <!-- /.hero__mobile -->
-                    </div>
-                    <!-- /.hero__content -->
-
-                    <div class="hero__motion">
-                      <video poster="video/motion/souvenirs.png" class="hero__video" muted playsinline loop preload="none">
-                        <source src="video/motion/suv.webm">
+                      <video data-safari="video/fallback/interior.png" poster="video/posters/interior.png" class="hero__video" muted playsinline loop preload="none">
+                        <source src="video/interior.webm">
                       </video>
                     </div>
                     <!-- /.hero__motion -->
@@ -268,8 +269,8 @@
                     <!-- /.hero__content -->
 
                     <div class="hero__motion">
-                      <video poster="video/posters/stikers.png" class="hero__video" muted playsinline loop preload="none">
-                        <source src="video/motion/notebook.webm">
+                      <video data-safari="video/fallback/stikers.png" poster="video/posters/stikers.png" class="hero__video" muted playsinline loop preload="none">
+                        <source src="video/stikers.webm">
                       </video>
                     </div>
                     <!-- /.hero__motion -->
