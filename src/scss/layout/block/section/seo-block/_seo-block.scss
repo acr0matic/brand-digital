@@ -37,7 +37,7 @@
       font-weight: $weight-Medium;
     }
 
-    h3 {
+    h2 {
       font-size: $font-headline-3 - 2;
 
       @include breakpoint($breakpoint-laptop--large) {
@@ -53,8 +53,8 @@
       }
     }
 
-    h4,
-    h5 {
+    h3,
+    h4 {
       font-size: 27px;
 
       @include breakpoint($breakpoint-laptop--large) {
@@ -170,12 +170,12 @@
       &:hover {
         color: $text-orange;
 
-        rect {
-          fill: $text-orange;
+        .rect {
+          stroke: $text-orange;
         }
 
-        path {
-          stroke: $text-orange;
+        .arrow {
+          fill: $text-orange;
         }
 
         span::after {
@@ -208,12 +208,14 @@
   }
 
   &__icon {
+    position: relative;
+    bottom: -2px;
+
     width: 32px;
     height: 32px;
 
     margin-left: 15px;
 
-    rect,
     path {
       transition: 0.2s ease;
     }
@@ -222,5 +224,23 @@
       width: 24px;
       height: 24px;
     }
+  }
+
+  &__arrow {
+    animation: download 1s infinite;
+  }
+}
+
+@keyframes download {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(4px);
+  }
+
+  100% {
+    transform: translateY(0);
   }
 }
