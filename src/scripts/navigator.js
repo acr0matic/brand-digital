@@ -2,7 +2,13 @@ let href, index, item, itemPos;
 
 function GetHash() {
   href = window.location.hash.substr(1);
-  index = href.substr(href.length - 1) - 1;
+  switch (href) {
+    case 'legkovoye_avto': index = 0; break;
+    case 'maloye_gruzove_avto': index = 1; break;
+    case 'furgon': index = 2; break;
+    case 'gruzovoye_avto': index = 3; break;
+    case 'fura': index = 4; break;
+  }
 }
 
 function GetItemPos(item) {

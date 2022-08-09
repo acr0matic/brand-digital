@@ -28,6 +28,12 @@
     align-items: center;
     width: 100%;
 
+    margin-top: 45px;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      margin-top: 0;
+    }
+
     @include breakpoint($breakpoint-mobile--large) {
       flex-direction: column;
       align-items: stretch;

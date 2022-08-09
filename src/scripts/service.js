@@ -30,6 +30,7 @@ function ChangeServiceTab(item, index) {
 }
 
 const serviceTabs = new Swiper('.service-content-slider', {
+  autoHeight: true,
   simulateTouch: false,
   allowTouchMove: false,
   roundLengths: true,

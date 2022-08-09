@@ -57,10 +57,10 @@
 
   &__wrapper {
     overflow: auto;
-    padding: 45px 50px 60px 65px;
+    padding: 45px 50px 30px;
 
     @include breakpoint($breakpoint-laptop--medium) {
-      padding: 35px 30px 30px 65px;
+      padding: 35px 30px 30px;
     }
   }
 
@@ -89,6 +89,10 @@
     .social__link {
       &:not(:last-child) {
         margin-right: 65px;
+
+        @include breakpoint($breakpoint-laptop--medium) {
+          margin-right: 50px;
+        }
       }
     }
   }
@@ -135,7 +139,7 @@
       top: 35%;
     }
 
-    @include breakpoint(max-height 680px) {
+    @include breakpoint(max-height 780px) {
       display: none;
     }
 
@@ -155,7 +159,7 @@
   }
 
   &__points {
-    @include breakpoint(max-height 680px) {
+    @include breakpoint(max-height 780px) {
       display: none;
     }
   }

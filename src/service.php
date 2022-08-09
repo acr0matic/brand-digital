@@ -37,9 +37,9 @@
               </svg>
             </a>
 
-            <div class="hero__motion hero__motion--margin" data-safari="">
-              <video poster="" class="hero__video" autoplay loop playsinline muted>
-                <source src="video/motion/car.webm">
+            <div class="hero__motion hero__motion--margin" data-safari="video/fallback/car.png">
+              <video poster="video/posters/car.png" class="hero__video" autoplay loop playsinline muted>
+                <source src="video/car.webm">
               </video>
             </div>
             <!-- /.hero__motion -->

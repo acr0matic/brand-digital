@@ -315,6 +315,10 @@
     @include breakpoint($breakpoint-tablet--large) {
       display: flex;
     }
+
+    svg {
+      width: 48px;
+    }
   }
 
   &__mobile {

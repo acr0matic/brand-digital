@@ -75,6 +75,11 @@
     }
 
     h6 {
+      font-weight: $weight-Regular;
+    }
+
+    h5,
+    h6 {
       font-size: 24px;
 
       @include breakpoint($breakpoint-laptop--medium) {
