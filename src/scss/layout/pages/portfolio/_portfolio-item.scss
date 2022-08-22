@@ -1,7 +1,9 @@
 .portfolio-body {
   .portfolio-item {
+    position: relative;
+
     margin-bottom: 20px;
-    padding: 20px 20px 15px 20px;
+    padding: 20px;
     background-color: #f3f3f3;
 
     border-radius: 20px;
@@ -27,6 +29,7 @@
     }
 
     &__picture {
+      position: relative;
       display: block;
       margin-bottom: 20px;
 
@@ -51,6 +54,7 @@
 
       @include breakpoint($breakpoint-mobile--large) {
         height: 120px;
+        border-radius: 6px;
       }
 
       @include breakpoint($breakpoint-mobile--medium) {
@@ -61,13 +65,69 @@
     &__image {
     }
 
-    &__title {
+    &__header {
+      @include breakpoint($breakpoint-laptop--medium) {
+        margin-bottom: 6px;
+      }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+
+        margin-bottom: 4px;
+      }
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
       margin-bottom: 10px;
+    }
+
+    &__label {
+      @include breakpoint($breakpoint-laptop--large) {
+        padding: 4px 10px;
+        font-size: 14px;
+      }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        position: absolute;
+        top: 55%;
+        right: 10px;
+
+        font-size: 12px;
+      }
+
+      @include breakpoint($breakpoint-mobile--medium) {
+        top: 50%;
+        right: 6px;
+      }
+
+      padding: 4px 14px;
+      border-radius: 4px;
+      background-color: #c4c4c4;
+
+      font-weight: $weight-Medium;
+      color: $palette-white;
+
+      &--blue {
+        background-color: #7590f8;
+      }
+
+      &--green {
+        background-color: #18a565;
+      }
+
+      &--purple {
+        background-color: #c068f8;
+      }
+    }
+
+    &__title {
       font-weight: $weight-Bold;
       font-size: $font-text;
 
       @include breakpoint($breakpoint-laptop--large) {
-        margin-bottom: 5px;
         font-size: 20px;
       }
 
@@ -82,7 +142,7 @@
 
     &__footer {
       display: flex;
-      align-items: center;
+      align-items: flex-end;
       justify-content: space-between;
     }
 
@@ -111,14 +171,77 @@
     }
 
     &__more {
-      height: 25px;
+      margin-right: 10px;
+      margin-bottom: 2px;
 
       @include breakpoint($breakpoint-laptop--medium) {
+        margin-right: 5px;
         transform: scale(0.8);
       }
 
       @include breakpoint($breakpoint-tablet) {
         display: none;
+      }
+    }
+
+    &__film {
+      @include breakpoint($breakpoint-laptop--medium) {
+        max-width: 45px;
+        height: 45px;
+      }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        display: none;
+      }
+
+      position: absolute;
+      z-index: 5;
+      top: 12px;
+      left: 10px;
+
+      display: flex;
+      align-items: center;
+
+      max-width: 53px;
+      height: 53px;
+
+      overflow: hidden;
+
+      padding: 8px;
+      border-radius: 100px;
+
+      background-color: rgba($color: $palette-white, $alpha: 1);
+
+      backdrop-filter: blur(5px);
+      cursor: help;
+
+      transition: 0.3s ease;
+
+      span {
+        @include breakpoint($breakpoint-laptop--medium) {
+          font-size: 14px;
+        }
+
+        padding: 0 12px;
+        opacity: 0;
+
+        white-space: nowrap;
+
+        transition: 0.2s ease;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+
+      &:hover {
+        max-width: 300px;
+        background-color: rgba($color: $palette-white, $alpha: 0.5);
+
+        span {
+          opacity: 1;
+        }
       }
     }
 

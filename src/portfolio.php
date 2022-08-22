@@ -81,9 +81,20 @@
               <div class="portfolio-body__item portfolio-item" data-micromodal-trigger="modal-portfolio">
                 <picture class="portfolio-item__picture">
                   <img src="img/portfolio/picture.jpg" alt="" class="portfolio-item__image cms-image">
+
+                  <div class="portfolio-item__film">
+                    <img src="img/page/portfolio/film.svg" alt="">
+                    <span>Orajet 3551 / Oraguard 215</span>
+                  </div>
+                  <!-- /.portfolio-item__film -->
                 </picture>
 
-                <h3 class="portfolio-item__title">Название проекта</h3>
+                <div class="portfolio-item__header">
+                  <h3 class="portfolio-item__title">Название проекта</h3>
+                  <div class="portfolio-item__label portfolio-item__label--blue">МСК</div>
+                </div>
+                <!-- /.portfolio-item__header -->
+
                 <div class="portfolio-item__footer">
                   <div class="portfolio-item__deadline">
                     Срок исполнения:
@@ -92,9 +103,9 @@
                   <!-- /.portfolio-item__deadline -->
 
                   <svg class="portfolio-item__more" width="37" height="8" viewBox="0 0 37 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M6.6123 6.38086C5.93197 7.0612 5.09945 7.40137 4.11475 7.40137C3.13005 7.40137 2.29753 7.0612 1.61719 6.38086C0.936849 5.70052 0.59668 4.868 0.59668 3.8833C0.59668 2.8986 0.936849 2.06608 1.61719 1.38574C2.29753 0.705404 3.13005 0.365234 4.11475 0.365234C5.09945 0.365234 5.93197 0.705404 6.6123 1.38574C7.29264 2.06608 7.63281 2.8986 7.63281 3.8833C7.63281 4.868 7.29264 5.70052 6.6123 6.38086Z" fill="#FF8025" />
-                    <path d="M21.0605 6.38086C20.3802 7.0612 19.5477 7.40137 18.563 7.40137C17.5783 7.40137 16.7458 7.0612 16.0654 6.38086C15.3851 5.70052 15.0449 4.868 15.0449 3.8833C15.0449 2.8986 15.3851 2.06608 16.0654 1.38574C16.7458 0.705404 17.5783 0.365234 18.563 0.365234C19.5477 0.365234 20.3802 0.705404 21.0605 1.38574C21.7409 2.06608 22.0811 2.8986 22.0811 3.8833C22.0811 4.868 21.7409 5.70052 21.0605 6.38086Z" fill="#FF8025" />
-                    <path d="M35.5088 6.38086C34.8284 7.0612 33.9959 7.40137 33.0112 7.40137C32.0265 7.40137 31.194 7.0612 30.5137 6.38086C29.8333 5.70052 29.4932 4.868 29.4932 3.8833C29.4932 2.8986 29.8333 2.06608 30.5137 1.38574C31.194 0.705404 32.0265 0.365234 33.0112 0.365234C33.9959 0.365234 34.8284 0.705404 35.5088 1.38574C36.1891 2.06608 36.5293 2.8986 36.5293 3.8833C36.5293 4.868 36.1891 5.70052 35.5088 6.38086Z" fill="#FF8025" />
+                    <path d="M6.61328 6.01562C5.93294 6.69596 5.10042 7.03613 4.11572 7.03613C3.13102 7.03613 2.2985 6.69596 1.61816 6.01562C0.937826 5.33529 0.597656 4.50277 0.597656 3.51807C0.597656 2.53337 0.937826 1.70085 1.61816 1.02051C2.2985 0.340169 3.13102 0 4.11572 0C5.10042 0 5.93294 0.340169 6.61328 1.02051C7.29362 1.70085 7.63379 2.53337 7.63379 3.51807C7.63379 4.50277 7.29362 5.33529 6.61328 6.01562Z" fill="#FF8025" />
+                    <path d="M21.0615 6.01562C20.3812 6.69596 19.5487 7.03613 18.564 7.03613C17.5793 7.03613 16.7467 6.69596 16.0664 6.01562C15.3861 5.33529 15.0459 4.50277 15.0459 3.51807C15.0459 2.53337 15.3861 1.70085 16.0664 1.02051C16.7467 0.340169 17.5793 0 18.564 0C19.5487 0 20.3812 0.340169 21.0615 1.02051C21.7419 1.70085 22.082 2.53337 22.082 3.51807C22.082 4.50277 21.7419 5.33529 21.0615 6.01562Z" fill="#FF8025" />
+                    <path d="M35.5098 6.01562C34.8294 6.69596 33.9969 7.03613 33.0122 7.03613C32.0275 7.03613 31.195 6.69596 30.5146 6.01562C29.8343 5.33529 29.4941 4.50277 29.4941 3.51807C29.4941 2.53337 29.8343 1.70085 30.5146 1.02051C31.195 0.340169 32.0275 0 33.0122 0C33.9969 0 34.8294 0.340169 35.5098 1.02051C36.1901 1.70085 36.5303 2.53337 36.5303 3.51807C36.5303 4.50277 36.1901 5.33529 35.5098 6.01562Z" fill="#FF8025" />
                   </svg>
                 </div>
                 <!-- /.portfolio-item__footer -->
@@ -159,9 +170,20 @@
               <div class="portfolio-body__item portfolio-item" data-micromodal-trigger="modal-portfolio">
                 <picture class="portfolio-item__picture">
                   <img src="img/portfolio/picture.jpg" alt="" class="portfolio-item__image cms-image">
+
+                  <div class="portfolio-item__film">
+                    <img src="img/page/portfolio/film.svg" alt="">
+                    <span>Orajet 3551 / Oraguard 215</span>
+                  </div>
+                  <!-- /.portfolio-item__film -->
                 </picture>
 
-                <h3 class="portfolio-item__title">Название проекта</h3>
+                <div class="portfolio-item__header">
+                  <h3 class="portfolio-item__title">Название проекта</h3>
+                  <div class="portfolio-item__label portfolio-item__label--green">НН</div>
+                </div>
+                <!-- /.portfolio-item__header -->
+
                 <div class="portfolio-item__footer">
                   <div class="portfolio-item__deadline">
                     Срок исполнения:
@@ -170,86 +192,9 @@
                   <!-- /.portfolio-item__deadline -->
 
                   <svg class="portfolio-item__more" width="37" height="8" viewBox="0 0 37 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M6.6123 6.38086C5.93197 7.0612 5.09945 7.40137 4.11475 7.40137C3.13005 7.40137 2.29753 7.0612 1.61719 6.38086C0.936849 5.70052 0.59668 4.868 0.59668 3.8833C0.59668 2.8986 0.936849 2.06608 1.61719 1.38574C2.29753 0.705404 3.13005 0.365234 4.11475 0.365234C5.09945 0.365234 5.93197 0.705404 6.6123 1.38574C7.29264 2.06608 7.63281 2.8986 7.63281 3.8833C7.63281 4.868 7.29264 5.70052 6.6123 6.38086Z" fill="#FF8025" />
-                    <path d="M21.0605 6.38086C20.3802 7.0612 19.5477 7.40137 18.563 7.40137C17.5783 7.40137 16.7458 7.0612 16.0654 6.38086C15.3851 5.70052 15.0449 4.868 15.0449 3.8833C15.0449 2.8986 15.3851 2.06608 16.0654 1.38574C16.7458 0.705404 17.5783 0.365234 18.563 0.365234C19.5477 0.365234 20.3802 0.705404 21.0605 1.38574C21.7409 2.06608 22.0811 2.8986 22.0811 3.8833C22.0811 4.868 21.7409 5.70052 21.0605 6.38086Z" fill="#FF8025" />
-                    <path d="M35.5088 6.38086C34.8284 7.0612 33.9959 7.40137 33.0112 7.40137C32.0265 7.40137 31.194 7.0612 30.5137 6.38086C29.8333 5.70052 29.4932 4.868 29.4932 3.8833C29.4932 2.8986 29.8333 2.06608 30.5137 1.38574C31.194 0.705404 32.0265 0.365234 33.0112 0.365234C33.9959 0.365234 34.8284 0.705404 35.5088 1.38574C36.1891 2.06608 36.5293 2.8986 36.5293 3.8833C36.5293 4.868 36.1891 5.70052 35.5088 6.38086Z" fill="#FF8025" />
-                  </svg>
-                </div>
-                <!-- /.portfolio-item__footer -->
-
-                <div class="portfolio-item__content">
-                  <div class="portfolio-item__category">
-                    Еврофургон / Iveco
-                  </div>
-                  <!-- /.portfolio-item__category -->
-
-                  <div class="portfolio-item__gallery">
-                    <picture class="portfolio-item__picture">
-                      <source srcset="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=">
-                      <img src="img/portfolio/page/2.jpg" alt="" class="portfolio-item__image cms-image">
-                    </picture>
-
-                    <picture class="portfolio-item__picture">
-                      <source srcset="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=">
-                      <img src="img/portfolio/page/3.jpg" alt="" class="portfolio-item__image cms-image">
-                    </picture>
-
-                    <picture class="portfolio-item__picture">
-                      <source srcset="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=">
-                      <img src="img/portfolio/page/4.jpg" alt="" class="portfolio-item__image cms-image">
-                    </picture>
-                  </div>
-                  <!-- /.portfolio-item__gallery -->
-
-                  <div class="portfolio-item__additional">
-                    <picture class="portfolio-item__picture">
-                      <source srcset="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=">
-                      <img src="img/portfolio/page/additional/2.jpg" alt="" class="portfolio-item__image cms-image">
-                    </picture>
-
-                  </div>
-                  <!-- /.portfolio-item__additional -->
-
-                  <div class="portfolio-item__list">
-                    <ul class="portfolio-item__list list list--feature">
-                      <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                      <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                      <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                      <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                      <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                    </ul>
-                  </div>
-                  <!-- /.portfolio-item__list -->
-
-                  <p class="portfolio-item__description">
-                    Кванториум - современные научные центры оборудованные по последнему слову техники.
-                  </p>
-                  <!-- /.portfolio-item__description -->
-                </div>
-                <!-- /.portfolio-item__content -->
-              </div>
-              <!-- /.portfolio-body__item portfolio-item -->
-            </div>
-            <!-- /.col-6 col-lg-4 -->
-
-            <div class="col-6 col-lg-4">
-              <div class="portfolio-body__item portfolio-item" data-micromodal-trigger="modal-portfolio">
-                <picture class="portfolio-item__picture">
-                  <img src="img/portfolio/picture.jpg" alt="" class="portfolio-item__image cms-image">
-                </picture>
-
-                <h3 class="portfolio-item__title">Название проекта</h3>
-                <div class="portfolio-item__footer">
-                  <div class="portfolio-item__deadline">
-                    Срок исполнения:
-                    <span>3 дня</span>
-                  </div>
-                  <!-- /.portfolio-item__deadline -->
-
-                  <svg class="portfolio-item__more" width="37" height="8" viewBox="0 0 37 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M6.6123 6.38086C5.93197 7.0612 5.09945 7.40137 4.11475 7.40137C3.13005 7.40137 2.29753 7.0612 1.61719 6.38086C0.936849 5.70052 0.59668 4.868 0.59668 3.8833C0.59668 2.8986 0.936849 2.06608 1.61719 1.38574C2.29753 0.705404 3.13005 0.365234 4.11475 0.365234C5.09945 0.365234 5.93197 0.705404 6.6123 1.38574C7.29264 2.06608 7.63281 2.8986 7.63281 3.8833C7.63281 4.868 7.29264 5.70052 6.6123 6.38086Z" fill="#FF8025" />
-                    <path d="M21.0605 6.38086C20.3802 7.0612 19.5477 7.40137 18.563 7.40137C17.5783 7.40137 16.7458 7.0612 16.0654 6.38086C15.3851 5.70052 15.0449 4.868 15.0449 3.8833C15.0449 2.8986 15.3851 2.06608 16.0654 1.38574C16.7458 0.705404 17.5783 0.365234 18.563 0.365234C19.5477 0.365234 20.3802 0.705404 21.0605 1.38574C21.7409 2.06608 22.0811 2.8986 22.0811 3.8833C22.0811 4.868 21.7409 5.70052 21.0605 6.38086Z" fill="#FF8025" />
-                    <path d="M35.5088 6.38086C34.8284 7.0612 33.9959 7.40137 33.0112 7.40137C32.0265 7.40137 31.194 7.0612 30.5137 6.38086C29.8333 5.70052 29.4932 4.868 29.4932 3.8833C29.4932 2.8986 29.8333 2.06608 30.5137 1.38574C31.194 0.705404 32.0265 0.365234 33.0112 0.365234C33.9959 0.365234 34.8284 0.705404 35.5088 1.38574C36.1891 2.06608 36.5293 2.8986 36.5293 3.8833C36.5293 4.868 36.1891 5.70052 35.5088 6.38086Z" fill="#FF8025" />
+                    <path d="M6.61328 6.01562C5.93294 6.69596 5.10042 7.03613 4.11572 7.03613C3.13102 7.03613 2.2985 6.69596 1.61816 6.01562C0.937826 5.33529 0.597656 4.50277 0.597656 3.51807C0.597656 2.53337 0.937826 1.70085 1.61816 1.02051C2.2985 0.340169 3.13102 0 4.11572 0C5.10042 0 5.93294 0.340169 6.61328 1.02051C7.29362 1.70085 7.63379 2.53337 7.63379 3.51807C7.63379 4.50277 7.29362 5.33529 6.61328 6.01562Z" fill="#FF8025" />
+                    <path d="M21.0615 6.01562C20.3812 6.69596 19.5487 7.03613 18.564 7.03613C17.5793 7.03613 16.7467 6.69596 16.0664 6.01562C15.3861 5.33529 15.0459 4.50277 15.0459 3.51807C15.0459 2.53337 15.3861 1.70085 16.0664 1.02051C16.7467 0.340169 17.5793 0 18.564 0C19.5487 0 20.3812 0.340169 21.0615 1.02051C21.7419 1.70085 22.082 2.53337 22.082 3.51807C22.082 4.50277 21.7419 5.33529 21.0615 6.01562Z" fill="#FF8025" />
+                    <path d="M35.5098 6.01562C34.8294 6.69596 33.9969 7.03613 33.0122 7.03613C32.0275 7.03613 31.195 6.69596 30.5146 6.01562C29.8343 5.33529 29.4941 4.50277 29.4941 3.51807C29.4941 2.53337 29.8343 1.70085 30.5146 1.02051C31.195 0.340169 32.0275 0 33.0122 0C33.9969 0 34.8294 0.340169 35.5098 1.02051C36.1901 1.70085 36.5303 2.53337 36.5303 3.51807C36.5303 4.50277 36.1901 5.33529 35.5098 6.01562Z" fill="#FF8025" />
                   </svg>
                 </div>
                 <!-- /.portfolio-item__footer -->
@@ -284,15 +229,6 @@
                   <!-- /.portfolio-item__gallery -->
 
                   <div class="portfolio-item__additional">
-                    <picture class="portfolio-item__picture">
-                      <source srcset="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=">
-                      <img src="img/portfolio/page/additional/1.jpg" alt="" class="portfolio-item__image cms-image">
-                    </picture>
-
-                    <picture class="portfolio-item__picture">
-                      <source srcset="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=">
-                      <img src="img/portfolio/page/additional/2.jpg" alt="" class="portfolio-item__image cms-image">
-                    </picture>
 
                   </div>
                   <!-- /.portfolio-item__additional -->
@@ -323,9 +259,20 @@
               <div class="portfolio-body__item portfolio-item" data-micromodal-trigger="modal-portfolio">
                 <picture class="portfolio-item__picture">
                   <img src="img/portfolio/picture.jpg" alt="" class="portfolio-item__image cms-image">
+
+                  <div class="portfolio-item__film">
+                    <img src="img/page/portfolio/film.svg" alt="">
+                    <span>Orajet 3551 / Oraguard 215</span>
+                  </div>
+                  <!-- /.portfolio-item__film -->
                 </picture>
 
-                <h3 class="portfolio-item__title">Название проекта</h3>
+                <div class="portfolio-item__header">
+                  <h3 class="portfolio-item__title">Название проекта</h3>
+                  <div class="portfolio-item__label portfolio-item__label--purple">КЗН</div>
+                </div>
+                <!-- /.portfolio-item__header -->
+
                 <div class="portfolio-item__footer">
                   <div class="portfolio-item__deadline">
                     Срок исполнения:
@@ -334,9 +281,9 @@
                   <!-- /.portfolio-item__deadline -->
 
                   <svg class="portfolio-item__more" width="37" height="8" viewBox="0 0 37 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M6.6123 6.38086C5.93197 7.0612 5.09945 7.40137 4.11475 7.40137C3.13005 7.40137 2.29753 7.0612 1.61719 6.38086C0.936849 5.70052 0.59668 4.868 0.59668 3.8833C0.59668 2.8986 0.936849 2.06608 1.61719 1.38574C2.29753 0.705404 3.13005 0.365234 4.11475 0.365234C5.09945 0.365234 5.93197 0.705404 6.6123 1.38574C7.29264 2.06608 7.63281 2.8986 7.63281 3.8833C7.63281 4.868 7.29264 5.70052 6.6123 6.38086Z" fill="#FF8025" />
-                    <path d="M21.0605 6.38086C20.3802 7.0612 19.5477 7.40137 18.563 7.40137C17.5783 7.40137 16.7458 7.0612 16.0654 6.38086C15.3851 5.70052 15.0449 4.868 15.0449 3.8833C15.0449 2.8986 15.3851 2.06608 16.0654 1.38574C16.7458 0.705404 17.5783 0.365234 18.563 0.365234C19.5477 0.365234 20.3802 0.705404 21.0605 1.38574C21.7409 2.06608 22.0811 2.8986 22.0811 3.8833C22.0811 4.868 21.7409 5.70052 21.0605 6.38086Z" fill="#FF8025" />
-                    <path d="M35.5088 6.38086C34.8284 7.0612 33.9959 7.40137 33.0112 7.40137C32.0265 7.40137 31.194 7.0612 30.5137 6.38086C29.8333 5.70052 29.4932 4.868 29.4932 3.8833C29.4932 2.8986 29.8333 2.06608 30.5137 1.38574C31.194 0.705404 32.0265 0.365234 33.0112 0.365234C33.9959 0.365234 34.8284 0.705404 35.5088 1.38574C36.1891 2.06608 36.5293 2.8986 36.5293 3.8833C36.5293 4.868 36.1891 5.70052 35.5088 6.38086Z" fill="#FF8025" />
+                    <path d="M6.61328 6.01562C5.93294 6.69596 5.10042 7.03613 4.11572 7.03613C3.13102 7.03613 2.2985 6.69596 1.61816 6.01562C0.937826 5.33529 0.597656 4.50277 0.597656 3.51807C0.597656 2.53337 0.937826 1.70085 1.61816 1.02051C2.2985 0.340169 3.13102 0 4.11572 0C5.10042 0 5.93294 0.340169 6.61328 1.02051C7.29362 1.70085 7.63379 2.53337 7.63379 3.51807C7.63379 4.50277 7.29362 5.33529 6.61328 6.01562Z" fill="#FF8025" />
+                    <path d="M21.0615 6.01562C20.3812 6.69596 19.5487 7.03613 18.564 7.03613C17.5793 7.03613 16.7467 6.69596 16.0664 6.01562C15.3861 5.33529 15.0459 4.50277 15.0459 3.51807C15.0459 2.53337 15.3861 1.70085 16.0664 1.02051C16.7467 0.340169 17.5793 0 18.564 0C19.5487 0 20.3812 0.340169 21.0615 1.02051C21.7419 1.70085 22.082 2.53337 22.082 3.51807C22.082 4.50277 21.7419 5.33529 21.0615 6.01562Z" fill="#FF8025" />
+                    <path d="M35.5098 6.01562C34.8294 6.69596 33.9969 7.03613 33.0122 7.03613C32.0275 7.03613 31.195 6.69596 30.5146 6.01562C29.8343 5.33529 29.4941 4.50277 29.4941 3.51807C29.4941 2.53337 29.8343 1.70085 30.5146 1.02051C31.195 0.340169 32.0275 0 33.0122 0C33.9969 0 34.8294 0.340169 35.5098 1.02051C36.1901 1.70085 36.5303 2.53337 36.5303 3.51807C36.5303 4.50277 36.1901 5.33529 35.5098 6.01562Z" fill="#FF8025" />
                   </svg>
                 </div>
                 <!-- /.portfolio-item__footer -->
@@ -371,15 +318,6 @@
                   <!-- /.portfolio-item__gallery -->
 
                   <div class="portfolio-item__additional">
-                    <picture class="portfolio-item__picture">
-                      <source srcset="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=">
-                      <img src="img/portfolio/page/additional/1.jpg" alt="" class="portfolio-item__image cms-image">
-                    </picture>
-
-                    <picture class="portfolio-item__picture">
-                      <source srcset="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=">
-                      <img src="img/portfolio/page/additional/2.jpg" alt="" class="portfolio-item__image cms-image">
-                    </picture>
 
                   </div>
                   <!-- /.portfolio-item__additional -->
@@ -406,14 +344,24 @@
             </div>
             <!-- /.col-6 col-lg-4 -->
 
-
             <div class="col-6 col-lg-4">
               <div class="portfolio-body__item portfolio-item" data-micromodal-trigger="modal-portfolio">
                 <picture class="portfolio-item__picture">
                   <img src="img/portfolio/picture.jpg" alt="" class="portfolio-item__image cms-image">
+
+                  <div class="portfolio-item__film">
+                    <img src="img/page/portfolio/film.svg" alt="">
+                    <span>Orajet 3551 / Oraguard 215</span>
+                  </div>
+                  <!-- /.portfolio-item__film -->
                 </picture>
 
-                <h3 class="portfolio-item__title">Название проекта</h3>
+                <div class="portfolio-item__header">
+                  <h3 class="portfolio-item__title">Название проекта</h3>
+                  <div class="portfolio-item__label portfolio-item__label--blue">МСК</div>
+                </div>
+                <!-- /.portfolio-item__header -->
+
                 <div class="portfolio-item__footer">
                   <div class="portfolio-item__deadline">
                     Срок исполнения:
@@ -422,9 +370,9 @@
                   <!-- /.portfolio-item__deadline -->
 
                   <svg class="portfolio-item__more" width="37" height="8" viewBox="0 0 37 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M6.6123 6.38086C5.93197 7.0612 5.09945 7.40137 4.11475 7.40137C3.13005 7.40137 2.29753 7.0612 1.61719 6.38086C0.936849 5.70052 0.59668 4.868 0.59668 3.8833C0.59668 2.8986 0.936849 2.06608 1.61719 1.38574C2.29753 0.705404 3.13005 0.365234 4.11475 0.365234C5.09945 0.365234 5.93197 0.705404 6.6123 1.38574C7.29264 2.06608 7.63281 2.8986 7.63281 3.8833C7.63281 4.868 7.29264 5.70052 6.6123 6.38086Z" fill="#FF8025" />
-                    <path d="M21.0605 6.38086C20.3802 7.0612 19.5477 7.40137 18.563 7.40137C17.5783 7.40137 16.7458 7.0612 16.0654 6.38086C15.3851 5.70052 15.0449 4.868 15.0449 3.8833C15.0449 2.8986 15.3851 2.06608 16.0654 1.38574C16.7458 0.705404 17.5783 0.365234 18.563 0.365234C19.5477 0.365234 20.3802 0.705404 21.0605 1.38574C21.7409 2.06608 22.0811 2.8986 22.0811 3.8833C22.0811 4.868 21.7409 5.70052 21.0605 6.38086Z" fill="#FF8025" />
-                    <path d="M35.5088 6.38086C34.8284 7.0612 33.9959 7.40137 33.0112 7.40137C32.0265 7.40137 31.194 7.0612 30.5137 6.38086C29.8333 5.70052 29.4932 4.868 29.4932 3.8833C29.4932 2.8986 29.8333 2.06608 30.5137 1.38574C31.194 0.705404 32.0265 0.365234 33.0112 0.365234C33.9959 0.365234 34.8284 0.705404 35.5088 1.38574C36.1891 2.06608 36.5293 2.8986 36.5293 3.8833C36.5293 4.868 36.1891 5.70052 35.5088 6.38086Z" fill="#FF8025" />
+                    <path d="M6.61328 6.01562C5.93294 6.69596 5.10042 7.03613 4.11572 7.03613C3.13102 7.03613 2.2985 6.69596 1.61816 6.01562C0.937826 5.33529 0.597656 4.50277 0.597656 3.51807C0.597656 2.53337 0.937826 1.70085 1.61816 1.02051C2.2985 0.340169 3.13102 0 4.11572 0C5.10042 0 5.93294 0.340169 6.61328 1.02051C7.29362 1.70085 7.63379 2.53337 7.63379 3.51807C7.63379 4.50277 7.29362 5.33529 6.61328 6.01562Z" fill="#FF8025" />
+                    <path d="M21.0615 6.01562C20.3812 6.69596 19.5487 7.03613 18.564 7.03613C17.5793 7.03613 16.7467 6.69596 16.0664 6.01562C15.3861 5.33529 15.0459 4.50277 15.0459 3.51807C15.0459 2.53337 15.3861 1.70085 16.0664 1.02051C16.7467 0.340169 17.5793 0 18.564 0C19.5487 0 20.3812 0.340169 21.0615 1.02051C21.7419 1.70085 22.082 2.53337 22.082 3.51807C22.082 4.50277 21.7419 5.33529 21.0615 6.01562Z" fill="#FF8025" />
+                    <path d="M35.5098 6.01562C34.8294 6.69596 33.9969 7.03613 33.0122 7.03613C32.0275 7.03613 31.195 6.69596 30.5146 6.01562C29.8343 5.33529 29.4941 4.50277 29.4941 3.51807C29.4941 2.53337 29.8343 1.70085 30.5146 1.02051C31.195 0.340169 32.0275 0 33.0122 0C33.9969 0 34.8294 0.340169 35.5098 1.02051C36.1901 1.70085 36.5303 2.53337 36.5303 3.51807C36.5303 4.50277 36.1901 5.33529 35.5098 6.01562Z" fill="#FF8025" />
                   </svg>
                 </div>
                 <!-- /.portfolio-item__footer -->
@@ -459,102 +407,6 @@
                   <!-- /.portfolio-item__gallery -->
 
                   <div class="portfolio-item__additional">
-                    <picture class="portfolio-item__picture">
-                      <source srcset="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=">
-                      <img src="img/portfolio/page/additional/1.jpg" alt="" class="portfolio-item__image cms-image">
-                    </picture>
-
-                    <picture class="portfolio-item__picture">
-                      <source srcset="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=">
-                      <img src="img/portfolio/page/additional/2.jpg" alt="" class="portfolio-item__image cms-image">
-                    </picture>
-
-                  </div>
-                  <!-- /.portfolio-item__additional -->
-
-                  <div class="portfolio-item__list">
-                    <ul class="portfolio-item__list list list--feature">
-                      <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                      <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                      <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                      <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                      <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                    </ul>
-                  </div>
-                  <!-- /.portfolio-item__list -->
-
-                  <p class="portfolio-item__description">
-                    Кванториум - современные научные центры оборудованные по последнему слову техники.
-                  </p>
-                  <!-- /.portfolio-item__description -->
-                </div>
-                <!-- /.portfolio-item__content -->
-              </div>
-              <!-- /.portfolio-body__item portfolio-item -->
-            </div>
-            <!-- /.col-6 col-lg-4 -->
-
-            <div class="col-6 col-lg-4">
-              <div class="portfolio-body__item portfolio-item" data-micromodal-trigger="modal-portfolio">
-                <picture class="portfolio-item__picture">
-                  <img src="img/portfolio/picture.jpg" alt="" class="portfolio-item__image cms-image">
-                </picture>
-
-                <h3 class="portfolio-item__title">Название проекта</h3>
-                <div class="portfolio-item__footer">
-                  <div class="portfolio-item__deadline">
-                    Срок исполнения:
-                    <span>3 дня</span>
-                  </div>
-                  <!-- /.portfolio-item__deadline -->
-
-                  <svg class="portfolio-item__more" width="37" height="8" viewBox="0 0 37 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M6.6123 6.38086C5.93197 7.0612 5.09945 7.40137 4.11475 7.40137C3.13005 7.40137 2.29753 7.0612 1.61719 6.38086C0.936849 5.70052 0.59668 4.868 0.59668 3.8833C0.59668 2.8986 0.936849 2.06608 1.61719 1.38574C2.29753 0.705404 3.13005 0.365234 4.11475 0.365234C5.09945 0.365234 5.93197 0.705404 6.6123 1.38574C7.29264 2.06608 7.63281 2.8986 7.63281 3.8833C7.63281 4.868 7.29264 5.70052 6.6123 6.38086Z" fill="#FF8025" />
-                    <path d="M21.0605 6.38086C20.3802 7.0612 19.5477 7.40137 18.563 7.40137C17.5783 7.40137 16.7458 7.0612 16.0654 6.38086C15.3851 5.70052 15.0449 4.868 15.0449 3.8833C15.0449 2.8986 15.3851 2.06608 16.0654 1.38574C16.7458 0.705404 17.5783 0.365234 18.563 0.365234C19.5477 0.365234 20.3802 0.705404 21.0605 1.38574C21.7409 2.06608 22.0811 2.8986 22.0811 3.8833C22.0811 4.868 21.7409 5.70052 21.0605 6.38086Z" fill="#FF8025" />
-                    <path d="M35.5088 6.38086C34.8284 7.0612 33.9959 7.40137 33.0112 7.40137C32.0265 7.40137 31.194 7.0612 30.5137 6.38086C29.8333 5.70052 29.4932 4.868 29.4932 3.8833C29.4932 2.8986 29.8333 2.06608 30.5137 1.38574C31.194 0.705404 32.0265 0.365234 33.0112 0.365234C33.9959 0.365234 34.8284 0.705404 35.5088 1.38574C36.1891 2.06608 36.5293 2.8986 36.5293 3.8833C36.5293 4.868 36.1891 5.70052 35.5088 6.38086Z" fill="#FF8025" />
-                  </svg>
-                </div>
-                <!-- /.portfolio-item__footer -->
-
-                <div class="portfolio-item__content">
-                  <div class="portfolio-item__category">
-                    Еврофургон / Iveco
-                  </div>
-                  <!-- /.portfolio-item__category -->
-
-                  <div class="portfolio-item__gallery">
-                    <picture class="portfolio-item__picture">
-                      <source srcset="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=">
-                      <img src="img/portfolio/page/1.jpg" alt="" class="portfolio-item__image cms-image">
-                    </picture>
-
-                    <picture class="portfolio-item__picture">
-                      <source srcset="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=">
-                      <img src="img/portfolio/page/2.jpg" alt="" class="portfolio-item__image cms-image">
-                    </picture>
-
-                    <picture class="portfolio-item__picture">
-                      <source srcset="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=">
-                      <img src="img/portfolio/page/3.jpg" alt="" class="portfolio-item__image cms-image">
-                    </picture>
-
-                    <picture class="portfolio-item__picture">
-                      <source srcset="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=">
-                      <img src="img/portfolio/page/4.jpg" alt="" class="portfolio-item__image cms-image">
-                    </picture>
-                  </div>
-                  <!-- /.portfolio-item__gallery -->
-
-                  <div class="portfolio-item__additional">
-                    <picture class="portfolio-item__picture">
-                      <source srcset="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=">
-                      <img src="img/portfolio/page/additional/1.jpg" alt="" class="portfolio-item__image cms-image">
-                    </picture>
-
-                    <picture class="portfolio-item__picture">
-                      <source srcset="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=">
-                      <img src="img/portfolio/page/additional/2.jpg" alt="" class="portfolio-item__image cms-image">
-                    </picture>
 
                   </div>
                   <!-- /.portfolio-item__additional -->
