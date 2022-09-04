@@ -26,12 +26,12 @@
 
   &__title {
     margin-bottom: 6px;
-    font-size: $font-headline-4;
+    font-size: $font-headline-4 - 2px;
   }
 
   &__deadline {
     color: $text-gray;
-    font-size: 16px;
+    font-size: 14px;
 
     span {
       color: $text-orange;

@@ -16,6 +16,7 @@
                     <picture class="portfolio-item__picture">
                       <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
                       <img class="portfolio-item__image cms-image lazy" data-src="img/portfolio/full.jpg" alt="">
+                      <div class="portfolio-item__label portfolio-item__label--blue">МСК</div>
                     </picture>
                     <!-- /.portfolio-item__picture -->
 
@@ -242,6 +243,7 @@
                     <picture class="portfolio-thumb__picture">
                       <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
                       <img class="portfolio-thumb__image cms-image" src="img/portfolio/thumb.jpg" alt="">
+                      <div class="portfolio-item__label portfolio-item__label--blue">МСК</div>
                     </picture>
                     <!-- /.portfolio-item__picture -->
 
@@ -260,6 +262,7 @@
                     <picture class="portfolio-thumb__picture">
                       <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
                       <img class="portfolio-thumb__image cms-image" src="img/portfolio/thumb.jpg" alt="">
+                      <div class="portfolio-item__label portfolio-item__label--green">ТАТ</div>
                     </picture>
                     <!-- /.portfolio-item__picture -->
 
@@ -278,6 +281,7 @@
                     <picture class="portfolio-thumb__picture">
                       <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
                       <img class="portfolio-thumb__image cms-image" src="img/portfolio/thumb.jpg" alt="">
+                      <div class="portfolio-item__label portfolio-item__label--purple">НН</div>
                     </picture>
                     <!-- /.portfolio-item__picture -->
 
