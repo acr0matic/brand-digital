@@ -3,15 +3,26 @@ InitPortfolio();
 
 function InitPortfolio() {
   const modal = document.getElementById('modal-portfolio');
+  const items = document.querySelectorAll('.portfolio-block .portfolio-item');
+
+  MaxHeight(items);
+  window.addEventListener('resize', () => MaxHeight(items));
+
+  function MaxHeight(array) {
+    array.forEach(item => {
+      const height = item.offsetHeight;
+      item.style.setProperty('--max-height', height + 'px');
+    });
+  }
+
   if (modal) {
     if (!modal.classList.contains('modal-portfolio--full')) {
-      if (window.matchMedia('(max-width: 991px)').matches) {
+      if (window.matchMedia('(max-width: 768px)').matches) {
         const title = modal.querySelector('.modal__title');
         const text = modal.querySelector('.modal__text');
         const list = modal.querySelector('.modal__list');
         const image = modal.querySelector('.modal__image');
 
-        const items = document.querySelectorAll('.portfolio--block .portfolio-item');
 
         items.forEach(item => {
           item.addEventListener('click', () => {

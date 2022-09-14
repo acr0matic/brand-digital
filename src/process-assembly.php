@@ -193,7 +193,7 @@
             <!-- /.col-5 -->
 
             <div class="col-12 col-lg-7 ps-lg-5">
-              <div class="swiper-container process-slider--small ps-lg-5">
+              <div class="swiper process-slider--small ps-lg-5">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
                     <picture>
@@ -218,7 +218,7 @@
                 </div>
                 <!-- /.swiper-wrapper -->
               </div>
-              <!-- /.swiper-container process-slider--small -->
+              <!-- /.swiper process-slider--small -->
             </div>
             <!-- /.col-7 -->
           </div>

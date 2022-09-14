@@ -116,7 +116,7 @@
 
         <div class="process-content__wrapper">
           <div class="process__content process-content">
-            <div class="process-content__slider process-slider process-slider--warranty swiper-container swiper-container--mobile">
+            <div class="process-content__slider process-slider process-slider--warranty swiper swiper--mobile">
               <div class="swiper-wrapper row">
                 <div class="swiper-slide col-3 mb-4">
                   <a href="img/page/process/warranty/slider/certificate.jpg" data-fslightbox="recomendation">
@@ -213,7 +213,7 @@
 
         <div class="process-content__wrapper">
           <div class="process__content process-content">
-            <div class="process-content__slider process-slider process-slider--warranty swiper-container swiper-container--mobile">
+            <div class="process-content__slider process-slider process-slider--warranty swiper swiper--mobile">
               <div class="swiper-wrapper row">
                 <div class="swiper-slide col-3">
                   <a href="img/page/process/warranty/slider/certificate.jpg" data-fslightbox="certificate">
@@ -270,7 +270,7 @@
 
         <div class="process-content__wrapper">
           <div class="process__content process-content">
-            <div class="process-content__slider process-slider process-slider--warranty swiper-container swiper-container--mobile">
+            <div class="process-content__slider process-slider process-slider--warranty swiper swiper--mobile">
               <div class="swiper-wrapper row">
                 <div class="swiper-slide col-3">
                   <a href="img/page/process/warranty/slider/certificate.jpg" data-fslightbox="feedback">

@@ -120,7 +120,7 @@
           <!-- /.process-slider-controls -->
 
           <div class="process__content process-content align-items-center">
-            <div class="process-content__slider process-slider process-slider--common swiper-container">
+            <div class="process-content__slider process-slider process-slider--common swiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
                   <div class="process-slide">

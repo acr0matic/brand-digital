@@ -1,14 +1,14 @@
-.portfolio-slider-tab {
+.slider-portfolio {
   overflow: visible;
+}
 
-  &__control {
-    text-align: center;
-    overflow: auto;
-
-    @include breakpoint($breakpoint-tablet--large) {
-      margin-bottom: 15px;
-    }
+.slider-portfolio-control {
+  @include breakpoint($breakpoint-tablet--large) {
+    margin-bottom: 15px;
   }
+
+  text-align: center;
+  overflow: auto;
 
   .swiper-pagination {
     position: initial;
@@ -49,15 +49,20 @@
 
       @include breakpoint($breakpoint-laptop--large) {
         width: 120px;
-        font-size: 18px;
+        font-size: 22px;
       }
 
       @include breakpoint($breakpoint-tablet--large) {
-        width: 80px;
-        height: 30px;
-        font-size: 14px;
+        width: 100px;
+        height: 35px;
+        font-size: 18px;
 
         border-width: 3px;
+      }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        width: 80px;
+        font-size: 16px;
       }
 
       &:not(:last-child) {

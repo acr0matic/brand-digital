@@ -8,7 +8,7 @@
         <div class="container">
           <div class="hero__wrapper">
             <div class="hero__slider">
-              <div class="swiper-container hero__action hero-action-slider">
+              <div class="swiper hero__action hero-action-slider">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
                     <div class="hero__service">
@@ -85,7 +85,7 @@
             <!-- /.hero__slider -->
 
             <div class="hero__slider">
-              <div class="swiper-container hero-slider">
+              <div class="swiper hero-slider">
                 <div class="swiper-wrapper">
                   <div data-bg="/img/page/main/hero/bg/1.png" class="swiper-slide">
                     <div class="hero__content">
@@ -278,7 +278,7 @@
                 </div>
                 <!-- /.swiper-wrapper -->
               </div>
-              <!-- /.swiper-container hero-slider -->
+              <!-- /.swiper hero-slider -->
             </div>
             <!-- /.hero__slider -->
 
@@ -344,7 +344,7 @@
       <div class="advantages">
         <h2 class="advantages__title section__title text-center">Наши сильные стороны</h2>
 
-        <div class="swiper-container swiper-container--mobile advantages-slider">
+        <div class="swiper swiper--mobile advantages-slider">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="advantages__item">
@@ -488,7 +488,7 @@
 
           <div class="swiper-pagination advantages-slider__pagination"></div>
         </div>
-        <!-- /.swiper-container advantages-slider -->
+        <!-- /.swiper advantages-slider -->
 
         <div class="advantages__mobile advantages-mobile">
           <div class="advantages-mobile__item">

@@ -9,7 +9,7 @@
           <h1 class="price-header__title section__title page__title">Цены и акции</h1>
           <h2 class="price-header__title price-header__title--mobile section__title page__title">Акции и скидки</h1>
 
-            <div class="swiper-container slider-promotions price-header__promotions promotions">
+            <div class="swiper slider-promotions price-header__promotions promotions">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
                   <div class="row justify-content-lg-center">
@@ -198,7 +198,7 @@
               </div>
               <!-- /.swiper-wrapper -->
             </div>
-            <!-- /.swiper-container -->
+            <!-- /.swiper -->
         </div>
         <!-- /.price-header -->
       </div>
@@ -276,7 +276,7 @@
           <div class="container">
             <p class="price-content__info">Стоимость зависит от множества факторов: площадь, сложность монтажа, выбор материала, ламинации и т.д. Мы предлагаем выгодные цены за качественную оклейку полного цикла.</p>
 
-            <div class="price-content__slider price-content-slider swiper-container">
+            <div class="price-content__slider price-content-slider swiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
                   <div class="row">
@@ -580,7 +580,7 @@
               </div>
               <!-- /.swiper-wrapper -->
             </div>
-            <!-- /.swiper-container -->
+            <!-- /.swiper -->
 
             <button data-micromodal-trigger="modal-callback" class="price-content__button button button-primary">Расчитать цену</button>
           </div>

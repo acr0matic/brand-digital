@@ -167,7 +167,7 @@
       </div>
       <!-- /.container -->
 
-      <div class="assembly__slider swiper-container assembly-slider">
+      <div class="assembly__slider swiper assembly-slider">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <picture class="assembly__picture">
@@ -192,7 +192,7 @@
         </div>
         <!-- /.swiper-wrapper -->
       </div>
-      <!-- /.swiper-container process-slider--small -->
+      <!-- /.swiper process-slider--small -->
 
       <div class="container">
         <div class="section__header">

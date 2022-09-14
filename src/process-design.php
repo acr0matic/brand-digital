@@ -120,7 +120,7 @@
       </div>
       <!-- /.container -->
 
-      <div class="process-content__slider process-slider process-slider--wide swiper-container">
+      <div class="process-content__slider process-slider process-slider--wide swiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <picture class="process-content__picture process-slider__picture">
@@ -212,7 +212,7 @@
           <!-- /.process-slider-controls -->
 
           <div class="process__content process-content align-items-center">
-            <div class="process-content__slider process-slider process-slider--common swiper-container">
+            <div class="process-content__slider process-slider process-slider--common swiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
                   <div class="process-slide">
@@ -301,7 +301,7 @@
           <!-- /.col-5 -->
 
           <div class="col-12 col-lg-7 ps-lg-5">
-            <div class="swiper-container process-slider--small ps-lg-5">
+            <div class="swiper process-slider--small ps-lg-5">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
                   <picture>
@@ -333,7 +333,7 @@
               </div>
               <!-- /.swiper-wrapper -->
             </div>
-            <!-- /.swiper-container process-slider--small -->
+            <!-- /.swiper process-slider--small -->
           </div>
           <!-- /.col-7 -->
         </div>

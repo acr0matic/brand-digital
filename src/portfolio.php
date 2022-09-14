@@ -460,7 +460,7 @@
 
         <main class="modal__content">
           <div class="modal__gallery">
-            <div class="swiper-container modal-slider">
+            <div class="swiper modal-slider">
               <div class="swiper-wrapper modal__photos">
                 <div class="swiper-slide modal__picture">
                   <img class="modal__preloader preloader preloader--center" src="img/misc/preloader.svg" alt="">
@@ -498,7 +498,7 @@
 
               <div class="swiper-pagination"></div>
             </div>
-            <!-- /.swiper-container modal-slider -->
+            <!-- /.swiper modal-slider -->
 
             <div class="modal__additional">
               <span>Доп. материалы</span>

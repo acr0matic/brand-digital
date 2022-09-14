@@ -93,7 +93,7 @@
 
     <div class="service-content">
       <div class="container">
-        <div class="swiper-container service-content-slider">
+        <div class="swiper service-content-slider">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="service-content__item service-content-item">
@@ -115,7 +115,7 @@
                   <!-- /.service-content-item__content -->
 
                   <div class="service-content-item__gallery">
-                    <div class="swiper-container service-content-gallery">
+                    <div class="swiper service-content-gallery">
                       <div class="swiper-wrapper">
                         <div class="swiper-slide">
                           <div class="service-content-gallery__item">
@@ -161,7 +161,7 @@
 
                       <div class="swiper-pagination"></div>
                     </div>
-                    <!-- /.swiper-container service-content-gallery -->
+                    <!-- /.swiper service-content-gallery -->
                   </div>
                   <!-- /.service-content-item__gallery -->
                 </div>
@@ -191,7 +191,7 @@
                   <!-- /.service-content-item__content -->
 
                   <div class="service-content-item__gallery">
-                    <div class="swiper-container service-content-gallery">
+                    <div class="swiper service-content-gallery">
                       <div class="swiper-wrapper">
                         <div class="swiper-slide">
                           <div class="service-content-gallery__item">
@@ -237,7 +237,7 @@
 
                       <div class="swiper-pagination"></div>
                     </div>
-                    <!-- /.swiper-container service-content-gallery -->
+                    <!-- /.swiper service-content-gallery -->
                   </div>
                   <!-- /.service-content-item__gallery -->
                 </div>
@@ -266,7 +266,7 @@
                   <!-- /.service-content-item__content -->
 
                   <div class="service-content-item__gallery">
-                    <div class="swiper-container service-content-gallery">
+                    <div class="swiper service-content-gallery">
                       <div class="swiper-wrapper">
                         <div class="swiper-slide">
                           <div class="service-content-gallery__item">
@@ -312,7 +312,7 @@
 
                       <div class="swiper-pagination"></div>
                     </div>
-                    <!-- /.swiper-container service-content-gallery -->
+                    <!-- /.swiper service-content-gallery -->
                   </div>
                   <!-- /.service-content-item__gallery -->
                 </div>
@@ -341,7 +341,7 @@
                   <!-- /.service-content-item__content -->
 
                   <div class="service-content-item__gallery">
-                    <div class="swiper-container service-content-gallery">
+                    <div class="swiper service-content-gallery">
                       <div class="swiper-wrapper">
                         <div class="swiper-slide">
                           <div class="service-content-gallery__item">
@@ -387,7 +387,7 @@
 
                       <div class="swiper-pagination"></div>
                     </div>
-                    <!-- /.swiper-container service-content-gallery -->
+                    <!-- /.swiper service-content-gallery -->
                   </div>
                   <!-- /.service-content-item__gallery -->
                 </div>
@@ -417,7 +417,7 @@
                   <!-- /.service-content-item__content -->
 
                   <div class="service-content-item__gallery">
-                    <div class="swiper-container service-content-gallery">
+                    <div class="swiper service-content-gallery">
                       <div class="swiper-wrapper">
                         <div class="swiper-slide">
                           <div class="service-content-gallery__item">
@@ -463,7 +463,7 @@
 
                       <div class="swiper-pagination"></div>
                     </div>
-                    <!-- /.swiper-container service-content-gallery -->
+                    <!-- /.swiper service-content-gallery -->
                   </div>
                   <!-- /.service-content-item__gallery -->
                 </div>
@@ -475,7 +475,7 @@
           </div>
           <!-- /.swiper-wrapper -->
         </div>
-        <!-- /.swiper-container service-content-slider -->
+        <!-- /.swiper service-content-slider -->
 
         <div class="service-content__cta">
           <div class="service-content__social social">

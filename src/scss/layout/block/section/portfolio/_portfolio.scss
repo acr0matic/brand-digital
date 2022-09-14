@@ -1,96 +1,17 @@
-#portfolio--block {
-  overflow: hidden;
-
-  @include breakpoint($breakpoint-mobile--large) {
-    margin-top: -65px;
-    padding-top: 95px;
+#portfolio-block {
+  .section__header {
+    margin-bottom: 30px;
   }
-}
 
-.portfolio--block {
-  .portfolio {
-    &__title {
-      margin-bottom: 35px;
-
-      @include breakpoint($breakpoint-laptop--large) {
-        margin-bottom: 20px;
-      }
-    }
-
-    &__items {
-    }
-
-    &__thumbs {
-      padding: 45px 10px 10px 10px;
-
-      @include breakpoint($breakpoint-tablet--large) {
-        padding: 0;
-      }
-    }
-
-    &__button {
-      display: block;
-      margin: 45px auto 15px auto;
-
-      @include breakpoint($breakpoint-laptop--large) {
-        margin-top: 30px;
-      }
+  .col-6 {
+    @include breakpoint(max-width 360px) {
+      width: 100% !important;
     }
   }
 }
 
-.portfolio-fade {
-  position: absolute;
-  bottom: 120px;
-
-  width: 100%;
-  height: 270px;
-
-  @include breakpoint($breakpoint-laptop--large) {
-    bottom: 90px;
-    height: 250px;
-  }
-
-  &::before,
-  &::after {
-    content: "";
-    position: absolute;
-    z-index: 10;
-    top: 50%;
-
-    width: 250px;
-    height: 100%;
-
-    transform: translateY(-50%);
-
-    pointer-events: none;
-
-    @include breakpoint($breakpoint-laptop--large) {
-      width: 50px;
-    }
-
-    @include breakpoint($breakpoint-tablet--large) {
-      display: none;
-    }
-  }
-
-  &::after {
-    left: 0;
-
-    background: linear-gradient(
-      90deg,
-      rgba(255, 255, 255, 1) 20%,
-      rgba(255, 255, 255, 0) 100%
-    );
-  }
-
-  &::before {
-    right: 0;
-
-    background: linear-gradient(
-      270deg,
-      rgba(255, 255, 255, 1) 20%,
-      rgba(255, 255, 255, 0) 100%
-    );
+.portfolio-block {
+  &__action {
+    text-align: center;
   }
 }
