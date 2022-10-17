@@ -8,6 +8,11 @@
         opacity: 1;
         visibility: visible;
       }
+
+      .portfolio-item__label {
+        visibility: hidden;
+        opacity: 0;
+      }
     }
 
     &__picture::after,
@@ -25,33 +30,35 @@
 
     &__picture {
       @include breakpoint($breakpoint-laptop--large) {
-        height: 370px;
+        height: 250px;
       }
 
       @include breakpoint($breakpoint-laptop--medium) {
-        height: 295px;
+        height: 280px;
       }
 
       @include breakpoint($breakpoint-tablet--large) {
-        height: 220px;
+        border-radius: 10px;
+        height: 180px;
       }
 
       @include breakpoint($breakpoint-tablet) {
-        height: 155px;
+        height: 140px;
+        margin-bottom: 10px;
       }
 
       @include breakpoint($breakpoint-mobile--large) {
         height: 120px;
-        border-radius: $border-radius-medium;
+        border-radius: 6px;
       }
 
-      @include breakpoint(max-width 360px) {
-        height: 160px;
+      @include breakpoint($breakpoint-mobile--medium) {
+        height: 100px;
       }
 
       position: relative;
 
-      height: 480px;
+      height: 360px;
 
       border-radius: $border-radius-large;
       overflow: hidden;
@@ -109,14 +116,14 @@
       max-height: var(--max-height);
 
       overflow: auto;
-      padding: 50px 60px;
+      padding: 30px 40px;
 
       color: $text-white;
     }
 
     &__title {
       @include breakpoint($breakpoint-laptop--large) {
-        font-size: 27px;
+        font-size: 21px;
       }
 
       @include breakpoint($breakpoint-laptop--medium) {
@@ -133,7 +140,7 @@
       }
 
       margin-bottom: 20px;
-      font-size: 32px;
+      font-size: 27px;
     }
 
     &__info {
@@ -171,7 +178,7 @@
 
     &__description {
       @include breakpoint($breakpoint-laptop--large) {
-        margin-bottom: 20px;
+        margin-bottom: 18px;
         font-size: 18px;
       }
 
@@ -185,7 +192,7 @@
       }
 
       margin-bottom: 50px;
-      font-size: 24px;
+      font-size: 21px;
     }
 
     &__list .list__item {
@@ -207,6 +214,51 @@
         @include breakpoint($breakpoint-tablet--large) {
           margin-bottom: 4px;
         }
+      }
+    }
+
+    &__label {
+      @include breakpoint($breakpoint-laptop--large) {
+        padding: 4px 10px;
+        font-size: 14px;
+      }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        font-size: 12px;
+      }
+
+      @include breakpoint($breakpoint-mobile--medium) {
+        top: 50%;
+        right: 6px;
+      }
+
+      position: absolute;
+      right: 10px;
+      bottom: 25px;
+
+      padding: 4px 14px;
+      border-radius: 4px;
+      background-color: #c4c4c4;
+
+      font-weight: $weight-Medium;
+      color: $palette-white;
+
+      transition: 0.2s ease;
+
+      &--blue {
+        background-color: #7590f8;
+      }
+
+      &--green {
+        background-color: #18a565;
+      }
+
+      &--purple {
+        background-color: #c068f8;
+      }
+
+      &--orange {
+        background-color: #ff8025;
       }
     }
   }

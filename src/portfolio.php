@@ -435,6 +435,95 @@
               <!-- /.portfolio-body__item portfolio-item -->
             </div>
             <!-- /.col-6 col-lg-4 -->
+
+            <div class="col-6 col-lg-4">
+              <div class="portfolio-body__item portfolio-item" data-micromodal-trigger="modal-portfolio">
+                <picture class="portfolio-item__picture">
+                  <img src="img/portfolio/picture.jpg" alt="" class="portfolio-item__image cms-image">
+
+                  <div class="portfolio-item__film">
+                    <img src="img/page/portfolio/film.svg" alt="">
+                    <span>Orajet 3551 / Oraguard 215</span>
+                  </div>
+                  <!-- /.portfolio-item__film -->
+                </picture>
+
+                <div class="portfolio-item__header">
+                  <h3 class="portfolio-item__title">Название проекта</h3>
+                  <div class="portfolio-item__label portfolio-item__label--orange">МСК</div>
+                </div>
+                <!-- /.portfolio-item__header -->
+
+                <div class="portfolio-item__footer">
+                  <div class="portfolio-item__deadline">
+                    Срок исполнения:
+                    <span>3 дня</span>
+                  </div>
+                  <!-- /.portfolio-item__deadline -->
+
+                  <svg class="portfolio-item__more" width="37" height="8" viewBox="0 0 37 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6.61328 6.01562C5.93294 6.69596 5.10042 7.03613 4.11572 7.03613C3.13102 7.03613 2.2985 6.69596 1.61816 6.01562C0.937826 5.33529 0.597656 4.50277 0.597656 3.51807C0.597656 2.53337 0.937826 1.70085 1.61816 1.02051C2.2985 0.340169 3.13102 0 4.11572 0C5.10042 0 5.93294 0.340169 6.61328 1.02051C7.29362 1.70085 7.63379 2.53337 7.63379 3.51807C7.63379 4.50277 7.29362 5.33529 6.61328 6.01562Z" fill="#FF8025" />
+                    <path d="M21.0615 6.01562C20.3812 6.69596 19.5487 7.03613 18.564 7.03613C17.5793 7.03613 16.7467 6.69596 16.0664 6.01562C15.3861 5.33529 15.0459 4.50277 15.0459 3.51807C15.0459 2.53337 15.3861 1.70085 16.0664 1.02051C16.7467 0.340169 17.5793 0 18.564 0C19.5487 0 20.3812 0.340169 21.0615 1.02051C21.7419 1.70085 22.082 2.53337 22.082 3.51807C22.082 4.50277 21.7419 5.33529 21.0615 6.01562Z" fill="#FF8025" />
+                    <path d="M35.5098 6.01562C34.8294 6.69596 33.9969 7.03613 33.0122 7.03613C32.0275 7.03613 31.195 6.69596 30.5146 6.01562C29.8343 5.33529 29.4941 4.50277 29.4941 3.51807C29.4941 2.53337 29.8343 1.70085 30.5146 1.02051C31.195 0.340169 32.0275 0 33.0122 0C33.9969 0 34.8294 0.340169 35.5098 1.02051C36.1901 1.70085 36.5303 2.53337 36.5303 3.51807C36.5303 4.50277 36.1901 5.33529 35.5098 6.01562Z" fill="#FF8025" />
+                  </svg>
+                </div>
+                <!-- /.portfolio-item__footer -->
+
+                <div class="portfolio-item__content">
+                  <div class="portfolio-item__category">
+                    Еврофургон / Iveco
+                  </div>
+                  <!-- /.portfolio-item__category -->
+
+                  <div class="portfolio-item__gallery">
+                    <picture class="portfolio-item__picture">
+                      <source srcset="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=">
+                      <img src="img/portfolio/page/1.jpg" alt="" class="portfolio-item__image cms-image">
+                    </picture>
+
+                    <picture class="portfolio-item__picture">
+                      <source srcset="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=">
+                      <img src="img/portfolio/page/2.jpg" alt="" class="portfolio-item__image cms-image">
+                    </picture>
+
+                    <picture class="portfolio-item__picture">
+                      <source srcset="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=">
+                      <img src="img/portfolio/page/3.jpg" alt="" class="portfolio-item__image cms-image">
+                    </picture>
+
+                    <picture class="portfolio-item__picture">
+                      <source srcset="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=">
+                      <img src="img/portfolio/page/4.jpg" alt="" class="portfolio-item__image cms-image">
+                    </picture>
+                  </div>
+                  <!-- /.portfolio-item__gallery -->
+
+                  <div class="portfolio-item__additional">
+
+                  </div>
+                  <!-- /.portfolio-item__additional -->
+
+                  <div class="portfolio-item__list">
+                    <ul class="portfolio-item__list list list--feature">
+                      <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                      <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                      <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                      <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                      <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                    </ul>
+                  </div>
+                  <!-- /.portfolio-item__list -->
+
+                  <p class="portfolio-item__description">
+                    Кванториум - современные научные центры оборудованные по последнему слову техники.
+                  </p>
+                  <!-- /.portfolio-item__description -->
+                </div>
+                <!-- /.portfolio-item__content -->
+              </div>
+              <!-- /.portfolio-body__item portfolio-item -->
+            </div>
+            <!-- /.col-6 col-lg-4 -->
           </div>
           <!-- /.row -->
         </div>

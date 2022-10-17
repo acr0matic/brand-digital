@@ -2,6 +2,8 @@
   overflow: visible;
 }
 
+/* purgecss start ignore */
+
 .slider-portfolio-control {
   @include breakpoint($breakpoint-tablet--large) {
     margin-bottom: 15px;
@@ -90,3 +92,5 @@
     }
   }
 }
+
+/* purgecss end ignore */

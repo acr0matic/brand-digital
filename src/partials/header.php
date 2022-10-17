@@ -63,7 +63,7 @@
 <body class="page custom-scrollbar">
 
   <!-- Прелоадер -->
-  <div class="page-loader" id="page-loader">
+  <div style="display: none;" class="page-loader" id="page-loader">
     <div class="page-loader__wrapper">
       <div class="page-loader__logo">
         <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" height="100%" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 101.8623 38.9639" xmlns:xlink="http://www.w3.org/1999/xlink" data-name="Ð¡Ð»Ð¾Ð¹ 1">
