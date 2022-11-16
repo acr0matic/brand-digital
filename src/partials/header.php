@@ -317,9 +317,9 @@
 
       <div class="side-menu__footer">
         <div class="side-menu__points">
+          <!-- <div class="side-menu__point"></div>
           <div class="side-menu__point"></div>
-          <div class="side-menu__point"></div>
-          <div class="side-menu__point"></div>
+          <div class="side-menu__point"></div> -->
         </div>
         <!-- /.side-menu__points -->
 
@@ -329,9 +329,13 @@
         <!-- /.side-menu__tooltip -->
 
         <div class="side-menu__cities">
-          <span class="side-menu__city">г. Москва</span>
-          <span class="side-menu__city">г. Нижний Новгород</span>
-          <span class="side-menu__city">г. Казань</span>
+          <div class="side-menu__list custom-scrollbar custom-scrollbar--white">
+            <span class="side-menu__city">г. Москва</span>
+            <span class="side-menu__city">г. Нижний Новгород</span>
+            <span class="side-menu__city">г. Казань</span>
+            <span class="side-menu__city">г. Санкт-Петербург</span>
+          </div>
+          <!-- /.side-menu__list -->
         </div>
         <!-- /.side-menu__cities -->
       </div>

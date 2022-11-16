@@ -12,6 +12,11 @@
 
 .portfolio-block {
   &__action {
+    @include breakpoint($breakpoint-mobile--large) {
+      margin-top: 5px;
+    }
+
+    margin-top: 20px;
     text-align: center;
   }
 }

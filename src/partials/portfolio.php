@@ -25,7 +25,7 @@
                   </picture>
                   <!-- /.portfolio-item__picture -->
 
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--hidden">
+                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
                     <h3 class="portfolio-item__title">
                       Название проекта
                     </h3>
@@ -37,6 +37,8 @@
 
                     <div class="portfolio-item__wrapper">
                       <p class="portfolio-item__description">
+                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
+                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
                         Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
                       </p>
 
@@ -64,7 +66,7 @@
                   </picture>
                   <!-- /.portfolio-item__picture -->
 
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--hidden">
+                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
                     <h3 class="portfolio-item__title">
                       Название проекта
                     </h3>
@@ -103,7 +105,7 @@
                   </picture>
                   <!-- /.portfolio-item__picture -->
 
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--hidden">
+                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
                     <h3 class="portfolio-item__title">
                       Название проекта
                     </h3>
@@ -142,7 +144,7 @@
                   </picture>
                   <!-- /.portfolio-item__picture -->
 
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--hidden">
+                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
                     <h3 class="portfolio-item__title">
                       Название проекта
                     </h3>
@@ -181,7 +183,7 @@
                   </picture>
                   <!-- /.portfolio-item__picture -->
 
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--hidden">
+                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
                     <h3 class="portfolio-item__title">
                       Название проекта
                     </h3>
@@ -220,7 +222,7 @@
                   </picture>
                   <!-- /.portfolio-item__picture -->
 
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--hidden">
+                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
                     <h3 class="portfolio-item__title">
                       Название проекта
                     </h3>
@@ -263,7 +265,7 @@
                   </picture>
                   <!-- /.portfolio-item__picture -->
 
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--hidden">
+                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
                     <h3 class="portfolio-item__title">
                       Название проекта
                     </h3>
@@ -300,7 +302,7 @@
                   </picture>
                   <!-- /.portfolio-item__picture -->
 
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--hidden">
+                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
                     <h3 class="portfolio-item__title">
                       Название проекта
                     </h3>
@@ -337,7 +339,7 @@
                   </picture>
                   <!-- /.portfolio-item__picture -->
 
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--hidden">
+                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
                     <h3 class="portfolio-item__title">
                       Название проекта
                     </h3>
@@ -374,7 +376,7 @@
                   </picture>
                   <!-- /.portfolio-item__picture -->
 
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--hidden">
+                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
                     <h3 class="portfolio-item__title">
                       Название проекта
                     </h3>
@@ -411,7 +413,7 @@
                   </picture>
                   <!-- /.portfolio-item__picture -->
 
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--hidden">
+                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
                     <h3 class="portfolio-item__title">
                       Название проекта
                     </h3>
@@ -448,7 +450,7 @@
                   </picture>
                   <!-- /.portfolio-item__picture -->
 
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--hidden">
+                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
                     <h3 class="portfolio-item__title">
                       Название проекта
                     </h3>
@@ -491,7 +493,7 @@
                   </picture>
                   <!-- /.portfolio-item__picture -->
 
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--hidden">
+                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
                     <h3 class="portfolio-item__title">
                       Название проекта
                     </h3>
@@ -528,7 +530,7 @@
                   </picture>
                   <!-- /.portfolio-item__picture -->
 
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--hidden">
+                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
                     <h3 class="portfolio-item__title">
                       Название проекта
                     </h3>
@@ -565,7 +567,7 @@
                   </picture>
                   <!-- /.portfolio-item__picture -->
 
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--hidden">
+                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
                     <h3 class="portfolio-item__title">
                       Название проекта
                     </h3>
@@ -602,7 +604,7 @@
                   </picture>
                   <!-- /.portfolio-item__picture -->
 
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--hidden">
+                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
                     <h3 class="portfolio-item__title">
                       Название проекта
                     </h3>
@@ -639,7 +641,7 @@
                   </picture>
                   <!-- /.portfolio-item__picture -->
 
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--hidden">
+                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
                     <h3 class="portfolio-item__title">
                       Название проекта
                     </h3>
@@ -676,7 +678,7 @@
                   </picture>
                   <!-- /.portfolio-item__picture -->
 
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--hidden">
+                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
                     <h3 class="portfolio-item__title">
                       Название проекта
                     </h3>
@@ -719,7 +721,7 @@
                   </picture>
                   <!-- /.portfolio-item__picture -->
 
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--hidden">
+                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
                     <h3 class="portfolio-item__title">
                       Название проекта
                     </h3>
@@ -756,7 +758,7 @@
                   </picture>
                   <!-- /.portfolio-item__picture -->
 
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--hidden">
+                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
                     <h3 class="portfolio-item__title">
                       Название проекта
                     </h3>
@@ -793,7 +795,7 @@
                   </picture>
                   <!-- /.portfolio-item__picture -->
 
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--hidden">
+                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
                     <h3 class="portfolio-item__title">
                       Название проекта
                     </h3>
@@ -830,7 +832,7 @@
                   </picture>
                   <!-- /.portfolio-item__picture -->
 
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--hidden">
+                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
                     <h3 class="portfolio-item__title">
                       Название проекта
                     </h3>
@@ -867,7 +869,7 @@
                   </picture>
                   <!-- /.portfolio-item__picture -->
 
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--hidden">
+                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
                     <h3 class="portfolio-item__title">
                       Название проекта
                     </h3>
@@ -904,7 +906,7 @@
                   </picture>
                   <!-- /.portfolio-item__picture -->
 
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--hidden">
+                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
                     <h3 class="portfolio-item__title">
                       Название проекта
                     </h3>
@@ -947,7 +949,7 @@
                   </picture>
                   <!-- /.portfolio-item__picture -->
 
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--hidden">
+                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
                     <h3 class="portfolio-item__title">
                       Название проекта
                     </h3>
@@ -984,7 +986,7 @@
                   </picture>
                   <!-- /.portfolio-item__picture -->
 
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--hidden">
+                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
                     <h3 class="portfolio-item__title">
                       Название проекта
                     </h3>
@@ -1021,7 +1023,7 @@
                   </picture>
                   <!-- /.portfolio-item__picture -->
 
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--hidden">
+                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
                     <h3 class="portfolio-item__title">
                       Название проекта
                     </h3>
@@ -1058,7 +1060,7 @@
                   </picture>
                   <!-- /.portfolio-item__picture -->
 
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--hidden">
+                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
                     <h3 class="portfolio-item__title">
                       Название проекта
                     </h3>
@@ -1095,7 +1097,7 @@
                   </picture>
                   <!-- /.portfolio-item__picture -->
 
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--hidden">
+                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
                     <h3 class="portfolio-item__title">
                       Название проекта
                     </h3>
@@ -1132,7 +1134,7 @@
                   </picture>
                   <!-- /.portfolio-item__picture -->
 
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--hidden">
+                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
                     <h3 class="portfolio-item__title">
                       Название проекта
                     </h3>

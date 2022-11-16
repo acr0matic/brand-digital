@@ -21,6 +21,23 @@
       display: none;
     }
   }
+
+  &--white {
+    &::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: #ffffff;
+      border-radius: 10px;
+      border: 0;
+    }
+  }
 }
 
 /* purgecss end ignore */

@@ -1,6 +1,7 @@
 .portfolio-block {
   .portfolio-item {
     position: relative;
+    overflow: hidden;
 
     &:hover {
       .portfolio-item__picture::after,
@@ -87,24 +88,20 @@
 
     &__content {
       @include breakpoint($breakpoint-laptop--large) {
-        padding: 35px 40px;
-      }
-
-      @include breakpoint($breakpoint-laptop--medium) {
-        padding: 25px 30px;
+        padding-left: 30px;
       }
 
       @include breakpoint($breakpoint-tablet--large) {
-        padding: 20px;
-      }
-
-      @include breakpoint($breakpoint-tablet) {
-        padding: 0;
+        max-height: calc(var(--max-height) - 30px);
+        margin: 15px 15px 15px 0;
+        padding-left: 15px;
       }
 
       @include breakpoint($breakpoint-tablet) {
         position: static;
+        margin: 0;
         margin-top: 12px;
+        padding-left: 0;
 
         color: $text-black;
       }
@@ -113,10 +110,11 @@
       top: 0;
       left: 0;
 
-      max-height: var(--max-height);
-
+      max-height: calc(var(--max-height) - 60px);
       overflow: auto;
-      padding: 30px 40px;
+
+      margin: 30px 15px 30px 0;
+      padding-left: 40px;
 
       color: $text-white;
     }
@@ -223,24 +221,27 @@
         font-size: 14px;
       }
 
+      @include breakpoint($breakpoint-tablet) {
+        top: 15px;
+        right: 15px;
+        bottom: initial;
+      }
+
       @include breakpoint($breakpoint-mobile--large) {
         font-size: 12px;
       }
 
-      @include breakpoint($breakpoint-mobile--medium) {
-        top: 50%;
-        right: 6px;
-      }
 
       position: absolute;
-      right: 10px;
-      bottom: 25px;
+      right: 15px;
+      bottom: 15px;
 
-      padding: 4px 14px;
+      padding: 6px 18px;
       border-radius: 4px;
       background-color: #c4c4c4;
 
       font-weight: $weight-Medium;
+      font-size: $font-text - 3px;
       color: $palette-white;
 
       transition: 0.2s ease;
