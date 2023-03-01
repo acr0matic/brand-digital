@@ -1,0 +1,46 @@
+#service-advantage {
+}
+
+.service-advantage {
+  @include breakpoint($breakpoint-laptop--medium) {
+    width: 100%;
+  }
+
+  @include breakpoint($breakpoint-tablet--large) {
+    padding-top: 120px;
+  }
+
+  width: 80%;
+  margin: 0 auto;
+
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 100%;
+    text-align: center;
+
+    img {
+      margin-bottom: 24px;
+    }
+
+    h3 {
+      @include breakpoint($breakpoint-mobile--large) {
+        font-size: 18px;
+      }
+
+      margin-bottom: 18px;
+      color: $text-orange;
+
+      font-size: 20px;
+    }
+
+    p {
+      margin-top: auto;
+    }
+  }
+}

@@ -75,6 +75,94 @@
     <!-- /.hero -->
   </section>
 
+  <section id="service-advantage" class="section">
+    <div class="container">
+      <div class="service-advantage">
+        <div class="row gy-5">
+          <div class="col-6 col-lg-3">
+            <div class="service-advantage__item">
+              <img src="img/page/service/icons/1.svg" alt="">
+              <h3>
+                100 + постоянных
+                <br>
+                клиентов
+              </h3>
+
+              <p>
+                точное соблюдение
+                <br>
+                сроков и ТЗ
+              </p>
+            </div>
+            <!-- /.service-advantage__item -->
+          </div>
+          <!-- /.col-3 -->
+
+          <div class="col-6 col-lg-3">
+            <div class="service-advantage__item">
+              <img src="img/page/service/icons/2.svg" alt="">
+              <h3>
+                280 м2 в сутки
+                <br>
+                мощность про-ва
+              </h3>
+
+              <p>
+                в среднем 14 газелей
+                <br>
+                в сутки
+              </p>
+            </div>
+            <!-- /.service-advantage__item -->
+          </div>
+          <!-- /.col-3 -->
+
+          <div class="col-6 col-lg-3">
+            <div class="service-advantage__item">
+              <img src="img/page/service/icons/3.svg" alt="">
+              <h3>
+                1050 +
+                <br>
+                реализованных
+                <br>
+                проектов
+              </h3>
+
+              <p>
+                опыт работы любой
+                <br>
+                сложности
+              </p>
+            </div>
+            <!-- /.service-advantage__item -->
+          </div>
+          <!-- /.col-3 -->
+
+          <div class="col-6 col-lg-3">
+            <div class="service-advantage__item">
+              <img src="img/page/service/icons/4.svg" alt="">
+              <h3>
+                6+ месяцев
+                <br>
+                гарантии качества
+              </h3>
+
+              <p>используем
+                <br>
+                немецкую пленку
+              </p>
+            </div>
+            <!-- /.service-advantage__item -->
+          </div>
+          <!-- /.col-3 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.service-advantage -->
+    </div>
+    <!-- /.container -->
+  </section>
+
   <?php include_once('partials/portfolio.php') ?>
 
   <section id="request" class="section">
