@@ -33,4 +33,8 @@
     flex-direction: column;
     align-items: flex-start;
   }
+
+  &__privacy {
+    color: $text-gray;
+  }
 }

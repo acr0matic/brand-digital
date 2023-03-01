@@ -40,3 +40,14 @@ setInterval(() => {
 
   ChangeWidgetIcon();
 }, 12000);
+
+const seoBlock = document.getElementById('seo-block');
+if (seoBlock) {
+  const content = seoBlock.querySelector('.seo-block__content');
+  const button = seoBlock.querySelector('.seo-block__action');
+
+  button.addEventListener('click', () => {
+    content.classList.add('seo-block__content--visible');
+    button.classList.add('seo-block__action--hidden');
+  });
+}

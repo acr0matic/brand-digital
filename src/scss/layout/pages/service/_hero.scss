@@ -38,19 +38,24 @@
           display: none;
         }
       }
+
+      @include breakpoint($breakpoint-tablet--large) {
+        padding-bottom: 0;
+      }
+
+      padding-bottom: 60px;
+    }
+
+    &__title {
+      line-height: 1.15;
     }
 
     &__description {
-      min-height: 165px;
+      min-height: initial;
       padding-bottom: 45px;
 
       @include breakpoint($breakpoint-laptop--large) {
-        min-height: 130px;
         padding-bottom: 30px;
-      }
-
-      @include breakpoint($breakpoint-mobile--large) {
-        min-height: initial;
       }
 
       @include breakpoint($breakpoint-mobile) {

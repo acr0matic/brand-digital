@@ -1,5 +1,6 @@
 .input {
   position: relative;
+  display: block;
 
   &--placeholder {
     .input__placeholder {
@@ -23,6 +24,18 @@
     .input__placeholder {
       display: none;
     }
+  }
+
+  &__label {
+    @include breakpoint($breakpoint-tablet) {
+      position: static;
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    position: absolute;
+    top: -25px;
+    left: 0;
   }
 
   &__field,
@@ -64,6 +77,10 @@
     padding: 15px 30px;
     background-color: transparent;
 
+    &::placeholder {
+      color: #9b9b9b;
+    }
+
     @include breakpoint($breakpoint-laptop--large) {
       padding: 10px 20px;
     }
@@ -71,6 +88,19 @@
     &--modal {
       padding: 10px 15px;
       background-color: $palette-white;
+    }
+
+    &--big {
+      @include breakpoint($breakpoint-tablet--large) {
+        font-size: 16px;
+      }
+
+      font-weight: $weight-Regular;
+      font-size: 18px;
+
+      &::placeholder {
+        color: $text-light-gray;
+      }
     }
 
     &--required {
@@ -82,10 +112,6 @@
       max-width: 570px;
 
       resize: none;
-    }
-
-    &::placeholder {
-      color: #9b9b9b;
     }
   }
 

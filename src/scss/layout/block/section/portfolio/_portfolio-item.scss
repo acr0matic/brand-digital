@@ -31,11 +31,11 @@
 
     &__picture {
       @include breakpoint($breakpoint-laptop--large) {
-        height: 250px;
+        height: 260px;
       }
 
       @include breakpoint($breakpoint-laptop--medium) {
-        height: 280px;
+        height: 300px;
       }
 
       @include breakpoint($breakpoint-tablet--large) {
@@ -59,7 +59,7 @@
 
       position: relative;
 
-      height: 360px;
+      height: 300px;
 
       border-radius: $border-radius-large;
       overflow: hidden;
@@ -78,8 +78,8 @@
 
         background-image: linear-gradient(
           0deg,
-          rgba(0, 0, 0, 0.78),
-          rgba(0, 0, 0, 0.78)
+          rgba(0, 0, 0, 0.9),
+          rgba(0, 0, 0, 0.9)
         );
 
         transition: 0.2s ease;
@@ -120,25 +120,8 @@
     }
 
     &__title {
-      @include breakpoint($breakpoint-laptop--large) {
-        font-size: 21px;
-      }
-
-      @include breakpoint($breakpoint-laptop--medium) {
-        margin-bottom: 15px;
-        font-size: 20px;
-      }
-
-      @include breakpoint($breakpoint-tablet--large) {
-        font-size: 16px;
-      }
-
-      @include breakpoint($breakpoint-tablet) {
-        margin-bottom: 2px;
-      }
-
-      margin-bottom: 20px;
-      font-size: 27px;
+      margin-bottom: 16px;
+      font-size: 20px;
     }
 
     &__info {
@@ -175,43 +158,16 @@
     }
 
     &__description {
-      @include breakpoint($breakpoint-laptop--large) {
-        margin-bottom: 18px;
-        font-size: 18px;
-      }
-
-      @include breakpoint($breakpoint-laptop--medium) {
-        margin-bottom: 15px;
-        font-size: 16px;
-      }
-
-      @include breakpoint($breakpoint-tablet--large) {
-        font-size: 14px;
-      }
-
-      margin-bottom: 50px;
-      font-size: 21px;
+      margin-bottom: 16px;
+      font-size: 16px;
     }
 
     &__list .list__item {
-      @include breakpoint($breakpoint-laptop--large) {
-        font-size: 18px;
-      }
-
-      @include breakpoint($breakpoint-laptop--medium) {
-        font-size: 16px;
-      }
-
-      @include breakpoint($breakpoint-tablet--large) {
-        font-size: 14px;
-      }
-
-      font-size: 20px;
+      font-size: 14px;
+      color: $text-white;
 
       &:not(:last-child) {
-        @include breakpoint($breakpoint-tablet--large) {
-          margin-bottom: 4px;
-        }
+        margin-bottom: 4px;
       }
     }
 
@@ -230,7 +186,6 @@
       @include breakpoint($breakpoint-mobile--large) {
         font-size: 12px;
       }
-
 
       position: absolute;
       right: 15px;

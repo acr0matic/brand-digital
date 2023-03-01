@@ -5,6 +5,10 @@
     font-weight: $weight-Bold;
   }
 
+  &--underline {
+    text-decoration: underline;
+  }
+
   &--orange {
     @media (hover: hover) {
       &:hover {

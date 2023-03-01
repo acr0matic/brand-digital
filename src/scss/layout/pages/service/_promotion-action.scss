@@ -1,0 +1,86 @@
+#promotion-action {
+  position: relative;
+  overflow: hidden;
+
+  @include breakpoint($breakpoint-tablet) {
+    .button {
+      width: 100%;
+    }
+  }
+}
+
+.promotion-action {
+  @include breakpoint($breakpoint-tablet--large) {
+    padding-top: 40px;
+    padding-bottom: 0;
+  }
+
+  padding: 40px 0;
+
+  .input__field,
+  .button {
+    @include breakpoint($breakpoint-tablet) {
+      height: 54px;
+    }
+
+    height: 68px;
+  }
+
+  .section__title {
+    @include breakpoint($breakpoint-tablet--large) {
+      br {
+        display: none;
+      }
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      text-align: left;
+    }
+
+    margin-bottom: 20px;
+  }
+
+  .section__text {
+    @include breakpoint($breakpoint-laptop--large) {
+      margin-bottom: 75px;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      margin-bottom: 40px;
+    }
+
+    margin-bottom: 90px;
+  }
+
+  &__background {
+    @include breakpoint($breakpoint-laptop--large) {
+      bottom: 50%;
+      left: calc(50% + 100px);
+      width: 550px;
+
+      transform: translateY(50%);
+    }
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      left: calc(50% + 200px);
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      display: none;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      position: static;
+      display: block;
+      width: 100%;
+      max-width: 320px;
+
+      margin: 32px auto 0;
+      transform: none;
+    }
+
+    position: absolute;
+    bottom: 0;
+    left: calc(50% + 150px);
+  }
+}

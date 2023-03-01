@@ -1,0 +1,35 @@
+#request {
+}
+
+.request {
+  @include breakpoint($breakpoint-tablet--large) {
+    text-align: center;
+  }
+
+  padding: 40px 0;
+
+  .section__title {
+    margin-bottom: 20px;
+  }
+
+  .section__text {
+    @include breakpoint($breakpoint-tablet--large) {
+      margin-bottom: 45px;
+    }
+
+    margin-bottom: 60px;
+  }
+
+  &__picture {
+    margin-bottom: 24px;
+
+    img {
+      @include breakpoint($breakpoint-tablet--large) {
+        max-width: 240px;
+      }
+
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

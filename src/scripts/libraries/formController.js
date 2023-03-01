@@ -15,6 +15,9 @@ class Form {
 
     this.buttonDefault = this.submit.innerHTML;
 
+    this.counter = form.dataset.counter;
+    this.goal = form.dataset.goal;
+
     this.ValidateExpression = {
       phone: /^(\s*)?(\+)?([- _():=+]?\d[- _():=+]?){11}(\s*)?$/,
       name: /^[a-zA-Zа-яА-Я ]+$/,
@@ -134,6 +137,8 @@ class Form {
 
     data.append('target', target);
     data.append('page_title', document.title);
+    data.append('page_url', window.location.href);
+    
     if (additional) data.append('additional', additional);
     if (utm) data.append('utm', utm);
 
@@ -184,9 +189,10 @@ class Form {
       }
 
       let result = await response.json();
-      console.log(result);
+      // console.log(result);
 
       this.Clear();
+      if (this.counter && ym) ym(this.counter, 'reachGoal', this.goal);
     }
 
     // Логируем ошибку, если возникла
