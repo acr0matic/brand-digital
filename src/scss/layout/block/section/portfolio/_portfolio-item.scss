@@ -1,4 +1,10 @@
 .portfolio-block {
+  .row > *:last-child {
+    @include breakpoint($breakpoint-tablet) {
+      display: none;
+    }
+  }
+
   .portfolio-item {
     position: relative;
     overflow: hidden;
@@ -53,8 +59,8 @@
         border-radius: 6px;
       }
 
-      @include breakpoint($breakpoint-mobile--medium) {
-        height: 100px;
+      @include breakpoint(max-width 360px) {
+        height: 160px;
       }
 
       position: relative;
@@ -120,6 +126,11 @@
     }
 
     &__title {
+      @include breakpoint($breakpoint-tablet) {
+        margin-bottom: 0;
+        font-size: 16px;
+      }
+
       margin-bottom: 16px;
       font-size: 20px;
     }
@@ -129,8 +140,8 @@
         display: flex;
       }
 
-      @include breakpoint($breakpoint-mobile--medium) {
-        font-size: 12px;
+      @include breakpoint($breakpoint-mobile--large) {
+        font-size: 10px;
       }
 
       display: none;

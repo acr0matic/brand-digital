@@ -74,10 +74,41 @@
   }
 
   &__price {
+    @include breakpoint($breakpoint-laptop--large) {
+      font-size: 16px;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      flex-direction: column;
+      align-items: flex-start;
+
+      font-size: 12px;
+    }
+
+    display: flex;
+    align-items: center;
+
     margin-top: auto;
 
-    font-weight: $weight-Medium;
-    font-size: $font-text;
+    font-size: 20px;
+
+    span {
+      @include breakpoint($breakpoint-laptop--large) {
+        font-size: 20px;
+      }
+
+      @include breakpoint($breakpoint-tablet) {
+        margin-bottom: 4px;
+        font-size: 14px;
+      }
+
+      margin-right: 6px;
+
+      font-weight: $weight-Bold;
+      font-size: $font-text;
+
+      color: $text-orange;
+    }
 
     @include breakpoint($breakpoint-laptop--large) {
       font-size: $font-text - 4;

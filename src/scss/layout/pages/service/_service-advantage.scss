@@ -16,6 +16,12 @@
   padding-top: 60px;
   padding-bottom: 60px;
 
+  .row > div:not(:last-child) {
+    @include breakpoint($breakpoint-tablet) {
+      margin-bottom: 96px;
+    }
+  }
+
   &__item {
     display: flex;
     flex-direction: column;
@@ -29,18 +35,41 @@
     }
 
     h3 {
-      @include breakpoint($breakpoint-mobile--large) {
-        font-size: 18px;
+      position: relative;
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+
+      font-size: 40px;
+
+      &::after {
+        content: "";
+
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+
+        width: 70px;
+        height: 3px;
+
+        border-radius: 100px;
+        background-color: $palette-orange;
+
+        transform: translateX(-50%);
       }
+    }
 
-      margin-bottom: 18px;
-      color: $text-orange;
+    h4 {
+      margin-bottom: 16px;
 
-      font-size: 20px;
+      text-transform: uppercase;
+
+      font-weight: $weight-Regular;
+      font-size: 18px;
     }
 
     p {
-      margin-top: auto;
+      color: $text-gray;
+      font-size: 16px;
     }
   }
 }

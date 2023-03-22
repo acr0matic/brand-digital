@@ -45,14 +45,6 @@
               </video>
             </div>
             <!-- /.hero__motion -->
-
-            <div class="hero__social">
-              <a href="" class="hero__link"><img src="img/icons/social/instagram.svg" alt="" class="side-menu__icon"></a>
-              <a href="" class="hero__link"><img src="img/icons/social/facebook.svg" alt="" class="side-menu__icon"></a>
-              <a href="" class="hero__link"><img src="img/icons/social/pinterest.svg" alt="" class="side-menu__icon"></a>
-              <a href="" class="hero__link"><img src="img/icons/social/mail.svg" alt="" class="side-menu__icon"></a>
-            </div>
-            <!-- /.side-menu__social -->
           </div>
           <!-- /.hero__wrapper -->
         </div>
@@ -63,7 +55,6 @@
       <div class="hero__row hero__row--white hero__row--mobile">
         <div class="container">
           <div class="hero__cta">
-            <a href="#promotions"><button class="button button--cta button-primary mb-3 mb-md-0 me-md-3">Наши акции</button></a>
             <a style="text-align: center;" href="#portfolio--block"><button class="button button--cta button-outline">Портфолио</button></a>
           </div>
           <!-- /.hero__action -->
@@ -78,83 +69,60 @@
   <section id="service-advantage" class="section">
     <div class="container">
       <div class="service-advantage">
-        <div class="row gy-5">
-          <div class="col-6 col-lg-3">
+        <div class="row">
+          <div class="col-12 col-md-4">
             <div class="service-advantage__item">
-              <img src="img/page/service/icons/1.svg" alt="">
               <h3>
-                100 + постоянных
-                <br>
-                клиентов
+                +100
               </h3>
+
+              <h4>
+                Постоянных клиентов
+              </h4>
 
               <p>
-                точное соблюдение
-                <br>
-                сроков и ТЗ
+                точное соблюдение сроков и ТЗ
               </p>
             </div>
             <!-- /.service-advantage__item -->
           </div>
-          <!-- /.col-3 -->
+          <!-- /.col-4 -->
 
-          <div class="col-6 col-lg-3">
+          <div class="col-12 col-md-4">
             <div class="service-advantage__item">
-              <img src="img/page/service/icons/2.svg" alt="">
               <h3>
-                280 м2 в сутки
-                <br>
-                мощность про-ва
+                280 м<sup>2</sup>
               </h3>
+
+              <h4>
+                Мощность производства
+              </h4>
 
               <p>
-                в среднем 14 газелей
-                <br>
-                в сутки
+                в среднем 14 газелей в сутки
               </p>
             </div>
             <!-- /.service-advantage__item -->
           </div>
-          <!-- /.col-3 -->
+          <!-- /.col-4 -->
 
-          <div class="col-6 col-lg-3">
+          <div class="col-12 col-md-4">
             <div class="service-advantage__item">
-              <img src="img/page/service/icons/3.svg" alt="">
               <h3>
-                1050 +
-                <br>
-                реализованных
-                <br>
-                проектов
+                +1050
               </h3>
+
+              <h4>
+                Реализованных проектов
+              </h4>
 
               <p>
-                опыт работы любой
-                <br>
-                сложности
+                опыт работы любой сложности
               </p>
             </div>
             <!-- /.service-advantage__item -->
           </div>
-          <!-- /.col-3 -->
-
-          <div class="col-6 col-lg-3">
-            <div class="service-advantage__item">
-              <img src="img/page/service/icons/4.svg" alt="">
-              <h3>
-                6+ месяцев
-                <br>
-                гарантии качества
-              </h3>
-
-              <p>используем
-                <br>
-                немецкую пленку
-              </p>
-            </div>
-            <!-- /.service-advantage__item -->
-          </div>
-          <!-- /.col-3 -->
+          <!-- /.col-4 -->
         </div>
         <!-- /.row -->
       </div>
@@ -210,7 +178,10 @@
           <div onclick="window.location.href='service-page.php#category-4'" class="service__card service-card">
             <div class="service-card__wrapper">
               <h3 class="service-card__title">Грузовой <br> автомобиль</h3>
-              <div class="service-card__price">от 14 000₽</div>
+              <div class="service-card__price">
+                <span>от 14 000₽</span>
+                под ключ
+              </div>
             </div>
             <!-- /.service-card__wrapper -->
 

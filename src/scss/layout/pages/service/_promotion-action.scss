@@ -19,7 +19,7 @@
 
   .input__field,
   .button {
-    @include breakpoint($breakpoint-tablet) {
+    @include breakpoint($breakpoint-laptop--large) {
       height: 54px;
     }
 

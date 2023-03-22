@@ -45,9 +45,15 @@ const seoBlock = document.getElementById('seo-block');
 if (seoBlock) {
   const content = seoBlock.querySelector('.seo-block__content');
   const button = seoBlock.querySelector('.seo-block__action');
+  const textNode = button.children[0];
+  const defaultText = textNode.textContent;
 
   button.addEventListener('click', () => {
-    content.classList.add('seo-block__content--visible');
-    button.classList.add('seo-block__action--hidden');
+    const currentText = button.children[0].textContent;
+
+    content.classList.toggle('seo-block__content--visible');
+    button.classList.toggle('seo-block__action--open');
+
+    textNode.textContent = currentText != button.dataset.textHide ? button.dataset.textHide : defaultText;
   });
 }

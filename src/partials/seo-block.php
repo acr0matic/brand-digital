@@ -59,8 +59,10 @@
             </div>
             <!-- /.seo-block__content -->
 
-            <div class="seo-block__action">
-              Читать о нашем опыте работы
+            <div data-text-hide="Скрыть опыт работы" class="seo-block__action">
+              <span>
+                Читать о нашем опыте работы
+              </span>
 
               <svg class="svg ms-3" width="14" height="22" viewBox="0 0 14 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect x="6" width="2" height="21" rx="1" fill="#FF8025"></rect>

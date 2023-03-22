@@ -56,53 +56,13 @@
   }
 
   &__item {
-    width: 38%;
+    width: 100%;
 
     font-size: $font-text;
     line-height: 130%;
 
     &:not(:last-child) {
       margin-bottom: 35px;
-    }
-
-    &:nth-child(1) {
-      order: 1;
-
-      @include breakpoint($breakpoint-mobile--large) {
-        order: 2;
-      }
-    }
-
-    &:nth-child(2) {
-      order: 3;
-
-      @include breakpoint($breakpoint-mobile--large) {
-        order: 5;
-      }
-    }
-
-    &:nth-child(3) {
-      order: 5;
-    }
-
-    &:nth-child(4) {
-      order: 4;
-
-      @include breakpoint($breakpoint-mobile--large) {
-        order: 5;
-        width: 100%;
-
-        font-size: 16px;
-      }
-    }
-
-    &:last-child {
-      order: 2;
-
-      @include breakpoint($breakpoint-mobile--large) {
-        order: 1;
-        width: 45%;
-      }
     }
 
     @include breakpoint($breakpoint-laptop--large) {
