@@ -11,7 +11,7 @@
 
   &__title {
     margin-bottom: 45px;
-    font-size: $font-headline-3;
+    font-size: $font-headline-3 - 2px;
     font-weight: $weight-Bold;
 
     @include breakpoint($breakpoint-laptop--large) {
@@ -53,7 +53,7 @@
     &::after {
       content: "";
       position: absolute;
-      z-index: 100;
+      z-index: 10;
       bottom: 0;
       left: 0;
 
@@ -101,14 +101,10 @@
 
     h3,
     h4 {
-      font-size: 27px;
-
-      @include breakpoint($breakpoint-laptop--large) {
-        font-size: 24px;
-      }
+      font-size: 20px;
 
       @include breakpoint($breakpoint-laptop--medium) {
-        font-size: 21px;
+        font-size: 18px;
       }
     }
 
@@ -126,11 +122,7 @@
 
     h5,
     h6 {
-      font-size: 24px;
-
-      @include breakpoint($breakpoint-laptop--medium) {
-        font-size: 21px;
-      }
+      font-size: 20px;
 
       @include breakpoint($breakpoint-mobile--large) {
         font-size: 18px;
@@ -140,11 +132,7 @@
     p,
     ul,
     ol {
-      font-size: $font-text;
-
-      @include breakpoint($breakpoint-laptop--large) {
-        font-size: $font-text - 4;
-      }
+      font-size: $font-text - 4;
 
       @include breakpoint($breakpoint-laptop--medium) {
         font-size: $font-text - 6;
@@ -218,14 +206,10 @@
     align-items: center;
     justify-content: flex-start;
 
-    font-size: $font-text;
+    font-size: $font-text - 4;
     color: #888888;
 
     transition: 0.2s ease;
-
-    @include breakpoint($breakpoint-laptop--large) {
-      font-size: $font-text - 4;
-    }
 
     @include breakpoint($breakpoint-laptop--medium) {
       font-size: $font-text - 6;

@@ -42,11 +42,7 @@
   &__info,
   &__link,
   &__additional {
-    font-size: 24px;
-
-    @include breakpoint($breakpoint-laptop--large) {
-      font-size: 20px;
-    }
+    font-size: 20px;
 
     @include breakpoint($breakpoint-laptop--medium) {
       font-size: 18px;

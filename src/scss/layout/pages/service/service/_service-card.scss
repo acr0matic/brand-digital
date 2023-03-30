@@ -58,11 +58,7 @@
   }
 
   &__title {
-    font-size: $font-headline-3;
-
-    @include breakpoint($breakpoint-laptop--large) {
-      font-size: $font-headline-3 - 4;
-    }
+    font-size: $font-headline-3 - 4;
 
     @include breakpoint($breakpoint-laptop--medium) {
       font-size: 24px;
@@ -90,13 +86,9 @@
 
     margin-top: auto;
 
-    font-size: 20px;
+    font-size: 16px;
 
     span {
-      @include breakpoint($breakpoint-laptop--large) {
-        font-size: 20px;
-      }
-
       @include breakpoint($breakpoint-tablet) {
         margin-bottom: 4px;
         font-size: 14px;
@@ -105,7 +97,7 @@
       margin-right: 6px;
 
       font-weight: $weight-Bold;
-      font-size: $font-text;
+      font-size: 20px;
 
       color: $text-orange;
     }

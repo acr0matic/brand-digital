@@ -38,15 +38,11 @@
 
   &__link {
     display: inline-block;
-    margin: 15px 0 25px 0;
 
-    font-size: 30px;
+    margin: 8px 0 18px 0;
+    font-size: 22px;
+
     font-weight: $weight-Medium;
-
-    @include breakpoint($breakpoint-laptop--large) {
-      margin: 8px 0 18px 0;
-      font-size: 22px;
-    }
   }
 
   &__form {

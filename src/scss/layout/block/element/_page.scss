@@ -1,11 +1,7 @@
 .page {
   &__title {
-    font-size: $font-headline-1;
+    font-size: $font-headline-1 - 7;
     font-weight: $weight-Black;
-
-    @include breakpoint($breakpoint-laptop--large) {
-      font-size: $font-headline-1 - 7;
-    }
 
     @include breakpoint($breakpoint-laptop--medium) {
       font-size: 32px;
@@ -17,11 +13,7 @@
   }
 
   &__description {
-    font-size: $font-text;
-
-    @include breakpoint($breakpoint-laptop--large) {
-      font-size: $font-text - 4;
-    }
+    font-size: $font-text - 4;
 
     @include breakpoint($breakpoint-laptop--medium) {
       font-size: 18px;

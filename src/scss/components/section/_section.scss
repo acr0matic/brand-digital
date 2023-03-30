@@ -10,11 +10,7 @@
   }
 
   &__title {
-    font-size: $font-headline-2;
-
-    @include breakpoint($breakpoint-laptop--large) {
-      font-size: $font-headline-2 - 9;
-    }
+    font-size: $font-headline-2 - 9;
 
     @include breakpoint($breakpoint-laptop--medium) {
       font-size: $font-headline-2 - 15;
@@ -35,15 +31,7 @@
   }
 
   &__text {
-    font-size: $font-text;
-
-    @include breakpoint($breakpoint-laptop--large) {
-      font-size: $font-text - 4;
-    }
-
-    @include breakpoint($breakpoint-laptop--medium) {
-      font-size: $font-text - 6;
-    }
+    font-size: $font-text - 6;
 
     @include breakpoint($breakpoint-mobile--large) {
       font-size: 16px;

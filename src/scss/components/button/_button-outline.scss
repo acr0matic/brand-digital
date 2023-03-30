@@ -3,7 +3,7 @@
   padding: 20px 40px;
   color: $text-black;
 
-  font-size: 24px;
+  font-size: 18px;
   font-weight: $weight-Bold;
 
   @include breakpoint($breakpoint-laptop--large) {
@@ -25,7 +25,7 @@
     padding: 20px 40px;
     border-color: $palette-orange;
 
-    font-size: 24px;
+    font-size: 18px;
     font-weight: $weight-Bold;
 
     color: $text-white;
