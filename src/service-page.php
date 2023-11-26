@@ -93,389 +93,78 @@
 
     <div class="service-content">
       <div class="container">
-        <div class="swiper service-content-slider">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="service-content__item service-content-item">
-                <h2 class="service-content-item__title section__title">Оклейка легкового автомобиля</h2>
+        <div class="service-content__item service-content-item">
+          <h2 class="service-content-item__title section__title">Оклейка легкового автомобиля</h2>
 
-                <div class="service-content-item__wrapper">
-                  <div class="service-content-item__content">
-                    <ul class="service-content-item__list list list--marked">
-                      <li class="list__item">Все виды пленок</li>
-                      <li class="list__item">Оклейка легкового автомобиля</li>
-                      <li class="list__item">Полноцветная печать;</li>
-                      <li class="list__item">Индивидуальный дизайн с учетом конфигурации автомобиля;</li>
-                      <li class="list__item">Профессиональный монтаж;</li>
-                      <li class="list__item">Дополнительная ламинация для защиты от UV лучей;</li>
-                      <li class="list__item">Дополнительная защита кузова от агрессивных воздействий внешней среды;</li>
-                      <li class="list__item">Ваша реклама 24/7 с минимальными затратами.</li>
-                    </ul>
-                  </div>
-                  <!-- /.service-content-item__content -->
-
-                  <div class="service-content-item__gallery">
-                    <div class="swiper service-content-gallery">
-                      <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                          <div class="service-content-gallery__item">
-                            <picture class="service-content-gallery__picture">
-                              <img class="service-content-gallery__image cms-image" src="img/page/service-content/gallery/1.jpg" alt="">
-                            </picture>
-                          </div>
-                          <!-- /.service-content-gallery__item -->
-                        </div>
-                        <!-- /.swiper-slide -->
-
-                        <div class="swiper-slide">
-                          <div class="service-content-gallery__item">
-                            <picture class="service-content-gallery__picture">
-                              <img class="service-content-gallery__image cms-image" src="img/page/service-content/gallery/1.jpg" alt="">
-                            </picture>
-                          </div>
-                          <!-- /.service-content-gallery__item -->
-                        </div>
-                        <!-- /.swiper-slide -->
-
-                        <div class="swiper-slide">
-                          <div class="service-content-gallery__item">
-                            <picture class="service-content-gallery__picture">
-                              <img class="service-content-gallery__image cms-image" src="img/page/service-content/gallery/1.jpg" alt="">
-                            </picture>
-                          </div>
-                          <!-- /.service-content-gallery__item -->
-                        </div>
-                        <!-- /.swiper-slide -->
-
-                        <div class="swiper-slide">
-                          <div class="service-content-gallery__item">
-                            <picture class="service-content-gallery__picture">
-                              <img class="service-content-gallery__image cms-image" src="img/page/service-content/gallery/1.jpg" alt="">
-                            </picture>
-                          </div>
-                          <!-- /.service-content-gallery__item -->
-                        </div>
-                        <!-- /.swiper-slide -->
-                      </div>
-                      <!-- /.swiper-wrapper -->
-
-                      <div class="swiper-pagination"></div>
-                    </div>
-                    <!-- /.swiper service-content-gallery -->
-                  </div>
-                  <!-- /.service-content-item__gallery -->
-                </div>
-                <!-- /.service-content-item__wrapper -->
-              </div>
-              <!-- /.service-content__item -->
+          <div class="service-content-item__wrapper">
+            <div class="service-content-item__content">
+              <ul class="service-content-item__list list list--marked">
+                <li class="list__item">Все виды пленок</li>
+                <li class="list__item">Оклейка легкового автомобиля</li>
+                <li class="list__item">Полноцветная печать;</li>
+                <li class="list__item">Индивидуальный дизайн с учетом конфигурации автомобиля;</li>
+                <li class="list__item">Профессиональный монтаж;</li>
+                <li class="list__item">Дополнительная ламинация для защиты от UV лучей;</li>
+                <li class="list__item">Дополнительная защита кузова от агрессивных воздействий внешней среды;</li>
+                <li class="list__item">Ваша реклама 24/7 с минимальными затратами.</li>
+              </ul>
             </div>
-            <!-- /.swiper-slide -->
+            <!-- /.service-content-item__content -->
 
-            <div class="swiper-slide">
-              <div class="service-content__item service-content-item">
-                <h2 class="service-content-item__title section__title">Оклейка легкового автомобиля</h2>
-
-                <div class="service-content-item__wrapper">
-                  <div class="service-content-item__content">
-                    <ul class="service-content-item__list list list--marked">
-                      <li class="list__item">Все виды пленок</li>
-                      <li class="list__item">Оклейка легкового автомобиля</li>
-                      <li class="list__item">Полноцветная печать;</li>
-                      <li class="list__item">Индивидуальный дизайн с учетом конфигурации автомобиля;</li>
-                      <li class="list__item">Профессиональный монтаж;</li>
-                      <li class="list__item">Дополнительная ламинация для защиты от UV лучей;</li>
-                      <li class="list__item">Дополнительная защита кузова от агрессивных воздействий внешней среды;</li>
-                      <li class="list__item">Ваша реклама 24/7 с минимальными затратами.</li>
-                    </ul>
-                  </div>
-                  <!-- /.service-content-item__content -->
-
-                  <div class="service-content-item__gallery">
-                    <div class="swiper service-content-gallery">
-                      <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                          <div class="service-content-gallery__item">
-                            <picture class="service-content-gallery__picture">
-                              <img class="service-content-gallery__image cms-image" src="img/page/service-content/gallery/1.jpg" alt="">
-                            </picture>
-                          </div>
-                          <!-- /.service-content-gallery__item -->
-                        </div>
-                        <!-- /.swiper-slide -->
-
-                        <div class="swiper-slide">
-                          <div class="service-content-gallery__item">
-                            <picture class="service-content-gallery__picture">
-                              <img class="service-content-gallery__image cms-image" src="img/page/service-content/gallery/1.jpg" alt="">
-                            </picture>
-                          </div>
-                          <!-- /.service-content-gallery__item -->
-                        </div>
-                        <!-- /.swiper-slide -->
-
-                        <div class="swiper-slide">
-                          <div class="service-content-gallery__item">
-                            <picture class="service-content-gallery__picture">
-                              <img class="service-content-gallery__image cms-image" src="img/page/service-content/gallery/1.jpg" alt="">
-                            </picture>
-                          </div>
-                          <!-- /.service-content-gallery__item -->
-                        </div>
-                        <!-- /.swiper-slide -->
-
-                        <div class="swiper-slide">
-                          <div class="service-content-gallery__item">
-                            <picture class="service-content-gallery__picture">
-                              <img class="service-content-gallery__image cms-image" src="img/page/service-content/gallery/1.jpg" alt="">
-                            </picture>
-                          </div>
-                          <!-- /.service-content-gallery__item -->
-                        </div>
-                        <!-- /.swiper-slide -->
-                      </div>
-                      <!-- /.swiper-wrapper -->
-
-                      <div class="swiper-pagination"></div>
+            <div class="service-content-item__gallery">
+              <div class="swiper service-content-gallery">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="service-content-gallery__item">
+                      <picture class="service-content-gallery__picture">
+                        <img class="service-content-gallery__image cms-image" src="img/page/service-content/gallery/1.jpg" alt="">
+                      </picture>
                     </div>
-                    <!-- /.swiper service-content-gallery -->
+                    <!-- /.service-content-gallery__item -->
                   </div>
-                  <!-- /.service-content-item__gallery -->
-                </div>
-                <!-- /.service-content-item__wrapper -->
-              </div>
-              <!-- /.service-content__item -->
-            </div>
-            <!-- /.swiper-slide -->
+                  <!-- /.swiper-slide -->
 
-            <div class="swiper-slide">
-              <div class="service-content__item service-content-item">
-                <h2 class="service-content-item__title section__title">Оклейка легкового автомобиля</h2>
-
-                <div class="service-content-item__wrapper">
-                  <div class="service-content-item__content">
-                    <ul class="service-content-item__list list list--marked">
-                      <li class="list__item">Оклейка легкового автомобиля</li>
-                      <li class="list__item">Полноцветная печать;</li>
-                      <li class="list__item">Индивидуальный дизайн с учетом конфигурации автомобиля;</li>
-                      <li class="list__item">Профессиональный монтаж;</li>
-                      <li class="list__item">Дополнительная ламинация для защиты от UV лучей;</li>
-                      <li class="list__item">Дополнительная защита кузова от агрессивных воздействий внешней среды;</li>
-                      <li class="list__item">Ваша реклама 24/7 с минимальными затратами.</li>
-                    </ul>
-                  </div>
-                  <!-- /.service-content-item__content -->
-
-                  <div class="service-content-item__gallery">
-                    <div class="swiper service-content-gallery">
-                      <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                          <div class="service-content-gallery__item">
-                            <picture class="service-content-gallery__picture">
-                              <img class="service-content-gallery__image cms-image" src="img/page/service-content/gallery/1.jpg" alt="">
-                            </picture>
-                          </div>
-                          <!-- /.service-content-gallery__item -->
-                        </div>
-                        <!-- /.swiper-slide -->
-
-                        <div class="swiper-slide">
-                          <div class="service-content-gallery__item">
-                            <picture class="service-content-gallery__picture">
-                              <img class="service-content-gallery__image cms-image" src="img/page/service-content/gallery/1.jpg" alt="">
-                            </picture>
-                          </div>
-                          <!-- /.service-content-gallery__item -->
-                        </div>
-                        <!-- /.swiper-slide -->
-
-                        <div class="swiper-slide">
-                          <div class="service-content-gallery__item">
-                            <picture class="service-content-gallery__picture">
-                              <img class="service-content-gallery__image cms-image" src="img/page/service-content/gallery/1.jpg" alt="">
-                            </picture>
-                          </div>
-                          <!-- /.service-content-gallery__item -->
-                        </div>
-                        <!-- /.swiper-slide -->
-
-                        <div class="swiper-slide">
-                          <div class="service-content-gallery__item">
-                            <picture class="service-content-gallery__picture">
-                              <img class="service-content-gallery__image cms-image" src="img/page/service-content/gallery/1.jpg" alt="">
-                            </picture>
-                          </div>
-                          <!-- /.service-content-gallery__item -->
-                        </div>
-                        <!-- /.swiper-slide -->
-                      </div>
-                      <!-- /.swiper-wrapper -->
-
-                      <div class="swiper-pagination"></div>
+                  <div class="swiper-slide">
+                    <div class="service-content-gallery__item">
+                      <picture class="service-content-gallery__picture">
+                        <img class="service-content-gallery__image cms-image" src="img/page/service-content/gallery/1.jpg" alt="">
+                      </picture>
                     </div>
-                    <!-- /.swiper service-content-gallery -->
+                    <!-- /.service-content-gallery__item -->
                   </div>
-                  <!-- /.service-content-item__gallery -->
-                </div>
-                <!-- /.service-content-item__wrapper -->
-              </div>
-              <!-- /.service-content__item -->
-            </div>
-            <!-- /.swiper-slide -->
+                  <!-- /.swiper-slide -->
 
-            <div class="swiper-slide">
-              <div class="service-content__item service-content-item">
-                <h2 class="service-content-item__title section__title">Оклейка легкового автомобиля</h2>
-
-                <div class="service-content-item__wrapper">
-                  <div class="service-content-item__content">
-                    <ul class="service-content-item__list list list--marked">
-                      <li class="list__item">Оклейка легкового автомобиля</li>
-                      <li class="list__item">Полноцветная печать;</li>
-                      <li class="list__item">Индивидуальный дизайн с учетом конфигурации автомобиля;</li>
-                      <li class="list__item">Профессиональный монтаж;</li>
-                      <li class="list__item">Дополнительная ламинация для защиты от UV лучей;</li>
-                      <li class="list__item">Дополнительная защита кузова от агрессивных воздействий внешней среды;</li>
-                      <li class="list__item">Ваша реклама 24/7 с минимальными затратами.</li>
-                    </ul>
-                  </div>
-                  <!-- /.service-content-item__content -->
-
-                  <div class="service-content-item__gallery">
-                    <div class="swiper service-content-gallery">
-                      <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                          <div class="service-content-gallery__item">
-                            <picture class="service-content-gallery__picture">
-                              <img class="service-content-gallery__image cms-image" src="img/page/service-content/gallery/1.jpg" alt="">
-                            </picture>
-                          </div>
-                          <!-- /.service-content-gallery__item -->
-                        </div>
-                        <!-- /.swiper-slide -->
-
-                        <div class="swiper-slide">
-                          <div class="service-content-gallery__item">
-                            <picture class="service-content-gallery__picture">
-                              <img class="service-content-gallery__image cms-image" src="img/page/service-content/gallery/1.jpg" alt="">
-                            </picture>
-                          </div>
-                          <!-- /.service-content-gallery__item -->
-                        </div>
-                        <!-- /.swiper-slide -->
-
-                        <div class="swiper-slide">
-                          <div class="service-content-gallery__item">
-                            <picture class="service-content-gallery__picture">
-                              <img class="service-content-gallery__image cms-image" src="img/page/service-content/gallery/1.jpg" alt="">
-                            </picture>
-                          </div>
-                          <!-- /.service-content-gallery__item -->
-                        </div>
-                        <!-- /.swiper-slide -->
-
-                        <div class="swiper-slide">
-                          <div class="service-content-gallery__item">
-                            <picture class="service-content-gallery__picture">
-                              <img class="service-content-gallery__image cms-image" src="img/page/service-content/gallery/1.jpg" alt="">
-                            </picture>
-                          </div>
-                          <!-- /.service-content-gallery__item -->
-                        </div>
-                        <!-- /.swiper-slide -->
-                      </div>
-                      <!-- /.swiper-wrapper -->
-
-                      <div class="swiper-pagination"></div>
+                  <div class="swiper-slide">
+                    <div class="service-content-gallery__item">
+                      <picture class="service-content-gallery__picture">
+                        <img class="service-content-gallery__image cms-image" src="img/page/service-content/gallery/1.jpg" alt="">
+                      </picture>
                     </div>
-                    <!-- /.swiper service-content-gallery -->
+                    <!-- /.service-content-gallery__item -->
                   </div>
-                  <!-- /.service-content-item__gallery -->
-                </div>
-                <!-- /.service-content-item__wrapper -->
-              </div>
-              <!-- /.service-content__item -->
-            </div>
-            <!-- /.swiper-slide -->
+                  <!-- /.swiper-slide -->
 
-            <div class="swiper-slide">
-              <div class="service-content__item service-content-item">
-                <h2 class="service-content-item__title section__title">Оклейка легкового автомобиля</h2>
-
-                <div class="service-content-item__wrapper">
-                  <div class="service-content-item__content">
-                    <ul class="service-content-item__list list list--marked">
-                      <li class="list__item">Все виды пленок</li>
-                      <li class="list__item">Оклейка легкового автомобиля</li>
-                      <li class="list__item">Полноцветная печать;</li>
-                      <li class="list__item">Индивидуальный дизайн с учетом конфигурации автомобиля;</li>
-                      <li class="list__item">Профессиональный монтаж;</li>
-                      <li class="list__item">Дополнительная ламинация для защиты от UV лучей;</li>
-                      <li class="list__item">Дополнительная защита кузова от агрессивных воздействий внешней среды;</li>
-                      <li class="list__item">Ваша реклама 24/7 с минимальными затратами.</li>
-                    </ul>
-                  </div>
-                  <!-- /.service-content-item__content -->
-
-                  <div class="service-content-item__gallery">
-                    <div class="swiper service-content-gallery">
-                      <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                          <div class="service-content-gallery__item">
-                            <picture class="service-content-gallery__picture">
-                              <img class="service-content-gallery__image cms-image" src="img/page/service-content/gallery/1.jpg" alt="">
-                            </picture>
-                          </div>
-                          <!-- /.service-content-gallery__item -->
-                        </div>
-                        <!-- /.swiper-slide -->
-
-                        <div class="swiper-slide">
-                          <div class="service-content-gallery__item">
-                            <picture class="service-content-gallery__picture">
-                              <img class="service-content-gallery__image cms-image" src="img/page/service-content/gallery/1.jpg" alt="">
-                            </picture>
-                          </div>
-                          <!-- /.service-content-gallery__item -->
-                        </div>
-                        <!-- /.swiper-slide -->
-
-                        <div class="swiper-slide">
-                          <div class="service-content-gallery__item">
-                            <picture class="service-content-gallery__picture">
-                              <img class="service-content-gallery__image cms-image" src="img/page/service-content/gallery/1.jpg" alt="">
-                            </picture>
-                          </div>
-                          <!-- /.service-content-gallery__item -->
-                        </div>
-                        <!-- /.swiper-slide -->
-
-                        <div class="swiper-slide">
-                          <div class="service-content-gallery__item">
-                            <picture class="service-content-gallery__picture">
-                              <img class="service-content-gallery__image cms-image" src="img/page/service-content/gallery/1.jpg" alt="">
-                            </picture>
-                          </div>
-                          <!-- /.service-content-gallery__item -->
-                        </div>
-                        <!-- /.swiper-slide -->
-                      </div>
-                      <!-- /.swiper-wrapper -->
-
-                      <div class="swiper-pagination"></div>
+                  <div class="swiper-slide">
+                    <div class="service-content-gallery__item">
+                      <picture class="service-content-gallery__picture">
+                        <img class="service-content-gallery__image cms-image" src="img/page/service-content/gallery/1.jpg" alt="">
+                      </picture>
                     </div>
-                    <!-- /.swiper service-content-gallery -->
+                    <!-- /.service-content-gallery__item -->
                   </div>
-                  <!-- /.service-content-item__gallery -->
+                  <!-- /.swiper-slide -->
                 </div>
-                <!-- /.service-content-item__wrapper -->
+                <!-- /.swiper-wrapper -->
+
+                <div class="swiper-pagination"></div>
               </div>
-              <!-- /.service-content__item -->
+              <!-- /.swiper service-content-gallery -->
             </div>
-            <!-- /.swiper-slide -->
+            <!-- /.service-content-item__gallery -->
           </div>
-          <!-- /.swiper-wrapper -->
+          <!-- /.service-content-item__wrapper -->
         </div>
-        <!-- /.swiper service-content-slider -->
+        <!-- /.service-content__item -->
 
         <div class="service-content__cta">
           <div class="service-content__social social">
@@ -505,7 +194,7 @@
           </div>
           <!-- /.footer__social -->
 
-          <button data-micromodal-trigger="modal-callback" class="button button-primary mb-2 mb-sm-0 me-sm-3">Начать проект</button>
+          <button data-micromodal-trigger="modal-callback" class="button button-primary mb-2 mb-sm-0 me-sm-3">Оставить заявку</button>
           <a style="text-align: center;" href="#portfolio--block"><button class="button button-outline mt-1 mt-sm-0">Портфолио</button></a>
         </div>
         <!-- /.hero__action -->

@@ -11,16 +11,6 @@ if (serviceSection) {
 const serviceContentSection = document.getElementById('service-content');
 let serviceItems;
 
-if (serviceContentSection) {
-  serviceItems = serviceContentSection.querySelectorAll('.service-content-tabs__item');
-
-  serviceItems.forEach((item, index) => {
-    item.addEventListener('click', () => {
-      ChangeServiceTab(item, index)
-    });
-  });
-}
-
 function ChangeServiceTab(item, index) {
   const activeItem = document.querySelector('.service-content-tabs__item--active');
   if (activeItem) activeItem.classList.remove('service-content-tabs__item--active');

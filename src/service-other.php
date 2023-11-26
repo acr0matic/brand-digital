@@ -17,7 +17,7 @@
             <!-- /.hero__content -->
 
             <div class="hero__cta">
-              <button data-micromodal-trigger="modal-callback" class="button button-primary me-sm-3">Начать проект</button>
+              <button data-micromodal-trigger="modal-callback" class="button button-primary me-sm-3">Оставить заявку</button>
               <a style="text-align: center;" href="#portfolio--block"><button class="button button-outline button-outline--orange">Портфолио</button></a>
 
               <div class="hero__mobile hero-mobile">

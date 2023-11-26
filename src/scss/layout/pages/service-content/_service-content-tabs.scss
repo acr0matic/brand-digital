@@ -27,6 +27,22 @@
     text-align: center;
     cursor: pointer;
 
+    &::after {
+      content: "";
+      position: absolute;
+      z-index: 1;
+      top: 50%;
+      left: 50%;
+      border-radius: 50%;
+
+      width: 215px;
+      height: 215px;
+      background-color: $palette-white;
+
+      transform: translate(-50%, -50%);
+      transition: 0.3s ease;
+    }
+
     @include breakpoint($breakpoint-tablet--large) {
       &:not(:last-child) {
         margin-right: 20px;
@@ -36,6 +52,13 @@
     @include breakpoint($breakpoint-tablet) {
       &:not(:last-child) {
         margin-right: 8px;
+      }
+    }
+
+    @media (hover: hover) {
+      &:hover::after {
+        width: 250px;
+        height: 250px;
       }
     }
 
@@ -110,12 +133,12 @@
 
   &__picture {
     position: relative;
+    z-index: 2;
     width: 215px;
     height: 215px;
 
     border-radius: 50%;
 
-    background-color: $palette-white;
     transition: 0.3s ease;
 
     @include breakpoint($breakpoint-laptop--large) {
@@ -176,6 +199,7 @@
 
   &__title {
     position: absolute;
+    z-index: 4;
     bottom: -40px;
     left: 50%;
 

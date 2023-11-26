@@ -28,25 +28,12 @@ function ChangeActive(func, item) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  const serviceTabs = document.querySelector('.service-content-tabs');
   const portfolioTabs = document.querySelector('.portfolio-body__action');
   const processTabs = document.querySelector('.process-hero__action');
 
   GetHash();
 
   if (href) {
-    if (serviceTabs) {
-      ChangeActive(ChangeServiceTab, serviceItems[index]);
-      Scroll(serviceTabs);
-
-      window.addEventListener('hashchange', () => {
-        GetHash();
-        ChangeActive(ChangeServiceTab, serviceItems[index]);
-      });
-    }
-  }
-
-  else {
     if (processTabs) {
       const active = processTabs.querySelector('.process-hero__service--active');
       GetItemPos(active);
