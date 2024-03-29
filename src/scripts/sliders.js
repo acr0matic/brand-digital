@@ -56,7 +56,7 @@ const heroSlider = new Swiper('.hero-slider', {
 });
 
 const portfolioTab = [];
-const portfolio = new Swiper('.slider-portfolio', {
+const portfolio = new Swiper('.slider-portfolio.swiper', {
   simulateTouch: false,
   allowTouchMove: false,
   autoHeight: true,

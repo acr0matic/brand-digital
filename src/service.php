@@ -1,7 +1,7 @@
-<?php include_once('partials/header.php') ?>
+<?php include_once ('partials/header.php') ?>
 
 <!-- Основной контент -->
-<main>
+<main id="service-page">
   <section data-hero style="background-image: url('img/page/main/hero/bg/1.png');" id="service-hero">
     <div class="hero hero--service">
       <div class="hero__row">
@@ -131,7 +131,7 @@
     <!-- /.container -->
   </section>
 
-  <?php include_once('partials/portfolio.php') ?>
+  <?php include_once ('partials/portfolio.php') ?>
 
   <section id="request" class="section">
     <div class="container">
@@ -307,7 +307,7 @@
     <!-- /.container -->
   </section>
 
-  <?php include_once('partials/confidence.php') ?>
+  <?php include_once ('partials/confidence.php') ?>
 
   <!-- Включается через админку -->
   <section id="about" class="section pt-5">
@@ -339,9 +339,9 @@
     <!-- /.container -->
   </section>
 
-  <?php include_once('partials/seo-block.php') ?>
+  <?php include_once ('partials/seo-block.php') ?>
 
-  <?php include_once('partials/callback.php') ?>
+  <?php include_once ('partials/callback.php') ?>
 </main>
 
-<?php include_once('partials/footer.php') ?>
+<?php include_once ('partials/footer.php') ?>

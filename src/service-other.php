@@ -74,9 +74,9 @@
     <!-- /.hero -->
   </section>
 
-  <?php include_once('partials/confidence.php') ?>
-
   <?php include_once('partials/portfolio.php') ?>
+
+  <?php include_once('partials/confidence.php') ?>
 
   <section id="service" class="section">
     <div class="container">

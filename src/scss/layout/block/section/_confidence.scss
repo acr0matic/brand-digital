@@ -16,7 +16,6 @@
   position: relative;
   overflow: hidden;
 
-  padding-top: 50px;
   text-align: center;
 
   &__content {
@@ -27,8 +26,8 @@
     flex-direction: column;
     align-items: center;
 
-    padding-top: 20px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 
     background: $palette-white;
 
@@ -119,7 +118,7 @@
 
   &__bg {
     position: absolute;
-    top: 15%;
+    top: 5%;
     left: 0;
 
     @include breakpoint($breakpoint-mobile--large) {
@@ -160,17 +159,15 @@
 
   &__partners {
     display: flex;
-    animation: marquee 20s linear reverse infinite;
+    animation: marquee 30s linear reverse infinite;
   }
 
   &__partner {
-    width: 90px;
     height: 90px;
 
     margin-right: 35px;
 
     @include breakpoint($breakpoint-laptop--large) {
-      width: 80px;
       height: 80px;
     }
   }

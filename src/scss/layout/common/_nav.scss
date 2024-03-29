@@ -20,7 +20,7 @@
         font-weight: $weight-Medium;
         text-transform: uppercase;
 
-        @include breakpoint($breakpoint-laptop--medium) {
+        @include breakpoint($breakpoint-laptop--large) {
           font-size: 14px;
         }
 

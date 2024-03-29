@@ -1,4 +1,4 @@
-<?php include_once('partials/header.php') ?>
+<?php include_once ('partials/header.php') ?>
 
 <!-- Основной контент -->
 <main>
@@ -204,9 +204,116 @@
     <!-- /.service-content -->
   </section>
 
-  <?php include_once('partials/confidence.php') ?>
+  <section id="serivce-package" class="section">
+    <div class="container">
+      <div class="section__header">
+        <h2 class="section__title text-center">
+          Выбери пакет
+        </h2>
+      </div>
+      <!-- /.section__header -->
 
-  <?php include_once('partials/portfolio.php') ?>
+      <div class="package">
+        <div class="package__wrapper">
+          <div class="package__item">
+            <picture class="package__picture">
+              <img class="preloader preloader--center" src="img/misc/preloader.svg" alt="">
+              <img class="cms-image lazy" data-src="img/page/service/package/pic.png" alt="">
+            </picture>
+            <!-- /.package__picture -->
+
+            <div class="package__content">
+              <h3 class="package__title">Всё включено</h3>
+              <div class="package__text">
+                <p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. О что продолжил, текстами переписывается деревни, великий заголовок своих раз наш предупреждал образ. Приставка!</p>
+              </div>
+              <!-- /.package__text -->
+
+              <div class="package__price">
+                50 000 ₽
+              </div>
+              <!-- /.package__price -->
+
+              <div class="package__action">
+                <button data-micromodal-trigger="modal-callback" class="button button-primary">Заказать!</button>
+              </div>
+              <!-- /.package__action -->
+            </div>
+            <!-- /.package__content -->
+          </div>
+          <!-- /.package__item -->
+
+          <div class="package__item package__item--main">
+            <picture class="package__picture">
+              <img class="preloader preloader--center" src="img/misc/preloader.svg" alt="">
+              <img class="cms-image lazy" data-src="img/page/service/package/pic.png" alt="">
+            </picture>
+            <!-- /.package__picture -->
+
+            <div class="package__content">
+              <h3 class="package__title">Всё включено</h3>
+              <div class="package__text">
+                <p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. О что продолжил, текстами переписывается деревни, великий заголовок своих раз наш предупреждал образ. Приставка!</p>
+              </div>
+              <!-- /.package__text -->
+
+              <div class="package__price">
+                50 000 ₽
+              </div>
+              <!-- /.package__price -->
+
+              <div class="package__action">
+                <button data-micromodal-trigger="modal-callback" class="button button-primary">Заказать!</button>
+              </div>
+              <!-- /.package__action -->
+            </div>
+            <!-- /.package__content -->
+          </div>
+          <!-- /.package__item -->
+
+          <div class="package__item">
+            <picture class="package__picture">
+              <img class="preloader preloader--center" src="img/misc/preloader.svg" alt="">
+              <img class="cms-image lazy" data-src="img/page/service/package/pic.png" alt="">
+            </picture>
+            <!-- /.package__picture -->
+
+            <div class="package__content">
+              <h3 class="package__title">Всё включено</h3>
+              <div class="package__text">
+                <p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. О что продолжил, текстами переписывается деревни, великий заголовок своих раз наш предупреждал образ. Приставка!</p>
+              </div>
+              <!-- /.package__text -->
+
+              <div class="package__price">
+                50 000 ₽
+              </div>
+              <!-- /.package__price -->
+
+              <div class="package__action">
+                <button data-micromodal-trigger="modal-callback" class="button button-primary">Заказать!</button>
+              </div>
+              <!-- /.package__action -->
+            </div>
+            <!-- /.package__content -->
+          </div>
+          <!-- /.package__item -->
+        </div>
+        <!-- /.package__wrapper -->
+
+        <div class="package__info">
+          <p>Цена ориенторовочная. Точную стоимость уточняйте у менеджера BD</p>
+        </div>
+        <!-- /.package__info -->
+      </div>
+      <!-- /.package -->
+    </div>
+    <!-- /.container -->
+  </section>
+
+  <?php include_once ('partials/confidence.php') ?>
+
+  <?php include_once ('partials/portfolio.php') ?>
 
   <!-- Включается через админку -->
   <section id="about" class="section">
@@ -238,7 +345,7 @@
     <!-- /.container -->
   </section>
 
-  <?php include_once('partials/callback.php') ?>
+  <?php include_once ('partials/callback.php') ?>
 </main>
 
-<?php include_once('partials/footer.php') ?>
+<?php include_once ('partials/footer.php') ?>

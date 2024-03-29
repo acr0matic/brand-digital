@@ -1,0 +1,14 @@
+#service-page #confidence {
+  @include breakpoint($breakpoint-laptop--medium) {
+    padding-top: 0;
+    margin-bottom: 0;
+  }
+
+  @include breakpoint($breakpoint-tablet--large) {
+    padding-top: 32px;
+    margin-bottom: 32px;
+  }
+
+  padding-top: 72px;
+  margin-bottom: 92px;
+}

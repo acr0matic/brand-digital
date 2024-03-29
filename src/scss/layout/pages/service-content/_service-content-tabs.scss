@@ -28,6 +28,20 @@
     cursor: pointer;
 
     &::after {
+      @include breakpoint($breakpoint-laptop--large) {
+        width: 165px;
+        height: 165px;
+      }
+
+      @include breakpoint($breakpoint-laptop--medium) {
+        width: 136px;
+        height: 136px;
+      }
+
+      @include breakpoint($breakpoint-tablet) {
+        display: none;
+      }
+
       content: "";
       position: absolute;
       z-index: 1;
@@ -57,8 +71,18 @@
 
     @media (hover: hover) {
       &:hover::after {
-        width: 250px;
-        height: 250px;
+        @include breakpoint($breakpoint-laptop--large) {
+          width: 180px;
+          height: 180px;
+        }
+
+        @include breakpoint($breakpoint-laptop--medium) {
+          width: 150px;
+          height: 150px;
+        }
+
+        width: 232px;
+        height: 232px;
       }
     }
 
