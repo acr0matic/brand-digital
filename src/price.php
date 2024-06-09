@@ -8,7 +8,6 @@
         <div class="price-header">
           <h1 class="price-header__title section__title page__title">Цены и акции</h1>
           <h2 class="price-header__title price-header__title--mobile section__title page__title">Акции и скидки</h1>
-
             <div class="swiper slider-promotions price-header__promotions promotions">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">

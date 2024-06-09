@@ -178,5 +178,171 @@
         }
       }
     }
+
+    &--design {
+      margin-bottom: 120px;
+      padding-bottom: 0;
+
+      .hero__wrapper {
+        @include breakpoint($breakpoint-laptop--large) {
+          grid-template-columns: 440px 1fr;
+          gap: 40px;
+        }
+
+        @include breakpoint($breakpoint-tablet--large) {
+          display: block;
+        }
+
+        display: grid;
+        grid-template-columns: 520px 1fr;
+        gap: 72px;
+
+        padding-bottom: 40px;
+      }
+
+      .hero__title {
+        @include breakpoint($breakpoint-laptop--large) {
+          font-size: 40px;
+        }
+
+        @include breakpoint($breakpoint-tablet--large) {
+          font-size: 24px;
+        }
+      }
+
+      .hero__description {
+        @include breakpoint($breakpoint-laptop--large) {
+          font-size: 18px;
+        }
+
+        @include breakpoint($breakpoint-tablet--large) {
+          font-size: 16px;
+        }
+      }
+
+      .hero__price {
+        width: 100%;
+        min-width: 0;
+      }
+
+      .button-outline {
+        @include breakpoint($breakpoint-mobile--large) {
+          display: block !important;
+        }
+      }
+
+      .swiper {
+        box-sizing: border-box;
+        overflow: visible;
+      }
+
+      .swiper-controls {
+        display: none;
+      }
+
+      .swiper-slide {
+        @include odd() {
+          .hero__card {
+            background-color: $palette-white;
+          }
+
+          .button {
+            background-color: $palette-orange;
+            color: $text-white;
+          }
+        }
+
+        @include even() {
+          color: $text-white;
+
+          .hero__card {
+            background-color: $palette-orange;
+          }
+
+          .button {
+            color: $text-black;
+            background-color: $palette-white;
+          }
+        }
+      }
+
+      .hero__card {
+        border-radius: 20px;
+
+        picture {
+          aspect-ratio: 16 / 10;
+        }
+
+        ul {
+          @include breakpoint($breakpoint-laptop--large) {
+            font-size: 16px;
+          }
+
+          font-size: 20px;
+        }
+
+        h3 {
+          @include breakpoint($breakpoint-laptop--large) {
+            font-size: 21px;
+          }
+
+          font-size: 30px;
+          text-align: center;
+        }
+
+        & > div {
+          @include breakpoint($breakpoint-laptop--large) {
+            padding: 8px 12px 42px;
+          }
+
+          @include breakpoint($breakpoint-tablet--large) {
+            padding: 8px 24px 24px;
+          }
+
+          display: flex;
+          flex-direction: column;
+          gap: 24px;
+          padding: 16px 36px 24px;
+        }
+
+        .button {
+          @include breakpoint($breakpoint-laptop--large) {
+            font-size: 16px;
+          }
+
+          border: none;
+          font-size: 24px;
+        }
+      }
+
+      .hero__cta {
+        @include breakpoint($breakpoint-tablet--large) {
+          display: none;
+        }
+
+        margin-bottom: 40px;
+
+        &--mobile {
+          @include breakpoint($breakpoint-tablet--large) {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 10px;
+          }
+
+          display: none;
+        }
+      }
+
+      .hero__motion {
+        position: static;
+        width: 100%;
+        aspect-ratio: 16 / 7;
+
+        video {
+          height: 100%;
+        }
+      }
+    }
   }
 }

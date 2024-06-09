@@ -1,4 +1,5 @@
 .button {
+  display: inline-block;
   outline: none;
   border: none;
 
@@ -8,6 +9,7 @@
   cursor: pointer;
   transition: 0.15s ease;
 
+  text-align: center;
   white-space: nowrap;
 
   &:disabled {

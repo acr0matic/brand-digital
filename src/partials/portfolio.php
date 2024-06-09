@@ -8,1171 +8,245 @@
     <!-- /.section__header -->
 
     <div class="portfolio-block">
-      <div class="slider-portfolio-control">
-        <div class="swiper-pagination"></div>
-      </div>
-      <!-- /.slider-portfolio__control -->
+      <div class="row">
+        <div class="col-6 col-xl-4 mb-4">
+          <div class="portfolio-item">
+            <picture class="portfolio-item__picture">
+              <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
+              <img class="portfolio-item__image cms-image lazy" data-src="img/portfolio/full.jpg" alt="">
+            </picture>
+            <!-- /.portfolio-item__picture -->
 
-      <div class="swiper slider-portfolio">
-        <div class="swiper-wrapper">
-          <div data-title="Оклейка" class="swiper-slide">
-            <div class="row">
-              <div class="col-6 col-xl-4 mb-4">
-                <div class="portfolio-item">
-                  <picture class="portfolio-item__picture">
-                    <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
-                    <img class="portfolio-item__image cms-image lazy" data-src="img/portfolio/full.jpg" alt="">
-                  </picture>
-                  <!-- /.portfolio-item__picture -->
+            <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
+              <h3 class="portfolio-item__title">
+                Название проекта
+              </h3>
 
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
-                    <h3 class="portfolio-item__title">
-                      Название проекта
-                    </h3>
-
-                    <div class="portfolio-item__info">
-                      Cтоимость работ:&nbsp;
-                      <span>22 710 р.</span>
-                    </div>
-
-                    <div class="portfolio-item__wrapper">
-                      <p class="portfolio-item__description">
-                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
-                      </p>
-
-                      <ul class="list list--feature portfolio-item__list mb-3">
-                        <li class="list__item">Cтоимость работ: <span>22 710 р.</span></li>
-                        <li class="list__item">Цена: <span>50 000 руб.</span></li>
-                      </ul>
-
-                      <ul class="list list--feature portfolio-item__list">
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                      </ul>
-                    </div>
-                    <!-- /.portfolio-item__wrapper -->
-                  </div>
-                  <!-- /.portfolio-item__content -->
-
-                  <div class="portfolio-item__label portfolio-item__label--orange">МСК</div>
-                </div>
-                <!-- /.portfolio__item portfolio-item -->
+              <div class="portfolio-item__info">
+                Cтоимость работ:&nbsp;
+                <span>22 710 р.</span>
               </div>
-              <!-- /.col-6 -->
 
-              <div class="col-6 col-xl-4 mb-4">
-                <div class="portfolio-item">
-                  <picture class="portfolio-item__picture">
-                    <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
-                    <img class="portfolio-item__image cms-image lazy" data-src="img/portfolio/full.jpg" alt="">
-                  </picture>
-                  <!-- /.portfolio-item__picture -->
+              <div class="portfolio-item__wrapper">
+                <p class="portfolio-item__description">
+                  Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
+                </p>
 
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
-                    <h3 class="portfolio-item__title">
-                      Название проекта
-                    </h3>
+                <ul class="list list--feature portfolio-item__list mb-3">
+                  <li class="list__item">Cтоимость работ: <span>22 710 р.</span></li>
+                  <li class="list__item">Цена: <span>50 000 руб.</span></li>
+                </ul>
 
-                    <div class="portfolio-item__info">
-                      Cтоимость работ:&nbsp;
-                      <span>22 710 р.</span>
-                    </div>
-
-                    <div class="portfolio-item__wrapper">
-                      <p class="portfolio-item__description">
-                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
-                      </p>
-
-                      <ul class="list list--feature portfolio-item__list">
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                      </ul>
-                    </div>
-                    <!-- /.portfolio-item__wrapper -->
-                  </div>
-                  <!-- /.portfolio-item__content -->
-
-                  <div class="portfolio-item__label portfolio-item__label--blue">МСК</div>
-                </div>
-                <!-- /.portfolio__item portfolio-item -->
+                <ul class="list list--feature portfolio-item__list">
+                  <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                  <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                  <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                </ul>
               </div>
-              <!-- /.col-6 -->
-
-              <div class="col-6 col-xl-4 mb-4">
-                <div class="portfolio-item">
-                  <picture class="portfolio-item__picture">
-                    <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
-                    <img class="portfolio-item__image cms-image lazy" data-src="img/portfolio/full.jpg" alt="">
-                  </picture>
-                  <!-- /.portfolio-item__picture -->
-
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
-                    <h3 class="portfolio-item__title">
-                      Название проекта
-                    </h3>
-
-                    <div class="portfolio-item__info">
-                      Cтоимость работ:&nbsp;
-                      <span>22 710 р.</span>
-                    </div>
-
-                    <div class="portfolio-item__wrapper">
-                      <p class="portfolio-item__description">
-                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
-                      </p>
-
-                      <ul class="list list--feature portfolio-item__list">
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                      </ul>
-                    </div>
-                    <!-- /.portfolio-item__wrapper -->
-                  </div>
-                  <!-- /.portfolio-item__content -->
-
-                  <div class="portfolio-item__label portfolio-item__label--purple">МСК</div>
-                </div>
-                <!-- /.portfolio__item portfolio-item -->
-              </div>
-              <!-- /.col-6 -->
-
-              <div class="col-6 col-xl-4 mb-4">
-                <div class="portfolio-item">
-                  <picture class="portfolio-item__picture">
-                    <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
-                    <img class="portfolio-item__image cms-image lazy" data-src="img/portfolio/full.jpg" alt="">
-                  </picture>
-                  <!-- /.portfolio-item__picture -->
-
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
-                    <h3 class="portfolio-item__title">
-                      Название проекта
-                    </h3>
-
-                    <div class="portfolio-item__info">
-                      Cтоимость работ:&nbsp;
-                      <span>22 710 р.</span>
-                    </div>
-
-                    <div class="portfolio-item__wrapper">
-                      <p class="portfolio-item__description">
-                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
-                      </p>
-
-                      <ul class="list list--feature portfolio-item__list">
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                      </ul>
-                    </div>
-                    <!-- /.portfolio-item__wrapper -->
-                  </div>
-                  <!-- /.portfolio-item__content -->
-
-                  <div class="portfolio-item__label">МСК</div>
-                </div>
-                <!-- /.portfolio__item portfolio-item -->
-              </div>
-              <!-- /.col-6 -->
-
-              <div class="col-6 col-xl-4 mb-4">
-                <div class="portfolio-item">
-                  <picture class="portfolio-item__picture">
-                    <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
-                    <img class="portfolio-item__image cms-image lazy" data-src="img/portfolio/full.jpg" alt="">
-                  </picture>
-                  <!-- /.portfolio-item__picture -->
-
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
-                    <h3 class="portfolio-item__title">
-                      Название проекта
-                    </h3>
-
-                    <div class="portfolio-item__info">
-                      Cтоимость работ:&nbsp;
-                      <span>22 710 р.</span>
-                    </div>
-
-                    <div class="portfolio-item__wrapper">
-                      <p class="portfolio-item__description">
-                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
-                      </p>
-
-                      <ul class="list list--feature portfolio-item__list">
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                      </ul>
-                    </div>
-                    <!-- /.portfolio-item__wrapper -->
-                  </div>
-                  <!-- /.portfolio-item__content -->
-
-                  <div class="portfolio-item__label portfolio-item__label--green">МСК</div>
-                </div>
-                <!-- /.portfolio__item portfolio-item -->
-              </div>
-              <!-- /.col-6 -->
-
-              <div class="col-6 col-xl-4 mb-4">
-                <div class="portfolio-item">
-                  <picture class="portfolio-item__picture">
-                    <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
-                    <img class="portfolio-item__image cms-image lazy" data-src="img/portfolio/full.jpg" alt="">
-                  </picture>
-                  <!-- /.portfolio-item__picture -->
-
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
-                    <h3 class="portfolio-item__title">
-                      Название проекта
-                    </h3>
-
-                    <div class="portfolio-item__info">
-                      Cтоимость работ:&nbsp;
-                      <span>22 710 р.</span>
-                    </div>
-
-                    <div class="portfolio-item__wrapper">
-                      <p class="portfolio-item__description">
-                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
-                      </p>
-
-                      <ul class="list list--feature portfolio-item__list">
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                      </ul>
-                    </div>
-                    <!-- /.portfolio-item__wrapper -->
-                  </div>
-                  <!-- /.portfolio-item__content -->
-                </div>
-                <!-- /.portfolio__item portfolio-item -->
-              </div>
-              <!-- /.col-6 -->
+              <!-- /.portfolio-item__wrapper -->
             </div>
-            <!-- /.row -->
+            <!-- /.portfolio-item__content -->
+
+            <div class="portfolio-item__label portfolio-item__label--orange">МСК</div>
           </div>
-          <!-- /.swiper-slide -->
-
-          <div data-title="Дизайн" class="swiper-slide">
-            <div class="row">
-              <div class="col-6 col-xl-4 mb-4">
-                <div class="portfolio-item">
-                  <picture class="portfolio-item__picture">
-                    <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
-                    <img class="portfolio-item__image cms-image lazy" data-src="img/portfolio/full.jpg" alt="">
-                  </picture>
-                  <!-- /.portfolio-item__picture -->
-
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
-                    <h3 class="portfolio-item__title">
-                      Название проекта
-                    </h3>
-
-                    <div class="portfolio-item__info">
-                      Cтоимость работ:&nbsp;
-                      <span>22 710 р.</span>
-                    </div>
-
-                    <div class="portfolio-item__wrapper">
-                      <p class="portfolio-item__description">
-                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
-                      </p>
-
-                      <ul class="list list--feature portfolio-item__list">
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                      </ul>
-                    </div>
-                    <!-- /.portfolio-item__wrapper -->
-                  </div>
-                  <!-- /.portfolio-item__content -->
-                </div>
-                <!-- /.portfolio__item portfolio-item -->
-              </div>
-              <!-- /.col-6 -->
-
-              <div class="col-6 col-xl-4 mb-4">
-                <div class="portfolio-item">
-                  <picture class="portfolio-item__picture">
-                    <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
-                    <img class="portfolio-item__image cms-image lazy" data-src="img/portfolio/full.jpg" alt="">
-                  </picture>
-                  <!-- /.portfolio-item__picture -->
-
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
-                    <h3 class="portfolio-item__title">
-                      Название проекта
-                    </h3>
-
-                    <div class="portfolio-item__info">
-                      Cтоимость работ:&nbsp;
-                      <span>22 710 р.</span>
-                    </div>
-
-                    <div class="portfolio-item__wrapper">
-                      <p class="portfolio-item__description">
-                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
-                      </p>
-
-                      <ul class="list list--feature portfolio-item__list">
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                      </ul>
-                    </div>
-                    <!-- /.portfolio-item__wrapper -->
-                  </div>
-                  <!-- /.portfolio-item__content -->
-                </div>
-                <!-- /.portfolio__item portfolio-item -->
-              </div>
-              <!-- /.col-6 -->
-
-              <div class="col-6 col-xl-4 mb-4">
-                <div class="portfolio-item">
-                  <picture class="portfolio-item__picture">
-                    <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
-                    <img class="portfolio-item__image cms-image lazy" data-src="img/portfolio/full.jpg" alt="">
-                  </picture>
-                  <!-- /.portfolio-item__picture -->
-
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
-                    <h3 class="portfolio-item__title">
-                      Название проекта
-                    </h3>
-
-                    <div class="portfolio-item__info">
-                      Cтоимость работ:&nbsp;
-                      <span>22 710 р.</span>
-                    </div>
-
-                    <div class="portfolio-item__wrapper">
-                      <p class="portfolio-item__description">
-                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
-                      </p>
-
-                      <ul class="list list--feature portfolio-item__list">
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                      </ul>
-                    </div>
-                    <!-- /.portfolio-item__wrapper -->
-                  </div>
-                  <!-- /.portfolio-item__content -->
-                </div>
-                <!-- /.portfolio__item portfolio-item -->
-              </div>
-              <!-- /.col-6 -->
-
-              <div class="col-6 col-xl-4 mb-4">
-                <div class="portfolio-item">
-                  <picture class="portfolio-item__picture">
-                    <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
-                    <img class="portfolio-item__image cms-image lazy" data-src="img/portfolio/full.jpg" alt="">
-                  </picture>
-                  <!-- /.portfolio-item__picture -->
-
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
-                    <h3 class="portfolio-item__title">
-                      Название проекта
-                    </h3>
-
-                    <div class="portfolio-item__info">
-                      Cтоимость работ:&nbsp;
-                      <span>22 710 р.</span>
-                    </div>
-
-                    <div class="portfolio-item__wrapper">
-                      <p class="portfolio-item__description">
-                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
-                      </p>
-
-                      <ul class="list list--feature portfolio-item__list">
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                      </ul>
-                    </div>
-                    <!-- /.portfolio-item__wrapper -->
-                  </div>
-                  <!-- /.portfolio-item__content -->
-                </div>
-                <!-- /.portfolio__item portfolio-item -->
-              </div>
-              <!-- /.col-6 -->
-
-              <div class="col-6 col-xl-4 mb-4">
-                <div class="portfolio-item">
-                  <picture class="portfolio-item__picture">
-                    <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
-                    <img class="portfolio-item__image cms-image lazy" data-src="img/portfolio/full.jpg" alt="">
-                  </picture>
-                  <!-- /.portfolio-item__picture -->
-
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
-                    <h3 class="portfolio-item__title">
-                      Название проекта
-                    </h3>
-
-                    <div class="portfolio-item__info">
-                      Cтоимость работ:&nbsp;
-                      <span>22 710 р.</span>
-                    </div>
-
-                    <div class="portfolio-item__wrapper">
-                      <p class="portfolio-item__description">
-                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
-                      </p>
-
-                      <ul class="list list--feature portfolio-item__list">
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                      </ul>
-                    </div>
-                    <!-- /.portfolio-item__wrapper -->
-                  </div>
-                  <!-- /.portfolio-item__content -->
-                </div>
-                <!-- /.portfolio__item portfolio-item -->
-              </div>
-              <!-- /.col-6 -->
-
-              <div class="col-6 col-xl-4 mb-4">
-                <div class="portfolio-item">
-                  <picture class="portfolio-item__picture">
-                    <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
-                    <img class="portfolio-item__image cms-image lazy" data-src="img/portfolio/full.jpg" alt="">
-                  </picture>
-                  <!-- /.portfolio-item__picture -->
-
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
-                    <h3 class="portfolio-item__title">
-                      Название проекта
-                    </h3>
-
-                    <div class="portfolio-item__info">
-                      Cтоимость работ:&nbsp;
-                      <span>22 710 р.</span>
-                    </div>
-
-                    <div class="portfolio-item__wrapper">
-                      <p class="portfolio-item__description">
-                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
-                      </p>
-
-                      <ul class="list list--feature portfolio-item__list">
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                      </ul>
-                    </div>
-                    <!-- /.portfolio-item__wrapper -->
-                  </div>
-                  <!-- /.portfolio-item__content -->
-                </div>
-                <!-- /.portfolio__item portfolio-item -->
-              </div>
-              <!-- /.col-6 -->
-            </div>
-            <!-- /.row -->
-          </div>
-          <!-- /.swiper-slide -->
-
-          <div data-title="Авто" class="swiper-slide">
-            <div class="row">
-              <div class="col-6 col-xl-4 mb-4">
-                <div class="portfolio-item">
-                  <picture class="portfolio-item__picture">
-                    <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
-                    <img class="portfolio-item__image cms-image lazy" data-src="img/portfolio/full.jpg" alt="">
-                  </picture>
-                  <!-- /.portfolio-item__picture -->
-
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
-                    <h3 class="portfolio-item__title">
-                      Название проекта
-                    </h3>
-
-                    <div class="portfolio-item__info">
-                      Cтоимость работ:&nbsp;
-                      <span>22 710 р.</span>
-                    </div>
-
-                    <div class="portfolio-item__wrapper">
-                      <p class="portfolio-item__description">
-                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
-                      </p>
-
-                      <ul class="list list--feature portfolio-item__list">
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                      </ul>
-                    </div>
-                    <!-- /.portfolio-item__wrapper -->
-                  </div>
-                  <!-- /.portfolio-item__content -->
-                </div>
-                <!-- /.portfolio__item portfolio-item -->
-              </div>
-              <!-- /.col-6 -->
-
-              <div class="col-6 col-xl-4 mb-4">
-                <div class="portfolio-item">
-                  <picture class="portfolio-item__picture">
-                    <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
-                    <img class="portfolio-item__image cms-image lazy" data-src="img/portfolio/full.jpg" alt="">
-                  </picture>
-                  <!-- /.portfolio-item__picture -->
-
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
-                    <h3 class="portfolio-item__title">
-                      Название проекта
-                    </h3>
-
-                    <div class="portfolio-item__info">
-                      Cтоимость работ:&nbsp;
-                      <span>22 710 р.</span>
-                    </div>
-
-                    <div class="portfolio-item__wrapper">
-                      <p class="portfolio-item__description">
-                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
-                      </p>
-
-                      <ul class="list list--feature portfolio-item__list">
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                      </ul>
-                    </div>
-                    <!-- /.portfolio-item__wrapper -->
-                  </div>
-                  <!-- /.portfolio-item__content -->
-                </div>
-                <!-- /.portfolio__item portfolio-item -->
-              </div>
-              <!-- /.col-6 -->
-
-              <div class="col-6 col-xl-4 mb-4">
-                <div class="portfolio-item">
-                  <picture class="portfolio-item__picture">
-                    <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
-                    <img class="portfolio-item__image cms-image lazy" data-src="img/portfolio/full.jpg" alt="">
-                  </picture>
-                  <!-- /.portfolio-item__picture -->
-
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
-                    <h3 class="portfolio-item__title">
-                      Название проекта
-                    </h3>
-
-                    <div class="portfolio-item__info">
-                      Cтоимость работ:&nbsp;
-                      <span>22 710 р.</span>
-                    </div>
-
-                    <div class="portfolio-item__wrapper">
-                      <p class="portfolio-item__description">
-                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
-                      </p>
-
-                      <ul class="list list--feature portfolio-item__list">
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                      </ul>
-                    </div>
-                    <!-- /.portfolio-item__wrapper -->
-                  </div>
-                  <!-- /.portfolio-item__content -->
-                </div>
-                <!-- /.portfolio__item portfolio-item -->
-              </div>
-              <!-- /.col-6 -->
-
-              <div class="col-6 col-xl-4 mb-4">
-                <div class="portfolio-item">
-                  <picture class="portfolio-item__picture">
-                    <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
-                    <img class="portfolio-item__image cms-image lazy" data-src="img/portfolio/full.jpg" alt="">
-                  </picture>
-                  <!-- /.portfolio-item__picture -->
-
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
-                    <h3 class="portfolio-item__title">
-                      Название проекта
-                    </h3>
-
-                    <div class="portfolio-item__info">
-                      Cтоимость работ:&nbsp;
-                      <span>22 710 р.</span>
-                    </div>
-
-                    <div class="portfolio-item__wrapper">
-                      <p class="portfolio-item__description">
-                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
-                      </p>
-
-                      <ul class="list list--feature portfolio-item__list">
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                      </ul>
-                    </div>
-                    <!-- /.portfolio-item__wrapper -->
-                  </div>
-                  <!-- /.portfolio-item__content -->
-                </div>
-                <!-- /.portfolio__item portfolio-item -->
-              </div>
-              <!-- /.col-6 -->
-
-              <div class="col-6 col-xl-4 mb-4">
-                <div class="portfolio-item">
-                  <picture class="portfolio-item__picture">
-                    <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
-                    <img class="portfolio-item__image cms-image lazy" data-src="img/portfolio/full.jpg" alt="">
-                  </picture>
-                  <!-- /.portfolio-item__picture -->
-
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
-                    <h3 class="portfolio-item__title">
-                      Название проекта
-                    </h3>
-
-                    <div class="portfolio-item__info">
-                      Cтоимость работ:&nbsp;
-                      <span>22 710 р.</span>
-                    </div>
-
-                    <div class="portfolio-item__wrapper">
-                      <p class="portfolio-item__description">
-                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
-                      </p>
-
-                      <ul class="list list--feature portfolio-item__list">
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                      </ul>
-                    </div>
-                    <!-- /.portfolio-item__wrapper -->
-                  </div>
-                  <!-- /.portfolio-item__content -->
-                </div>
-                <!-- /.portfolio__item portfolio-item -->
-              </div>
-              <!-- /.col-6 -->
-
-              <div class="col-6 col-xl-4 mb-4">
-                <div class="portfolio-item">
-                  <picture class="portfolio-item__picture">
-                    <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
-                    <img class="portfolio-item__image cms-image lazy" data-src="img/portfolio/full.jpg" alt="">
-                  </picture>
-                  <!-- /.portfolio-item__picture -->
-
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
-                    <h3 class="portfolio-item__title">
-                      Название проекта
-                    </h3>
-
-                    <div class="portfolio-item__info">
-                      Cтоимость работ:&nbsp;
-                      <span>22 710 р.</span>
-                    </div>
-
-                    <div class="portfolio-item__wrapper">
-                      <p class="portfolio-item__description">
-                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
-                      </p>
-
-                      <ul class="list list--feature portfolio-item__list">
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                      </ul>
-                    </div>
-                    <!-- /.portfolio-item__wrapper -->
-                  </div>
-                  <!-- /.portfolio-item__content -->
-                </div>
-                <!-- /.portfolio__item portfolio-item -->
-              </div>
-              <!-- /.col-6 -->
-            </div>
-            <!-- /.row -->
-          </div>
-          <!-- /.swiper-slide -->
-
-          <div data-title="Лого" class="swiper-slide">
-            <div class="row">
-              <div class="col-6 col-xl-4 mb-4">
-                <div class="portfolio-item">
-                  <picture class="portfolio-item__picture">
-                    <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
-                    <img class="portfolio-item__image cms-image lazy" data-src="img/portfolio/full.jpg" alt="">
-                  </picture>
-                  <!-- /.portfolio-item__picture -->
-
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
-                    <h3 class="portfolio-item__title">
-                      Название проекта
-                    </h3>
-
-                    <div class="portfolio-item__info">
-                      Cтоимость работ:&nbsp;
-                      <span>22 710 р.</span>
-                    </div>
-
-                    <div class="portfolio-item__wrapper">
-                      <p class="portfolio-item__description">
-                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
-                      </p>
-
-                      <ul class="list list--feature portfolio-item__list">
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                      </ul>
-                    </div>
-                    <!-- /.portfolio-item__wrapper -->
-                  </div>
-                  <!-- /.portfolio-item__content -->
-                </div>
-                <!-- /.portfolio__item portfolio-item -->
-              </div>
-              <!-- /.col-6 -->
-
-              <div class="col-6 col-xl-4 mb-4">
-                <div class="portfolio-item">
-                  <picture class="portfolio-item__picture">
-                    <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
-                    <img class="portfolio-item__image cms-image lazy" data-src="img/portfolio/full.jpg" alt="">
-                  </picture>
-                  <!-- /.portfolio-item__picture -->
-
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
-                    <h3 class="portfolio-item__title">
-                      Название проекта
-                    </h3>
-
-                    <div class="portfolio-item__info">
-                      Cтоимость работ:&nbsp;
-                      <span>22 710 р.</span>
-                    </div>
-
-                    <div class="portfolio-item__wrapper">
-                      <p class="portfolio-item__description">
-                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
-                      </p>
-
-                      <ul class="list list--feature portfolio-item__list">
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                      </ul>
-                    </div>
-                    <!-- /.portfolio-item__wrapper -->
-                  </div>
-                  <!-- /.portfolio-item__content -->
-                </div>
-                <!-- /.portfolio__item portfolio-item -->
-              </div>
-              <!-- /.col-6 -->
-
-              <div class="col-6 col-xl-4 mb-4">
-                <div class="portfolio-item">
-                  <picture class="portfolio-item__picture">
-                    <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
-                    <img class="portfolio-item__image cms-image lazy" data-src="img/portfolio/full.jpg" alt="">
-                  </picture>
-                  <!-- /.portfolio-item__picture -->
-
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
-                    <h3 class="portfolio-item__title">
-                      Название проекта
-                    </h3>
-
-                    <div class="portfolio-item__info">
-                      Cтоимость работ:&nbsp;
-                      <span>22 710 р.</span>
-                    </div>
-
-                    <div class="portfolio-item__wrapper">
-                      <p class="portfolio-item__description">
-                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
-                      </p>
-
-                      <ul class="list list--feature portfolio-item__list">
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                      </ul>
-                    </div>
-                    <!-- /.portfolio-item__wrapper -->
-                  </div>
-                  <!-- /.portfolio-item__content -->
-                </div>
-                <!-- /.portfolio__item portfolio-item -->
-              </div>
-              <!-- /.col-6 -->
-
-              <div class="col-6 col-xl-4 mb-4">
-                <div class="portfolio-item">
-                  <picture class="portfolio-item__picture">
-                    <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
-                    <img class="portfolio-item__image cms-image lazy" data-src="img/portfolio/full.jpg" alt="">
-                  </picture>
-                  <!-- /.portfolio-item__picture -->
-
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
-                    <h3 class="portfolio-item__title">
-                      Название проекта
-                    </h3>
-
-                    <div class="portfolio-item__info">
-                      Cтоимость работ:&nbsp;
-                      <span>22 710 р.</span>
-                    </div>
-
-                    <div class="portfolio-item__wrapper">
-                      <p class="portfolio-item__description">
-                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
-                      </p>
-
-                      <ul class="list list--feature portfolio-item__list">
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                      </ul>
-                    </div>
-                    <!-- /.portfolio-item__wrapper -->
-                  </div>
-                  <!-- /.portfolio-item__content -->
-                </div>
-                <!-- /.portfolio__item portfolio-item -->
-              </div>
-              <!-- /.col-6 -->
-
-              <div class="col-6 col-xl-4 mb-4">
-                <div class="portfolio-item">
-                  <picture class="portfolio-item__picture">
-                    <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
-                    <img class="portfolio-item__image cms-image lazy" data-src="img/portfolio/full.jpg" alt="">
-                  </picture>
-                  <!-- /.portfolio-item__picture -->
-
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
-                    <h3 class="portfolio-item__title">
-                      Название проекта
-                    </h3>
-
-                    <div class="portfolio-item__info">
-                      Cтоимость работ:&nbsp;
-                      <span>22 710 р.</span>
-                    </div>
-
-                    <div class="portfolio-item__wrapper">
-                      <p class="portfolio-item__description">
-                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
-                      </p>
-
-                      <ul class="list list--feature portfolio-item__list">
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                      </ul>
-                    </div>
-                    <!-- /.portfolio-item__wrapper -->
-                  </div>
-                  <!-- /.portfolio-item__content -->
-                </div>
-                <!-- /.portfolio__item portfolio-item -->
-              </div>
-              <!-- /.col-6 -->
-
-              <div class="col-6 col-xl-4 mb-4">
-                <div class="portfolio-item">
-                  <picture class="portfolio-item__picture">
-                    <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
-                    <img class="portfolio-item__image cms-image lazy" data-src="img/portfolio/full.jpg" alt="">
-                  </picture>
-                  <!-- /.portfolio-item__picture -->
-
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
-                    <h3 class="portfolio-item__title">
-                      Название проекта
-                    </h3>
-
-                    <div class="portfolio-item__info">
-                      Cтоимость работ:&nbsp;
-                      <span>22 710 р.</span>
-                    </div>
-
-                    <div class="portfolio-item__wrapper">
-                      <p class="portfolio-item__description">
-                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
-                      </p>
-
-                      <ul class="list list--feature portfolio-item__list">
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                      </ul>
-                    </div>
-                    <!-- /.portfolio-item__wrapper -->
-                  </div>
-                  <!-- /.portfolio-item__content -->
-                </div>
-                <!-- /.portfolio__item portfolio-item -->
-              </div>
-              <!-- /.col-6 -->
-            </div>
-            <!-- /.row -->
-          </div>
-          <!-- /.swiper-slide -->
-
-          <div data-title="Упаковка" class="swiper-slide">
-            <div class="row">
-              <div class="col-6 col-xl-4 mb-4">
-                <div class="portfolio-item">
-                  <picture class="portfolio-item__picture">
-                    <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
-                    <img class="portfolio-item__image cms-image lazy" data-src="img/portfolio/full.jpg" alt="">
-                  </picture>
-                  <!-- /.portfolio-item__picture -->
-
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
-                    <h3 class="portfolio-item__title">
-                      Название проекта
-                    </h3>
-
-                    <div class="portfolio-item__info">
-                      Cтоимость работ:&nbsp;
-                      <span>22 710 р.</span>
-                    </div>
-
-                    <div class="portfolio-item__wrapper">
-                      <p class="portfolio-item__description">
-                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
-                      </p>
-
-                      <ul class="list list--feature portfolio-item__list">
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                      </ul>
-                    </div>
-                    <!-- /.portfolio-item__wrapper -->
-                  </div>
-                  <!-- /.portfolio-item__content -->
-                </div>
-                <!-- /.portfolio__item portfolio-item -->
-              </div>
-              <!-- /.col-6 -->
-
-              <div class="col-6 col-xl-4 mb-4">
-                <div class="portfolio-item">
-                  <picture class="portfolio-item__picture">
-                    <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
-                    <img class="portfolio-item__image cms-image lazy" data-src="img/portfolio/full.jpg" alt="">
-                  </picture>
-                  <!-- /.portfolio-item__picture -->
-
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
-                    <h3 class="portfolio-item__title">
-                      Название проекта
-                    </h3>
-
-                    <div class="portfolio-item__info">
-                      Cтоимость работ:&nbsp;
-                      <span>22 710 р.</span>
-                    </div>
-
-                    <div class="portfolio-item__wrapper">
-                      <p class="portfolio-item__description">
-                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
-                      </p>
-
-                      <ul class="list list--feature portfolio-item__list">
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                      </ul>
-                    </div>
-                    <!-- /.portfolio-item__wrapper -->
-                  </div>
-                  <!-- /.portfolio-item__content -->
-                </div>
-                <!-- /.portfolio__item portfolio-item -->
-              </div>
-              <!-- /.col-6 -->
-
-              <div class="col-6 col-xl-4 mb-4">
-                <div class="portfolio-item">
-                  <picture class="portfolio-item__picture">
-                    <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
-                    <img class="portfolio-item__image cms-image lazy" data-src="img/portfolio/full.jpg" alt="">
-                  </picture>
-                  <!-- /.portfolio-item__picture -->
-
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
-                    <h3 class="portfolio-item__title">
-                      Название проекта
-                    </h3>
-
-                    <div class="portfolio-item__info">
-                      Cтоимость работ:&nbsp;
-                      <span>22 710 р.</span>
-                    </div>
-
-                    <div class="portfolio-item__wrapper">
-                      <p class="portfolio-item__description">
-                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
-                      </p>
-
-                      <ul class="list list--feature portfolio-item__list">
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                      </ul>
-                    </div>
-                    <!-- /.portfolio-item__wrapper -->
-                  </div>
-                  <!-- /.portfolio-item__content -->
-                </div>
-                <!-- /.portfolio__item portfolio-item -->
-              </div>
-              <!-- /.col-6 -->
-
-              <div class="col-6 col-xl-4 mb-4">
-                <div class="portfolio-item">
-                  <picture class="portfolio-item__picture">
-                    <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
-                    <img class="portfolio-item__image cms-image lazy" data-src="img/portfolio/full.jpg" alt="">
-                  </picture>
-                  <!-- /.portfolio-item__picture -->
-
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
-                    <h3 class="portfolio-item__title">
-                      Название проекта
-                    </h3>
-
-                    <div class="portfolio-item__info">
-                      Cтоимость работ:&nbsp;
-                      <span>22 710 р.</span>
-                    </div>
-
-                    <div class="portfolio-item__wrapper">
-                      <p class="portfolio-item__description">
-                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
-                      </p>
-
-                      <ul class="list list--feature portfolio-item__list">
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                      </ul>
-                    </div>
-                    <!-- /.portfolio-item__wrapper -->
-                  </div>
-                  <!-- /.portfolio-item__content -->
-                </div>
-                <!-- /.portfolio__item portfolio-item -->
-              </div>
-              <!-- /.col-6 -->
-
-              <div class="col-6 col-xl-4 mb-4">
-                <div class="portfolio-item">
-                  <picture class="portfolio-item__picture">
-                    <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
-                    <img class="portfolio-item__image cms-image lazy" data-src="img/portfolio/full.jpg" alt="">
-                  </picture>
-                  <!-- /.portfolio-item__picture -->
-
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
-                    <h3 class="portfolio-item__title">
-                      Название проекта
-                    </h3>
-
-                    <div class="portfolio-item__info">
-                      Cтоимость работ:&nbsp;
-                      <span>22 710 р.</span>
-                    </div>
-
-                    <div class="portfolio-item__wrapper">
-                      <p class="portfolio-item__description">
-                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
-                      </p>
-
-                      <ul class="list list--feature portfolio-item__list">
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                      </ul>
-                    </div>
-                    <!-- /.portfolio-item__wrapper -->
-                  </div>
-                  <!-- /.portfolio-item__content -->
-                </div>
-                <!-- /.portfolio__item portfolio-item -->
-              </div>
-              <!-- /.col-6 -->
-
-              <div class="col-6 col-xl-4 mb-4">
-                <div class="portfolio-item">
-                  <picture class="portfolio-item__picture">
-                    <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
-                    <img class="portfolio-item__image cms-image lazy" data-src="img/portfolio/full.jpg" alt="">
-                  </picture>
-                  <!-- /.portfolio-item__picture -->
-
-                  <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
-                    <h3 class="portfolio-item__title">
-                      Название проекта
-                    </h3>
-
-                    <div class="portfolio-item__info">
-                      Cтоимость работ:&nbsp;
-                      <span>22 710 р.</span>
-                    </div>
-
-                    <div class="portfolio-item__wrapper">
-                      <p class="portfolio-item__description">
-                        Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
-                      </p>
-
-                      <ul class="list list--feature portfolio-item__list">
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                        <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
-                      </ul>
-                    </div>
-                    <!-- /.portfolio-item__wrapper -->
-                  </div>
-                  <!-- /.portfolio-item__content -->
-                </div>
-                <!-- /.portfolio__item portfolio-item -->
-              </div>
-              <!-- /.col-6 -->
-            </div>
-            <!-- /.row -->
-          </div>
-          <!-- /.swiper-slide -->
+          <!-- /.portfolio__item portfolio-item -->
         </div>
-        <!-- /.swiper-wrapper -->
+        <!-- /.col-6 -->
+
+        <div class="col-6 col-xl-4 mb-4">
+          <div class="portfolio-item">
+            <picture class="portfolio-item__picture">
+              <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
+              <img class="portfolio-item__image cms-image lazy" data-src="img/portfolio/full.jpg" alt="">
+            </picture>
+            <!-- /.portfolio-item__picture -->
+
+            <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
+              <h3 class="portfolio-item__title">
+                Название проекта
+              </h3>
+
+              <div class="portfolio-item__info">
+                Cтоимость работ:&nbsp;
+                <span>22 710 р.</span>
+              </div>
+
+              <div class="portfolio-item__wrapper">
+                <p class="portfolio-item__description">
+                  Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
+                </p>
+
+                <ul class="list list--feature portfolio-item__list">
+                  <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                  <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                  <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                </ul>
+              </div>
+              <!-- /.portfolio-item__wrapper -->
+            </div>
+            <!-- /.portfolio-item__content -->
+
+            <div class="portfolio-item__label portfolio-item__label--blue">МСК</div>
+          </div>
+          <!-- /.portfolio__item portfolio-item -->
+        </div>
+        <!-- /.col-6 -->
+
+        <div class="col-6 col-xl-4 mb-4">
+          <div class="portfolio-item">
+            <picture class="portfolio-item__picture">
+              <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
+              <img class="portfolio-item__image cms-image lazy" data-src="img/portfolio/full.jpg" alt="">
+            </picture>
+            <!-- /.portfolio-item__picture -->
+
+            <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
+              <h3 class="portfolio-item__title">
+                Название проекта
+              </h3>
+
+              <div class="portfolio-item__info">
+                Cтоимость работ:&nbsp;
+                <span>22 710 р.</span>
+              </div>
+
+              <div class="portfolio-item__wrapper">
+                <p class="portfolio-item__description">
+                  Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
+                </p>
+
+                <ul class="list list--feature portfolio-item__list">
+                  <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                  <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                  <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                </ul>
+              </div>
+              <!-- /.portfolio-item__wrapper -->
+            </div>
+            <!-- /.portfolio-item__content -->
+
+            <div class="portfolio-item__label portfolio-item__label--purple">МСК</div>
+          </div>
+          <!-- /.portfolio__item portfolio-item -->
+        </div>
+        <!-- /.col-6 -->
+
+        <div class="col-6 col-xl-4 mb-4">
+          <div class="portfolio-item">
+            <picture class="portfolio-item__picture">
+              <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
+              <img class="portfolio-item__image cms-image lazy" data-src="img/portfolio/full.jpg" alt="">
+            </picture>
+            <!-- /.portfolio-item__picture -->
+
+            <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
+              <h3 class="portfolio-item__title">
+                Название проекта
+              </h3>
+
+              <div class="portfolio-item__info">
+                Cтоимость работ:&nbsp;
+                <span>22 710 р.</span>
+              </div>
+
+              <div class="portfolio-item__wrapper">
+                <p class="portfolio-item__description">
+                  Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
+                </p>
+
+                <ul class="list list--feature portfolio-item__list">
+                  <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                  <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                  <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                </ul>
+              </div>
+              <!-- /.portfolio-item__wrapper -->
+            </div>
+            <!-- /.portfolio-item__content -->
+
+            <div class="portfolio-item__label">МСК</div>
+          </div>
+          <!-- /.portfolio__item portfolio-item -->
+        </div>
+        <!-- /.col-6 -->
+
+        <div class="col-6 col-xl-4 mb-4">
+          <div class="portfolio-item">
+            <picture class="portfolio-item__picture">
+              <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
+              <img class="portfolio-item__image cms-image lazy" data-src="img/portfolio/full.jpg" alt="">
+            </picture>
+            <!-- /.portfolio-item__picture -->
+
+            <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
+              <h3 class="portfolio-item__title">
+                Название проекта
+              </h3>
+
+              <div class="portfolio-item__info">
+                Cтоимость работ:&nbsp;
+                <span>22 710 р.</span>
+              </div>
+
+              <div class="portfolio-item__wrapper">
+                <p class="portfolio-item__description">
+                  Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
+                </p>
+
+                <ul class="list list--feature portfolio-item__list">
+                  <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                  <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                  <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                </ul>
+              </div>
+              <!-- /.portfolio-item__wrapper -->
+            </div>
+            <!-- /.portfolio-item__content -->
+
+            <div class="portfolio-item__label portfolio-item__label--green">МСК</div>
+          </div>
+          <!-- /.portfolio__item portfolio-item -->
+        </div>
+        <!-- /.col-6 -->
+
+        <div class="col-6 col-xl-4 mb-4">
+          <div class="portfolio-item">
+            <picture class="portfolio-item__picture">
+              <img class="preloader preloader--center preloader--hide" src="https://brandigital.ru/wp-content/themes/brand-digital/assets/img/misc/preloader.svg" alt="">
+              <img class="portfolio-item__image cms-image lazy" data-src="img/portfolio/full.jpg" alt="">
+            </picture>
+            <!-- /.portfolio-item__picture -->
+
+            <div class="portfolio-item__content custom-scrollbar custom-scrollbar--white">
+              <h3 class="portfolio-item__title">
+                Название проекта
+              </h3>
+
+              <div class="portfolio-item__info">
+                Cтоимость работ:&nbsp;
+                <span>22 710 р.</span>
+              </div>
+
+              <div class="portfolio-item__wrapper">
+                <p class="portfolio-item__description">
+                  Истринское РАЙПО ведет многоотраслевую хозяйственную деятельность: торговлю, общественное питание, заготовки.
+                </p>
+
+                <ul class="list list--feature portfolio-item__list">
+                  <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                  <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                  <li class="list__item">Cрок эксплуатации: <span>до 3 лет</span></li>
+                </ul>
+              </div>
+              <!-- /.portfolio-item__wrapper -->
+            </div>
+            <!-- /.portfolio-item__content -->
+          </div>
+          <!-- /.portfolio__item portfolio-item -->
+        </div>
+        <!-- /.col-6 -->
       </div>
-      <!-- /.swiper -->
+      <!-- /.row -->
 
       <div class="portfolio-block__action">
         <a class="link link--main link--orange" href="">

@@ -68,4 +68,15 @@
       }
     }
   }
+
+  &--default {
+    padding-left: 20px;
+    list-style-type: disc;
+
+    .list__item {
+      &:not(:last-child) {
+        margin-bottom: 8px;
+      }
+    }
+  }
 }

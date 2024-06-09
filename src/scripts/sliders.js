@@ -254,3 +254,22 @@ const assemblySlider = new Swiper('.assembly-slider', {
     },
   },
 });
+
+const heroDesignSlider = new Swiper('.hero--design .hero__price .swiper', {
+  speed: 500,
+  spaceBetween: 20,
+
+  slidesPerView: 1.25,
+
+  // autoplay: {
+  //   delay: 3000,
+  //   disableOnInteraction: false,
+  // },
+
+  breakpoints: {
+    768: {
+      spaceBetween: 25,
+      slidesPerView: 3,
+    },
+  },
+});

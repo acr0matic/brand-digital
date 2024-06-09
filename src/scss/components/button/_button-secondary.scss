@@ -1,0 +1,21 @@
+.button-secondary {
+  padding: 20px 46px;
+  background-color: $palette-white;
+  border-color: $palette-black;
+
+  color: $text-black;
+
+  font-size: 18px;
+  font-weight: $weight-Bold;
+
+  @include breakpoint($breakpoint-laptop--large) {
+    padding: 14px 30px;
+    font-size: 18px;
+  }
+
+  @media (hover: hover) {
+    &:hover {
+      box-shadow: $button-primary__hover;
+    }
+  }
+}

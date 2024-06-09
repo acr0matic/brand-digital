@@ -2,7 +2,6 @@
 
 <!-- Основной контент -->
 <main id="worksheet">
-
   <?php include_once('partials/callback.php') ?>
 </main>
 
