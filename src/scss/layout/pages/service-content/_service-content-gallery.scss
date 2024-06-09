@@ -1,14 +1,12 @@
 .service-content-gallery {
+  margin-bottom: 48px;
+
   &__item {
-    border-radius: 50px;
+    border-radius: 20px;
     overflow: hidden;
 
-    @include breakpoint($breakpoint-laptop--large) {
-      border-radius: 35px;
-    }
-
     @include breakpoint($breakpoint-tablet) {
-      border-radius: 20px;
+      border-radius: 15px;
     }
 
     @include breakpoint($breakpoint-mobile--large) {
@@ -18,30 +16,6 @@
 
   &__picture {
     width: 100%;
-    height: 500px;
-
-    @include breakpoint($breakpoint-laptop--large) {
-      height: 350px;
-    }
-
-    @include breakpoint($breakpoint-laptop--medium) {
-      height: 300px;
-    }
-
-    @include breakpoint($breakpoint-tablet--large) {
-      height: 390px;
-    }
-
-    @include breakpoint($breakpoint-tablet) {
-      height: 230px;
-    }
-
-    @include breakpoint($breakpoint-mobile--medium) {
-      height: 200px;
-    }
-
-    @include breakpoint($breakpoint-mobile) {
-      height: 170px;
-    }
+    aspect-ratio: 16 / 10;
   }
 }
